@@ -67,10 +67,58 @@ function post_data($site,$data){
     curl_close ($datapost);
     unset($datapost);    
 }
- login("http://www.programaasibc.com.mx/siaMexicali/validausuario.php","usuario=md032&clave=yucatan&tipo=1");
- grab_page("http://www.programaasibc.com.mx/siaMexicali/index.php");
-// echo grab_page("http://www.programaasibc.com.mx/siaMexicali/solmen.php?muestra=estado");
-echo grab_page("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=10");
-guardar_pagina("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-10-30&tip=men&en=10","octubre.html");
-guardar_pagina("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-11-01&ff=2018-11-30&tip=men&en=11","noviembre.html");
+
+function analiza_archivo($file)
+{
+     
+    if (!file_exists($file)){
+      exit("File not found");
+    }
+    $linea=0;
+      $fp=fopen($file,"r");
+      if ($fp) {
+        while (($line = fgets($fp)) !== false) {
+          if($linea>60){
+  
+                      echo ($line);
+          }
+  
+            $linea++;
+        }
+        if (!feof($fp)) {
+            echo "Error: EOF not found\n";
+        }
+        fclose($fp);
+    }
+}
+
+function analiza_archivo2($file)
+{
+     
+    if (!file_exists($file)){
+      exit("File not found");
+    }
+    $htmlContent=file_get_contents("octubre.html");
+    $DOM=new DOMDocument();
+    //echo $htmlContent;
+    @$DOM->loadHTML($htmlContent);
+    $Header = $DOM->getElementsByTagName('td');
+    $Detail = $DOM->getElementsByTagName('td');
+    foreach($Header as $NodeHeader)
+    {
+        $aDataTableHeaderHTML[]=trim($NodeHeader->textContent);
+       // echo $aDataTableHeaderHTML;
+    }
+    print_r($aDataTableHeaderHTML);
+
+}
+
+
+// login("http://www.programaasibc.com.mx/siaMexicali/validausuario.php","usuario=md032&clave=yucatan&tipo=1");
+// grab_page("http://www.programaasibc.com.mx/siaMexicali/index.php");
+
+//echo grab_page("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=10");
+//guardar_pagina("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-10-30&tip=men&en=10","octubre.txt");
+//guardar_pagina("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-11-01&ff=2018-11-30&tip=men&en=11","noviembre.html");
+analiza_archivo2("octubre.html");
 ?>
