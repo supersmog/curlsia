@@ -68,29 +68,7 @@ function post_data($site,$data){
     unset($datapost);    
 }
 
-function analiza_archivo($file)
-{
-     
-    if (!file_exists($file)){
-      exit("File not found");
-    }
-    $linea=0;
-      $fp=fopen($file,"r");
-      if ($fp) {
-        while (($line = fgets($fp)) !== false) {
-          if($linea>60){
-  
-                      echo ($line);
-          }
-  
-            $linea++;
-        }
-        if (!feof($fp)) {
-            echo "Error: EOF not found\n";
-        }
-        fclose($fp);
-    }
-}
+
 
 function analiza_archivo2($file)
 {
@@ -98,7 +76,7 @@ function analiza_archivo2($file)
     if (!file_exists($file)){
       exit("File not found");
     }
-    $htmlContent=file_get_contents("octubre.html");
+    $htmlContent=file_get_contents($file);
     $DOM=new DOMDocument();
     //echo $htmlContent;
     @$DOM->loadHTML($htmlContent);
@@ -109,16 +87,33 @@ function analiza_archivo2($file)
         $aDataTableHeaderHTML[]=trim($NodeHeader->textContent);
        // echo $aDataTableHeaderHTML;
     }
-    print_r($aDataTableHeaderHTML);
+    //print_r($aDataTableHeaderHTML);
+    $total_filas=$aDataTableHeaderHTML[10];
+    //echo $total_filas;
+    $iteracion=($total_filas*10)+20;
+    $linea=0;
+    for($i=21;$i<=$iteracion;$i=$i+10)
+    {
+        $concatenar="";
+        for($z=0;$z<10;$z=$z+1)
+        {
+            if($z==0)
+            $concatenar=$aDataTableHeaderHTML[$i+$z];
+            else
+            $concatenar=$concatenar."|".$aDataTableHeaderHTML[$i+$z];
+        }
+        //$concatenar=$aDataTableHeaderHTML[$i].",".$aDataTableHeaderHTML[$i+1].",".$aDataTableHeaderHTML[$i+2].",".$aDataTableHeaderHTML[$i+3].",".$aDataTableHeaderHTML[$i+4].",".$aDataTableHeaderHTML[$i+5].",".$aDataTableHeaderHTML[$i+6].",".$aDataTableHeaderHTML[$i+7].",".$aDataTableHeaderHTML[$i+8].",".$aDataTableHeaderHTML[$i+9];
+        echo "$concatenar\n";
+       
+    }
 
 }
 
-
-// login("http://www.programaasibc.com.mx/siaMexicali/validausuario.php","usuario=md032&clave=yucatan&tipo=1");
-// grab_page("http://www.programaasibc.com.mx/siaMexicali/index.php");
+ //login("http://www.programaasibc.com.mx/siaMexicali/validausuario.php","usuario=md032&clave=yucatan&tipo=1");
+ //grab_page("http://www.programaasibc.com.mx/siaMexicali/index.php");
 
 //echo grab_page("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=10");
 //guardar_pagina("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-10-30&tip=men&en=10","octubre.txt");
 //guardar_pagina("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-11-01&ff=2018-11-30&tip=men&en=11","noviembre.html");
-analiza_archivo2("octubre.html");
+analiza_archivo2("noviembre.html");
 ?>

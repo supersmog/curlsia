@@ -1,0 +1,28 @@
+{
+    
+     "sqltools.connections": [
+
+          // example for MySQL
+          {
+              "name": "MySQL YUC",
+              "server": "10.0.0.115",
+              "port": 3306,
+              "database": "yucatan",
+              "username": "root",
+              "password": "soloasi",
+              "dialect": "MySQL"
+          },
+          {
+            "name": "MySQL CFE",
+            "server": "10.0.0.115",
+            "port": 3306,
+            "database": "cfe",
+            "username": "root",
+            "password": "soloasi",
+            "dialect": "MySQL"
+        },
+          // example for MSSQL
+
+      ],
+      
+  }

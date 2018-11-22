@@ -3,7 +3,7 @@
 //Iniciar sesion en una pagina web:
 //$fp=fopen("texto1.html","w");
 $data = array('usuario' => 'md032', 'clave' => 'yucatan', 'tipo' => '1');
-
+$cokies='cookies.txt';
 $cokies='cookies.txt';
 $cliente = curl_init();
 curl_setopt($cliente, CURLOPT_URL, "http://www.programaasibc.com.mx/siaMexicali/validausuario.php");
