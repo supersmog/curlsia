@@ -71,7 +71,8 @@ function post_data($site,$data){
 
 function analiza_archivo2($file)
 {
-     
+   
+    $cliente1=new cliente();
     if (!file_exists($file)){
       exit("File not found");
     }
@@ -97,36 +98,54 @@ function analiza_archivo2($file)
         for($z=0;$z<10;$z=$z+1)
         {
             if($z==0)
-            $concatenar=$aDataTableHeaderHTML[$i+$z];
+            $concatenar="'";
+            //$concatenar=$aDataTableHeaderHTML[$i+$z];
+            else if($z<9)
+            $concatenar=$concatenar.$aDataTableHeaderHTML[$i+$z]."','";
             else
-            $concatenar=$concatenar."|".$aDataTableHeaderHTML[$i+$z];
+            $concatenar=$concatenar.$aDataTableHeaderHTML[$i+$z]."";
+
         }
-        //$concatenar=$aDataTableHeaderHTML[$i].",".$aDataTableHeaderHTML[$i+1].",".$aDataTableHeaderHTML[$i+2].",".$aDataTableHeaderHTML[$i+3].",".$aDataTableHeaderHTML[$i+4].",".$aDataTableHeaderHTML[$i+5].",".$aDataTableHeaderHTML[$i+6].",".$aDataTableHeaderHTML[$i+7].",".$aDataTableHeaderHTML[$i+8].",".$aDataTableHeaderHTML[$i+9];
-        echo "$concatenar\n";
+        $concatenar=$concatenar."'";
+                //$concatenar=$aDataTableHeaderHTML[$i].",".$aDataTableHeaderHTML[$i+1].",".$aDataTableHeaderHTML[$i+2].",".$aDataTableHeaderHTML[$i+3].",".$aDataTableHeaderHTML[$i+4].",".$aDataTableHeaderHTML[$i+5].",".$aDataTableHeaderHTML[$i+6].",".$aDataTableHeaderHTML[$i+7].",".$aDataTableHeaderHTML[$i+8].",".$aDataTableHeaderHTML[$i+9];
+        //echo "$concatenar\n";
+        $sql="insert into colocadas_sia (solicitud, fecha_registro, subprograma, id_estatus, rpu, nombre, colonia, direccion, id_proveedor) values(".$concatenar.")";
+        $resp=$cliente1->insertar($sql);
+        if($resp)
+        {
+            echo "Se guardo correctamente";
+        }
+        else{
+            echo "No se pudo guardar";
+        }
+        echo "$sql\n";
        
     }
 
 }
 
-$cliente=new cliente();
-$resp=$cliente->listado("select * from status_sia");
-foreach($resp as $row){
-    echo $row['descripcion'];
-    echo "\n";
 
-}
-$resp=$cliente->insertar("insert into status_sia values ('LPC','Liberada por autorizar','si','si','si')");
+//$resp=$cliente->listado("select * from status_sia");
+//foreach($resp as $row){
+  //  echo $row['descripcion'];
+   // echo "\n";
+
+//}
+//$resp=$cliente->insertar("insert into status_sia values ('LPC','Liberada por autorizar','si','si','si')");
 if($resp){
     $resp1=$cliente->listado("select * from status_sia");
 }else{
     echo "No se pudo guardar";
 }
- //login("http://www.programaasibc.com.mx/siaMexicali/validausuario.php","usuario=md032&clave=yucatan&tipo=1");
+// login("http://www.programaasibc.com.mx/siaMexicali/validausuario.php","usuario=md032ca&clave=md032ca&tipo=1");
  //grab_page("http://www.programaasibc.com.mx/siaMexicali/index.php");
 
 //echo grab_page("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=10");
-//guardar_pagina("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-10-30&tip=men&en=10","octubre.txt");
+//guardar_pagina("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-09-01&ff=2018-09-30&tip=men&en=09","septiembre.html");
+//guardar_pagina("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-10-30&tip=men&en=10","octubre.html");
 //guardar_pagina("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-11-01&ff=2018-11-30&tip=men&en=11","noviembre.html");
-//analiza_archivo2("noviembre.html");
+analiza_archivo2("septiembre.html");
+analiza_archivo2("octubre.html");
+analiza_archivo2("noviembre.html");
 
 ?>
