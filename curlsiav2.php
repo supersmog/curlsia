@@ -1,5 +1,5 @@
 <?php
- 
+ require("cliente.php");
 //Upload a blank cookie.txt to the same directory as this file with a CHMOD/Permission to 777
 function login($url,$data){
     $fp = fopen("cookie.txt", "w");
@@ -69,7 +69,6 @@ function post_data($site,$data){
 }
 
 
-
 function analiza_archivo2($file)
 {
      
@@ -109,11 +108,25 @@ function analiza_archivo2($file)
 
 }
 
+$cliente=new cliente();
+$resp=$cliente->listado("select * from status_sia");
+foreach($resp as $row){
+    echo $row['descripcion'];
+    echo "\n";
+
+}
+$resp=$cliente->insertar("insert into status_sia values ('LPC','Liberada por autorizar','si','si','si')");
+if($resp){
+    $resp1=$cliente->listado("select * from status_sia");
+}else{
+    echo "No se pudo guardar";
+}
  //login("http://www.programaasibc.com.mx/siaMexicali/validausuario.php","usuario=md032&clave=yucatan&tipo=1");
  //grab_page("http://www.programaasibc.com.mx/siaMexicali/index.php");
 
 //echo grab_page("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=10");
 //guardar_pagina("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-10-30&tip=men&en=10","octubre.txt");
 //guardar_pagina("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-11-01&ff=2018-11-30&tip=men&en=11","noviembre.html");
-analiza_archivo2("noviembre.html");
+//analiza_archivo2("noviembre.html");
+
 ?>

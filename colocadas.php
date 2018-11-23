@@ -1,5 +1,5 @@
 <?php
-
+require("conectaBD.php");
 //Iniciar sesion en una pagina web:
 //$fp=fopen("texto1.html","w");
 $data = array('usuario' => 'md032', 'clave' => 'yucatan', 'tipo' => '1');
