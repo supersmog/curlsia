@@ -376,6 +376,72 @@ DELETE FROM `liberaciones_simple`;
 /*!40000 ALTER TABLE `liberaciones_simple` DISABLE KEYS */;
 /*!40000 ALTER TABLE `liberaciones_simple` ENABLE KEYS */;
 
+-- Volcando estructura para tabla yucatan.liberaciones_tec_aa
+CREATE TABLE IF NOT EXISTS `liberaciones_tec_aa` (
+  `id_liberacion` int(11) DEFAULT NULL,
+  `solicitud_completa` int(11) DEFAULT NULL,
+  `solicitud` int(11) DEFAULT NULL,
+  `presupuesto` int(11) DEFAULT NULL,
+  `solicitud_pa` int(11) DEFAULT NULL,
+  `coordinacion` int(11) DEFAULT NULL,
+  `proveedor` int(11) DEFAULT NULL,
+  `nombre` int(11) DEFAULT NULL,
+  `rpu` int(11) DEFAULT NULL,
+  `tipo_u` int(11) DEFAULT NULL,
+  `programa` int(11) DEFAULT NULL,
+  `uuid` int(11) DEFAULT NULL,
+  `prestamo` int(11) DEFAULT NULL,
+  `capital` int(11) DEFAULT NULL,
+  `interes` int(11) DEFAULT NULL,
+  `iva` int(11) DEFAULT NULL,
+  `fecha_solicitud` int(11) DEFAULT NULL,
+  `fecha_instalacion` int(11) DEFAULT NULL,
+  `fecha_liberacion` int(11) DEFAULT NULL,
+  `dias` int(11) DEFAULT NULL,
+  `tipo_equipo` int(11) DEFAULT NULL,
+  `capacidad` int(11) DEFAULT NULL,
+  `marca` int(11) DEFAULT NULL,
+  `fecha_afectacion` int(11) DEFAULT NULL,
+  `fecha_ini_fact` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Contiene las liberaciones del reporte del area técnica para los Aires Acondicionados';
+
+-- Volcando datos para la tabla yucatan.liberaciones_tec_aa: ~0 rows (aproximadamente)
+DELETE FROM `liberaciones_tec_aa`;
+/*!40000 ALTER TABLE `liberaciones_tec_aa` DISABLE KEYS */;
+/*!40000 ALTER TABLE `liberaciones_tec_aa` ENABLE KEYS */;
+
+-- Volcando estructura para tabla yucatan.liberaciones_tec_rf
+CREATE TABLE IF NOT EXISTS `liberaciones_tec_rf` (
+  `id_liberacion` int(11) DEFAULT NULL,
+  `solicitud_completa` int(11) DEFAULT NULL,
+  `solicitud` int(11) DEFAULT NULL,
+  `presupuesto` int(11) DEFAULT NULL,
+  `solicitud_pa` int(11) DEFAULT NULL,
+  `coordinacion` int(11) DEFAULT NULL,
+  `nombre` int(11) DEFAULT NULL,
+  `rpu` int(11) DEFAULT NULL,
+  `tipo_u` int(11) DEFAULT NULL,
+  `programa` int(11) DEFAULT NULL,
+  `uuid` int(11) DEFAULT NULL,
+  `financiamiento` int(11) DEFAULT NULL,
+  `capital` int(11) DEFAULT NULL,
+  `interes` int(11) DEFAULT NULL,
+  `iva` int(11) DEFAULT NULL,
+  `fecha_solicitud` int(11) DEFAULT NULL,
+  `fecha_instalacion` int(11) DEFAULT NULL,
+  `fecha_liberacion` int(11) DEFAULT NULL,
+  `dias` int(11) DEFAULT NULL,
+  `capacidad` int(11) DEFAULT NULL,
+  `marca` int(11) DEFAULT NULL,
+  `fecha_afectacion` int(11) DEFAULT NULL,
+  `fecha_ini_fact` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Liberaciones del reporte tec';
+
+-- Volcando datos para la tabla yucatan.liberaciones_tec_rf: ~0 rows (aproximadamente)
+DELETE FROM `liberaciones_tec_rf`;
+/*!40000 ALTER TABLE `liberaciones_tec_rf` DISABLE KEYS */;
+/*!40000 ALTER TABLE `liberaciones_tec_rf` ENABLE KEYS */;
+
 -- Volcando estructura para tabla yucatan.liberadas_afectadas
 CREATE TABLE IF NOT EXISTS `liberadas_afectadas` (
   `id_afectada` int(11) NOT NULL AUTO_INCREMENT,
@@ -463,7 +529,7 @@ CREATE TABLE IF NOT EXISTS `status_sia` (
   PRIMARY KEY (`id_status`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='Contiene los distintos estatus de las solicitudes en el Sistema SIA';
 
--- Volcando datos para la tabla yucatan.status_sia: ~12 rows (aproximadamente)
+-- Volcando datos para la tabla yucatan.status_sia: ~14 rows (aproximadamente)
 DELETE FROM `status_sia`;
 /*!40000 ALTER TABLE `status_sia` DISABLE KEYS */;
 INSERT INTO `status_sia` (`id_status`, `descripcion`, `status_valido`, `afecta_presupuesto`, `xliberar`) VALUES
