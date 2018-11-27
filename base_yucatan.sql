@@ -347,6 +347,71 @@ INSERT INTO `colocadas_sia` (`id_colocada`, `solicitud`, `fecha_registro`, `subp
 	(291, 'YU000139-1', '2018-11-23', 'RF', 'PPO', '774010101048', 'VIERA CASANOVA RAUL', 'XOCLAN.(S)            F', '67 1143 136 138 XOCLAN SUSULA', 'elmame00118');
 /*!40000 ALTER TABLE `colocadas_sia` ENABLE KEYS */;
 
+-- Volcando estructura para tabla yucatan.liberaciones_conta_aa
+CREATE TABLE IF NOT EXISTS `liberaciones_conta_aa` (
+  `id_liberacion` int(11) DEFAULT NULL,
+  `solicitud_completa` int(11) DEFAULT NULL,
+  `solicitud` int(11) DEFAULT NULL,
+  `presupuesto` int(11) DEFAULT NULL,
+  `solicitud_pa` int(11) DEFAULT NULL,
+  `coordinacion` int(11) DEFAULT NULL,
+  `proveedor` int(11) DEFAULT NULL,
+  `nombre` int(11) DEFAULT NULL,
+  `rpu` int(11) DEFAULT NULL,
+  `tipo_u` int(11) DEFAULT NULL,
+  `programa` int(11) DEFAULT NULL,
+  `uuid` int(11) DEFAULT NULL,
+  `financiamiento` int(11) DEFAULT NULL,
+  `capital` int(11) DEFAULT NULL,
+  `interes` int(11) DEFAULT NULL,
+  `iva` int(11) DEFAULT NULL,
+  `retenciion1` int(11) DEFAULT NULL,
+  `retencion6` int(11) DEFAULT NULL,
+  `capacidad` int(11) DEFAULT NULL,
+  `marca` int(11) DEFAULT NULL,
+  `fecha_ini_fact` int(11) DEFAULT NULL,
+  `plazo` int(11) DEFAULT NULL,
+  `tipo_plazo` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- Volcando datos para la tabla yucatan.liberaciones_conta_aa: ~0 rows (aproximadamente)
+DELETE FROM `liberaciones_conta_aa`;
+/*!40000 ALTER TABLE `liberaciones_conta_aa` DISABLE KEYS */;
+/*!40000 ALTER TABLE `liberaciones_conta_aa` ENABLE KEYS */;
+
+-- Volcando estructura para tabla yucatan.liberaciones_conta_rf
+CREATE TABLE IF NOT EXISTS `liberaciones_conta_rf` (
+  `id_liberacion` int(11) DEFAULT NULL,
+  `solicitud_completa` int(11) DEFAULT NULL,
+  `solicitud` int(11) DEFAULT NULL,
+  `presupuesto` int(11) DEFAULT NULL,
+  `solicitud_pa` int(11) DEFAULT NULL,
+  `coordinacion` int(11) DEFAULT NULL,
+  `proveedor` int(11) DEFAULT NULL,
+  `nombre` int(11) DEFAULT NULL,
+  `rpu` int(11) DEFAULT NULL,
+  `tipo_u` int(11) DEFAULT NULL,
+  `programa` int(11) DEFAULT NULL,
+  `uuid` int(11) DEFAULT NULL,
+  `financiamiento` int(11) DEFAULT NULL,
+  `capital` int(11) DEFAULT NULL,
+  `interes` int(11) DEFAULT NULL,
+  `iva` int(11) DEFAULT NULL,
+  `instalacion` int(11) DEFAULT NULL,
+  `retenciion1` int(11) DEFAULT NULL,
+  `retencion6` int(11) DEFAULT NULL,
+  `tipo` int(11) DEFAULT NULL,
+  `capacidad` int(11) DEFAULT NULL,
+  `fecha_ini_fact` int(11) DEFAULT NULL,
+  `plazo` int(11) DEFAULT NULL,
+  `tipo_plazo` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+
+-- Volcando datos para la tabla yucatan.liberaciones_conta_rf: ~0 rows (aproximadamente)
+DELETE FROM `liberaciones_conta_rf`;
+/*!40000 ALTER TABLE `liberaciones_conta_rf` DISABLE KEYS */;
+/*!40000 ALTER TABLE `liberaciones_conta_rf` ENABLE KEYS */;
+
 -- Volcando estructura para tabla yucatan.liberaciones_simple
 CREATE TABLE IF NOT EXISTS `liberaciones_simple` (
   `id_liberacion` int(11) DEFAULT NULL,
