@@ -612,6 +612,36 @@ INSERT INTO `status_sia` (`id_status`, `descripcion`, `status_valido`, `afecta_p
 	('SVT', 'SOLICITUD VENCIDA', 'No', 'No', 'No');
 /*!40000 ALTER TABLE `status_sia` ENABLE KEYS */;
 
+-- Volcando estructura para tabla yucatan.urls
+CREATE TABLE IF NOT EXISTS `urls` (
+  `id_url` int(11) NOT NULL AUTO_INCREMENT,
+  `url` int(11) DEFAULT NULL,
+  `parametros` int(11) DEFAULT NULL,
+  `id_usuario` varchar(50) DEFAULT NULL,
+  `activa` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id_url`),
+  KEY `id_usuario` (`id_usuario`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='contiene las urls y parametros para descargar los diversos archivos';
+
+-- Volcando datos para la tabla yucatan.urls: ~0 rows (aproximadamente)
+DELETE FROM `urls`;
+/*!40000 ALTER TABLE `urls` DISABLE KEYS */;
+/*!40000 ALTER TABLE `urls` ENABLE KEYS */;
+
+-- Volcando estructura para tabla yucatan.usuarios_sia
+CREATE TABLE IF NOT EXISTS `usuarios_sia` (
+  `id_usuario` int(11) NOT NULL AUTO_INCREMENT,
+  `login` varchar(20) DEFAULT NULL,
+  `pass` varchar(20) DEFAULT NULL,
+  `tipo` varchar(20) DEFAULT NULL,
+  KEY `id_usuario` (`id_usuario`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- Volcando datos para la tabla yucatan.usuarios_sia: ~0 rows (aproximadamente)
+DELETE FROM `usuarios_sia`;
+/*!40000 ALTER TABLE `usuarios_sia` DISABLE KEYS */;
+/*!40000 ALTER TABLE `usuarios_sia` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
