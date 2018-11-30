@@ -33,7 +33,7 @@ function grab_page($site){
     ob_end_clean();
     curl_close ($ch);
 }
-function guardar_pagina($site,$file)
+function guardar_pagina($site,$file,$data)
 {
     $fp= $fp=fopen("$file","w");
     $ch = curl_init();
@@ -42,6 +42,8 @@ function guardar_pagina($site,$file)
     curl_setopt($ch, CURLOPT_TIMEOUT, 40);
     curl_setopt($ch, CURLOPT_COOKIEFILE, "cookie.txt");
     curl_setopt($ch, CURLOPT_URL, $site);
+    curl_setopt($ch, CURLOPT_POST, TRUE);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
     curl_setopt($ch,CURLOPT_FILE,$fp);
     ob_start();
     return curl_exec ($ch);
@@ -132,20 +134,21 @@ function analiza_archivo2($file)
 
 //}
 //$resp=$cliente->insertar("insert into status_sia values ('LPC','Liberada por autorizar','si','si','si')");
-if($resp){
-    $resp1=$cliente->listado("select * from status_sia");
-}else{
-    echo "No se pudo guardar";
-}
-// login("http://www.programaasibc.com.mx/siaMexicali/validausuario.php","usuario=md032ca&clave=md032ca&tipo=1");
- //grab_page("http://www.programaasibc.com.mx/siaMexicali/index.php");
+//if($resp){
+//    $resp1=$cliente->listado("select * from status_sia");
+//}else{
+//    echo "No se pudo guardar";
+//}*/
+ login("http://www.programaasibc.com.mx/siaMexicali/validausuario.php","usuario=md032ca&clave=md032ca&tipo=1");
+grab_page("http://www.programaasibc.com.mx/siaMexicali/index.php");
 
 //echo grab_page("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=10");
 //guardar_pagina("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-09-01&ff=2018-09-30&tip=men&en=09","septiembre.html");
 //guardar_pagina("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-10-30&tip=men&en=10","octubre.html");
 //guardar_pagina("http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-11-01&ff=2018-11-30&tip=men&en=11","noviembre.html");
-analiza_archivo2("septiembre.html");
-analiza_archivo2("octubre.html");
-analiza_archivo2("noviembre.html");
+guardar_pagina("http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberaciones_Conta.php","liberacionesconta.html","Cual=-1&idCoordinacion=-1&idDistribuidor=-1&pdto=3&orderby=1&fechaInicial=2018-11-01&model=1&xml=0&fechaFinal=2018-11-30");
+//analiza_archivo2("septiembre.html");
+//analiza_archivo2("octubre.html");
+//analiza_archivo2("noviembre.html");
 
 ?>
