@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Versión del servidor:         10.2.18-MariaDB - openSUSE package
+-- Versión del servidor:         10.2.19-MariaDB - openSUSE package
 -- SO del servidor:              Linux
 -- HeidiSQL Versión:             9.5.0.5196
 -- --------------------------------------------------------

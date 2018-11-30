@@ -66,6 +66,6 @@ function analiza_archivo2($file)
 
 }
 
-
+descarga_archivo()
 
 ?>
