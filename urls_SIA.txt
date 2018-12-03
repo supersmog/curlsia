@@ -85,8 +85,11 @@ http://www.programaasibc.com.mx/siaMexicali/contratos/confirmacion.php?idSol=YU0
 http://www.programaasibc.com.mx/siaMexicali/contratos/confirmacion.php?idSol=YU000015&idPresupReimp=SU105622&tablaReimp=AC
 
 Para ver el presupuesto 
+Refrigerador
+http://www.programaasibc.com.mx/siaMexicali/presup_refri.php?ns=YU000127&nsx=1    
 
-http://www.programaasibc.com.mx/siaMexicali/presup_refri.php?ns=YU000127&nsx=1
+Aire Acondicionado
+http://www.programaasibc.com.mx/siaMexicali/presup_equipo.php?ns=YU000015&nsx=2
 
 
 +++++++++++++Solicitud++++++++++++
