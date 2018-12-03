@@ -3,11 +3,19 @@ require_once("funciones_curl.php");
 require("cliente.php");
 
 
-function descarga_archivo($url_login,$url_archivo,$data_login,$data_archivo,$nombre_archivo)
+function descarga_archivo_sindata($url_login,$data_login,$url_archivo,$nombre_archivo)
 {
-    login($url,$data);
+    login($url_login,$data_login);
     grab_page("http://www.programaasibc.com.mx/siaMexicali/index.php");
     guardar_pagina($url_archivo,$nombre_archivo);
+
+}
+
+function descarga_archivo_condata($url_login,$data_login,$url_archivo,$data_archivo,$nombre_archivo)
+{
+    login($url_login,$data_login);
+    grab_page("http://www.programaasibc.com.mx/siaMexicali/index.php");
+    guardar_pagina_data($url_archivo,$nombre_archivo,$data_archivo);
 
 }
 
@@ -66,6 +74,12 @@ function analiza_archivo2($file)
 
 }
 
-descarga_archivo()
+$login="http://www.programaasibc.com.mx/siaMexicali/validausuario.php";
+$data_login="usuario=md032ca&clave=md032ca&tipo=1";
+
+
+descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-12-01&ff=2018-12-31&tip=men&en=12","diciembre2.html");
+descarga_archivo_condata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberaciones_Conta.php","Cual=-1&idCoordinacion=-1&idDistribuidor=-1&pdto=3&orderby=1&fechaInicial=2018-11-01&model=1&xml=0&fechaFinal=2018-11-30","liberacionesconta2.html");
+
 
 ?>

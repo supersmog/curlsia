@@ -47,7 +47,24 @@ function guardar_pagina($site,$file)
     ob_end_clean();
     curl_close ($ch);
 }
- 
+function guardar_pagina_data($site,$file,$data)
+{
+    $fp= $fp=fopen("$file","w");
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+    curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 40);
+    curl_setopt($ch, CURLOPT_COOKIEFILE, "cookie.txt");
+    curl_setopt($ch, CURLOPT_URL, $site);
+    curl_setopt($ch, CURLOPT_POST, TRUE);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+    curl_setopt($ch,CURLOPT_FILE,$fp);
+    ob_start();
+    return curl_exec ($ch);
+    fclose($fp);
+    ob_end_clean();
+    curl_close ($ch);
+}
 function post_data($site,$data){
     $datapost = curl_init();
         $headers = array("Expect:");
