@@ -57,7 +57,7 @@ function analiza_archivo_colocadas($file)
 
 }
 
-function analiza_archivo_presupuesto($file)
+function analiza_archivo_presupuesto1($file)
 {
     $cliente=new cliente();
     if (!file_exists($file)){
@@ -74,10 +74,12 @@ function analiza_archivo_presupuesto($file)
         $aDataTableHeaderHTML[]=trim($NodeHeader->textContent);
         //echo $aDataTableHeaderHTML;
     }
-    // print_r($aDataTableHeaderHTML);
+     print_r($aDataTableHeaderHTML);
      
-     $fecha_presupuesto=$aDataTableHeaderHTML[5];
-     $nombre_cliente=$aDataTableHeaderHTML[8];
+     //$fecha_presupuesto=substr($aDataTableHeaderHTML[5],23,10);
+     $fecha_presupuesto=substr($aDataTableHeaderHTML[12],23,10);
+     $nombre_cliente=$aDataTableHeaderHTML[15];
+     //$nombre_cliente=$aDataTableHeaderHTML[8];
      $dirección_cliente=$aDataTableHeaderHTML[10];
      $rpu=$aDataTableHeaderHTML[12];
      $telefono=$aDataTableHeaderHTML[14];
@@ -91,13 +93,13 @@ function analiza_archivo_presupuesto($file)
      $modelo_retirar=$aDataTableHeaderHTML[39];
      $solicitud=$aDataTableHeaderHTML[42];
      $precio_sin_iva=$aDataTableHeaderHTML[46];
-     $iva=$aDataTableHeaderHTML[49];
+     $iva=ltrim($aDataTableHeaderHTML[49]);
      $excedente=$aDataTableHeaderHTML[58];
      $interes=$aDataTableHeaderHTML[64];
      $iva_interes=$aDataTableHeaderHTML[67];
      $financiado=$aDataTableHeaderHTML[70];
      $amortizacion=$aDataTableHeaderHTML[73];
-     $num_pagos=$aDataTableHeaderHTML[71];
+     $num_pagos=substr($aDataTableHeaderHTML[71],0,2);
 
 
 
@@ -115,16 +117,154 @@ function analiza_archivo_presupuesto($file)
      echo $modelo_retirar."\n";
      echo $capacidad_retirar."\n";
      echo $solicitud."\n";
-     echo $precio_sin_iva."\n";
-     echo $iva."\n";
-     echo $monto_financiar."\n";
-     echo $excedente."\n";
-     echo $interes."\n";
-     echo $iva_interes."\n";
-     echo $financiado."\n";
-     echo $amortizacion."\n";
+     echo substr($precio_sin_iva,1,9)."\n";
+     echo substr($iva,17,8)."\n";
+     echo substr($monto_financiar,1,10)."\n";
+     echo substr($excedente,16,7)."\n";
+     echo substr($interes,17,8)."\n";
+     echo substr($iva_interes,16,7)."\n"; //23
+     echo substr($financiado,17,9)."\n";  //26
+     echo substr($amortizacion,17,6)."\n"; //23
+     echo $num_pagos."\n";
+}
+function analiza_archivo_presupuesto($file)
+{
+    $cliente=new cliente();
+    if (!file_exists($file)){
+      exit("File not found");
+    }
+    $htmlContent=file_get_contents($file);
+    $DOM=new DOMDocument();
+    //echo $htmlContent;
+    @$DOM->loadHTML($htmlContent);
+    $Header = $DOM->getElementsByTagName('td');
+    $Detail = $DOM->getElementsByTagName('td');
+    foreach($Header as $NodeHeader)
+    {
+        $aDataTableHeaderHTML[]=trim($NodeHeader->textContent);
+        //echo $aDataTableHeaderHTML;
+    }
+     print_r($aDataTableHeaderHTML);
+     
+     
+     $fecha_presupuesto=substr($aDataTableHeaderHTML[12],23,10);
+     $nombre_cliente=$aDataTableHeaderHTML[15];
+     $dirección_cliente=$aDataTableHeaderHTML[17];
+     $rpu=$aDataTableHeaderHTML[19];
+     $telefono=$aDataTableHeaderHTML[21];
+     $presupuesto=$aDataTableHeaderHTML[23];
+     $marca_instalar=$aDataTableHeaderHTML[31];
+     $modelo_instalar=$aDataTableHeaderHTML[32];
+     $capacidad_instalar=$aDataTableHeaderHTML[33];
+     $monto_financiar=$aDataTableHeaderHTML[34];
+     $marca_retirar=$aDataTableHeaderHTML[42];
+     $capacidad_retirar=$aDataTableHeaderHTML[43];
+     $modelo_retirar=$aDataTableHeaderHTML[44];
+     $solicitud=$aDataTableHeaderHTML[47];
+     $precio_sin_iva=$aDataTableHeaderHTML[51];
+     $iva=ltrim($aDataTableHeaderHTML[54]);
+     $excedente=$aDataTableHeaderHTML[63];
+     $interes=$aDataTableHeaderHTML[69];
+     $iva_interes=$aDataTableHeaderHTML[72];
+     $financiado=$aDataTableHeaderHTML[75];
+     $amortizacion=$aDataTableHeaderHTML[78];
+     $num_pagos=substr($aDataTableHeaderHTML[76],0,2);
+
+
+
+
+     
+     echo $fecha_presupuesto."\n";
+     echo $nombre_cliente."\n";
+     echo $rpu."\n";
+     echo $presupuesto."\n";
+     echo $telefono."\n";
+     echo $marca_instalar."\n";
+     echo $modelo_instalar."\n";
+     echo $capacidad_instalar."\n";
+     echo $marca_retirar."\n";
+     echo $modelo_retirar."\n";
+     echo $capacidad_retirar."\n";
+     echo $solicitud."\n";
+     echo substr($precio_sin_iva,1,9)."\n";
+     echo substr($iva,17,8)."\n";
+     echo substr($monto_financiar,1,10)."\n";
+     echo substr($excedente,16,7)."\n";
+     echo substr($interes,17,8)."\n";
+     echo substr($iva_interes,16,7)."\n"; //23
+     echo substr($financiado,17,9)."\n";  //26
+     echo substr($amortizacion,17,6)."\n"; //23
      echo $num_pagos."\n";
 }
 
-analiza_archivo_presupuesto("presupuestos/QR000033-1.html");
+function analiza_archivo_presupuesto_aa($file)
+{
+    $cliente=new cliente();
+    if (!file_exists($file)){
+      exit("File not found");
+    }
+    $htmlContent=file_get_contents($file);
+    $DOM=new DOMDocument();
+    //echo $htmlContent;
+    @$DOM->loadHTML($htmlContent);
+    $Header = $DOM->getElementsByTagName('td');
+    $Detail = $DOM->getElementsByTagName('td');
+    foreach($Header as $NodeHeader)
+    {
+        $aDataTableHeaderHTML[]=trim($NodeHeader->textContent);
+        //echo $aDataTableHeaderHTML;
+    }
+     print_r($aDataTableHeaderHTML);
+     
+     
+     $fecha_presupuesto=substr($aDataTableHeaderHTML[12],23,10);
+     $nombre_cliente=$aDataTableHeaderHTML[15];
+     $dirección_cliente=$aDataTableHeaderHTML[17];
+     $rpu=$aDataTableHeaderHTML[19];
+     $telefono=$aDataTableHeaderHTML[21];
+     $presupuesto=$aDataTableHeaderHTML[23];
+     $marca_instalar=$aDataTableHeaderHTML[31];
+     $modelo_instalar=$aDataTableHeaderHTML[32];
+     $capacidad_instalar=$aDataTableHeaderHTML[33];
+     $monto_financiar=$aDataTableHeaderHTML[34];
+     $marca_retirar=$aDataTableHeaderHTML[42];
+     $capacidad_retirar=$aDataTableHeaderHTML[43];
+     $modelo_retirar=$aDataTableHeaderHTML[44];
+     $solicitud=$aDataTableHeaderHTML[47];
+     $precio_sin_iva=$aDataTableHeaderHTML[51];
+     $iva=ltrim($aDataTableHeaderHTML[54]);
+     $excedente=$aDataTableHeaderHTML[63];
+     $interes=$aDataTableHeaderHTML[69];
+     $iva_interes=$aDataTableHeaderHTML[72];
+     $financiado=$aDataTableHeaderHTML[75];
+     $amortizacion=$aDataTableHeaderHTML[78];
+     $num_pagos=substr($aDataTableHeaderHTML[76],0,2);
+
+
+
+
+     
+     echo $fecha_presupuesto."\n";
+     echo $nombre_cliente."\n";
+     echo $rpu."\n";
+     echo $presupuesto."\n";
+     echo $telefono."\n";
+     echo $marca_instalar."\n";
+     echo $modelo_instalar."\n";
+     echo $capacidad_instalar."\n";
+     echo $marca_retirar."\n";
+     echo $modelo_retirar."\n";
+     echo $capacidad_retirar."\n";
+     echo $solicitud."\n";
+     echo substr($precio_sin_iva,1,9)."\n";
+     echo substr($iva,17,8)."\n";
+     echo substr($monto_financiar,1,10)."\n";
+     echo substr($excedente,16,7)."\n";
+     echo substr($interes,17,8)."\n";
+     echo substr($iva_interes,16,7)."\n"; //23
+     echo substr($financiado,17,9)."\n";  //26
+     echo substr($amortizacion,17,6)."\n"; //23
+     echo $num_pagos."\n";
+}
+analiza_archivo_presupuesto_aa("presupuestos/YU000133-1.html");
 ?>
