@@ -1,0 +1,66 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Consulta de solicitudes por usuario</title>
+<link rel="stylesheet" href="textstyle.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="calendar.css">
+<script language="JavaScript" src="calendarcode1.js"></script>
+<script language="JavaScript" src="functions.js"></script>
+</head>
+
+<body background="images\fdomnu.jpg">
+<form name="form1" method="post" action="/siaMexicali/consolusu.php">
+<center>
+<font face="times new roman" size="4" color="#000000">Consulta de Solicitudes
+Registradas por Usuarios</font>
+<br>
+<table >
+<tr>
+	<td colspan="4"><center><font face="times new roman" size="4" bold>Fechas:</font></center></td>
+</tr>
+<tr>
+    <td colspan="2">Desde <input type="text" readonly name="fechaI" value="2018-10-01"> 
+		<a class="so-BtnLink" href="javascript:calClick();return false;" onclick="showCalendar('form1','fechaI','BTN_date1');return false;">
+		<img align="absmiddle" border="0" name="BTN_date1" src="images/btnbuscar.gif" width="24" height="19"> </a></td>
+		<td colspan="2">Hasta <input type="text" readonly name="fechaF" value="2018-11-30">
+		<a class="so-BtnLink" href="javascript:calClick();return false;" onclick="showCalendar('form1','fechaF','BTN_date2');return false;">
+		<img align="absmiddle" border="0" name="BTN_date2" src="images/btnbuscar.gif" width="24" height="19"></a></td>
+</tr>
+<tr>
+</tr>
+<tr>
+  <td width="96">
+		<input type="radio" name="a"  onclick="tipo.value='dia'">Diario
+	</td>
+	<td width="117">
+		<input type="radio" name="a"  onclick="tipo.value='sem'">Semanal
+	</td>
+	<td width="125">
+		<input type="radio" name="a"  onclick="tipo.value='dds'">Dia de Semana
+	</td>
+	<td width="84">
+		<input type="radio" name="a" checked onclick="tipo.value='men'">Mensual
+  </td>
+</tr>
+<tr>
+</tr>
+<tr>
+  <td colspan="2"><center>
+    <input type="button" value="Consulta" STYLE="cursor: hand" onclick="window.location='consolusu.php?fi='+fechaI.value+'&ff='+fechaF.value+'&tip='+tipo.value;" >
+	</center></td>
+	  <td colspan="2"><center>
+    <input type="button" value="Regresar" STYLE="cursor: hand" onclick="window.history.back();" >
+	</center></td>
+</tr>
+</table>
+<br>
+<br>
+<table border="1" background="images/fdo.gif" bordercolordark="#000000" cellspacing="0" cellpadding="0"><tr bgcolor="#EEA25B"><td width="20">Oct</td><td width="20">Nov</td></tr><tr class="txt3"><td STYLE="cursor: hand" onclick="window.location='consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=10';"><center>193</center></td><td STYLE="cursor: hand" onclick="window.location='consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=11';"><center>117</center></td></tr></table><input type="hidden" name="tipo" value="dia">
+<br>
+<table border="1" background="images/fdo.gif" bordercolordark="#000000" cellspacing="0" cellpadding="0"><tr bgcolor="#EEA25B" ><td>&nbsp;</td><td STYLE="cursor: hand" onclick="window.location='consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=12&ord=s.solicitud';">Solicitud</td><td STYLE="cursor: hand" onclick="window.location='consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=12&ord=s.fechasolic';">Fecha Solicitud</td><td STYLE="cursor: hand" onclick="window.location='consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=12&ord=s.refrigerador,s.aislante,s.aire';">SubProg</td><td STYLE="cursor: hand" onclick="window.location='consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=12&ord=e.desccorta';">Estado</td><td STYLE="cursor: hand" onclick="window.location='consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=12&ord=s.rpu';">RPU</td><td STYLE="cursor: hand" onclick="window.location='consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=12&ord=b.nombre';">Nombre</td><td STYLE="cursor: hand" onclick="window.location='consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=12&ord=b.colonia';">Colonia</td><td STYLE="cursor: hand" onclick="window.location='consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=12&ord=b.direccion';">Direccion</td><td STYLE="cursor: hand" onclick="window.location='consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=12&ord=s.persona';">Persona</td></tr><tr class="txt3" onmouseover="setPointer(this, 0, 'over', '', '#E77918', '#FFCC99');" onmouseout="setPointer(this, 0, 'out', '', '#E77918', '#FFCC99');" onmousedown="setPointer(this, 0, 'click', '', '#E77918', '#FFCC99');"><td align="right">1</td><td STYLE="cursor: hand" onclick="window.location='numsol.php?ns=YU000106&nsx=2';"><center>YU000106-2</center></td><td><center>2018-12-03</center></td><td><center>AA</center></td><td><center>PIN</center></td><td><center>770091000342</center></td><td>QUEVEDO ZAPATA RENE OMAR      </td><td>VERGEL, SN ANT KAU</td><td>CALLE 27 199 8C VERGEL III    </td><td>creplme00318</td></tr><tr class="txt3" onmouseover="setPointer(this, 0, 'over', '', '#E77918', '#FFCC99');" onmouseout="setPointer(this, 0, 'out', '', '#E77918', '#FFCC99');" onmousedown="setPointer(this, 0, 'click', '', '#E77918', '#FFCC99');"><td align="right">2</td><td STYLE="cursor: hand" onclick="window.location='numsol.php?ns=YU000127&nsx=3';"><center>YU000127-3</center></td><td><center>2018-12-03</center></td><td><center>RF</center></td><td><center>PIN</center></td><td><center>776130300373</center></td><td>VILLALOBOS SALAZAR RAMIRO ARMA</td><td>ALMENDROS             F</td><td>77 715A 90 92 LOS ALMENDORS. .</td><td>creplme00318</td></tr><tr class="txt3" onmouseover="setPointer(this, 0, 'over', '', '#E77918', '#FFCC99');" onmouseout="setPointer(this, 0, 'out', '', '#E77918', '#FFCC99');" onmousedown="setPointer(this, 0, 'click', '', '#E77918', '#FFCC99');"><td align="right">3</td><td STYLE="cursor: hand" onclick="window.location='numsol.php?ns=YU000153&nsx=1';"><center>YU000153-1</center></td><td><center>2018-12-03</center></td><td><center>AA</center></td><td><center>PPO</center></td><td><center>773811000387</center></td><td>DEL ANGEL PALACIO ABRAHAM     </td><td>BRISAS NTE BOSQ PALMA F       </td><td>43 217 18Y26 DIAG L BRISA     </td><td>rosu1me00218</td></tr></table></center>
+</form>
+<div id="popupcalendar" class="text"></div>
+</body>
+</html>

@@ -19,67 +19,95 @@ function descarga_archivo_condata($url_login,$data_login,$url_archivo,$data_arch
 
 }
 
-function analiza_archivo2($file)
+
+
+function descarga_presupuestos()
 {
-   
-    $cliente1=new cliente();
-    if (!file_exists($file)){
-      exit("File not found");
-    }
-    $htmlContent=file_get_contents($file);
-    $DOM=new DOMDocument();
-    //echo $htmlContent;
-    @$DOM->loadHTML($htmlContent);
-    $Header = $DOM->getElementsByTagName('td');
-    $Detail = $DOM->getElementsByTagName('td');
-    foreach($Header as $NodeHeader)
-    {
-        $aDataTableHeaderHTML[]=trim($NodeHeader->textContent);
-       // echo $aDataTableHeaderHTML;
-    }
-    //print_r($aDataTableHeaderHTML);
-    $total_filas=$aDataTableHeaderHTML[10];
-    //echo $total_filas;
-    $iteracion=($total_filas*10)+20;
-    $linea=0;
-    for($i=21;$i<=$iteracion;$i=$i+10)
-    {
-        $concatenar="";
-        for($z=0;$z<10;$z=$z+1)
-        {
-            if($z==0)
-            $concatenar="'";
-            //$concatenar=$aDataTableHeaderHTML[$i+$z];
-            else if($z<9)
-            $concatenar=$concatenar.$aDataTableHeaderHTML[$i+$z]."','";
-            else
-            $concatenar=$concatenar.$aDataTableHeaderHTML[$i+$z]."";
+    $login="http://www.programaasibc.com.mx/siaMexicali/validausuario.php";
+    $data_login="usuario=md032ca&clave=md032ca&tipo=1";
+    $consulta=new cliente();
+    $sql="select solicitud,subprograma,rpu  from colocadas_sia where id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI','LSC')";
+    $solicitud=$consulta->listado($sql);
+    foreach($solicitud as $row){
+        // Si es solicitud de RF
+        $soli1=substr($row['solicitud'],0,8);
+        $soli2=substr($row['solicitud'],9,2);
+        $url_extra="ns=$soli1&nsx=$soli2";
+        $archivo="presupuestos/".$row['solicitud'].".html";
+       
+        switch($row['subprograma']){
+            case 'RF': 
+            {
+                $url="http://www.programaasibc.com.mx/siaMexicali/presup_refri.php?$url_extra";
+                descarga_archivo_sindata($login,$data_login,$url,$archivo);
+                break;
+            }
+            case 'AA':
+            {
+                $url="http://www.programaasibc.com.mx/siaMexicali/presup_equipo.php?$url_extra";
+                descarga_archivo_sindata($login,$data_login,$url,$archivo);
+                break;
+            }
 
         }
-        $concatenar=$concatenar."'";
-                //$concatenar=$aDataTableHeaderHTML[$i].",".$aDataTableHeaderHTML[$i+1].",".$aDataTableHeaderHTML[$i+2].",".$aDataTableHeaderHTML[$i+3].",".$aDataTableHeaderHTML[$i+4].",".$aDataTableHeaderHTML[$i+5].",".$aDataTableHeaderHTML[$i+6].",".$aDataTableHeaderHTML[$i+7].",".$aDataTableHeaderHTML[$i+8].",".$aDataTableHeaderHTML[$i+9];
-        //echo "$concatenar\n";
-        $sql="insert into colocadas_sia (solicitud, fecha_registro, subprograma, id_estatus, rpu, nombre, colonia, direccion, id_proveedor) values(".$concatenar.")";
-        $resp=$cliente1->insertar($sql);
-        if($resp)
-        {
-            echo "Se guardo correctamente";
-        }
-        else{
-            echo "No se pudo guardar";
-        }
-        echo "$sql\n";
-       
+     
+    
     }
+
 
 }
+
 
 $login="http://www.programaasibc.com.mx/siaMexicali/validausuario.php";
 $data_login="usuario=md032ca&clave=md032ca&tipo=1";
 
+/** Descargar solicitudes colocadas */
 
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-12-01&ff=2018-12-31&tip=men&en=12","diciembre2.html");
-descarga_archivo_condata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberaciones_Conta.php","Cual=-1&idCoordinacion=-1&idDistribuidor=-1&pdto=3&orderby=1&fechaInicial=2018-11-01&model=1&xml=0&fechaFinal=2018-11-30","liberacionesconta2.html");
+descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=9","paginas/colocadas_septiembre.html");
+descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=10","paginas/colocadas_octubre.html");
+descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=11","paginas/colocadas_noviembre.html");
+descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-11-30&tip=men&en=12","paginas/colocadas_diciembre.html");
+
+/** Descargar liberaciones de diversos reportes */
+
+/**Liberaciones reporte contabilidad */
+descarga_archivo_condata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberaciones_Conta.php","Cual=-1&idCoordinacion=-1&idDistribuidor=-1&pdto=3&orderby=1&fechaInicial=2018-09-01&model=1&xml=0&fechaFinal=2018-11-30","paginas/liberacionesconta.html");
+
+/**Liberaciones reporte tecnico */
+
+descarga_archivo_condata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberaciones2.php","Cual=&idCoordinacion=-1&equipo=-1&idDistribuidor=-1&pdto=3&orderby=1&fechaLib=2018-09-01&model=1&xml=1&fechaInicial=2018-09-01&fechaFinal=2018-11-30&dAtencion=1","paginas/liberaciones_tec.html");
+
+/** reporte confirmacion de liberaciones  */
+
+//Yucatan
+descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=01&fechaInicial=2018-09-01&fechaFinal=2018-11-30&distribuidor=0&programa=0","paginas/confirma_lib_yucatan.html");
+//Campeche
+descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=04&fechaInicial=2018-09-01&fechaFinal=2018-11-30&distribuidor=0&programa=0","paginas/confirma_lib_campeche.html");
+//Quintana Roo/
+descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=12&fechaInicial=2018-09-01&fechaFinal=2018-11-30&distribuidor=0&programa=0","paginas/confirma_lib_quintanaroo.html");
+
+/** Reporte de liberaciones simple */
+
+// Yucatan
+descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberacion.php?generar=1&zona1=01&fechaInicial=2018-09-01&fechaFinal=2018-11-30","paginas/liberaciones_simple_yucatan.html");
+
+//Campeche
+descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberacion.php?generar=1&zona1=04&fechaInicial=2018-09-01&fechaFinal=2018-11-30","paginas/liberaciones_simple_campeche.html");
+
+//Quintana Roo
+descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberacion.php?generar=1&zona1=12&fechaInicial=2018-09-01&fechaFinal=2018-11-30","paginas/liberaciones_simple_quintanaroo.html");
 
 
+/** Reporte de liberaciones descarga PA ¿¿¿??? */
+
+//Yucatan
+descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=YU","paginas/liberaciones_pa_yucatan.html");
+
+//Campeche
+descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=QR","paginas/liberaciones_pa_campeche.html");
+
+//Quintana Roo
+descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=QR","paginas/liberaciones_pa_quintanaroo.html");
+
+descarga_presupuestos();
 ?>

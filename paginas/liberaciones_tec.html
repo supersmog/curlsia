@@ -1,0 +1,1740 @@
+﻿<link href="" rel="stylesheet" type="text/css">
+
+
+<html><head><title>Untitled Document</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="../liberacion.css" rel="stylesheet" type="text/css">
+<script language="JavaScript">
+var Grid = false;
+
+function printDoc(){
+	if( Grid ){
+		alert(' El formato de presentacion \'INTERACTIVO\' del documento no permite una impresion apropiada en papel.\n Haga click en \'regresar\' y seleccione el formato de presentacion \'FIJO\' ');
+	}else{
+//		hideAllLayers();
+		var visibleLayer = getVisibleLayerName();
+		setDisplay('menuLyr',false);
+		hideAllLayers();
+
+		factory.printing.header = '';
+		factory.printing.footer = '';
+//		alert('Coloque papel tamaño OFICIO en la impresora !!!');
+//		factory.printing.paperSize =  "Legal";
+		factory.printing.portrait = false;
+		factory.printing.leftMargin = 0.8;
+		factory.printing.topMargin = 0.8;
+		factory.printing.rightMargin = 0.8;
+		factory.printing.bottomMargin = 0.8;
+		factory.printing.Print(true);	
+
+		if( visibleLayer != false ){
+			showLayer( visibleLayer );
+		}
+		setDisplay('menuLyr',true);
+//		showLayers();
+	}
+}
+
+function openExcel(){
+	var frmObj = document.forms['backFrm'];
+	frmObj.action = 'openExcel.php';
+	frmObj.submit();
+//	alert(frmObj.action);
+}
+
+function openWord(){
+	var frmObj = document.forms['backFrm'];
+	frmObj.action = 'openWord.php';
+	frmObj.submit();
+
+}
+
+function hideAllLayers(){
+	setDisplay('menuLyr',false);
+	setDisplay('maximizeOptions',false);
+	setDisplay('minimizeOptions',false);
+	setDisplay('closedOptions',false);
+}
+
+function getVisibleLayerName(){
+	if( isVisible('maximizeOptions')  ){
+		return 'maximizeOptions';
+	}else{
+		if( isVisible('minimizeOptions')  ){
+			return 'minimizeOptions';
+		}else{
+			if( isVisible('closedOptions')  ){
+				return 'closedOptions';
+			}else{
+				return false;
+			}		
+		}
+	}
+}
+
+function isVisible( layerName ){
+	var layerObj = getObject(layerName);
+	if( layerObj ){
+		if( layerObj.style.display.toUpperCase().indexOf('NONE') >= 0 ){
+			return false;
+		}else{
+			return true;
+		}
+	}else{
+		alert('NO se localizo el objeto '+layerName+'!!!');
+	}
+}
+
+function submitOrder(){
+	var selectOrder = getObject('orderby');
+	var hiddenFrm = document.forms['orderFrm'];
+	if( selectOrder ){
+		hiddenFrm.elements['orderbypropagate'].value = selectOrder.value;
+		hiddenFrm.elements['orderbypropagate'].name = 'orderby';
+		hiddenFrm.submit();
+	}else{
+		alert('NO se localizo orderby !!!!');
+	}
+}
+
+function doBack(){	
+//window.location = 'libiniciocord.php';
+	document.forms['backFrm'].elements['orderbypropagate'].name = 'orderby';
+	document.forms['backFrm'].action = 'libiniciocord.php';
+	document.forms['backFrm'].submit();
+}
+
+function showLayer( layerName ){
+	setDisplay( 'maximizeOptions', false );
+	setDisplay( 'minimizeOptions', false );
+	setDisplay( 'closedOptions', false );
+	setDisplay( layerName, true );
+}
+
+function setDisplay( layerName, visible ){
+	var layerObj = getObject(layerName);
+	if( layerObj ){
+		if( visible ){
+			layerObj.style.display = 'block';
+		}else{
+			layerObj.style.display = 'none';
+		}
+	}else{
+		alert('NO se localizo el objeto '+layerName+'!!!');
+	}
+}
+</script>
+<script language="JavaScript">
+function getObject(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+</script>
+<style type="text/css">
+<!--
+.tdData {
+	border: 1pt solid #CCCCCC;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<object id="factory" style="display:none"
+  classid="clsid:1663ed61-23eb-11d2-b92f-008048fdd814"
+  codebase="../../includes/smsx.cab#6,5,439,30">
+</object>
+<form name="orderFrm" action="/siaMexicali/liberacion/reportes/liberaciones2.php" method="post">
+<input type="hidden" id=name="idCoordinacion" name="idCoordinacion" value="-1">
+  <input type="hidden" name="idDistribuidor" value="-1">
+  <input type="hidden" name="fechaInicial" value="2018-09-01">
+  <input type="hidden" name="fechaFinal" value="2018-11-30">
+  <input type="hidden" name="pdto" value="3">
+  <input type="hidden" name="equipo" value="-1">
+  <input type="hidden" name="orderbypropagate" value="1">
+  <input type="hidden" name="model" value="1">
+  <input type="hidden" name="dAtencion" value="1">
+</form>
+<form name="backFrm" action="libinicio.php" method="post">
+  <input type="hidden" name="idDistribuidor" value="-1">
+  <input type="hidden" id=name="idCoordinacion" name="idCoordinacion" value="-1">
+  <input type="hidden" name="fechaInicial" value="2018-09-01">
+  <input type="hidden" name="fechaFinal" value="2018-11-30">
+  <input type="hidden" name="pdto" value="3">
+  <input type="hidden" name="equipo" value="-1">
+  <input type="hidden" name="orderbypropagate" value="1">
+  <input type="hidden" name="model" value="1">
+  <input type="hidden" name="dAtencion" value="1">
+  <input type="hidden" name="promoinv" value="">
+</form>
+
+<div id="minimizeOptions" style="position:relative; width:450px; height:20px; z-index:1; display:none; " align="center" class="tdTituloDesc"> 
+   <table width="100%" cellpadding="2" cellspacing="0" border="0">
+	  <tr> 
+		 <td colspan="3" width="80%">&nbsp;<img src="images/infoIcon.gif"></td>
+		 <td align="center" style="cursor:hand;" onClick="showLayer('maximizeOptions');"><img id="showHideBtn" src="images/showBtn.gif" width="15" height="15"></td>
+		 <td align="center" style="cursor:hand;" onClick="showLayer('closedOptions'); "><img src="images/closeBtn.gif" width="15" height="15"></td>
+	  </tr>
+   </table>
+</div>
+<div id="closedOptions" style="position:relative; width:20px; height:20px; z-index:2; display:none; " align="center" onClick="showLayer('maximizeOptions'); "> 
+   <img src="images/infoIcon.gif" style="cursor:hand;"> </div>
+
+<div id="maximizeOptions" style="position:relative; width:450px; height:115px; display:block; z-index:3" align="center" class="tdTituloDesc"> 
+   <table width="100%" cellpadding="2" cellspacing="0" border="0">
+	  <tr> 
+		 <td colspan="2" class="tdData">&nbsp;<img src="images/infoIcon.gif"></td>
+		 <td align="center" class="tdData" style="cursor:hand;" onClick="showLayer('minimizeOptions');"> 
+			<img id="showHideBtn" src="images/hideBtn.gif" width="15" height="15"> 
+		 </td>
+		 <td align="center" class="tdData" style="cursor:hand;" onClick="showLayer('closedOptions'); "> 
+			<img src="images/closeBtn.gif" width="15" height="15"> </td>
+	  </tr>
+	  <tr> 
+		 <td width="40%" align="center" class="tdData"><span class="tinyLabel">Fecha 
+			Inicial</span></td>
+		 <td width="40%" align="center" class="tdData"><span class="tinyLabel">Fecha 
+			Final</span></td>
+		 <td colspan="2" align="center" class="tdData"><span class="tinyLabel">Producto</span></td>
+	  </tr>
+	  <tr> 
+		 <td align="center" class="tdData">
+			s&aacute;bado 01 - sep - 2018		 </td>
+		 <td align="center" class="tdData">
+			viernes 30 - nov - 2018		 </td>
+		 <td colspan="2" align="center" class="tdData"> 
+			RF		 </td>
+	  </tr>
+      <tr>
+       <td colspan="4" class="tdData"><span class="tinyLabel">Coordinacion:</span> 
+			TODAS		 </td>
+      </tr>
+      
+      <tr>
+	  
+		 <td colspan="4" class="tdData"><span class="tinyLabel">Distribuidor:</span> 
+			TODOS		 </td>
+	  </tr>
+	  <tr> 
+		 <td colspan="4" align="left" class="tdData"><span class="tinyLabel">Ordernado 
+			por:</span> 
+			Solicitud		 </td>
+	  </tr>
+	  <tr> 
+		 <td colspan="4" align="center" class="tdData"><input type="button" name="regresar" value=" << Regresar  " onClick="doBack();"></td>
+	  </tr>
+	  <tr> 
+		 <td colspan="4" align="left" class="tdData"> <span class="tinyLabel">Ordernar 
+			por:</span> 
+					<select name="orderby">
+			<option value="1" SELECTED>Solicitud </option>
+			<option value="2">Distribuidor </option>
+			<option value="3">Garant&iacute;a </option>			
+			<option value="4">Cr&eacute;dito Otorgado </option>
+			<option value="5">Salvamento </option>
+			<option value="6">Equipo </option>
+			<option value="7">Fecha Solicitud </option>
+			<option value="8">Fecha Autorizaci&oacute;n </option>
+			<option value="9">Fecha Instalaci&oacute;n </option>
+			<option value="10">Tipo(AC) &oacute; Sistema(AT) </option>
+			<option value="11">Toneladas(AC), Superficie(AT) &oacute; Capacidad (RF) </option>
+		</select>
+			<img src="../images/submitBtn.gif" style="cursor:hand;" onClick=" submitOrder(); " align="absmiddle"> 
+		 </td>
+	  </tr>
+   </table>
+</div>
+<div id="menuLyr" style="position:relative; width:400px; height:45px; z-index:4; display:block;" align="right"> 
+   <table width="100%" cellpadding="2" cellspacing="0" border="0">
+   <tr><td colspan="6"><br><br></td></tr>
+	  <tr> 
+		 <td class="tinyLabel" align="right"><a href="JavaScript:printDoc();">	
+			<img src="images/printersmall.gif" style="cursor:hand;" border="0">	
+			</a></td>
+		 <td class="tinyLabel" align="left"><a href="JavaScript:printDoc();" style="text-decoration:none">	
+			Imprimir </a></td>
+		 <td class="tinyLabel" align="right"><a href="JavaScript:openExcel();">	
+			<img src="images/excel.gif" style="cursor:hand;" border="0"> </a></td>
+		 <td class="tinyLabel" align="left"><a href="JavaScript:openExcel();" style="text-decoration:none">	
+			formato<br>
+			de excell </a></td>
+		 <td class="tinyLabel" align="right"><a href="JavaScript:openWord();">	
+			<img src="images/word.gif" style="cursor:hand;" border="0"> </a></td>
+		 <td class="tinyLabel" align="left"><a href="JavaScript:openWord();" style="text-decoration:none">	
+			formato<br>
+			de Word </a></td>
+	  </tr>
+   </table>
+</div>
+<br><br>
+
+
+
+<!--programa 1  -->
+<link href="reporteliberaciones.css" rel="stylesheet" type="text/css">
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+
+	 
+
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+
+
+  <!--REFRIGERADOR-->
+<br><br><br><br>
+<link href="reporteliberaciones.css" rel="stylesheet" type="text/css">
+<table width="99%" cellpadding="2" cellspacing="0" border="0" align="center">
+   <tr> 
+	  <td colspan="34" align="center" class="titulo">Reporte de Liberaciones (Refrigeradores)</td>
+   </tr>
+   <tr> 
+     <td align="left"  class="labelRp">&nbsp;&nbsp;&nbsp;Fecha Inicial: 
+	   2018-09-01	  </td>
+     <td  align="right" class="labelRp">Fecha Final: 2018-11-30&nbsp;&nbsp;&nbsp;</td>
+   </tr>
+  </table> 
+  
+   <table width="99%" cellpadding="2" cellspacing="0" border="0" align="center">
+   <tr> 
+	  <td colspan="35">&nbsp;</td>
+   </tr>
+   <tr> 
+	  <td rowspan="2" class="tdTituloData">&nbsp;&nbsp;</td>
+	  <td rowspan="2" class="tdTituloData">Solicitud</td>
+	  <td rowspan="2" align="center" class="tdTituloData">Solicitud P.A.</td>
+	   <td rowspan="2" class="tdTituloData">Coordinaci&oacute;n</td>
+	  <td rowspan="2" class="tdTituloData">Proveedor</td>
+	  <td rowspan="2" class="tdTituloData">Nombre</td>
+	  <!--<td align="center" rowspan="2" class="tdTituloData">SCC</td>-->
+	  <td align="center" rowspan="2" class="tdTituloData">RPU</td>
+	  <td align="center" rowspan="2" class="tdTituloData">Tipo de Usuario</td>
+	  <td align="center" rowspan="2" class="tdTituloData">Progr.</td>
+	  <td align="center" rowspan="2" class="tdTituloData">UUID</td>
+	  <td colspan="5" align="center" class="tdTituloData">Importe</td>
+	  <!--<td rowspan="2" class="tdSmallTituloData">Garant&iacute;a </td>-->
+	  <td colspan="3" align="center" class="tdTituloData">Fechas</td>
+	  <td class="tdTituloData">&nbsp;</td>
+	  <td colspan="2" align="center" class="tdTituloData">Equipo</td>
+	  <td rowspan="2" class="tdSmallTituloData">Equipo</td>
+	  <td colspan="2" align="center" class="tdTituloData">Afectaci&oacute;n</td>
+      <td rowspan="2" align="center" class="tdTituloData">Inicio de Facturaci&oacute;n</td>
+   </tr>
+   
+   
+   <tr> 
+	  <td class="tdSmallTituloData">Prestamo</td>
+	  <td class="tdSmallTituloData">Capital</td>
+	  <td class="tdSmallTituloData">Interes</td>
+	  <td class="tdSmallTituloData">IVA</td>
+	  <td class="tdSmallTituloData">Bonificaci&oacute;n</td>
+	  <td class="tdSmallTituloData">Solicitud</td>
+	  <td class="tdSmallTituloData">Instalaci&oacute;n </td>
+	  <td align="center" class="tdSmallTituloData">Liberaci&oacute;n</td>
+	  <td align="center" class="tdSmallTituloData">D&iacute;as (a)</td>
+	  <td  align="center" class="tdSmallTituloData">Altura</td>
+      <td align="center" class="tdSmallTituloData">Marca</td>
+      <td align="center" class="tdSmallTituloData">Status</td>
+      <td align="center" class="tdSmallTituloData">Fecha</td>
+   </tr>
+	    
+	
+  <tr> 
+	  <td align="right" class="tdData">1</td>
+	  <td nowrap class="tdData">CM000002-3-PRU116233	            </td>
+      <td align="center" nowrap class="tdData">000491526</td>
+	  <td align="left" class="tdData">Campeche</td>
+	  <td nowrap class="tdData">QUITERIO ESPINOSA JOSE ISMAEL</td>
+	 <!--<td align="center" nowrap class="tdData">CM000002-3-PRU116233</td>--> 
+	  <td align="left" class="tdData">JULIO ALBERTO VAZQUEZ  ZETINA</td>
+      <td align="center" class="tdData">789980400843</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">435D604B-4B60-478B-952A-2ECE45BF6689</td>
+
+      <td align="right" class="tdData">13,920.20</td> 
+	  <td align="center" class="tdData">9,360.01</td>
+	  <td align="center" class="tdData">3,931.20</td>
+	  <td align="center" class="tdData">628.99</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-10-16</td>
+  <td class="tdData" align="center">2018-10-18</td>
+  <td class="tdData" align="center">2018-11-06</td>
+   <td class="tdData" align="center">2</td>
+   <td class="tdData" align="center">13</td>
+   <td class="tdData" align="center">Acros</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-06</td>
+ <td align="center" class="tdData">
+ 20181106</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">2</td>
+	  <td nowrap class="tdData">CM000004-2-PRU115720	            </td>
+      <td align="center" nowrap class="tdData">000491150</td>
+	  <td align="left" class="tdData">Campeche</td>
+	  <td nowrap class="tdData">QUITERIO ESPINOSA JOSE ISMAEL</td>
+	 <!--<td align="center" nowrap class="tdData">CM000004-2-PRU115720</td>--> 
+	  <td align="left" class="tdData">JOSUE FERNANDO TUCUCH HUICAB</td>
+      <td align="center" class="tdData">789110801401</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">D3A1D103-B56A-4646-96D5-D40FD9E57CE3</td>
+
+      <td align="right" class="tdData">13,920.20</td> 
+	  <td align="center" class="tdData">9,360.01</td>
+	  <td align="center" class="tdData">3,931.20</td>
+	  <td align="center" class="tdData">628.99</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-10-04</td>
+  <td class="tdData" align="center">2018-10-09</td>
+  <td class="tdData" align="center">2018-10-24</td>
+   <td class="tdData" align="center">5</td>
+   <td class="tdData" align="center">13</td>
+   <td class="tdData" align="center">Acros</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-10-24</td>
+ <td align="center" class="tdData">
+ 20181024</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">3</td>
+	  <td nowrap class="tdData">CM000008-1-PRU116235	            </td>
+      <td align="center" nowrap class="tdData">000491106</td>
+	  <td align="left" class="tdData">Campeche</td>
+	  <td nowrap class="tdData">QUITERIO ESPINOSA JOSE ISMAEL</td>
+	 <!--<td align="center" nowrap class="tdData">CM000008-1-PRU116235</td>--> 
+	  <td align="left" class="tdData">SOLEDAD DEL ROSARIO REINA  POLANCO</td>
+      <td align="center" class="tdData">789150200591</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">0B8C142D-5244-4E12-9AFF-F34A2D272077</td>
+
+      <td align="right" class="tdData">13,920.20</td> 
+	  <td align="center" class="tdData">9,360.01</td>
+	  <td align="center" class="tdData">3,931.20</td>
+	  <td align="center" class="tdData">628.99</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-10-15</td>
+  <td class="tdData" align="center">2018-10-18</td>
+  <td class="tdData" align="center">2018-10-23</td>
+   <td class="tdData" align="center">3</td>
+   <td class="tdData" align="center">13</td>
+   <td class="tdData" align="center">Acros</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-10-23</td>
+ <td align="center" class="tdData">
+ 20181023</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">4</td>
+	  <td nowrap class="tdData">CM000009-1-PRU116221	            </td>
+      <td align="center" nowrap class="tdData">000491267</td>
+	  <td align="left" class="tdData">Campeche</td>
+	  <td nowrap class="tdData">QUITERIO ESPINOSA JOSE ISMAEL</td>
+	 <!--<td align="center" nowrap class="tdData">CM000009-1-PRU116221</td>--> 
+	  <td align="left" class="tdData">ADDA JAQUELINE MARTIN FRANCO</td>
+      <td align="center" class="tdData">789080703841</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">8A0859ED-CE20-4A88-BC81-32C49C82BF08</td>
+
+      <td align="right" class="tdData">13,920.20</td> 
+	  <td align="center" class="tdData">9,360.01</td>
+	  <td align="center" class="tdData">3,931.20</td>
+	  <td align="center" class="tdData">628.99</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-10-16</td>
+  <td class="tdData" align="center">2018-10-18</td>
+  <td class="tdData" align="center">2018-10-29</td>
+   <td class="tdData" align="center">2</td>
+   <td class="tdData" align="center">13</td>
+   <td class="tdData" align="center">Acros</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-10-29</td>
+ <td align="center" class="tdData">
+ 20181029</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">5</td>
+	  <td nowrap class="tdData">CM000011-1-PRU116242	            </td>
+      <td align="center" nowrap class="tdData">000491268</td>
+	  <td align="left" class="tdData">Campeche</td>
+	  <td nowrap class="tdData">QUITERIO ESPINOSA JOSE ISMAEL</td>
+	 <!--<td align="center" nowrap class="tdData">CM000011-1-PRU116242</td>--> 
+	  <td align="left" class="tdData">JOSE RAUL ORTEGON REYNA</td>
+      <td align="center" class="tdData">789981108241</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">DF13E52E-3B63-4485-982B-80F9A49871F0</td>
+
+      <td align="right" class="tdData">13,920.20</td> 
+	  <td align="center" class="tdData">9,360.01</td>
+	  <td align="center" class="tdData">3,931.20</td>
+	  <td align="center" class="tdData">628.99</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-10-16</td>
+  <td class="tdData" align="center">2018-10-18</td>
+  <td class="tdData" align="center">2018-10-29</td>
+   <td class="tdData" align="center">2</td>
+   <td class="tdData" align="center">13</td>
+   <td class="tdData" align="center">Acros</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-10-29</td>
+ <td align="center" class="tdData">
+ 20181029</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">6</td>
+	  <td nowrap class="tdData">QR000011-1-PRU115537	            </td>
+      <td align="center" nowrap class="tdData">000491178</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000011-1-PRU115537</td>--> 
+	  <td align="left" class="tdData">ELISEO ROBERTO MIGUEL DE LA CRUZ</td>
+      <td align="center" class="tdData">783080700851</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">7D1AB172-EB7C-436D-AF48-861ED3EA0E40</td>
+
+      <td align="right" class="tdData">13,920.20</td> 
+	  <td align="center" class="tdData">9,360.01</td>
+	  <td align="center" class="tdData">3,931.20</td>
+	  <td align="center" class="tdData">628.99</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-09-26</td>
+  <td class="tdData" align="center">2018-10-11</td>
+  <td class="tdData" align="center">2018-10-25</td>
+   <td class="tdData" align="center">15</td>
+   <td class="tdData" align="center">13</td>
+   <td class="tdData" align="center">Acros</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-10-25</td>
+ <td align="center" class="tdData">
+ 20181025</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">7</td>
+	  <td nowrap class="tdData">QR000022-2-PRU116904	            </td>
+      <td align="center" nowrap class="tdData">000491877</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000022-2-PRU116904</td>--> 
+	  <td align="left" class="tdData">GABRIELA IMELDA DZIB  TUTZIN</td>
+      <td align="center" class="tdData">783111013343</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">8DC252E7-EB40-4599-ADF3-656C1DACCF67</td>
+
+      <td align="right" class="tdData">12,046.32</td> 
+	  <td align="center" class="tdData">8,100.00</td>
+	  <td align="center" class="tdData">3,402.00</td>
+	  <td align="center" class="tdData">544.32</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-11-07</td>
+  <td class="tdData" align="center">2018-11-07</td>
+  <td class="tdData" align="center">2018-11-20</td>
+   <td class="tdData" align="center">0</td>
+   <td class="tdData" align="center">11</td>
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-20</td>
+ <td align="center" class="tdData">
+ 20181120</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">8</td>
+	  <td nowrap class="tdData">QR000027-2-PRU116526	            </td>
+      <td align="center" nowrap class="tdData">000491781</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000027-2-PRU116526</td>--> 
+	  <td align="left" class="tdData">Tr&Atilde;&iexcl;nsito Escobar Martinez</td>
+      <td align="center" class="tdData">783141103801</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">85765564-C5F7-40F5-B72B-8AA5D5897382</td>
+
+      <td align="right" class="tdData">12,046.32</td> 
+	  <td align="center" class="tdData">8,100.00</td>
+	  <td align="center" class="tdData">3,402.00</td>
+	  <td align="center" class="tdData">544.32</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-10-22</td>
+  <td class="tdData" align="center">2018-10-26</td>
+  <td class="tdData" align="center">2018-11-15</td>
+   <td class="tdData" align="center">4</td>
+   <td class="tdData" align="center">11</td>
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-15</td>
+ <td align="center" class="tdData">
+ 20181115</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">9</td>
+	  <td nowrap class="tdData">QR000029-1-PRU115776	            </td>
+      <td align="center" nowrap class="tdData">000491113</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000029-1-PRU115776</td>--> 
+	  <td align="left" class="tdData">CARMELA DZIB CEME</td>
+      <td align="center" class="tdData">783940404601</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">0E1D1512-E213-437E-85CC-68768CF7D7A4</td>
+
+      <td align="right" class="tdData">13,920.20</td> 
+	  <td align="center" class="tdData">9,360.01</td>
+	  <td align="center" class="tdData">3,931.20</td>
+	  <td align="center" class="tdData">628.99</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-10-05</td>
+  <td class="tdData" align="center">2018-10-11</td>
+  <td class="tdData" align="center">2018-10-23</td>
+   <td class="tdData" align="center">6</td>
+   <td class="tdData" align="center">13</td>
+   <td class="tdData" align="center">Acros</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-10-23</td>
+ <td align="center" class="tdData">
+ 20181023</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">10</td>
+	  <td nowrap class="tdData">QR000033-1-PRU116332	            </td>
+      <td align="center" nowrap class="tdData">000491782</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000033-1-PRU116332</td>--> 
+	  <td align="left" class="tdData">NANCI OCEGUEDA PARRA</td>
+      <td align="center" class="tdData">782120902952</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">2B1FF811-0257-46AC-BB9A-3CDC9CE82F75</td>
+
+      <td align="right" class="tdData">12,046.32</td> 
+	  <td align="center" class="tdData">8,100.00</td>
+	  <td align="center" class="tdData">3,402.00</td>
+	  <td align="center" class="tdData">544.32</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-10-06</td>
+  <td class="tdData" align="center">2018-10-28</td>
+  <td class="tdData" align="center">2018-11-15</td>
+   <td class="tdData" align="center">22</td>
+   <td class="tdData" align="center">11</td>
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-15</td>
+ <td align="center" class="tdData">
+ 20181115</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">11</td>
+	  <td nowrap class="tdData">QR000035-1-PRU116525	            </td>
+      <td align="center" nowrap class="tdData">000491207</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000035-1-PRU116525</td>--> 
+	  <td align="left" class="tdData">NATIVIDAD DOMINGUEZ FERRER</td>
+      <td align="center" class="tdData">781060901289</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">5A6BEE89-CF21-466F-BEED-C43C741984E7</td>
+
+      <td align="right" class="tdData">9,964.24</td> 
+	  <td align="center" class="tdData">6,700.00</td>
+	  <td align="center" class="tdData">2,814.00</td>
+	  <td align="center" class="tdData">450.24</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-10-09</td>
+  <td class="tdData" align="center">2018-10-25</td>
+  <td class="tdData" align="center">2018-10-26</td>
+   <td class="tdData" align="center">16</td>
+   <td class="tdData" align="center">9</td>
+   <td class="tdData" align="center">Acros</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-10-26</td>
+ <td align="center" class="tdData">
+ 20181026</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">12</td>
+	  <td nowrap class="tdData">QR000035-2-PRU116610	            </td>
+      <td align="center" nowrap class="tdData">000491783</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000035-2-PRU116610</td>--> 
+	  <td align="left" class="tdData">NATIVIDAD DOMINGUEZ FERRER</td>
+      <td align="center" class="tdData">781060901289</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">F307BA86-470F-4AF4-B0EF-EF4C3BA6784C</td>
+
+      <td align="right" class="tdData">9,964.24</td> 
+	  <td align="center" class="tdData">6,700.00</td>
+	  <td align="center" class="tdData">2,814.00</td>
+	  <td align="center" class="tdData">450.24</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-10-28</td>
+  <td class="tdData" align="center">2018-10-28</td>
+  <td class="tdData" align="center">2018-11-15</td>
+   <td class="tdData" align="center">0</td>
+   <td class="tdData" align="center">9</td>
+   <td class="tdData" align="center">Acros</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-15</td>
+ <td align="center" class="tdData">
+ 20181115</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">13</td>
+	  <td nowrap class="tdData">QR000047-1-PRU116215	            </td>
+      <td align="center" nowrap class="tdData">000491208</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000047-1-PRU116215</td>--> 
+	  <td align="left" class="tdData">ALICIA GERTRUDIS PECH BURGOS</td>
+      <td align="center" class="tdData">781940200191</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">C224C240-E52E-42F5-AADB-D44BB409C347</td>
+
+      <td align="right" class="tdData">13,920.20</td> 
+	  <td align="center" class="tdData">9,360.01</td>
+	  <td align="center" class="tdData">3,931.20</td>
+	  <td align="center" class="tdData">628.99</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-10-15</td>
+  <td class="tdData" align="center">2018-10-23</td>
+  <td class="tdData" align="center">2018-10-26</td>
+   <td class="tdData" align="center">8</td>
+   <td class="tdData" align="center">13</td>
+   <td class="tdData" align="center">Acros</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-10-26</td>
+ <td align="center" class="tdData">
+ 20181026</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">14</td>
+	  <td nowrap class="tdData">QR000056-1-PRU116577	            </td>
+      <td align="center" nowrap class="tdData">000491785</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000056-1-PRU116577</td>--> 
+	  <td align="left" class="tdData">PATRICIA DE JESUS SANCHEZ MENDOZA</td>
+      <td align="center" class="tdData">783130714417</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">D740453F-B626-40EC-9590-6788E855EAF7</td>
+
+      <td align="right" class="tdData">9,964.24</td> 
+	  <td align="center" class="tdData">6,700.00</td>
+	  <td align="center" class="tdData">2,814.00</td>
+	  <td align="center" class="tdData">450.24</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-10-26</td>
+  <td class="tdData" align="center">2018-10-26</td>
+  <td class="tdData" align="center">2018-11-15</td>
+   <td class="tdData" align="center">0</td>
+   <td class="tdData" align="center">9</td>
+   <td class="tdData" align="center">Acros</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-15</td>
+ <td align="center" class="tdData">
+ 20181115</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">15</td>
+	  <td nowrap class="tdData">QR000057-1-PRU116776	            </td>
+      <td align="center" nowrap class="tdData">000491786</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000057-1-PRU116776</td>--> 
+	  <td align="left" class="tdData">JOSE SILVERIO CHULIM CHI</td>
+      <td align="center" class="tdData">783130601957</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">95301B4F-C781-42BC-8952-9AB859AE86FA</td>
+
+      <td align="right" class="tdData">12,046.32</td> 
+	  <td align="center" class="tdData">8,100.00</td>
+	  <td align="center" class="tdData">3,402.00</td>
+	  <td align="center" class="tdData">544.32</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-10-31</td>
+  <td class="tdData" align="center">2018-10-31</td>
+  <td class="tdData" align="center">2018-11-15</td>
+   <td class="tdData" align="center">0</td>
+   <td class="tdData" align="center">11</td>
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-15</td>
+ <td align="center" class="tdData">
+ 20181115</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">16</td>
+	  <td nowrap class="tdData">QR000058-1-PRU116777	            </td>
+      <td align="center" nowrap class="tdData">000491787</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000058-1-PRU116777</td>--> 
+	  <td align="left" class="tdData">FERNANDO  GUEVARA  TORRES</td>
+      <td align="center" class="tdData">783140106261</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">E045419F-610A-4D10-9E13-6A8EE49AEA60</td>
+
+      <td align="right" class="tdData">12,046.32</td> 
+	  <td align="center" class="tdData">8,100.00</td>
+	  <td align="center" class="tdData">3,402.00</td>
+	  <td align="center" class="tdData">544.32</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-10-31</td>
+  <td class="tdData" align="center">2018-11-01</td>
+  <td class="tdData" align="center">2018-11-16</td>
+   <td class="tdData" align="center">1</td>
+   <td class="tdData" align="center">11</td>
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-16</td>
+ <td align="center" class="tdData">
+ 20181116</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">17</td>
+	  <td nowrap class="tdData">QR000062-1-PRU116811	            </td>
+      <td align="center" nowrap class="tdData">000491878</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000062-1-PRU116811</td>--> 
+	  <td align="left" class="tdData">JULIA  SILVAN ALVAREZ</td>
+      <td align="center" class="tdData">783130716177</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">8CA8147E-28E4-4297-85E9-8C586704A746</td>
+
+      <td align="right" class="tdData">12,046.32</td> 
+	  <td align="center" class="tdData">8,100.00</td>
+	  <td align="center" class="tdData">3,402.00</td>
+	  <td align="center" class="tdData">544.32</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-11-02</td>
+  <td class="tdData" align="center">2018-11-07</td>
+  <td class="tdData" align="center">2018-11-20</td>
+   <td class="tdData" align="center">5</td>
+   <td class="tdData" align="center">11</td>
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-20</td>
+ <td align="center" class="tdData">
+ 20181120</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">18</td>
+	  <td nowrap class="tdData">QR000064-1-PRU116874	            </td>
+      <td align="center" nowrap class="tdData">000491879</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000064-1-PRU116874</td>--> 
+	  <td align="left" class="tdData">SERGIO JESUS  CAAMAL SOSA</td>
+      <td align="center" class="tdData">783120103576</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">5A5B106E-8D7D-49F0-BFFF-3FCE5563CDE1</td>
+
+      <td align="right" class="tdData">10,730.88</td> 
+	  <td align="center" class="tdData">8,100.00</td>
+	  <td align="center" class="tdData">2,268.00</td>
+	  <td align="center" class="tdData">362.88</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-11-06</td>
+  <td class="tdData" align="center">2018-11-06</td>
+  <td class="tdData" align="center">2018-11-20</td>
+   <td class="tdData" align="center">0</td>
+   <td class="tdData" align="center">11</td>
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-20</td>
+ <td align="center" class="tdData">
+ 20181120</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">19</td>
+	  <td nowrap class="tdData">QR000065-1-PRU116903	            </td>
+      <td align="center" nowrap class="tdData">000491880</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000065-1-PRU116903</td>--> 
+	  <td align="left" class="tdData">NARCEDALIA VAZQUEZ NOVELO</td>
+      <td align="center" class="tdData">780050604212</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">A57787F7-3C81-4860-B419-951A28714AAB</td>
+
+      <td align="right" class="tdData">9,964.24</td> 
+	  <td align="center" class="tdData">6,700.00</td>
+	  <td align="center" class="tdData">2,814.00</td>
+	  <td align="center" class="tdData">450.24</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-11-07</td>
+  <td class="tdData" align="center">2018-11-07</td>
+  <td class="tdData" align="center">2018-11-20</td>
+   <td class="tdData" align="center">0</td>
+   <td class="tdData" align="center">9</td>
+   <td class="tdData" align="center">Acros</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-20</td>
+ <td align="center" class="tdData">
+ 20181120</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">20</td>
+	  <td nowrap class="tdData">QR000066-2-PRU117006	            </td>
+      <td align="center" nowrap class="tdData">000491882</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000066-2-PRU117006</td>--> 
+	  <td align="left" class="tdData">ONESIMO  MONTALVO  MAY</td>
+      <td align="center" class="tdData">783131002585</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">EFE1DD12-C305-4E4A-A65D-551A0895DF5E</td>
+
+      <td align="right" class="tdData">12,046.32</td> 
+	  <td align="center" class="tdData">8,100.00</td>
+	  <td align="center" class="tdData">3,402.00</td>
+	  <td align="center" class="tdData">544.32</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-11-09</td>
+  <td class="tdData" align="center">2018-11-09</td>
+  <td class="tdData" align="center">2018-11-20</td>
+   <td class="tdData" align="center">0</td>
+   <td class="tdData" align="center">11</td>
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-20</td>
+ <td align="center" class="tdData">
+ 20181120</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">21</td>
+	  <td nowrap class="tdData">QR000067-2-PRU116968	            </td>
+      <td align="center" nowrap class="tdData">000492140</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000067-2-PRU116968</td>--> 
+	  <td align="left" class="tdData">RUDY ARIEL CAN PEREZ</td>
+      <td align="center" class="tdData">783111013777</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">F029A8B3-2C7F-4A9B-B956-697512CDD56B</td>
+
+      <td align="right" class="tdData">12,046.32</td> 
+	  <td align="center" class="tdData">8,100.00</td>
+	  <td align="center" class="tdData">3,402.00</td>
+	  <td align="center" class="tdData">544.32</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-11-08</td>
+  <td class="tdData" align="center">2018-11-08</td>
+  <td class="tdData" align="center">2018-11-28</td>
+   <td class="tdData" align="center">0</td>
+   <td class="tdData" align="center">11</td>
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-28</td>
+ <td align="center" class="tdData">
+ 20181128</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">22</td>
+	  <td nowrap class="tdData">QR000068-2-PRU117029	            </td>
+      <td align="center" nowrap class="tdData">000492141</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000068-2-PRU117029</td>--> 
+	  <td align="left" class="tdData">JESUS DANIEL FERRER  ORTEGA </td>
+      <td align="center" class="tdData">781130300822</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">D367C73A-5E0E-450C-96CA-A276F4B1815F</td>
+
+      <td align="right" class="tdData">12,046.32</td> 
+	  <td align="center" class="tdData">8,100.00</td>
+	  <td align="center" class="tdData">3,402.00</td>
+	  <td align="center" class="tdData">544.32</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-11-12</td>
+  <td class="tdData" align="center">2018-11-12</td>
+  <td class="tdData" align="center">2018-11-28</td>
+   <td class="tdData" align="center">0</td>
+   <td class="tdData" align="center">11</td>
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-28</td>
+ <td align="center" class="tdData">
+ 20181128</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">23</td>
+	  <td nowrap class="tdData">QR000072-1-PRU117043	            </td>
+      <td align="center" nowrap class="tdData">000492095</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000072-1-PRU117043</td>--> 
+	  <td align="left" class="tdData">JESUS DE LA CRUZ HERNANDEZ CARDE&Atilde;�A</td>
+      <td align="center" class="tdData">781050700862</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">14018A64-CBAF-406A-8AA1-8A40A8A9E384</td>
+
+      <td align="right" class="tdData">12,046.32</td> 
+	  <td align="center" class="tdData">8,100.00</td>
+	  <td align="center" class="tdData">3,402.00</td>
+	  <td align="center" class="tdData">544.32</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-11-12</td>
+  <td class="tdData" align="center">2018-11-13</td>
+  <td class="tdData" align="center">2018-11-27</td>
+   <td class="tdData" align="center">1</td>
+   <td class="tdData" align="center">11</td>
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-27</td>
+ <td align="center" class="tdData">
+ 20181127</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">24</td>
+	  <td nowrap class="tdData">QR000073-1-PRU117063	            </td>
+      <td align="center" nowrap class="tdData">000492036</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000073-1-PRU117063</td>--> 
+	  <td align="left" class="tdData">ANGELINO COCON CHAN</td>
+      <td align="center" class="tdData">782141200877</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">4D3BE89C-36F0-4941-8B99-5A8281F99FFF</td>
+
+      <td align="right" class="tdData">12,046.32</td> 
+	  <td align="center" class="tdData">8,100.00</td>
+	  <td align="center" class="tdData">3,402.00</td>
+	  <td align="center" class="tdData">544.32</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-11-13</td>
+  <td class="tdData" align="center">2018-11-13</td>
+  <td class="tdData" align="center">2018-11-23</td>
+   <td class="tdData" align="center">0</td>
+   <td class="tdData" align="center">11</td>
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-23</td>
+ <td align="center" class="tdData">
+ 20181123</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">25</td>
+	  <td nowrap class="tdData">QR000074-1-PRU117142	            </td>
+      <td align="center" nowrap class="tdData">000492096</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000074-1-PRU117142</td>--> 
+	  <td align="left" class="tdData">ANDRES RAYMUNDO ARANDA PEREZ</td>
+      <td align="center" class="tdData">782140701791</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">4AAC9BF6-5631-451A-A077-CDACB307AF91</td>
+
+      <td align="right" class="tdData">12,046.32</td> 
+	  <td align="center" class="tdData">8,100.00</td>
+	  <td align="center" class="tdData">3,402.00</td>
+	  <td align="center" class="tdData">544.32</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-11-15</td>
+  <td class="tdData" align="center">2018-11-16</td>
+  <td class="tdData" align="center">2018-11-27</td>
+   <td class="tdData" align="center">1</td>
+   <td class="tdData" align="center">11</td>
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-27</td>
+ <td align="center" class="tdData">
+ 20181127</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">26</td>
+	  <td nowrap class="tdData">QR000075-1-PRU117144	            </td>
+      <td align="center" nowrap class="tdData">000492142</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000075-1-PRU117144</td>--> 
+	  <td align="left" class="tdData">CARLOS ROMERO DOMINGUEZ</td>
+      <td align="center" class="tdData">783150806695</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">AFB0EDA4-5957-41F1-AE2A-601A545DFC6A</td>
+
+      <td align="right" class="tdData">12,046.32</td> 
+	  <td align="center" class="tdData">8,100.00</td>
+	  <td align="center" class="tdData">3,402.00</td>
+	  <td align="center" class="tdData">544.32</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-11-15</td>
+  <td class="tdData" align="center">2018-11-16</td>
+  <td class="tdData" align="center">2018-11-28</td>
+   <td class="tdData" align="center">1</td>
+   <td class="tdData" align="center">11</td>
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-28</td>
+ <td align="center" class="tdData">
+ 20181128</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">27</td>
+	  <td nowrap class="tdData">QR000078-1-PRU117183	            </td>
+      <td align="center" nowrap class="tdData">000492032</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000078-1-PRU117183</td>--> 
+	  <td align="left" class="tdData">XOCHITL IVONNE AUDELO JUAREZ</td>
+      <td align="center" class="tdData">783141109736</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">369DAEF3-2A22-44F6-8CD1-2C46BD098929</td>
+
+      <td align="right" class="tdData">12,046.32</td> 
+	  <td align="center" class="tdData">8,100.00</td>
+	  <td align="center" class="tdData">3,402.00</td>
+	  <td align="center" class="tdData">544.32</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-11-16</td>
+  <td class="tdData" align="center">2018-11-17</td>
+  <td class="tdData" align="center">2018-11-23</td>
+   <td class="tdData" align="center">1</td>
+   <td class="tdData" align="center">11</td>
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-23</td>
+ <td align="center" class="tdData">
+ 20181123</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">28</td>
+	  <td nowrap class="tdData">QR000081-1-PRU117230	            </td>
+      <td align="center" nowrap class="tdData">000492091</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">MARIO ALBERTO CANCHE PUC</td>
+	 <!--<td align="center" nowrap class="tdData">QR000081-1-PRU117230</td>--> 
+	  <td align="left" class="tdData">SERGIO  LOPEZ  ALFONSO</td>
+      <td align="center" class="tdData">783100604382</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">FE40E7A2-1D1D-4B38-919B-8587298892C0</td>
+
+      <td align="right" class="tdData">7,788.08</td> 
+	  <td align="center" class="tdData">6,700.00</td>
+	  <td align="center" class="tdData">938.00</td>
+	  <td align="center" class="tdData">150.08</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-11-19</td>
+  <td class="tdData" align="center">2018-11-19</td>
+  <td class="tdData" align="center">2018-11-27</td>
+   <td class="tdData" align="center">0</td>
+   <td class="tdData" align="center">9</td>
+   <td class="tdData" align="center">Acros</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-27</td>
+ <td align="center" class="tdData">
+ 20181127</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">29</td>
+	  <td nowrap class="tdData">YU000008-1-PRU115968	            </td>
+      <td align="center" nowrap class="tdData">000491110</td>
+	  <td align="left" class="tdData">Yucat&aacute;n</td>
+	  <td nowrap class="tdData">RODEKA DEL SURESTE S.A. DE C.V.</td>
+	 <!--<td align="center" nowrap class="tdData">YU000008-1-PRU115968</td>--> 
+	  <td align="left" class="tdData">FERNANDO ZARATE LUIS</td>
+      <td align="center" class="tdData">774960202924</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">3DDD67D1-2972-9441-ECB8-E953FADF2C5E</td>
+
+      <td align="right" class="tdData">16,825.92</td> 
+	  <td align="center" class="tdData">10,200.00</td>
+	  <td align="center" class="tdData">5,712.00</td>
+	  <td align="center" class="tdData">913.92</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-10-03</td>
+  <td class="tdData" align="center">2018-10-12</td>
+  <td class="tdData" align="center">2018-10-23</td>
+   <td class="tdData" align="center">9</td>
+   <td class="tdData" align="center">14</td>
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-10-23</td>
+ <td align="center" class="tdData">
+ 20181023</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">30</td>
+	  <td nowrap class="tdData">YU000012-1-PRU115970	            </td>
+      <td align="center" nowrap class="tdData">000491111</td>
+	  <td align="left" class="tdData">Yucat&aacute;n</td>
+	  <td nowrap class="tdData">RODEKA DEL SURESTE S.A. DE C.V.</td>
+	 <!--<td align="center" nowrap class="tdData">YU000012-1-PRU115970</td>--> 
+	  <td align="left" class="tdData">PABLO ANTONIO AGUILAR PEREZ</td>
+      <td align="center" class="tdData">773070703601</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">65969E0C-822F-66FC-3391-4978A886D5C2</td>
+
+      <td align="right" class="tdData">16,825.92</td> 
+	  <td align="center" class="tdData">10,200.00</td>
+	  <td align="center" class="tdData">5,712.00</td>
+	  <td align="center" class="tdData">913.92</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-10-05</td>
+  <td class="tdData" align="center">2018-10-12</td>
+  <td class="tdData" align="center">2018-10-23</td>
+   <td class="tdData" align="center">7</td>
+   <td class="tdData" align="center">14</td>
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-10-23</td>
+ <td align="center" class="tdData">
+ 20181023</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">31</td>
+	  <td nowrap class="tdData">YU000110-1-PRU116434	            </td>
+      <td align="center" nowrap class="tdData">000491633</td>
+	  <td align="left" class="tdData">Yucat&aacute;n</td>
+	  <td nowrap class="tdData">RODEKA DEL SURESTE S.A. DE C.V.</td>
+	 <!--<td align="center" nowrap class="tdData">YU000110-1-PRU116434</td>--> 
+	  <td align="left" class="tdData">ABRICEL DIAZ PAREDES</td>
+      <td align="center" class="tdData">773110400577</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">RF</td>	
+      <td align="center" class="tdData">2B793A3C-8BBC-004C-2D5C-7BE49B21E07A</td>
+
+      <td align="right" class="tdData">16,825.92</td> 
+	  <td align="center" class="tdData">10,200.00</td>
+	  <td align="center" class="tdData">5,712.00</td>
+	  <td align="center" class="tdData">913.92</td>
+      <td align="center" class="tdData">0.00</td>
+	  
+
+
+   <td class="tdData" align="center">2018-10-22</td>
+  <td class="tdData" align="center">2018-10-25</td>
+  <td class="tdData" align="center">2018-11-09</td>
+   <td class="tdData" align="center">3</td>
+   <td class="tdData" align="center">14</td>
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2018-11-09</td>
+ <td align="center" class="tdData">
+ 20181109</td>
+      
+   
+
+</tr>
+
+
+
+</table>
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+<div align="center" class="titulo">ESTADISTICA RF</div>
+<table width="99%" cellpadding="2" cellspacing="0" border="0" align="center">
+   <tr> 
+	  <td width="10" class="tdTituloData">&nbsp;</td>
+	  <td width="150" class="tdTituloData">&nbsp;</td>
+	  <td width="72" align="center" class="tdTituloData">Prestamo</td>
+	  <td width="68" align="center" class="tdTituloData">Capital</td>
+	  <td width="60" align="center" class="tdTituloData">Interes</td>
+	  <td width="57" align="center" class="tdTituloData">IVA</td>
+	  <td width="88" align="center" class="tdTituloData">Bonificaci&oacute;n</td>
+	  <td width="54" align="center" class="tdTituloData">Dias Atenci&oacute;n</td>
+	  <td width="66" align="center" class="tdTituloData">Capacidad</td>
+      	  <td width="71" align="center" class="tdTituloData"><span class="labelRp">Acros</span></td>
+	  	  <td width="71" align="center" class="tdTituloData"><span class="labelRp">Daewoo</span></td>
+	        
+      
+       <td width="94" align="center" class="tdTituloData">Total de Acciones</td>
+    </tr>
+    <tr> 
+	  <td align="right" class="tdData">1</td>
+	  <td class="tdData">TOTAL USUARIOS</td>
+	  <td align="right" nowrap class="tdData">$ 388,863.76</td>
+	  <td align="right" nowrap class="tdData">$ 260,480.08</td>
+	  <td align="right" nowrap class="tdData">$ 110,675.60</td>
+	  <td align="right" nowrap class="tdData">$ 17,708.10</td>
+	  <td align="right" class="tdData">$ 0.00</td>
+	  <td align="center" class="tdData">114</td>
+	  <td align="center" class="tdData">0</td>
+	  <!--td align="center" class="tdData">0</td-->
+	  <!--td align="center" class="tdData">0</td-->
+	  	  <td align="center" class="tdData1">13</td>
+	  	  <td align="center" class="tdData1">18</td>
+	  	 <td align="center" class="tdData2">31</td> 
+
+   </tr>
+    </table>
+    <br>
+<table width="99%" cellpadding="2" cellspacing="0" border="0" align="center">
+   <tr> 
+	  <td width="10" class="tdTituloData">&nbsp;</td>
+	  <td width="150" class="tdTituloData">&nbsp;</td>
+	  <td width="72" align="center" class="tdTituloData">Prestamo</td>
+	  <td width="68" align="center" class="tdTituloData">Capital</td>
+	  <td width="60" align="center" class="tdTituloData">Interes</td>
+	  <td width="57" align="center" class="tdTituloData">IVA</td>
+	  <td width="88" align="center" class="tdTituloData">Bonificaci&oacute;n</td>
+	  <td width="54" align="center" class="tdTituloData">Dias Atenci&oacute;n</td>
+	  <td width="66" align="center" class="tdTituloData">Capacidad</td>
+	  	  <td width="94" align="center" class="tdTituloData">Total de Acciones</td>
+
+   </tr>
+
+   <tr> 
+	  <td align="right" class="tdData">2</td>
+	  <td class="tdData">TOTAL EMPLEADOS</td>
+	  <td align="right" nowrap class="tdData">$ 0.00</td>
+	  <td align="right" nowrap class="tdData">$ 0.00</td>
+	  <td align="right" nowrap class="tdData">$ 0.00</td>
+	  <td align="right" nowrap class="tdData">$ 0.00</td>
+	  <td align="right" class="tdData">$ 0.00</td>
+	  <td align="center" class="tdData">0</td>
+	  <td align="center" class="tdData">0</td>
+	  <!--td align="center" class="tdData">0</td-->
+	  <!--td align="center" class="tdData">0</td-->
+	  	  <td align="center" class="tdData2">0</td> 
+	 
+   </tr>
+</table>
+<br>
+
+
+<table width="99%" cellpadding="2" cellspacing="0" border="0" align="center">
+   <tr> 
+	  <td width="10" class="tdTituloData">&nbsp;</td>
+	  <td width="150" class="tdTituloData">&nbsp;</td>
+	  <td width="72" align="center" class="tdTituloData">Prestamo</td>
+	  <td width="68" align="center" class="tdTituloData">Capital</td>
+	  <td width="60" align="center" class="tdTituloData">Interes</td>
+	  <td width="57" align="center" class="tdTituloData">IVA</td>
+	  <td width="88" align="center" class="tdTituloData">Bonificaci&oacute;n</td>
+	  <td width="54" align="center" class="tdTituloData">Dias Atenci&oacute;n</td>
+	  <td width="66" align="center" class="tdTituloData">Capacidad</td>
+	  <!--td width="40" align="center" class="tdTituloData">CFE</td--->
+	  <!--td width="60" align="center" class="tdTituloData">NAFIN</td-->
+	  	  <td width="71" align="center" class="tdTituloData"><span class="labelRp">Acros</span></td>	  <td width="71" align="center" class="tdTituloData"><span class="labelRp">Daewoo</span></td>	  <td width="94" align="center" class="tdTituloData">Total de Acciones</td>
+
+   </tr>
+   
+   <tr> 
+	  <td align="right" class="tdData">3</td>
+	  <td class="tdData">P R O M E D I O</td>
+	  <td align="right" nowrap class="tdData">$ 12,543.99</td>
+	  <td align="right" nowrap class="tdData">$ 8,402.58</td>
+	  <td align="right" nowrap class="tdData">$ 3,570.18</td>
+	  <td align="right" nowrap class="tdData">$ 571.23</td>
+	  <td align="right" class="tdData">$ 0.00</td>
+	  <td align="center" class="tdData">-</td>
+	  <td align="center" class="tdData">-</td>
+	  <!--td align="center" class="tdData">-</td-->
+	  <!--td align="center" class="tdData">-</td-->
+	  	  <td align="center" class="tdData1">-</td>
+	  	  <td align="center" class="tdData1">-</td>
+	  	  
+<td width="94" align="center" class="tdData2">1</td>
+	 
+   </tr>
+   <tr> 
+	  <td align="right" class="tdData">4</td>
+	  <td nowrap class="tdData">P O R C E N T A J E S</td>
+	  <td align="center" class="tdData">-</td>
+	  <td align="center" class="tdData">-</td>
+	  <td align="center" class="tdData">-</td>
+	  <td align="center" class="tdData">-</td>
+	  <td align="center" class="tdData">-</td>
+	  <td align="center" class="tdData">-</td>
+	  <td align="center" nowrap class="tdData">-</td>
+	  <!--td align="center" nowrap class="tdData"> 
+		 0.00		 % </td-->
+	  <!--td align="center" nowrap class="tdData">0.00%</td-->
+	  	  <td align="center" nowrap class="tdData1">41.94%</td>
+	  	  <td align="center" nowrap class="tdData1">58.06%</td>
+	  
+	  <td width="94" align="center" nowrap class="tdData2">100.00%</td>
+   </tr>
+</table>
+
+	
+
+ 
+ 
+ 
+ <table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+
+	
+
+ 
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+
+	
+
+
+
+
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+
+	
+
+
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+
+	
+
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+
+	
+
+ 	  
+
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+</body>
+</html>
+

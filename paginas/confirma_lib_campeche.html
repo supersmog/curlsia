@@ -1,0 +1,291 @@
+<html>
+<head>
+<title>Reporte Liberacion</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<link href="../liberacion.css" rel="stylesheet" type="text/css">
+<link href="../../css/main.css" rel="stylesheet" type="text/css">
+<link href="calendar.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="calendarcode.js"></script>
+<script src="../../CodeAjaxCombo.js" language="javascript" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript">
+	function busqueda(act)
+	{
+		if ( act == 7 || act == 2)
+		{
+			if (document.replibT.zona1.value!=-1)
+			 {
+			 	if(document.replibT.zona1.value==0)
+				{
+					location.href = "reporteAfectadas.php?generar=1&zona1="+document.replibT.zona1.value+"&fechaInicial="+document.replibT.fechaInicial.value+"&fechaFinal="+document.replibT.fechaFinal.value+"&programa="+document.replibT.programa.value;
+				}
+				else
+				{
+			 		location.href = "reporteAfectadas.php?generar=1&zona1="+document.replibT.zona1.value+"&fechaInicial="+document.replibT.fechaInicial.value+"&fechaFinal="+document.replibT.fechaFinal.value+"&distribuidor="+document.replibT.distribuidor.value+"&programa="+document.replibT.programa.value;
+				}
+			 }
+			else
+			 {
+			 	location.href = "reporteAfectadas.php?error=1";
+			 }
+		}
+		else
+		{
+			location.href = "reporteAfectadas.php?generar=1&zona1="+document.replibT.zona1.value+"&fechaInicial="+document.replibT.fechaInicial.value+"&fechaFinal="+document.replibT.fechaFinal.value+"&distribuidor="+document.replibT.distribuidor.value+"&programa="+document.replibT.programa.value;
+		}	
+	}
+</script>
+</head>
+<body>
+<form name="replibT" action="liberaciones.php"  class="tablemain" method="post">
+   <table width="95%" cellpadding="0" cellspacing="0" border="0" align="center">	
+		<tr><td height="15"></td></tr>
+        <tr>
+        	<td colspan="10">
+                    <table bgcolor="#C9DCFC" width="40%" align="center" border="1" bordercolor="#000000" bordercolordark="#000000" bordercolorlight="#000000">
+                        <tr>
+                            <td>
+                                <table width="100%">
+                                    <tr>
+                                        <td colspan="4" class="titulin" align="center" valign="middle">
+                                            <b>REPORTE AFECTADAS</b>                                        
+                                        </td>                                                	
+                                    </tr>
+                                     
+                                    												<input type="hidden" name="zona1" id="zona1" value="04">
+                                                                            	<tr>
+                                        	<td colspan="4">
+                                                <div id="divDist">
+                                                	<table width="100%" border="0">
+                                                        <tr height="36" valign="middle">
+                                                            <td width="21%" align="left">
+                                                                &nbsp;Distribuidor:&nbsp;
+                                                            </td>
+                                                            <td align="left" colspan="3">
+                                                                &nbsp;<select name="distribuidor" id="distribuidor" class="optionTag1">
+                                                                    <option value="0">-Todos</option>
+                                                                                                                                            <option class="optionTag1" value="393" >
+                                                                            MUEBLERIA QUITERIO 							
+                                                                        </option>                                                                        <option class="optionTag1" value="394" >
+                                                                            COLCHONES Y MUEBLES DE CAMPECHE S.A. DE C.V.							
+                                                                        </option>                                                                        <option class="optionTag1" value="395" >
+                                                                            COMERCIALIZADORA SYSTEL 							
+                                                                        </option>                                                                        <option class="optionTag1" value="404" >
+                                                                            KASSA NUEVA							
+                                                                        </option>                                                                </select>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                                                          <tr height="25" valign="top">
+										<td align="left" width="10%">
+                                            &nbsp;Fecha Inicial:&nbsp;
+                                        </td>
+                                        <td width="13%"> 
+                                            <a href="javascript:" style="text-decoration:none;" onClick="showCalendar( 'replibT' , 'fechaInicial' , 'fecInicialBtn' );">  
+                                                <input type="text" name="fechaInicial" id="fechaInicial" size="12" readonly class="optionTag1" style="cursor:hand;" value="2018-09-01">
+                                                <img id="fecInicialBtn" src="images/calendarSheetBtn.gif" align="top" border="0"> 
+                                            </a> 
+                                        </td>
+                                        <td height="25" align="right" width="8%">
+                                            &nbsp;Fecha Final:&nbsp;
+                                        </td>
+                                        <td width="13%" align="left" valign="top"> 
+                                            <a href="javascript:" style="text-decoration:none;" onClick="showCalendar( 'replibT' , 'fechaFinal' , 'fecFinalBtn' );">  
+                                                <input type="text" name="fechaFinal" id="fechaFinal" size="12" readonly class="optionTag1" style="cursor:hand;" value="2018-11-30">
+                                                <img id="fecFinalBtn" src="images/calendarSheetBtn.gif" align="top" border="0"> 
+                                            </a> 
+                                        </td>
+                                    </tr>
+                                    <tr height="26" valign="top">
+                                    	<td align="left">
+                                        	&nbsp;Programa:&nbsp;
+                                        </td>
+                                        <td align="left" colspan="3">
+                                        	<select name="programa" id="programa" class="optionTag1">
+                                               <option value="0">- Todos -</option>
+                                               <option value="1" >AA</option>
+                                               <option value="2" >AT</option>
+                                               <option value="3" >RF</option>
+                                           </select>
+                                        </td>
+                                    </tr>
+                                    <tr height="25">
+                                    	<td colspan="4" align="center" valign="middle" class="titulin">
+										  <input type="button" name="aceptar" value="  Buscar  " onClick="busqueda(12)">
+                                        </td>
+                                    </tr>
+                                </table>                            
+                            </td>
+                        </tr>
+                    </table>                        
+                </div>            
+            </td>
+        </tr>
+		<tr height="30" valign="bottom">
+			            	<td width="30%">&nbsp;</td>
+				<td width="20%" align="left">
+			       <a href="#" onClick="window.open('reporteAfectadasPrint.php?fechaInicial=2018-09-01&fechaFinal=2018-11-30&zona1=04&distribuidor=0&programa=0','Window1',
+'width=1024,height=800,scrollbars=1');" title="Imprimir">
+				     <img src="../../images/print.png" style="border: none">					  
+                   </a>					
+                </td>
+				<td class="tinyLabel" align="right">
+				   <a href="reporteAfectadasExcel.php?fechaInicial=2018-09-01&fechaFinal=2018-11-30&zona1=04&distribuidor=0&programa=0" title="Formato Excel">	
+				      <img src="../../images/excel.png" style="border: none" >						
+                   </a>					
+                </td>
+                <td width="30%">&nbsp;</td>
+            		</tr>
+		<tr><td height="5"></td></tr>
+				<tr>
+			<td colspan="10">
+										<table width="100%" cellpadding="2" cellspacing="0" border="0" class="listaReporte">
+							<thead>
+								<tr>
+									<th height="38" class="izquierdo" scope="col">&nbsp;</th>
+									<th scope="col" style="text-align:center">Usuario</th>
+									<th scope="col" style="text-align:center">Solicitud</th>
+									<th scope="col" style="text-align:center">Presupuesto</th>
+									<th scope="col" style="text-align:center">Sol. P.A.</th>
+									<th scope="col" style="text-align:center">Producto</th>
+									<th scope="col" style="text-align:center">Distribuidor</th>
+									<th scope="col" style="text-align:center">Financiamiento</th>
+									<th scope="col" style="text-align:center">Salvamento</th>
+									<th scope="col" style="text-align:center">Liberaci&oacute;n</th>
+                                    <th scope="col" style="text-align:center"># Emp.</th>
+									<th scope="col" style="text-align:center">Registro</th>
+									<th scope="col" style="text-align:center"># Boleta</th>
+									<th scope="col" style="text-align:center">C. Acopio</th>
+									<th scope="col" style="text-align:center">Tipo Sup.</th>
+									<th scope="col" style="text-align:center">ConsultaSICOM</th>
+                                    <th scope="col" style="text-align:center">AfectaSICOM</th>
+                                    <th scope="col" style="text-align:center">Observaci&oacute;n</th>
+									<th scope="col" class="derecho">&nbsp;</th>
+								</tr>
+							</thead>
+							<tbody>
+																		<tr>
+												<td class="bordeIzquierdo">&nbsp;</td>
+												<td class="tdData">789150200591</td>
+												<td class="tdData" align="center">CM000008-1</td>
+												<td class="tdData" align="center">RU116235</td>
+												<td class="tdData" align="center">000491106</td>
+												<td class="tdData" align="center">RF</td>
+												<td class="tdData" align="center">MUEBLERIA QUITERIO </td>
+												<td class="tdData" align="right">$13921.00</td>
+												<td class="tdData" align="right">$0</td>
+												<td class="tdData" align="center">2018-10-23</td>
+												<td class="tdData" align="center">CM027</td>
+												<td class="tdData" align="center">2018-10-15</td>
+												<td class="tdData" align="center">GM-00000004-R</td>
+												<td class="tdData" align="left">Grupo Metaplast</td>
+												<td class="tdData" align="center">Telefonica</td>
+												<td class="tdData" align="center">A5</td>
+												<td class="tdData" align="center">00</td>
+												<td class="tdData" align="center">Afectado</td>
+												<td class="bordeDerecho">&nbsp;</td>
+											</tr>
+								  											<tr>
+												<td class="bordeIzquierdo">&nbsp;</td>
+												<td class="alterno">789110801401</td>
+												<td class="alterno" align="center">CM000004-2</td>
+												<td class="alterno" align="center">RU115720</td>
+												<td class="alterno" align="center">000491150</td>
+												<td class="alterno" align="center">RF</td>
+												<td class="alterno" align="center">MUEBLERIA QUITERIO </td>
+												<td class="alterno" align="right">$13921.00</td>
+												<td class="alterno" align="right">$0</td>
+												<td class="alterno" align="center">2018-10-24</td>
+												<td class="alterno" align="center">CM027</td>
+												<td class="alterno" align="center">2018-10-04</td>
+												<td class="alterno" align="center">GM-00000001-R</td>
+												<td class="alterno" align="left">Grupo Metaplast</td>
+												<td class="alterno" align="center">Fisica</td>
+												<td class="alterno" align="center">A5</td>
+												<td class="alterno" align="center">00</td>
+												<td class="alterno" align="center">Afectado</td>
+												<td class="bordeDerecho">&nbsp;</td>
+											</tr>
+								  											<tr>
+												<td class="bordeIzquierdo">&nbsp;</td>
+												<td class="tdData">789080703841</td>
+												<td class="tdData" align="center">CM000009-1</td>
+												<td class="tdData" align="center">RU116221</td>
+												<td class="tdData" align="center">000491267</td>
+												<td class="tdData" align="center">RF</td>
+												<td class="tdData" align="center">MUEBLERIA QUITERIO </td>
+												<td class="tdData" align="right">$13921.00</td>
+												<td class="tdData" align="right">$0</td>
+												<td class="tdData" align="center">2018-10-29</td>
+												<td class="tdData" align="center">CM027</td>
+												<td class="tdData" align="center">2018-10-16</td>
+												<td class="tdData" align="center">GM-00000003-R</td>
+												<td class="tdData" align="left">Grupo Metaplast</td>
+												<td class="tdData" align="center">Telefonica</td>
+												<td class="tdData" align="center">A5</td>
+												<td class="tdData" align="center">00</td>
+												<td class="tdData" align="center">Afectado</td>
+												<td class="bordeDerecho">&nbsp;</td>
+											</tr>
+								  											<tr>
+												<td class="bordeIzquierdo">&nbsp;</td>
+												<td class="alterno">789981108241</td>
+												<td class="alterno" align="center">CM000011-1</td>
+												<td class="alterno" align="center">RU116242</td>
+												<td class="alterno" align="center">000491268</td>
+												<td class="alterno" align="center">RF</td>
+												<td class="alterno" align="center">MUEBLERIA QUITERIO </td>
+												<td class="alterno" align="right">$13921.00</td>
+												<td class="alterno" align="right">$0</td>
+												<td class="alterno" align="center">2018-10-29</td>
+												<td class="alterno" align="center">CM027</td>
+												<td class="alterno" align="center">2018-10-16</td>
+												<td class="alterno" align="center">GM-00000002-R</td>
+												<td class="alterno" align="left">Grupo Metaplast</td>
+												<td class="alterno" align="center">Telefonica</td>
+												<td class="alterno" align="center">A5</td>
+												<td class="alterno" align="center">00</td>
+												<td class="alterno" align="center">Afectado</td>
+												<td class="bordeDerecho">&nbsp;</td>
+											</tr>
+								  											<tr>
+												<td class="bordeIzquierdo">&nbsp;</td>
+												<td class="tdData">789980400843</td>
+												<td class="tdData" align="center">CM000002-3</td>
+												<td class="tdData" align="center">RU116233</td>
+												<td class="tdData" align="center">000491526</td>
+												<td class="tdData" align="center">RF</td>
+												<td class="tdData" align="center">MUEBLERIA QUITERIO </td>
+												<td class="tdData" align="right">$13921.00</td>
+												<td class="tdData" align="right">$0</td>
+												<td class="tdData" align="center">2018-11-06</td>
+												<td class="tdData" align="center">CM027</td>
+												<td class="tdData" align="center">2018-10-16</td>
+												<td class="tdData" align="center">GM-00000005-R</td>
+												<td class="tdData" align="left">Grupo Metaplast</td>
+												<td class="tdData" align="center">Fisica</td>
+												<td class="tdData" align="center">A5</td>
+												<td class="tdData" align="center">00</td>
+												<td class="tdData" align="center">Afectado</td>
+												<td class="bordeDerecho">&nbsp;</td>
+											</tr>
+								  								</tbody>
+								<tfoot>
+									<tr>
+                                            <td class="abajoIzquierdo">&nbsp;</td>
+                                            <td align="center" colspan="17" valign="bottom" class="p">
+                                                                                        </td>
+                                      <td class="abajoDerecho" height="18">&nbsp;</td>
+                                        </tr>
+								</tfoot>
+						</table>
+	    			</td>
+		</tr>
+	</table>
+</form>
+<div id="popupcalendar" class="text"></div>
+</body>
+</html>
