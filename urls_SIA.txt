@@ -78,6 +78,13 @@ liberaciones mensuales
 http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesExcel.php?mes=10&anio=2018&tipounidad=0&zona=yu
 
 
+liberaciones descarga PA ¿¿?????
+
+http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=YU  //Yucatan
+http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=QR  //Cancun
+http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=CM  //Campeche
+
+
 
 Impresion de contratos
 
