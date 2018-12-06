@@ -233,7 +233,7 @@ function analiza_archivo_presupuesto_aa($file)
      $capacidad_retirar=$aDataTableHeaderHTML[45];
      $modelo_retirar=$aDataTableHeaderHTML[46];
      $solicitud=$aDataTableHeaderHTML[49];
-     $instalacion=$aDataTableHeaderHTML[53];
+     $instalacion=substr($aDataTableHeaderHTML[53],18,8);
      $precio_sin_iva=$aDataTableHeaderHTML[60];
      $iva=ltrim($aDataTableHeaderHTML[63]);
      $preciofinal=$aDataTableHeaderHTML[72];
@@ -243,34 +243,57 @@ function analiza_archivo_presupuesto_aa($file)
      $financiado=$aDataTableHeaderHTML[87];
      $amortizacion=$aDataTableHeaderHTML[90];
      $num_pagos=substr($aDataTableHeaderHTML[88],0,2);
+     $sp="AA";
+     $activo=1;
+     $sql="INSERT INTO
+     presupuestos (fecha,nombre,rpu,num_presupuesto,telefono,marca_ins,modelo_ins,capacidad_ins,
+       marca_ret,modelo_ret,capacidad_ret,solicitud,instalacion,precio_sin_iva,iva_equipo,monto_financiar,
+       excedente,interes,iva_interes,total_financiamiento,amortizacion,pagos,subprograma,activo)
+     VALUES (
+       '$fecha_presupuesto', '$nombre_cliente','$rpu','$presupuesto','$telefono','$marca_instalar',
+       '$modelo_instalar','$capacidad_instalar','$marca_retirar','$modelo_retirar','$capacidad_retirar',
+       '$solicitud','$instalacion','$precio_sin_iva','$iva','$monto_financiar','$excedente','$interes',
+       '$iva_interes','$financiado','$amortizacion','$num_pagos','$sp','$activo'
+     )";
+         $resp=$cliente->insertar($sql);
+         if($resp)
+         {
+             echo "Se guardo correctamente";
+         }
+         else{
+             echo "No se pudo guardar";
+         }
+     echo $sql;
 
 
 
 
      
-     echo $fecha_presupuesto."\n";
-     echo $nombre_cliente."\n";
-     echo $rpu."\n";
-     echo $presupuesto."\n";
-     echo $telefono."\n";
-     echo $marca_instalar."\n";
-     echo $modelo_instalar."\n";
-     echo $capacidad_instalar."\n";
-     echo $marca_retirar."\n";
-     echo $modelo_retirar."\n";
-     echo $capacidad_retirar."\n";
-     echo $solicitud."\n";
-     echo $precio_sin_iva."\n";
-     echo $iva."\n";
-     echo substr($instalacion,19,7)."\n";
-     echo $monto_financiar."\n";
-     echo $excedente."\n";
-     echo $preciofinal."\n";
-     echo $interes."\n";
-     echo $iva_interes."\n"; //23
-     echo $financiado."\n";  //26
-     echo $amortizacion."\n"; //23
-     echo $num_pagos."\n";
+     //echo $fecha_presupuesto."\n";
+     //echo $nombre_cliente."\n";
+     //echo $rpu."\n";
+     //echo $presupuesto."\n";
+     //echo $telefono."\n";
+     //echo $marca_instalar."\n";
+     //echo $modelo_instalar."\n";
+     //echo $capacidad_instalar."\n";
+     //echo $marca_retirar."\n";
+     //echo $modelo_retirar."\n";
+     //echo $capacidad_retirar."\n";
+     //echo $solicitud."\n";
+     //echo $precio_sin_iva."\n";
+     //echo $iva."\n";
+     //echo substr($instalacion,19,7)."\n";
+     //echo $monto_financiar."\n";
+     //echo $excedente."\n";
+     //echo $preciofinal."\n";
+     //echo $interes."\n";
+     //echo $iva_interes."\n"; //23
+     //echo $financiado."\n";  //26
+     //echo $amortizacion."\n"; //23
+     //echo $num_pagos."\n";
+
+
 }
 function analiza_archivo_presupuesto_aa_lib($file)
 {
@@ -306,7 +329,7 @@ function analiza_archivo_presupuesto_aa_lib($file)
      $capacidad_retirar=$aDataTableHeaderHTML[46];
      $modelo_retirar=$aDataTableHeaderHTML[47];
      $solicitud=$aDataTableHeaderHTML[50];
-     $instalacion=$aDataTableHeaderHTML[54];
+     $instalacion=substr($aDataTableHeaderHTML[54],18,8);
      $precio_sin_iva=$aDataTableHeaderHTML[61];
      $iva=ltrim($aDataTableHeaderHTML[64]);
      $preciofinal=$aDataTableHeaderHTML[73];
@@ -317,38 +340,56 @@ function analiza_archivo_presupuesto_aa_lib($file)
      $amortizacion=$aDataTableHeaderHTML[91];
      $num_pagos=substr($aDataTableHeaderHTML[89],0,2);
 
-
-
-
-     
-     echo $fecha_presupuesto."\n";
-     echo $nombre_cliente."\n";
-     echo $rpu."\n";
-     echo $presupuesto."\n";
-     echo $telefono."\n";
-     echo $marca_instalar."\n";
-     echo $modelo_instalar."\n";
-     echo $capacidad_instalar."\n";
-     echo $marca_retirar."\n";
-     echo $modelo_retirar."\n";
-     echo $capacidad_retirar."\n";
-     echo $solicitud."\n";
-     echo $precio_sin_iva."\n";
-     echo $iva."\n";
-     echo substr($instalacion,19,7)."\n";
-     echo $monto_financiar."\n";
-     echo $excedente."\n";
-     echo $preciofinal."\n";
-     echo $interes."\n";
-     echo $iva_interes."\n"; //23
-     echo $financiado."\n";  //26
-     echo $amortizacion."\n"; //23
-     echo $num_pagos."\n";
+   
+     //echo $fecha_presupuesto."\n";
+     //echo $nombre_cliente."\n";
+     //echo $rpu."\n";
+     //echo $presupuesto."\n";
+     //echo $telefono."\n";
+     //echo $marca_instalar."\n";
+     //echo $modelo_instalar."\n";
+     //echo $capacidad_instalar."\n";
+     //echo $marca_retirar."\n";
+     //echo $modelo_retirar."\n";
+     //echo $capacidad_retirar."\n";
+     //echo $solicitud."\n";
+     //echo $precio_sin_iva."\n";
+     //echo $iva."\n";
+     //echo substr($instalacion,19,7)."\n";
+     //echo $monto_financiar."\n";
+     //echo $excedente."\n";
+     //echo $preciofinal."\n";
+     //echo $interes."\n";
+     //echo $iva_interes."\n"; //23
+     //echo $financiado."\n";  //26
+     //echo $amortizacion."\n"; //23
+     //echo $num_pagos."\n";
+     $sp="AA";
+     $activo=1;
+     $sql="INSERT INTO
+     presupuestos (fecha,nombre,rpu,num_presupuesto,telefono,marca_ins,modelo_ins,capacidad_ins,
+       marca_ret,modelo_ret,capacidad_ret,solicitud,instalacion,precio_sin_iva,iva_equipo,monto_financiar,
+       excedente,interes,iva_interes,total_financiamiento,amortizacion,pagos,subprograma,activo)
+     VALUES (
+       '$fecha_presupuesto', '$nombre_cliente','$rpu','$presupuesto','$telefono','$marca_instalar',
+       '$modelo_instalar','$capacidad_instalar','$marca_retirar','$modelo_retirar','$capacidad_retirar',
+       '$solicitud','$instalacion','$precio_sin_iva','$iva','$monto_financiar','$excedente','$interes',
+       '$iva_interes','$financiado','$amortizacion','$num_pagos','$sp','$activo'
+     )";
+        $resp=$cliente->insertar($sql);
+        if($resp)
+        {
+            echo "Se guardo correctamente";
+        }
+        else{
+            echo "No se pudo guardar";
+        }
+echo $sql;
 }
 function cargas_presupuestos()
 {
     $consulta=new cliente();
-    $sql="select solicitud,subprograma,rpu  from colocadas_sia where id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI')";
+    $sql="select solicitud,subprograma,rpu  from colocadas_sia where id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI') and subprograma='AA'";
     $solicitud=$consulta->listado($sql);
     foreach($solicitud as $row){
         // Si es solicitud de RF
@@ -373,7 +414,7 @@ function cargas_presupuestos()
     
     }
 
-    $sql="select solicitud,subprograma,rpu  from colocadas_sia where id_estatus in ('LIB')";
+    $sql="select solicitud,subprograma,rpu  from colocadas_sia where id_estatus in ('LSC')and subprograma='AA'";
     $solicitud=$consulta->listado($sql);
     foreach($solicitud as $row){
         // Si es solicitud de RF
@@ -398,9 +439,11 @@ function cargas_presupuestos()
     
     }
 }
-analiza_archivo_presupuesto_aa_lib("presupuestos/QR000071-2.html");
+//analiza_archivo_presupuesto_aa_lib("presupuestos/QR000071-2.html");
+//analiza_archivo_presupuesto_aa("presupuestos/YU000111-1.html");
 //analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
 //analiza_archivo_colocadas("paginas/colocadas_octubre.html");
 //analiza_archivo_colocadas("paginas/colocadas_noviembre.html");
 //analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
+cargas_presupuestos();
 ?>

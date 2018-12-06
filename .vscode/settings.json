@@ -13,12 +13,12 @@
               "dialect": "MySQL"
           },
           {
-            "name": "MySQL CFE",
-            "server": "10.0.0.115",
+            "name": "MySQL local",
+            "server": "127.0.0.1",
             "port": 3306,
-            "database": "cfe",
+            "database": "yucatan",
             "username": "root",
-            "password": "soloasi",
+            "password": "isab0106",
             "dialect": "MySQL"
         },
           // example for MSSQL
