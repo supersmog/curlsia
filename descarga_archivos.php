@@ -71,43 +71,43 @@ descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/sia
 /** Descargar liberaciones de diversos reportes */
 
 /**Liberaciones reporte contabilidad */
-descarga_archivo_condata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberaciones_Conta.php","Cual=-1&idCoordinacion=-1&idDistribuidor=-1&pdto=3&orderby=1&fechaInicial=2018-09-01&model=1&xml=0&fechaFinal=2018-11-30","paginas/liberacionesconta.html");
-
-/**Liberaciones reporte tecnico */
-
-descarga_archivo_condata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberaciones2.php","Cual=&idCoordinacion=-1&equipo=-1&idDistribuidor=-1&pdto=3&orderby=1&fechaLib=2018-09-01&model=1&xml=1&fechaInicial=2018-09-01&fechaFinal=2018-11-30&dAtencion=1","paginas/liberaciones_tec.html");
-
-/** reporte confirmacion de liberaciones  */
-
-//Yucatan
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=01&fechaInicial=2018-09-01&fechaFinal=2018-11-30&distribuidor=0&programa=0","paginas/confirma_lib_yucatan.html");
-//Campeche
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=04&fechaInicial=2018-09-01&fechaFinal=2018-11-30&distribuidor=0&programa=0","paginas/confirma_lib_campeche.html");
-//Quintana Roo/
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=12&fechaInicial=2018-09-01&fechaFinal=2018-11-30&distribuidor=0&programa=0","paginas/confirma_lib_quintanaroo.html");
-
-/** Reporte de liberaciones simple */
-
-// Yucatan
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberacion.php?generar=1&zona1=01&fechaInicial=2018-09-01&fechaFinal=2018-11-30","paginas/liberaciones_simple_yucatan.html");
-
-//Campeche
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberacion.php?generar=1&zona1=04&fechaInicial=2018-09-01&fechaFinal=2018-11-30","paginas/liberaciones_simple_campeche.html");
-
-//Quintana Roo
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberacion.php?generar=1&zona1=12&fechaInicial=2018-09-01&fechaFinal=2018-11-30","paginas/liberaciones_simple_quintanaroo.html");
-
-
-/** Reporte de liberaciones descarga PA ¿¿¿??? */
-
-//Yucatan
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=YU","paginas/liberaciones_pa_yucatan.html");
-
-//Campeche
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=QR","paginas/liberaciones_pa_campeche.html");
-
-//Quintana Roo
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=QR","paginas/liberaciones_pa_quintanaroo.html");
+//descarga_archivo_condata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberaciones_Conta.php","Cual=-1&idCoordinacion=-1&idDistribuidor=-1&pdto=3&orderby=1&fechaInicial=2018-09-01&model=1&xml=0&fechaFinal=2018-11-30","paginas/liberacionesconta.html");
+//
+///**Liberaciones reporte tecnico */
+//
+//descarga_archivo_condata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberaciones2.php","Cual=&idCoordinacion=-1&equipo=-1&idDistribuidor=-1&pdto=3&orderby=1&fechaLib=2018-09-01&model=1&xml=1&fechaInicial=2018-09-01&fechaFinal=2018-11-30&dAtencion=1","paginas/liberaciones_tec.html");
+//
+///** reporte confirmacion de liberaciones  */
+//
+////Yucatan
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=01&fechaInicial=2018-09-01&fechaFinal=2018-11-30&distribuidor=0&programa=0","paginas/confirma_lib_yucatan.html");
+////Campeche
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=04&fechaInicial=2018-09-01&fechaFinal=2018-11-30&distribuidor=0&programa=0","paginas/confirma_lib_campeche.html");
+////Quintana Roo/
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=12&fechaInicial=2018-09-01&fechaFinal=2018-11-30&distribuidor=0&programa=0","paginas/confirma_lib_quintanaroo.html");
+//
+///** Reporte de liberaciones simple */
+//
+//// Yucatan
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberacion.php?generar=1&zona1=01&fechaInicial=2018-09-01&fechaFinal=2018-11-30","paginas/liberaciones_simple_yucatan.html");
+//
+////Campeche
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberacion.php?generar=1&zona1=04&fechaInicial=2018-09-01&fechaFinal=2018-11-30","paginas/liberaciones_simple_campeche.html");
+//
+////Quintana Roo
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberacion.php?generar=1&zona1=12&fechaInicial=2018-09-01&fechaFinal=2018-11-30","paginas/liberaciones_simple_quintanaroo.html");
+//
+//
+///** Reporte de liberaciones descarga PA ¿¿¿??? */
+//
+////Yucatan
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=YU","paginas/liberaciones_pa_yucatan.html");
+//
+////Campeche
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=QR","paginas/liberaciones_pa_campeche.html");
+//
+////Quintana Roo
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=QR","paginas/liberaciones_pa_quintanaroo.html");
 
 descarga_presupuestos();
 ?>

@@ -1,4 +1,6 @@
 [Dolphin]
-Timestamp=2018,12,4,9,16,11
+HeaderColumnWidths=578,72,103
+SortRole=modificationtime
+Timestamp=2018,12,6,16,32,3
 Version=4
 ViewMode=1

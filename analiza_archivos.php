@@ -315,6 +315,7 @@ function analiza_archivo_presupuesto_aa($file)
      $num_pagos=substr($aDataTableHeaderHTML[88],0,2);
      $sp="AA";
      $activo=1;
+     $solicitud=substr($presupuesto,0,10);
      $sql="INSERT INTO
      presupuestos (fecha,nombre,rpu,num_presupuesto,telefono,marca_ins,modelo_ins,capacidad_ins,
        marca_ret,modelo_ret,capacidad_ret,solicitud,instalacion,precio_sin_iva,iva_equipo,monto_financiar,
@@ -430,6 +431,7 @@ function analiza_archivo_presupuesto_aa_lib($file)
      //echo $num_pagos."\n";
      $sp="AA";
      $activo=1;
+     $solicitud=substr($presupuesto,0,10);
      $sql="INSERT INTO
      presupuestos (fecha,nombre,rpu,num_presupuesto,telefono,marca_ins,modelo_ins,capacidad_ins,
        marca_ret,modelo_ret,capacidad_ret,solicitud,instalacion,precio_sin_iva,iva_equipo,monto_financiar,
@@ -453,55 +455,79 @@ echo $sql;
 function cargas_presupuestos()
 {
     $consulta=new cliente();
-    $sql="select solicitud,subprograma,rpu  from colocadas_sia where id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI')";
+    //$sql="select solicitud,subprograma,rpu  from colocadas_sia where id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI')";
+    $sql="select afectan_presupuesto.solicitud,afectan_presupuesto.subprograma,afectan_presupuesto.rpu,
+    presupuestos.solicitud as credito,afectan_presupuesto.id_estatus
+     from afectan_presupuesto left join
+    presupuestos on afectan_presupuesto.solicitud=presupuestos.solicitud
+    and afectan_presupuesto.id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI','LSC')";
     $solicitud=$consulta->listado($sql);
     foreach($solicitud as $row){
         // Si es solicitud de RF
    
         $archivo="presupuestos/".$row['solicitud'].".html";
-       
-        switch($row['subprograma']){
-            case 'RF': 
-            {
-                analiza_archivo_presupuesto_rf($archivo);
-             
-                break;
+       if($row['credito']=="" and $row['id_estatus']<>'LSC')
+       {
+            switch($row['subprograma']){
+                case 'RF': 
+                {
+                    analiza_archivo_presupuesto_rf($archivo);
+                 
+                    break;
+                }
+                case 'AA':
+                {
+                    analiza_archivo_presupuesto_aa($archivo);
+                    break;
+                }
+    
             }
-            case 'AA':
-            {
-                analiza_archivo_presupuesto_aa($archivo);
-                break;
-            }
-
         }
+        else
+        {
+            switch($row['subprograma']){
+                case 'RF': 
+                {
+                    analiza_archivo_presupuesto_rf_lib($archivo);
+                 
+                    break;
+                }
+                case 'AA':
+                {
+                    analiza_archivo_presupuesto_aa_lib($archivo);
+                    break;
+                }
+    
+            }
+        }    
      
     
     }
 
-    $sql="select solicitud,subprograma,rpu  from colocadas_sia where id_estatus in ('LSC')";
-    $solicitud=$consulta->listado($sql);
-    foreach($solicitud as $row){
-        // Si es solicitud de RF
-   
-        $archivo="presupuestos/".$row['solicitud'].".html";
-       
-        switch($row['subprograma']){
-            case 'RF': 
-            {
-                analiza_archivo_presupuesto_rf_lib($archivo);
-             
-                break;
-            }
-            case 'AA':
-            {
-                analiza_archivo_presupuesto_aa_lib($archivo);
-                break;
-            }
-
-        }
-     
-    
-    }
+   // $sql="select solicitud,subprograma,rpu  from colocadas_sia where id_estatus in ('LSC')";
+   // $solicitud=$consulta->listado($sql);
+   // foreach($solicitud as $row){
+   //     // Si es solicitud de RF
+   //
+   //     $archivo="presupuestos/".$row['solicitud'].".html";
+   //    
+   //     switch($row['subprograma']){
+   //         case 'RF': 
+   //         {
+   //             analiza_archivo_presupuesto_rf_lib($archivo);
+   //          
+   //             break;
+   //         }
+   //         case 'AA':
+   //         {
+   //             analiza_archivo_presupuesto_aa_lib($archivo);
+   //             break;
+   //         }
+//
+   //     }
+   //  
+   // 
+   // }
 }
 //analiza_archivo_presupuesto_aa_lib("presupuestos/QR000071-2.html");
 //analiza_archivo_presupuesto_aa("presupuestos/YU000111-1.html");
