@@ -529,6 +529,16 @@ function cargas_presupuestos()
    // 
    // }
 }
+function actualiza_afectan_presupuesto()
+{
+    $solicitudes=new cliente();
+    $sql="select colocadas_sia.solicitud,colocadas_sia.subprograma,colocadas_sia.rpu, 
+    presupuestos.solicitud  from colocadas_sia,presupuestos 
+    where  colocadas_sia.solicitud=presupuestos.solicitud and colocadas_sia.id_estatus not in ('INE','IMP','PIN','PEX','REX','PSU','PLI','lsc')";
+    $listado=$solicitudes->listado
+
+}
+
 //analiza_archivo_presupuesto_aa_lib("presupuestos/QR000071-2.html");
 //analiza_archivo_presupuesto_aa("presupuestos/YU000111-1.html");
 //analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
