@@ -1,6 +1,7 @@
 <?php
 
 require("cliente.php");
+//require("descarga_archivos.php");
 
 function obtiene_fecha($fecha)
 {
@@ -504,40 +505,23 @@ function cargas_presupuestos()
     
     }
 
-   // $sql="select solicitud,subprograma,rpu  from colocadas_sia where id_estatus in ('LSC')";
-   // $solicitud=$consulta->listado($sql);
-   // foreach($solicitud as $row){
-   //     // Si es solicitud de RF
-   //
-   //     $archivo="presupuestos/".$row['solicitud'].".html";
-   //    
-   //     switch($row['subprograma']){
-   //         case 'RF': 
-   //         {
-   //             analiza_archivo_presupuesto_rf_lib($archivo);
-   //          
-   //             break;
-   //         }
-   //         case 'AA':
-   //         {
-   //             analiza_archivo_presupuesto_aa_lib($archivo);
-   //             break;
-   //         }
-//
-   //     }
-   //  
-   // 
-   // }
 }
 function actualiza_afectan_presupuesto()
 {
     $solicitudes=new cliente();
-    $sql="select colocadas_sia.solicitud,colocadas_sia.subprograma,colocadas_sia.rpu, 
-    presupuestos.solicitud  from colocadas_sia,presupuestos 
-    where  colocadas_sia.solicitud=presupuestos.solicitud and colocadas_sia.id_estatus not in ('INE','IMP','PIN','PEX','REX','PSU','PLI','lsc')";
-    $listado=$solicitudes->listado
+    $sql="UPDATE presupuestos SET estatus = (select colocadas_sia.id_estatus
+    from colocadas_sia where presupuestos.solicitud=colocadas_sia.solicitud)";
+    // actualiza los estatus de las solicitudes en los presupuestos
+    $resultado=$solicitudes->modificar($sql);
+
+    // actualiza si afecta o no el presupuesto
+    $sql="update presupuestos set presupuestos.activo=0 where
+    presupuestos.estatus not in ('INE','IMP','PIN','PEX','REX','PSU','PLI','LSC')";
+    $resultado=$solicitudes->modificar($sql);
 
 }
+
+
 
 //analiza_archivo_presupuesto_aa_lib("presupuestos/QR000071-2.html");
 //analiza_archivo_presupuesto_aa("presupuestos/YU000111-1.html");
@@ -547,5 +531,6 @@ function actualiza_afectan_presupuesto()
 //analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
 
 //analiza_archivo_presupuesto_rf("presupuestos/QR000039-4.html");
-cargas_presupuestos();
+//cargas_presupuestos();
+actualiza_afectan_presupuesto();
 ?>

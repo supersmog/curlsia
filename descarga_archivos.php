@@ -21,7 +21,7 @@ function descarga_archivo_condata($url_login,$data_login,$url_archivo,$data_arch
 
 
 
-function descarga_presupuestos()
+ function descarga_presupuestos()
 {
     $login="http://www.programaasibc.com.mx/siaMexicali/validausuario.php";
     $data_login="usuario=md032ca&clave=md032ca&tipo=1";
@@ -55,7 +55,7 @@ function descarga_presupuestos()
     }
 
 
-}
+} descarga_presupuestos();
 
 
 $login="http://www.programaasibc.com.mx/siaMexicali/validausuario.php";
@@ -63,10 +63,10 @@ $data_login="usuario=md032ca&clave=md032ca&tipo=1";
 //
 ///** Descargar solicitudes colocadas */
 //
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-09-01&ff=2018-09-30&tip=men&en=9","paginas/colocadas_septiembre.html");
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-10-31&tip=men&en=10","paginas/colocadas_octubre.html");
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-11-01&ff=2018-11-30&tip=men&en=11","paginas/colocadas_noviembre.html");
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-12-01&ff=2018-12-31&tip=men&en=12","paginas/colocadas_diciembre.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-09-01&ff=2018-09-30&tip=men&en=9","paginas/colocadas_septiembre.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-10-31&tip=men&en=10","paginas/colocadas_octubre.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-11-01&ff=2018-11-30&tip=men&en=11","paginas/colocadas_noviembre.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-12-01&ff=2018-12-31&tip=men&en=12","paginas/colocadas_diciembre.html");
 
 /** Descargar liberaciones de diversos reportes */
 

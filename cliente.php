@@ -71,13 +71,13 @@ public function eliminar($codigo){
 }
 }
 
-public function modificar($codigo,$nombre,$sexo,$edad,$deuda){
+public function modificar($sql){
 
-	$sql="UPDATE clientes SET nombre='".$nombre."',sexoo='".$sexo."',edad=$edad,deuda=$deuda WHERE codigo='".$codigo."'";
+	
    $modifica=$this->_db->query($sql);
 
   if(!$modifica){
-   echo "fallo la modificacion de datos";
+   echo "Fallo en la actualizacion de datos";
   }else{
   	return $modifica;
 	$modifica->close();
