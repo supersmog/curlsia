@@ -457,17 +457,24 @@ function cargas_presupuestos()
 {
     $consulta=new cliente();
     //$sql="select solicitud,subprograma,rpu  from colocadas_sia where id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI')";
-    $sql="select afectan_presupuesto.solicitud,afectan_presupuesto.subprograma,afectan_presupuesto.rpu,
+    /**$sql="select afectan_presupuesto.solicitud,afectan_presupuesto.subprograma,afectan_presupuesto.rpu,
     presupuestos.solicitud as credito,afectan_presupuesto.id_estatus
      from afectan_presupuesto left join
     presupuestos on afectan_presupuesto.solicitud=presupuestos.solicitud
-    and afectan_presupuesto.id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI','LSC')";
+    and afectan_presupuesto.id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI','LSC')";*/
+
+$sql="select *
+from  afectan_presupuesto
+ where not exists(select 1 from presupuestos where
+   afectan_presupuesto.solicitud=presupuestos.solicitud
+and afectan_presupuesto.id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI','LSC'))";
+
     $solicitud=$consulta->listado($sql);
     foreach($solicitud as $row){
         // Si es solicitud de RF
    
         $archivo="presupuestos/".$row['solicitud'].".html";
-       if($row['credito']=="" and $row['id_estatus']<>'LSC')
+       if($row['id_estatus']<>'LSC')
        {
             switch($row['subprograma']){
                 case 'RF': 
@@ -531,6 +538,6 @@ function actualiza_afectan_presupuesto()
 //analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
 
 //analiza_archivo_presupuesto_rf("presupuestos/QR000039-4.html");
-//cargas_presupuestos();
+cargas_presupuestos();
 actualiza_afectan_presupuesto();
 ?>

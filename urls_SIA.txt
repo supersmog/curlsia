@@ -108,6 +108,8 @@ http://www.programaasibc.com.mx/siaMexicali/contratos/formatoChecklist.php?solic
 +++++++++Reporte Supervision AA++++++++++++
 http://www.programaasibc.com.mx/siaMexicali/supervision/reporteAC.php?solicitud=YU000015&solixtra=2
 
+http://programaasibc.com.mx/siaMexicali/supervision/reporteRefrigeradoresDist.php?solicitud=YU000021&solixtra=2
+
 ++++++++++Carta no ahorro+++++++++
 http://www.programaasibc.com.mx/siaMexicali/contratos/formatos/cartanoahorro.php
 
