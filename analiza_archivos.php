@@ -530,8 +530,7 @@ function actualiza_afectan_presupuesto()
 
 
 
-//analiza_archivo_presupuesto_aa_lib("presupuestos/QR000071-2.html");
-//analiza_archivo_presupuesto_aa("presupuestos/YU000111-1.html");
+
 //analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
 //analiza_archivo_colocadas("paginas/colocadas_octubre.html");
 //analiza_archivo_colocadas("paginas/colocadas_noviembre.html");

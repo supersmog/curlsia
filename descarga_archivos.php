@@ -88,7 +88,7 @@ $data_login="usuario=md032ca&clave=md032ca&tipo=1";
 //
 ///** Reporte de liberaciones simple */
 //
-//// Yucatan
+// Yucatan
 //descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberacion.php?generar=1&zona1=01&fechaInicial=2018-09-01&fechaFinal=2018-11-30","paginas/liberaciones_simple_yucatan.html");
 //
 ////Campeche
@@ -100,7 +100,7 @@ $data_login="usuario=md032ca&clave=md032ca&tipo=1";
 //
 ///** Reporte de liberaciones descarga PA ¿¿¿??? */
 //
-////Yucatan
+//Yucatan
 //descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=YU","paginas/liberaciones_pa_yucatan.html");
 //
 ////Campeche
