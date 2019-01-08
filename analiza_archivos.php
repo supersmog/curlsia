@@ -531,12 +531,13 @@ function actualiza_afectan_presupuesto()
 
 
 
-/* analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
-analiza_archivo_colocadas("paginas/colocadas_octubre.html");
+//analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
+/* analiza_archivo_colocadas("paginas/colocadas_octubre.html");
 analiza_archivo_colocadas("paginas/colocadas_noviembre.html");
-analiza_archivo_colocadas("paginas/colocadas_diciembre.html"); */
+analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
+analiza_archivo_colocadas("paginas/colocadas_enero.html");  */
 
 
 cargas_presupuestos();
- actualiza_afectan_presupuesto();
+actualiza_afectan_presupuesto();
 ?>

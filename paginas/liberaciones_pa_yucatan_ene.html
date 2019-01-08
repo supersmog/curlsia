@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>Formato de Impresi&oacute;n del Reporte de Liberaciones</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link href="../liberacion.css" rel="stylesheet" type="text/css">
+	<script language="JavaScript">
+		function imprime_hoja()
+		{
+			document.getElementById('objetos').style.visibility='hidden'; 
+			self.print();
+			setTimeout("muestra()", 7000);
+			window.close();
+		}
+		
+		function muestra()
+		{
+			document.getElementById('objetos').style.visibility='visible';
+		}
+	</script>
+</head>
+<body>
+<table width="95%" cellpadding="0" cellspacing="0" border="0" align="center">
+	<tr>
+		<td width="50%"><img src="../../images/ASI_inv.jpg" style="border: none"></td>
+		<td width="50%">
+			<table width="100%">
+				<tr>
+					<td class="Titulo" align="right">
+						Reporte 
+						Mensual de Liberaciones					</td>
+				</tr>
+				<tr>
+					<td class="Titulo" align="right">
+					Enero de 2019					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="10" align="right" colspan="2">
+			<div id="objetos" align="right">
+				<a href="#" onClick="javascript: imprime_hoja();" title="Imprimir">
+					<img src="../../images/imprimir.gif" style="border:none">
+				</a>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center">
+						<table width="100%" border="0" align="center">
+									<tr>
+						<td align="left" class="Titulo">
+													</td>
+					</tr>
+				</table>
+								<table width="100%" border="0" align="center">
+				 <tr><td height="10"></td></tr> 					<tr>
+						<td align="left" class="Titulo">
+							Aislamiento (AT)						</td>
+					</tr>
+				</table>
+								<table width="100%" border="0" align="center">
+				 <tr><td height="10"></td></tr> 					<tr>
+						<td align="left" class="Titulo">
+							Refrigeradores (RF)						</td>
+					</tr>
+				</table>
+						</td>
+	</tr>
+</table>
+</body>
+</html>
