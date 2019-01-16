@@ -57,9 +57,9 @@ $respuesta=$busca->fetch_all(MYSQLI_ASSOC);
 }
 
 
-public function eliminar($codigo){
+public function eliminar($sql){
 
- $sql="DELETE FROM clientes where codigo='".$codigo."'";
+// $sql="DELETE FROM clientes where codigo='".$codigo."'";
  $elimina=$this->_db->prepare($sql);
  $re=$elimina->execute();
  if (!$re) {

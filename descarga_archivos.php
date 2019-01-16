@@ -64,18 +64,18 @@ $data_login="usuario=md032ca&clave=md032ca&tipo=1";
 ///** Descargar solicitudes colocadas */
 ////
 //descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-09-01&ff=2018-09-30&tip=men&en=9","paginas/colocadas_septiembre.html");
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-10-31&tip=men&en=10","paginas/colocadas_octubre.html");
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-11-01&ff=2018-11-30&tip=men&en=11","paginas/colocadas_noviembre.html");
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-12-01&ff=2018-12-31&tip=men&en=12","paginas/colocadas_diciembre.html");
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2019-01-01&ff=2019-01-31&tip=men&en=1","paginas/colocadas_enero.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-10-01&ff=2018-10-31&tip=men&en=10","paginas/colocadas_octubre.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-11-01&ff=2018-11-30&tip=men&en=11","paginas/colocadas_noviembre.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2018-12-01&ff=2018-12-31&tip=men&en=12","paginas/colocadas_diciembre.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2019-01-01&ff=2019-01-31&tip=men&en=1","paginas/colocadas_enero.html");
 //Descargar liberaciones de diversos reportes
 
 //Liberaciones reporte contabilidad 
-descarga_archivo_condata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberaciones_Conta.php","Cual=-1&idCoordinacion=-1&idDistribuidor=-1&pdto=10&orderby=1&fechaInicial=2018-09-01&model=1&xml=0&fechaFinal=2019-01-31","paginas/liberacionesconta.html");
+//descarga_archivo_condata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberaciones_Conta.php","Cual=-1&idCoordinacion=-1&idDistribuidor=-1&pdto=10&orderby=1&fechaInicial=2018-09-01&model=1&xml=0&fechaFinal=2019-01-31","paginas/liberacionesconta.html");
 /*
 //Liberaciones reporte tecnico 
 */
-descarga_archivo_condata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberaciones2.php","Cual=&idCoordinacion=-1&equipo=-1&idDistribuidor=-1&pdto=10&orderby=1&fechaLib=2018-09-01&model=1&xml=1&fechaInicial=2018-09-01&fechaFinal=2019-01-31&dAtencion=1","paginas/liberaciones_tec.html");
+//descarga_archivo_condata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberaciones2.php","Cual=&idCoordinacion=-1&equipo=-1&idDistribuidor=-1&pdto=10&orderby=1&fechaLib=2018-09-01&model=1&xml=1&fechaInicial=2018-09-01&fechaFinal=2019-01-31&dAtencion=1","paginas/liberaciones_tec.html");
 
 //reporte confirmacion de liberaciones  
 /* 
@@ -118,5 +118,5 @@ descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/sia
 descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=1&anio=2019&tipounidad=0&zona=QR","paginas/liberaciones_pa_quintanaroo_ene.html");
   */
 
- descarga_presupuestos();
+descarga_presupuestos();
 ?>

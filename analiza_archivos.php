@@ -456,18 +456,15 @@ echo $sql;
 function cargas_presupuestos()
 {
     $consulta=new cliente();
-    //$sql="select solicitud,subprograma,rpu  from colocadas_sia where id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI')";
-    /**$sql="select afectan_presupuesto.solicitud,afectan_presupuesto.subprograma,afectan_presupuesto.rpu,
-    presupuestos.solicitud as credito,afectan_presupuesto.id_estatus
-     from afectan_presupuesto left join
-    presupuestos on afectan_presupuesto.solicitud=presupuestos.solicitud
-    and afectan_presupuesto.id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI','LSC')";*/
+   //vaciamos la tabla
+   //$sql="delete  from colocadas_sia  where fecha_registro>'2018-10-31'";
+   //$elimina=$consulta->eliminar($sql);
 
-$sql="select *
-from  afectan_presupuesto
- where not exists(select 1 from presupuestos where
-   afectan_presupuesto.solicitud=presupuestos.solicitud
-and afectan_presupuesto.id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI','LSC'))";
+
+$sql="select * from  afectan_presupuesto
+    where not exists(select 1 from presupuestos where
+    afectan_presupuesto.solicitud=presupuestos.solicitud
+    and afectan_presupuesto.id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI','LSC'))";
 
     $solicitud=$consulta->listado($sql);
     foreach($solicitud as $row){
@@ -532,10 +529,10 @@ function actualiza_afectan_presupuesto()
 
 
 //analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
-/* analiza_archivo_colocadas("paginas/colocadas_octubre.html");
-analiza_archivo_colocadas("paginas/colocadas_noviembre.html");
-analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
-analiza_archivo_colocadas("paginas/colocadas_enero.html");  */
+//analiza_archivo_colocadas("paginas/colocadas_octubre.html");
+//analiza_archivo_colocadas("paginas/colocadas_noviembre.html");
+//analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
+//analiza_archivo_colocadas("paginas/colocadas_enero.html");  
 
 
 cargas_presupuestos();
