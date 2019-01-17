@@ -1,0 +1,614 @@
+<html>
+<head>
+    <title>Reporte Liberaciones</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+<form name="forma" method="post">
+	<table width="95%" border="0" cellpadding="0" cellspacing="0" align="center">
+	    <tr>
+    	    <td colspan="2" class="Titulo" align="center" valign="middle"><b>
+            	BANOBRAS S.N.C. COMO FIDUCIARIA EN EL FIDEICOMISO 728 FIPATERM<br>
+                REPORTE LIBERACIONES
+                </b>
+            </td>
+        </tr>
+        <tr><td height="30">&nbsp;</td></tr>
+        <tr>
+            <td align="center" colspan="2">
+                <table width="100%" cellpadding="2" cellspacing="0" border="1">
+                    <tr>
+                        <td class="Titulo" align="center"><b>RPU Solicitante </b></th>
+                        <td class="Titulo" align="center"><b>Solicitud PA </b></th>
+                        <td class="Titulo" align="center"><b>Solicitud SIA </b></th>
+                        <td class="Titulo" align="center"><b>Solixtra SIA </b></th>
+                        <td class="Titulo" align="center"><b>ID Presup </b></th>
+                        <td class="Titulo" align="center"><b>Programa </b></th>
+                        <td class="Titulo" align="center"><b>Sufijo SICOM </b></th>
+                        <td class="Titulo" align="center"><b>Fecha Alta SICOM </b></th>
+                        <td class="Titulo" align="center"><b>Fecha Alta PA </b></th>
+                        <td class="Titulo" align="center"><b>Fecha Pago </b></th>
+                        <td class="Titulo" align="center"><b>Total Prestamo </b></th>
+                        <td class="Titulo" align="center"><b>Total Capital </b></th>
+                        <td class="Titulo" align="center"><b>Total Interes </b></th>
+                        <td class="Titulo" align="center"><b>Total IVA </b></th>
+                        <td class="Titulo" align="center"><b>Dif Total </b></th>
+                        <td class="Titulo" align="center"><b>Dif Capital </b></th>
+                        <td class="Titulo" align="center"><b>Dif Interes </b></th>
+                        <td class="Titulo" align="center"><b>Dif IVA </b></th>
+                        <td class="Titulo" align="center"><b>ID Promo </b></th>
+                    </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789150200591</td>
+                            <td class="tdDataImpresionH" align="center">000491106</td>
+                            <td class="tdDataImpresionH" align="center">CM000008</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU116235</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20181023</td>
+                            <td class="tdDataImpresionH" align="center">20181023</td>
+                            <td class="tdDataImpresionH" align="center">2018-10-26</td>
+                            <td class="tdDataImpresionH" align="center">13920.20</td>
+                            <td class="tdDataImpresionH" align="center">9360.01</td>
+                            <td class="tdDataImpresionH" align="center">3931.2</td>
+                            <td class="tdDataImpresionH" align="center">628.992</td>
+                            <td class="tdDataImpresionH" align="center">774</td>
+                            <td class="tdDataImpresionH" align="center">520.66</td>
+                            <td class="tdDataImpresionH" align="center">218.4</td>
+                            <td class="tdDataImpresionH" align="center">34.94</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789110801401</td>
+                            <td class="tdDataImpresionH" align="center">000491150</td>
+                            <td class="tdDataImpresionH" align="center">CM000004</td>
+                            <td class="tdDataImpresionH" align="center">2</td>
+                            <td class="tdDataImpresionH" align="center">RU115720</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20181024</td>
+                            <td class="tdDataImpresionH" align="center">20181024</td>
+                            <td class="tdDataImpresionH" align="center">2018-10-30</td>
+                            <td class="tdDataImpresionH" align="center">13920.20</td>
+                            <td class="tdDataImpresionH" align="center">9360.01</td>
+                            <td class="tdDataImpresionH" align="center">3931.2</td>
+                            <td class="tdDataImpresionH" align="center">628.992</td>
+                            <td class="tdDataImpresionH" align="center">774</td>
+                            <td class="tdDataImpresionH" align="center">520.66</td>
+                            <td class="tdDataImpresionH" align="center">218.4</td>
+                            <td class="tdDataImpresionH" align="center">34.94</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789080703841</td>
+                            <td class="tdDataImpresionH" align="center">000491267</td>
+                            <td class="tdDataImpresionH" align="center">CM000009</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU116221</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20181029</td>
+                            <td class="tdDataImpresionH" align="center">20181029</td>
+                            <td class="tdDataImpresionH" align="center">2018-11-01</td>
+                            <td class="tdDataImpresionH" align="center">13920.20</td>
+                            <td class="tdDataImpresionH" align="center">9360.01</td>
+                            <td class="tdDataImpresionH" align="center">3931.2</td>
+                            <td class="tdDataImpresionH" align="center">628.992</td>
+                            <td class="tdDataImpresionH" align="center">774</td>
+                            <td class="tdDataImpresionH" align="center">520.66</td>
+                            <td class="tdDataImpresionH" align="center">218.4</td>
+                            <td class="tdDataImpresionH" align="center">34.94</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789981108241</td>
+                            <td class="tdDataImpresionH" align="center">000491268</td>
+                            <td class="tdDataImpresionH" align="center">CM000011</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU116242</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20181029</td>
+                            <td class="tdDataImpresionH" align="center">20181029</td>
+                            <td class="tdDataImpresionH" align="center">2018-11-01</td>
+                            <td class="tdDataImpresionH" align="center">13920.20</td>
+                            <td class="tdDataImpresionH" align="center">9360.01</td>
+                            <td class="tdDataImpresionH" align="center">3931.2</td>
+                            <td class="tdDataImpresionH" align="center">628.992</td>
+                            <td class="tdDataImpresionH" align="center">774</td>
+                            <td class="tdDataImpresionH" align="center">520.66</td>
+                            <td class="tdDataImpresionH" align="center">218.4</td>
+                            <td class="tdDataImpresionH" align="center">34.94</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789980400843</td>
+                            <td class="tdDataImpresionH" align="center">000491526</td>
+                            <td class="tdDataImpresionH" align="center">CM000002</td>
+                            <td class="tdDataImpresionH" align="center">3</td>
+                            <td class="tdDataImpresionH" align="center">RU116233</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">02</td>
+                            <td class="tdDataImpresionH" align="center">20181106</td>
+                            <td class="tdDataImpresionH" align="center">20181106</td>
+                            <td class="tdDataImpresionH" align="center">2018-11-09</td>
+                            <td class="tdDataImpresionH" align="center">13920.20</td>
+                            <td class="tdDataImpresionH" align="center">9360.01</td>
+                            <td class="tdDataImpresionH" align="center">3931.2</td>
+                            <td class="tdDataImpresionH" align="center">628.992</td>
+                            <td class="tdDataImpresionH" align="center">774</td>
+                            <td class="tdDataImpresionH" align="center">520.66</td>
+                            <td class="tdDataImpresionH" align="center">218.4</td>
+                            <td class="tdDataImpresionH" align="center">34.94</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789051206978</td>
+                            <td class="tdDataImpresionH" align="center">000492520</td>
+                            <td class="tdDataImpresionH" align="center">CM000026</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU117711</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20181213</td>
+                            <td class="tdDataImpresionH" align="center">20181213</td>
+                            <td class="tdDataImpresionH" align="center">2018-12-18</td>
+                            <td class="tdDataImpresionH" align="center">13920.20</td>
+                            <td class="tdDataImpresionH" align="center">9360.01</td>
+                            <td class="tdDataImpresionH" align="center">3931.2</td>
+                            <td class="tdDataImpresionH" align="center">628.992</td>
+                            <td class="tdDataImpresionH" align="center">774</td>
+                            <td class="tdDataImpresionH" align="center">520.66</td>
+                            <td class="tdDataImpresionH" align="center">218.4</td>
+                            <td class="tdDataImpresionH" align="center">34.94</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789841201224</td>
+                            <td class="tdDataImpresionH" align="center">000492521</td>
+                            <td class="tdDataImpresionH" align="center">CM000034</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU117863</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20181213</td>
+                            <td class="tdDataImpresionH" align="center">20181213</td>
+                            <td class="tdDataImpresionH" align="center">2018-12-18</td>
+                            <td class="tdDataImpresionH" align="center">13920.20</td>
+                            <td class="tdDataImpresionH" align="center">9360.01</td>
+                            <td class="tdDataImpresionH" align="center">3931.2</td>
+                            <td class="tdDataImpresionH" align="center">628.992</td>
+                            <td class="tdDataImpresionH" align="center">774</td>
+                            <td class="tdDataImpresionH" align="center">520.66</td>
+                            <td class="tdDataImpresionH" align="center">218.4</td>
+                            <td class="tdDataImpresionH" align="center">34.94</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789000161082</td>
+                            <td class="tdDataImpresionH" align="center">000492553</td>
+                            <td class="tdDataImpresionH" align="center">CM000024</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU117624</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">02</td>
+                            <td class="tdDataImpresionH" align="center">20181214</td>
+                            <td class="tdDataImpresionH" align="center">20181214</td>
+                            <td class="tdDataImpresionH" align="center">2018-12-21</td>
+                            <td class="tdDataImpresionH" align="center">13920.20</td>
+                            <td class="tdDataImpresionH" align="center">9360.01</td>
+                            <td class="tdDataImpresionH" align="center">3931.2</td>
+                            <td class="tdDataImpresionH" align="center">628.992</td>
+                            <td class="tdDataImpresionH" align="center">774</td>
+                            <td class="tdDataImpresionH" align="center">520.66</td>
+                            <td class="tdDataImpresionH" align="center">218.4</td>
+                            <td class="tdDataImpresionH" align="center">34.94</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789801100930</td>
+                            <td class="tdDataImpresionH" align="center">000492588</td>
+                            <td class="tdDataImpresionH" align="center">CM000007</td>
+                            <td class="tdDataImpresionH" align="center">2</td>
+                            <td class="tdDataImpresionH" align="center">RU117468</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20181214</td>
+                            <td class="tdDataImpresionH" align="center">20181214</td>
+                            <td class="tdDataImpresionH" align="center">2018-12-21</td>
+                            <td class="tdDataImpresionH" align="center">12522.22</td>
+                            <td class="tdDataImpresionH" align="center">8420</td>
+                            <td class="tdDataImpresionH" align="center">3536.4</td>
+                            <td class="tdDataImpresionH" align="center">565.824</td>
+                            <td class="tdDataImpresionH" align="center">696</td>
+                            <td class="tdDataImpresionH" align="center">468.09</td>
+                            <td class="tdDataImpresionH" align="center">196.47</td>
+                            <td class="tdDataImpresionH" align="center">31.44</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789971004382</td>
+                            <td class="tdDataImpresionH" align="center">000492592</td>
+                            <td class="tdDataImpresionH" align="center">CM000016</td>
+                            <td class="tdDataImpresionH" align="center">2</td>
+                            <td class="tdDataImpresionH" align="center">RU117621</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20181214</td>
+                            <td class="tdDataImpresionH" align="center">20181214</td>
+                            <td class="tdDataImpresionH" align="center">2018-12-21</td>
+                            <td class="tdDataImpresionH" align="center">12522.22</td>
+                            <td class="tdDataImpresionH" align="center">8420</td>
+                            <td class="tdDataImpresionH" align="center">3536.4</td>
+                            <td class="tdDataImpresionH" align="center">565.824</td>
+                            <td class="tdDataImpresionH" align="center">696</td>
+                            <td class="tdDataImpresionH" align="center">468.09</td>
+                            <td class="tdDataImpresionH" align="center">196.47</td>
+                            <td class="tdDataImpresionH" align="center">31.44</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789050906453</td>
+                            <td class="tdDataImpresionH" align="center">000492651</td>
+                            <td class="tdDataImpresionH" align="center">CM000038</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU118040</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">02</td>
+                            <td class="tdDataImpresionH" align="center">20181218</td>
+                            <td class="tdDataImpresionH" align="center">20181218</td>
+                            <td class="tdDataImpresionH" align="center">2018-12-21</td>
+                            <td class="tdDataImpresionH" align="center">9964.24</td>
+                            <td class="tdDataImpresionH" align="center">6700</td>
+                            <td class="tdDataImpresionH" align="center">2814</td>
+                            <td class="tdDataImpresionH" align="center">450.24</td>
+                            <td class="tdDataImpresionH" align="center">554</td>
+                            <td class="tdDataImpresionH" align="center">372.66</td>
+                            <td class="tdDataImpresionH" align="center">156.33</td>
+                            <td class="tdDataImpresionH" align="center">25.01</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789070903060</td>
+                            <td class="tdDataImpresionH" align="center">000492693</td>
+                            <td class="tdDataImpresionH" align="center">CM000022</td>
+                            <td class="tdDataImpresionH" align="center">2</td>
+                            <td class="tdDataImpresionH" align="center">RU117869</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20181219</td>
+                            <td class="tdDataImpresionH" align="center">20181219</td>
+                            <td class="tdDataImpresionH" align="center">2018-12-26</td>
+                            <td class="tdDataImpresionH" align="center">13920.20</td>
+                            <td class="tdDataImpresionH" align="center">9360.01</td>
+                            <td class="tdDataImpresionH" align="center">3931.2</td>
+                            <td class="tdDataImpresionH" align="center">628.992</td>
+                            <td class="tdDataImpresionH" align="center">774</td>
+                            <td class="tdDataImpresionH" align="center">520.66</td>
+                            <td class="tdDataImpresionH" align="center">218.4</td>
+                            <td class="tdDataImpresionH" align="center">34.94</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789071101854</td>
+                            <td class="tdDataImpresionH" align="center">000492694</td>
+                            <td class="tdDataImpresionH" align="center">CM000035</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU117861</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20181219</td>
+                            <td class="tdDataImpresionH" align="center">20181219</td>
+                            <td class="tdDataImpresionH" align="center">2018-12-26</td>
+                            <td class="tdDataImpresionH" align="center">13920.20</td>
+                            <td class="tdDataImpresionH" align="center">9360.01</td>
+                            <td class="tdDataImpresionH" align="center">3931.2</td>
+                            <td class="tdDataImpresionH" align="center">628.992</td>
+                            <td class="tdDataImpresionH" align="center">774</td>
+                            <td class="tdDataImpresionH" align="center">520.66</td>
+                            <td class="tdDataImpresionH" align="center">218.4</td>
+                            <td class="tdDataImpresionH" align="center">34.94</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789150401545</td>
+                            <td class="tdDataImpresionH" align="center">000492984</td>
+                            <td class="tdDataImpresionH" align="center">CM000064</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU118275</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20181227</td>
+                            <td class="tdDataImpresionH" align="center">20181227</td>
+                            <td class="tdDataImpresionH" align="center">2019-01-04</td>
+                            <td class="tdDataImpresionH" align="center">12031.45</td>
+                            <td class="tdDataImpresionH" align="center">8090</td>
+                            <td class="tdDataImpresionH" align="center">3397.8</td>
+                            <td class="tdDataImpresionH" align="center">543.648</td>
+                            <td class="tdDataImpresionH" align="center">669</td>
+                            <td class="tdDataImpresionH" align="center">450.03</td>
+                            <td class="tdDataImpresionH" align="center">188.77</td>
+                            <td class="tdDataImpresionH" align="center">30.2</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789010608158</td>
+                            <td class="tdDataImpresionH" align="center">000492989</td>
+                            <td class="tdDataImpresionH" align="center">CM000066</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU118282</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20181228</td>
+                            <td class="tdDataImpresionH" align="center">20181228</td>
+                            <td class="tdDataImpresionH" align="center">2019-01-04</td>
+                            <td class="tdDataImpresionH" align="center">12031.45</td>
+                            <td class="tdDataImpresionH" align="center">8090</td>
+                            <td class="tdDataImpresionH" align="center">3397.8</td>
+                            <td class="tdDataImpresionH" align="center">543.648</td>
+                            <td class="tdDataImpresionH" align="center">669</td>
+                            <td class="tdDataImpresionH" align="center">450.03</td>
+                            <td class="tdDataImpresionH" align="center">188.77</td>
+                            <td class="tdDataImpresionH" align="center">30.2</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789040603321</td>
+                            <td class="tdDataImpresionH" align="center">000492996</td>
+                            <td class="tdDataImpresionH" align="center">CM000042</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU118199</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">02</td>
+                            <td class="tdDataImpresionH" align="center">20181228</td>
+                            <td class="tdDataImpresionH" align="center">20181228</td>
+                            <td class="tdDataImpresionH" align="center">2019-01-04</td>
+                            <td class="tdDataImpresionH" align="center">9964.24</td>
+                            <td class="tdDataImpresionH" align="center">6700</td>
+                            <td class="tdDataImpresionH" align="center">2814</td>
+                            <td class="tdDataImpresionH" align="center">450.24</td>
+                            <td class="tdDataImpresionH" align="center">554</td>
+                            <td class="tdDataImpresionH" align="center">372.66</td>
+                            <td class="tdDataImpresionH" align="center">156.33</td>
+                            <td class="tdDataImpresionH" align="center">25.01</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789030301318</td>
+                            <td class="tdDataImpresionH" align="center">000492997</td>
+                            <td class="tdDataImpresionH" align="center">CM000063</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU118273</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20181228</td>
+                            <td class="tdDataImpresionH" align="center">20181228</td>
+                            <td class="tdDataImpresionH" align="center">2019-01-04</td>
+                            <td class="tdDataImpresionH" align="center">12031.45</td>
+                            <td class="tdDataImpresionH" align="center">8090</td>
+                            <td class="tdDataImpresionH" align="center">3397.8</td>
+                            <td class="tdDataImpresionH" align="center">543.648</td>
+                            <td class="tdDataImpresionH" align="center">669</td>
+                            <td class="tdDataImpresionH" align="center">450.03</td>
+                            <td class="tdDataImpresionH" align="center">188.77</td>
+                            <td class="tdDataImpresionH" align="center">30.2</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789100205338</td>
+                            <td class="tdDataImpresionH" align="center">000493095</td>
+                            <td class="tdDataImpresionH" align="center">CM000065</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU118274</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20190104</td>
+                            <td class="tdDataImpresionH" align="center">20190104</td>
+                            <td class="tdDataImpresionH" align="center">2019-01-11</td>
+                            <td class="tdDataImpresionH" align="center">9964.24</td>
+                            <td class="tdDataImpresionH" align="center">6700</td>
+                            <td class="tdDataImpresionH" align="center">2814</td>
+                            <td class="tdDataImpresionH" align="center">450.24</td>
+                            <td class="tdDataImpresionH" align="center">554</td>
+                            <td class="tdDataImpresionH" align="center">372.66</td>
+                            <td class="tdDataImpresionH" align="center">156.33</td>
+                            <td class="tdDataImpresionH" align="center">25.01</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789141006714</td>
+                            <td class="tdDataImpresionH" align="center">000493096</td>
+                            <td class="tdDataImpresionH" align="center">CM000067</td>
+                            <td class="tdDataImpresionH" align="center">2</td>
+                            <td class="tdDataImpresionH" align="center">RU118292</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20190104</td>
+                            <td class="tdDataImpresionH" align="center">20190104</td>
+                            <td class="tdDataImpresionH" align="center">2019-01-11</td>
+                            <td class="tdDataImpresionH" align="center">13920.20</td>
+                            <td class="tdDataImpresionH" align="center">9360.01</td>
+                            <td class="tdDataImpresionH" align="center">3931.2</td>
+                            <td class="tdDataImpresionH" align="center">628.992</td>
+                            <td class="tdDataImpresionH" align="center">774</td>
+                            <td class="tdDataImpresionH" align="center">520.66</td>
+                            <td class="tdDataImpresionH" align="center">218.4</td>
+                            <td class="tdDataImpresionH" align="center">34.94</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789750105435</td>
+                            <td class="tdDataImpresionH" align="center">000493119</td>
+                            <td class="tdDataImpresionH" align="center">CM000025</td>
+                            <td class="tdDataImpresionH" align="center">3</td>
+                            <td class="tdDataImpresionH" align="center">RU118359</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">03</td>
+                            <td class="tdDataImpresionH" align="center">20190109</td>
+                            <td class="tdDataImpresionH" align="center">20190109</td>
+                            <td class="tdDataImpresionH" align="center">2019-01-15</td>
+                            <td class="tdDataImpresionH" align="center">12031.45</td>
+                            <td class="tdDataImpresionH" align="center">8090</td>
+                            <td class="tdDataImpresionH" align="center">3397.8</td>
+                            <td class="tdDataImpresionH" align="center">543.648</td>
+                            <td class="tdDataImpresionH" align="center">669</td>
+                            <td class="tdDataImpresionH" align="center">450.03</td>
+                            <td class="tdDataImpresionH" align="center">188.77</td>
+                            <td class="tdDataImpresionH" align="center">30.2</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789010908054</td>
+                            <td class="tdDataImpresionH" align="center">000493128</td>
+                            <td class="tdDataImpresionH" align="center">CM000075</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU118388</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">02</td>
+                            <td class="tdDataImpresionH" align="center">20190109</td>
+                            <td class="tdDataImpresionH" align="center">20190109</td>
+                            <td class="tdDataImpresionH" align="center">2019-01-15</td>
+                            <td class="tdDataImpresionH" align="center">9964.24</td>
+                            <td class="tdDataImpresionH" align="center">6700</td>
+                            <td class="tdDataImpresionH" align="center">2814</td>
+                            <td class="tdDataImpresionH" align="center">450.24</td>
+                            <td class="tdDataImpresionH" align="center">554</td>
+                            <td class="tdDataImpresionH" align="center">372.66</td>
+                            <td class="tdDataImpresionH" align="center">156.33</td>
+                            <td class="tdDataImpresionH" align="center">25.01</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789930702318</td>
+                            <td class="tdDataImpresionH" align="center">000493156</td>
+                            <td class="tdDataImpresionH" align="center">CM000037</td>
+                            <td class="tdDataImpresionH" align="center">2</td>
+                            <td class="tdDataImpresionH" align="center">RU118272</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20190111</td>
+                            <td class="tdDataImpresionH" align="center">20190111</td>
+                            <td class="tdDataImpresionH" align="center">2019-01-15</td>
+                            <td class="tdDataImpresionH" align="center">12046.33</td>
+                            <td class="tdDataImpresionH" align="center">8100.01</td>
+                            <td class="tdDataImpresionH" align="center">3402</td>
+                            <td class="tdDataImpresionH" align="center">544.32</td>
+                            <td class="tdDataImpresionH" align="center">670</td>
+                            <td class="tdDataImpresionH" align="center">450.76</td>
+                            <td class="tdDataImpresionH" align="center">189</td>
+                            <td class="tdDataImpresionH" align="center">30.24</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789860901768</td>
+                            <td class="tdDataImpresionH" align="center">000493120</td>
+                            <td class="tdDataImpresionH" align="center">CM000070</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU118337</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">02</td>
+                            <td class="tdDataImpresionH" align="center">20190111</td>
+                            <td class="tdDataImpresionH" align="center">20190111</td>
+                            <td class="tdDataImpresionH" align="center">2019-01-15</td>
+                            <td class="tdDataImpresionH" align="center">12031.45</td>
+                            <td class="tdDataImpresionH" align="center">8090</td>
+                            <td class="tdDataImpresionH" align="center">3397.8</td>
+                            <td class="tdDataImpresionH" align="center">543.648</td>
+                            <td class="tdDataImpresionH" align="center">669</td>
+                            <td class="tdDataImpresionH" align="center">450.03</td>
+                            <td class="tdDataImpresionH" align="center">188.77</td>
+                            <td class="tdDataImpresionH" align="center">30.2</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789000760717</td>
+                            <td class="tdDataImpresionH" align="center">000493157</td>
+                            <td class="tdDataImpresionH" align="center">CM000073</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU118375</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">02</td>
+                            <td class="tdDataImpresionH" align="center">20190111</td>
+                            <td class="tdDataImpresionH" align="center">20190111</td>
+                            <td class="tdDataImpresionH" align="center">2019-01-15</td>
+                            <td class="tdDataImpresionH" align="center">9964.24</td>
+                            <td class="tdDataImpresionH" align="center">6700</td>
+                            <td class="tdDataImpresionH" align="center">2814</td>
+                            <td class="tdDataImpresionH" align="center">450.24</td>
+                            <td class="tdDataImpresionH" align="center">554</td>
+                            <td class="tdDataImpresionH" align="center">372.66</td>
+                            <td class="tdDataImpresionH" align="center">156.33</td>
+                            <td class="tdDataImpresionH" align="center">25.01</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789900601665</td>
+                            <td class="tdDataImpresionH" align="center">000493217</td>
+                            <td class="tdDataImpresionH" align="center">CM000076</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU118431</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20190115</td>
+                            <td class="tdDataImpresionH" align="center">20190115</td>
+                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">13920.20</td>
+                            <td class="tdDataImpresionH" align="center">9360.01</td>
+                            <td class="tdDataImpresionH" align="center">3931.2</td>
+                            <td class="tdDataImpresionH" align="center">628.992</td>
+                            <td class="tdDataImpresionH" align="center">774</td>
+                            <td class="tdDataImpresionH" align="center">520.66</td>
+                            <td class="tdDataImpresionH" align="center">218.4</td>
+                            <td class="tdDataImpresionH" align="center">34.94</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789010606678</td>
+                            <td class="tdDataImpresionH" align="center">000493234</td>
+                            <td class="tdDataImpresionH" align="center">CM000071</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU118344</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20190115</td>
+                            <td class="tdDataImpresionH" align="center">20190115</td>
+                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">12031.45</td>
+                            <td class="tdDataImpresionH" align="center">8090</td>
+                            <td class="tdDataImpresionH" align="center">3397.8</td>
+                            <td class="tdDataImpresionH" align="center">543.648</td>
+                            <td class="tdDataImpresionH" align="center">669</td>
+                            <td class="tdDataImpresionH" align="center">450.03</td>
+                            <td class="tdDataImpresionH" align="center">188.77</td>
+                            <td class="tdDataImpresionH" align="center">30.2</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">789070303364</td>
+                            <td class="tdDataImpresionH" align="center">000493236</td>
+                            <td class="tdDataImpresionH" align="center">CM000082</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU118535</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20190115</td>
+                            <td class="tdDataImpresionH" align="center">20190115</td>
+                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">9964.24</td>
+                            <td class="tdDataImpresionH" align="center">6700</td>
+                            <td class="tdDataImpresionH" align="center">2814</td>
+                            <td class="tdDataImpresionH" align="center">450.24</td>
+                            <td class="tdDataImpresionH" align="center">554</td>
+                            <td class="tdDataImpresionH" align="center">372.66</td>
+                            <td class="tdDataImpresionH" align="center">156.33</td>
+                            <td class="tdDataImpresionH" align="center">25.01</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                    </table>        
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

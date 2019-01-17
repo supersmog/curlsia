@@ -1,8 +1,43 @@
 <?php
 
-require("cliente.php");
-//require("descarga_archivos.php");
+//require("cliente.php");
+require("descarga_archivos.php");
 
+function descarga_presupuestos()
+{
+    $login="http://www.programaasibc.com.mx/siaMexicali/validausuario.php";
+    $data_login="usuario=md032ca&clave=md032ca&tipo=1";
+    $consulta=new cliente();
+    $sql="select solicitud,subprograma,rpu  from colocadas_sia where id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI','LSC')";
+    $solicitud=$consulta->listado($sql);
+    foreach($solicitud as $row){
+        // Si es solicitud de RF
+        $soli1=substr($row['solicitud'],0,8);
+        $soli2=substr($row['solicitud'],9,2);
+        $url_extra="ns=$soli1&nsx=$soli2";
+        $archivo="presupuestos/".$row['solicitud'].".html";
+       
+        switch($row['subprograma']){
+            case 'RF': 
+            {
+                $url="http://www.programaasibc.com.mx/siaMexicali/presup_refri.php?$url_extra";
+                descarga_archivo_sindata($login,$data_login,$url,$archivo);
+                break;
+            }
+            case 'AA':
+            {
+                $url="http://www.programaasibc.com.mx/siaMexicali/presup_equipo.php?$url_extra";
+                descarga_archivo_sindata($login,$data_login,$url,$archivo);
+                break;
+            }
+
+        }
+     
+    
+    }
+
+
+}
 function obtiene_fecha($fecha)
 {
     $fecha_obt=$fecha;
@@ -453,6 +488,16 @@ function analiza_archivo_presupuesto_aa_lib($file)
         }
 echo $sql;
 }
+function vaciar_colocadas($fecha)
+{
+    $consulta=new cliente();
+    //vaciamos la tabla
+    $sql="delete  from colocadas_sia  where fecha_registro>'$fecha'";
+    echo $sql;
+    $elimina=$consulta->eliminar($sql);
+    echo "Eliminados despues de $fecha";
+}
+
 function cargas_presupuestos()
 {
     $consulta=new cliente();
@@ -530,10 +575,11 @@ function actualiza_afectan_presupuesto()
 
 //analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
 //analiza_archivo_colocadas("paginas/colocadas_octubre.html");
-//analiza_archivo_colocadas("paginas/colocadas_noviembre.html");
-//analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
-//analiza_archivo_colocadas("paginas/colocadas_enero.html");  
-
+/* vaciar_colocadas('2018-10-31');
+analiza_archivo_colocadas("paginas/colocadas_noviembre.html");
+analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
+analiza_archivo_colocadas("paginas/colocadas_enero.html");   */
+//descarga_presupuestos();
 
 cargas_presupuestos();
 actualiza_afectan_presupuesto();
