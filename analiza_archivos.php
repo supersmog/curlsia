@@ -579,8 +579,8 @@ vaciar_colocadas('2018-10-31');
 analiza_archivo_colocadas("paginas/colocadas_noviembre.html");
 analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
 analiza_archivo_colocadas("paginas/colocadas_enero.html");  
+analiza_archivo_colocadas("paginas/colocadas_febrero.html");  
 descarga_presupuestos();
-
 cargas_presupuestos();
 actualiza_afectan_presupuesto();
 ?>
