@@ -1,7 +1,11 @@
 [Dolphin]
 SortOrder=1
 SortRole=modificationtime
+<<<<<<< HEAD
 Timestamp=2019,3,3,16,41,55
+=======
+Timestamp=2019,2,27,9,10,45
+>>>>>>> 72aecf3f1b45858fa1c3f868f94e437588c37970
 Version=4
 ViewMode=1
 VisibleRoles=Details_text,Details_size,Details_modificationtime,Details_type,CustomizedDetails
