@@ -575,12 +575,13 @@ function actualiza_afectan_presupuesto()
 
 //analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
 //analiza_archivo_colocadas("paginas/colocadas_octubre.html");
-vaciar_colocadas('2018-10-31');
+vaciar_colocadas('2018-12-31');
 analiza_archivo_colocadas("paginas/colocadas_noviembre.html");
 analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
 analiza_archivo_colocadas("paginas/colocadas_enero.html");  
 analiza_archivo_colocadas("paginas/colocadas_febrero.html");  
-descarga_presupuestos();
-cargas_presupuestos();
-actualiza_afectan_presupuesto();
+analiza_archivo_colocadas("paginas/colocadas_marzo.html"); 
+//descarga_presupuestos();
+//cargas_presupuestos();
+//actualiza_afectan_presupuesto();
 ?>
