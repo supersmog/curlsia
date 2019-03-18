@@ -8,7 +8,11 @@ function descarga_presupuestos()
     $login="http://www.programaasibc.com.mx/siaMexicali/validausuario.php";
     $data_login="usuario=md032ca&clave=md032ca&tipo=1";
     $consulta=new cliente();
-    $sql="select solicitud,subprograma,rpu  from colocadas_sia where id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI','LSC')";
+    //$sql="select solicitud,subprograma,rpu  from colocadas_sia where id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI','LSC')";
+    $sql="select solicitud,subprograma,rpu from  afectan_presupuesto
+    where not exists(select 1 from presupuestos where
+    afectan_presupuesto.solicitud=presupuestos.solicitud
+    and afectan_presupuesto.id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI','LSC'))";
     $solicitud=$consulta->listado($sql);
     foreach($solicitud as $row){
         // Si es solicitud de RF
@@ -581,7 +585,7 @@ analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
 analiza_archivo_colocadas("paginas/colocadas_enero.html");  
 analiza_archivo_colocadas("paginas/colocadas_febrero.html");  
 analiza_archivo_colocadas("paginas/colocadas_marzo.html"); 
-//descarga_presupuestos();
-//cargas_presupuestos();
-//actualiza_afectan_presupuesto();
+descarga_presupuestos();
+cargas_presupuestos();
+actualiza_afectan_presupuesto();
 ?>

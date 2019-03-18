@@ -1563,6 +1563,44 @@
                         <td class="tdDataImpresion" align="center">00</td>
                         <td class="tdDataImpresion" align="center">Afectado</td>
                     </tr>
+                              <tr>
+                        <td class="alternoImpresion">789921201365</td>
+                        <td class="alternoImpresion" align="center">CM000159-1</td>
+                        <td class="alternoImpresion" align="center">RU120502</td>
+                        <td class="alternoImpresion" align="center">000494773</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">KASSA NUEVA</td>
+                        <td class="alternoImpresion" align="right">$13950.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2019-03-13</td>
+                        <td class="alternoImpresion" align="center">CM028</td>
+                        <td class="alternoImpresion" align="center">2019-03-06</td>
+                        <td class="alternoImpresion" align="center">GM-00000093-R</td>
+                        <td class="alternoImpresion" align="left">Grupo Metaplast</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789870200423</td>
+                        <td class="tdDataImpresion" align="center">CM000160-1</td>
+                        <td class="tdDataImpresion" align="center">RU120511</td>
+                        <td class="tdDataImpresion" align="center">000494857</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">MUEBLERIA QUITERIO </td>
+                        <td class="tdDataImpresion" align="right">$13921.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2019-03-15</td>
+                        <td class="tdDataImpresion" align="center">CM027</td>
+                        <td class="tdDataImpresion" align="center">2019-03-07</td>
+                        <td class="tdDataImpresion" align="center">GM-00000092-R</td>
+                        <td class="tdDataImpresion" align="left">Grupo Metaplast</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
               </table>				
 </body>
 </html>
