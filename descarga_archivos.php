@@ -70,6 +70,7 @@ descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/sia
 descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2019-01-01&ff=2019-01-31&tip=men&en=1","paginas/colocadas_enero.html");
 descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2019-02-01&ff=2019-02-31&tip=men&en=2","paginas/colocadas_febrero.html");
 descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2019-03-01&ff=2019-03-31&tip=men&en=3","paginas/colocadas_marzo.html");
+descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2019-04-01&ff=2019-04-31&tip=men&en=4","paginas/colocadas_abril.html");
 
 
 //Descargar liberaciones de diversos reportes
@@ -115,27 +116,27 @@ descarga_archivo_sindata($login,$data_login,"www.programaasibc.com.mx/siaMexical
 //  Reporte de liberaciones descarga PA
 
 //Yucatan
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=10&anio=2018&tipounidad=0&zona=YU","paginas/liberaciones_pa_yucatan_oct.html");
- descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=YU","paginas/liberaciones_pa_yucatan_nov.html");
- descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=12&anio=2018&tipounidad=0&zona=YU","paginas/liberaciones_pa_yucatan_dic.html");
- descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=01&anio=2019&tipounidad=0&zona=YU","paginas/liberaciones_pa_yucatan_ene.html");
- descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=02&anio=2019&tipounidad=0&zona=YU","paginas/liberaciones_pa_yucatan_feb.html");
- descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=03&anio=2019&tipounidad=0&zona=YU","paginas/liberaciones_pa_yucatan_mar.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=10&anio=2018&tipounidad=0&zona=YU","paginas/liberaciones_pa_yucatan_oct.html");
+ //descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=YU","paginas/liberaciones_pa_yucatan_nov.html");
+ //descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=12&anio=2018&tipounidad=0&zona=YU","paginas/liberaciones_pa_yucatan_dic.html");
+ //descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=01&anio=2019&tipounidad=0&zona=YU","paginas/liberaciones_pa_yucatan_ene.html");
+ //descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=02&anio=2019&tipounidad=0&zona=YU","paginas/liberaciones_pa_yucatan_feb.html");
+ //descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=03&anio=2019&tipounidad=0&zona=YU","paginas/liberaciones_pa_yucatan_mar.html");
 //Campeche
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=10&anio=2018&tipounidad=0&zona=CM","paginas/liberaciones_pa_campeche_oct.html");
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=CM","paginas/liberaciones_pa_campeche_nov.html");
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=12&anio=2018&tipounidad=0&zona=CM","paginas/liberaciones_pa_campeche_dic.html");
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=01&anio=2019&tipounidad=0&zona=CM","paginas/liberaciones_pa_campeche_ene.html");
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=02&anio=2019&tipounidad=0&zona=CM","paginas/liberaciones_pa_campeche_feb.html");
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=03&anio=2019&tipounidad=0&zona=CM","paginas/liberaciones_pa_campeche_mar.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=CM","paginas/liberaciones_pa_campeche_nov.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=10&anio=2018&tipounidad=0&zona=CM","paginas/liberaciones_pa_campeche_oct.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=12&anio=2018&tipounidad=0&zona=CM","paginas/liberaciones_pa_campeche_dic.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=01&anio=2019&tipounidad=0&zona=CM","paginas/liberaciones_pa_campeche_ene.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=02&anio=2019&tipounidad=0&zona=CM","paginas/liberaciones_pa_campeche_feb.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=03&anio=2019&tipounidad=0&zona=CM","paginas/liberaciones_pa_campeche_mar.html");
 
 //Quintana Roo
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=10&anio=2018&tipounidad=0&zona=QR","paginas/liberaciones_pa_quintanaroo_oct.html");
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=QR","paginas/liberaciones_pa_quintanaroo_nov.html");
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=12&anio=2018&tipounidad=0&zona=QR","paginas/liberaciones_pa_quintanaroo_dic.html");
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=01&anio=2019&tipounidad=0&zona=QR","paginas/liberaciones_pa_quintanaroo_ene.html");
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=02&anio=2019&tipounidad=0&zona=QR","paginas/liberaciones_pa_quintanaroo_feb.html");
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=03&anio=2019&tipounidad=0&zona=QR","paginas/liberaciones_pa_quintanaroo_mar.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=10&anio=2018&tipounidad=0&zona=QR","paginas/liberaciones_pa_quintanaroo_oct.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=QR","paginas/liberaciones_pa_quintanaroo_nov.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=12&anio=2018&tipounidad=0&zona=QR","paginas/liberaciones_pa_quintanaroo_dic.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=01&anio=2019&tipounidad=0&zona=QR","paginas/liberaciones_pa_quintanaroo_ene.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=02&anio=2019&tipounidad=0&zona=QR","paginas/liberaciones_pa_quintanaroo_feb.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=03&anio=2019&tipounidad=0&zona=QR","paginas/liberaciones_pa_quintanaroo_mar.html");
 
   
 //descarga_presupuestos();
