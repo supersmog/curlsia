@@ -586,6 +586,7 @@ vaciar_colocadas('2019-01-31');
 analiza_archivo_colocadas("paginas/colocadas_febrero.html");  
 analiza_archivo_colocadas("paginas/colocadas_marzo.html");
 analiza_archivo_colocadas("paginas/colocadas_abril.html"); 
+analiza_archivo_colocadas("paginas/colocadas_mayo.html");
 descarga_presupuestos();
 cargas_presupuestos();
 actualiza_afectan_presupuesto();
