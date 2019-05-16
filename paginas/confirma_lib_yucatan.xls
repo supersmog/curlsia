@@ -6750,6 +6750,44 @@
                         <td class="alternoImpresion" align="center">00</td>
                         <td class="alternoImpresion" align="center">Afectado</td>
                     </tr>
+                              <tr>
+                        <td class="tdDataImpresion">774110200388</td>
+                        <td class="tdDataImpresion" align="center">YU000698-1</td>
+                        <td class="tdDataImpresion" align="center">RU122237</td>
+                        <td class="tdDataImpresion" align="center">000497384</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">HERMANOS LARA</td>
+                        <td class="tdDataImpresion" align="right">$12047.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2019-05-15</td>
+                        <td class="tdDataImpresion" align="center">MD057</td>
+                        <td class="tdDataImpresion" align="center">2019-04-24</td>
+                        <td class="tdDataImpresion" align="center">SR-00000471-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">774001260516</td>
+                        <td class="alternoImpresion" align="center">YU000717-1</td>
+                        <td class="alternoImpresion" align="center">RU122386</td>
+                        <td class="alternoImpresion" align="center">000497385</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">HERMANOS LARA</td>
+                        <td class="alternoImpresion" align="right">$15467.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2019-05-15</td>
+                        <td class="alternoImpresion" align="center">MD057</td>
+                        <td class="alternoImpresion" align="center">2019-04-30</td>
+                        <td class="alternoImpresion" align="center">SR-00000472-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
               </table>				
 </body>
 </html>
