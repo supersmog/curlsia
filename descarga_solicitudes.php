@@ -19,7 +19,32 @@ function descarga_archivo_condata($url_login,$data_login,$url_archivo,$data_arch
 
 }
 
-function analiza_archivo_solicitud($file)
+function descarga_solicitudes()
+{
+    $login="http://www.programaasibc.com.mx/siaMexicali/validausuario.php";
+    $data_login="usuario=md032ca&clave=md032ca&tipo=1";
+    $consulta=new cliente();
+        $sql="select solicitud,subprograma,rpu from  afectan_presupuesto
+    where not exists(select 1 from solicitudes_registro where
+    afectan_presupuesto.solicitud=solicitudes_registro.solicitud
+    and afectan_presupuesto.id_estatus in ('IMP','PIN','PEX','REX','PSU','PLI','LSC'))";
+    $solicitud=$consulta->listado($sql);
+    foreach($solicitud as $row){
+        // Si es solicitud de RF
+        $soli1=substr($row['solicitud'],0,8);
+        $soli2=substr($row['solicitud'],9,2);
+        $url_extra="solicitud=$soli1&solixtra=$soli2";
+        $archivo="registros/".$row['solicitud'].".html";
+        $url="http://www.programaasibc.com.mx/siaMexicali/contratos/ImpresionSol.php?tabla=1&fecha_supervision=&$url_extra";
+        descarga_archivo_sindata($login,$data_login,$url,$archivo);
+  
+    
+    }
+
+
+}
+
+function analiza_archivo_solicitud($file,$solicitud)
 {
     $cliente=new cliente();
     if (!file_exists($file)){
@@ -100,28 +125,28 @@ function analiza_archivo_solicitud($file)
      echo "$telefono_aval\n";
 
 
+ $sql="INSERT INTO yucatan.solicitudes_registro
+ (solicitud, nombre_cliente, rfc_cliente, curp_cliente, direccion_cliente, colonia_cliente, 
+ tel_casa_cliente, tel_ofi_cliente, tel_cel_cliente, trabajo_cliente, puesto_cliente, direccion_empresa_cliente, 
+ tel_empresa_cliente, nombre_referencia1, parentesco_referencia1, direccion_referencia1, telefono_referencia1,
+ nombre_referencia2, parentesco_referencia, direccion_referencia2, telefono_referencia2, nombre_aval, 
+ rfc_aval, curp_aval, direccion_aval, colonia_aval, telefono_aval)
+ VALUES('$solicitud','$nombre_cliente','$rfc_cliente','$curp_cliente', '$dirección_cliente','$colonia_cliente',
+ '$tel_casa_cliente','$tel_ofi_cliente', '$tel_cel_cliente', '$empresa_cliente','$puesto_empresa_cliente','$direccion_empresa_cliente', 
+ '$telefono_empresa_cliente','$nombre_referencia1','$parentesco_referencia1','$direccion_referencia1','$telefono_referencia1',
+ '$nombre_referencia2','$parentesco_referencia2','$direccion_referencia2','$telefono_referencia2','$nombre_aval',
+ '$rfc_aval','$curp_aval','$direccion_aval','$colonia_aval','$telefono_aval')";
+ //echo $sql;
 
-//     $sp="RF";
-//     $activo=1;
-//     $sql="INSERT INTO
-//     presupuestos (fecha,nombre,rpu,num_presupuesto,telefono,marca_ins,modelo_ins,capacidad_ins,
-//       marca_ret,modelo_ret,capacidad_ret,solicitud,instalacion,precio_sin_iva,iva_equipo,monto_financiar,
-//       excedente,interes,iva_interes,total_financiamiento,amortizacion,pagos,subprograma,activo)
-//     VALUES (
-//       '$fecha_presupuesto', '$nombre_cliente','$rpu','$presupuesto','$telefono','$marca_instalar',
-//       '$modelo_instalar','$capacidad_instalar','$marca_retirar','$modelo_retirar','$capacidad_retirar',
-//       '$solicitud','0','$precio_sin_iva','$iva','$monto_financiar','$excedente','$interes',
-//       '$iva_interes','$financiado','$amortizacion','$num_pagos','$sp','$activo'
-//     )";
-//        $resp=$cliente->insertar($sql);
-//        if($resp)
-//        {
-//            echo "Se guardo correctamente";
-//        }
-//        else{
-//            echo "No se pudo guardar";
-//        }
-//echo $sql;
+        $resp=$cliente->insertar($sql);
+        if($resp)
+        {
+            echo "Se guardo correctamente";
+        }
+        else{
+            echo "No se pudo guardar";
+        }
+
 }
 
  /* function descarga_presupuestos()
@@ -161,15 +186,43 @@ function analiza_archivo_solicitud($file)
 } */ //descarga_presupuestos();
 
 
-$login="http://www.programaasibc.com.mx/siaMexicali/validausuario.php";
-$data_login="usuario=md032ca&clave=md032ca&tipo=1";
-//
+function cargas_solicitudes()
+{
+    $consulta=new cliente();
+   //vaciamos la tabla
+   //$sql="delete  from colocadas_sia  where fecha_registro>'2018-10-31'";
+   //$elimina=$consulta->eliminar($sql);
 
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/contratos/ImpresionSol.php?tabla=1&fecha_supervision=&solicitud=YU001014&solixtra=1","paginas/solicitud_YU001014-1.html");
-descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/contratos/ImpresionSol.php?tabla=1&fecha_supervision=&solicitud=YU001013&solixtra=1","paginas/solicitud_YU001012-1.html");
-analiza_archivo_solicitud("paginas/solicitud_YU001014-1.html");
-analiza_archivo_solicitud("paginas/solicitud_YU00101-1.html");
 
+   $sql="select solicitud,subprograma,rpu from  afectan_presupuesto
+   where not exists(select 1 from solicitudes_registro where
+   afectan_presupuesto.solicitud=solicitudes_registro.solicitud
+   and afectan_presupuesto.id_estatus in ('IMP','PIN','PEX','REX','PSU','PLI','LSC'))";
+
+    $solicitud=$consulta->listado($sql);
+    foreach($solicitud as $row){
+        // Si es solicitud de RF
+   
+        $archivo="registros/".$row['solicitud'].".html";
+        analiza_archivo_solicitud($archivo,$row['solicitud']);
+
+
+
+    
+    }
+
+}
+
+//$login="http://www.programaasibc.com.mx/siaMexicali/validausuario.php";
+//$data_login="usuario=md032ca&clave=md032ca&tipo=1";
+//////
+
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/contratos/ImpresionSol.php?tabla=1&fecha_supervision=&solicitud=YU001014&solixtra=1","paginas/solicitud_YU001014-1.html");
+//descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/contratos/ImpresionSol.php?tabla=1&fecha_supervision=&solicitud=YU001013&solixtra=1","paginas/solicitud_YU001012-1.html");
+//analiza_archivo_solicitud("paginas/solicitud_YU001014-1.html","YU001014-1");
+//analiza_archivo_solicitud("paginas/solicitud_YU00101-1.html","YU00101-1");
+descarga_solicitudes();
+cargas_solicitudes();
 
 
 ?>

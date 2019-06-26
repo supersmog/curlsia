@@ -510,7 +510,7 @@ function cargas_presupuestos()
    //$elimina=$consulta->eliminar($sql);
 
 
-$sql="select * from  afectan_presupuesto
+ $sql="select * from  afectan_presupuesto
     where not exists(select 1 from presupuestos where
     afectan_presupuesto.solicitud=presupuestos.solicitud
     and afectan_presupuesto.id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI','LSC'))";
