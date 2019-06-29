@@ -92,38 +92,38 @@ function analiza_archivo_solicitud($file,$solicitud)
      $colonia_aval=$aDataTableHeaderHTML[130];
      $telefono_aval=$aDataTableHeaderHTML[132];
 
-     echo "###Datos Cliente##\n";
-     echo "$nombre_cliente\n";
-     echo "$rfc_cliente\n";
-     echo "$curp_cliente\n";
-     echo "$dirección_cliente\n";
-     echo "$colonia_cliente\n";
-     echo "$tel_casa_cliente\n";
-     echo "$tel_ofi_cliente\n";
-     echo "$tel_cel_cliente\n";
-     echo "###Trabajo Cliente##\n";
-     echo "$empresa_cliente\n";
-     echo "$puesto_empresa_cliente\n";
-     echo "$direccion_empresa_cliente\n";
-     echo "$telefono_empresa_cliente\n";
-     echo "###Referencia1 Cliente##\n";
-     echo "$nombre_referencia1\n";
-     echo "$parentesco_referencia1\n";
-     echo "$direccion_referencia1\n";
-     echo "$telefono_referencia1\n";
-     echo "###Referencia2 Cliente##\n";
-     echo "$nombre_referencia2\n";
-     echo "$parentesco_referencia2\n";
-     echo "$direccion_referencia2\n";
-     echo "$telefono_referencia2\n";
-     echo "###Aval Cliente##\n";
-     echo "$nombre_aval\n";
-     echo "$rfc_aval\n";
-     echo "$curp_aval\n";
-     echo "$direccion_aval\n";
-     echo "$colonia_aval\n";
-     echo "$telefono_aval\n";
-
+     //echo "###Datos Cliente##\n";
+     //echo "$nombre_cliente\n";
+     //echo "$rfc_cliente\n";
+     //echo "$curp_cliente\n";
+     //echo "$dirección_cliente\n";
+     //echo "$colonia_cliente\n";
+     //echo "$tel_casa_cliente\n";
+     //echo "$tel_ofi_cliente\n";
+     //echo "$tel_cel_cliente\n";
+     //echo "###Trabajo Cliente##\n";
+     //echo "$empresa_cliente\n";
+     //echo "$puesto_empresa_cliente\n";
+     //echo "$direccion_empresa_cliente\n";
+     //echo "$telefono_empresa_cliente\n";
+     //echo "###Referencia1 Cliente##\n";
+     //echo "$nombre_referencia1\n";
+     //echo "$parentesco_referencia1\n";
+     //echo "$direccion_referencia1\n";
+     //echo "$telefono_referencia1\n";
+     //echo "###Referencia2 Cliente##\n";
+     //echo "$nombre_referencia2\n";
+     //echo "$parentesco_referencia2\n";
+     //echo "$direccion_referencia2\n";
+     //echo "$telefono_referencia2\n";
+     //echo "###Aval Cliente##\n";
+     //echo "$nombre_aval\n";
+     //echo "$rfc_aval\n";
+     //echo "$curp_aval\n";
+     //echo "$direccion_aval\n";
+     //echo "$colonia_aval\n";
+     //echo "$telefono_aval\n";
+//
 
  $sql="INSERT INTO yucatan.solicitudes_registro
  (solicitud, nombre_cliente, rfc_cliente, curp_cliente, direccion_cliente, colonia_cliente, 
@@ -136,7 +136,7 @@ function analiza_archivo_solicitud($file,$solicitud)
  '$telefono_empresa_cliente','$nombre_referencia1','$parentesco_referencia1','$direccion_referencia1','$telefono_referencia1',
  '$nombre_referencia2','$parentesco_referencia2','$direccion_referencia2','$telefono_referencia2','$nombre_aval',
  '$rfc_aval','$curp_aval','$direccion_aval','$colonia_aval','$telefono_aval')";
- //echo $sql;
+ echo $sql;
 
         $resp=$cliente->insertar($sql);
         if($resp)
@@ -202,7 +202,7 @@ function cargas_solicitudes()
     $solicitud=$consulta->listado($sql);
     foreach($solicitud as $row){
         // Si es solicitud de RF
-   
+   echo $row['solicitud'];
         $archivo="registros/".$row['solicitud'].".html";
         analiza_archivo_solicitud($archivo,$row['solicitud']);
 

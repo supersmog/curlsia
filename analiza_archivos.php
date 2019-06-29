@@ -89,7 +89,7 @@ function analiza_archivo_colocadas($file)
         }
         $concatenar=$concatenar."'";
                 //$concatenar=$aDataTableHeaderHTML[$i].",".$aDataTableHeaderHTML[$i+1].",".$aDataTableHeaderHTML[$i+2].",".$aDataTableHeaderHTML[$i+3].",".$aDataTableHeaderHTML[$i+4].",".$aDataTableHeaderHTML[$i+5].",".$aDataTableHeaderHTML[$i+6].",".$aDataTableHeaderHTML[$i+7].",".$aDataTableHeaderHTML[$i+8].",".$aDataTableHeaderHTML[$i+9];
-        echo "$concatenar\n";
+       // echo "$concatenar\n";
         $sql="insert into colocadas_sia (solicitud, fecha_registro, subprograma, id_estatus, rpu, nombre, colonia, direccion, id_proveedor) values(".$concatenar.")";
         $resp=$cliente1->insertar($sql);
         if($resp)
@@ -374,30 +374,7 @@ function analiza_archivo_presupuesto_aa($file)
          else{
              echo "No se pudo guardar";
          }
-         
-     //echo $fecha_presupuesto."\n";
-     //echo $nombre_cliente."\n";
-     //echo $rpu."\n";
-     //echo $presupuesto."\n";
-     //echo $telefono."\n";
-     //echo $marca_instalar."\n";
-     //echo $modelo_instalar."\n";
-     //echo $capacidad_instalar."\n";
-     //echo $marca_retirar."\n";
-     //echo $modelo_retirar."\n";
-     //echo $capacidad_retirar."\n";
-     //echo $solicitud."\n";
-     //echo $precio_sin_iva."\n";
-     //echo $iva."\n";
-     //echo substr($instalacion,19,7)."\n";
-     //echo $monto_financiar."\n";
-     //echo $excedente."\n";
-     //echo $preciofinal."\n";
-     //echo $interes."\n";
-     //echo $iva_interes."\n"; //23
-     //echo $financiado."\n";  //26
-     //echo $amortizacion."\n"; //23
-     //echo $num_pagos."\n";
+
 
 
 }
