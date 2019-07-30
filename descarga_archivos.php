@@ -73,6 +73,7 @@ descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/sia
 descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2019-04-01&ff=2019-04-31&tip=men&en=4","paginas/colocadas_abril.html");
 descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2019-05-01&ff=2019-05-31&tip=men&en=5","paginas/colocadas_mayo.html");
 descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2019-06-01&ff=2019-06-31&tip=men&en=6","paginas/colocadas_junio.html");
+descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/consolusu.php?fi=2019-06-01&ff=2019-06-31&tip=men&en=7","paginas/colocadas_julio.html");
 
 
 //Descargar liberaciones de diversos reportes
