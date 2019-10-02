@@ -1,0 +1,223 @@
+<script language="javascript">
+img_del.src="http://www.programaasibc.com.mx/asiweb/siaMexicali/calendar/btn_del_small.gif";
+img_close.src="http://www.programaasibc.com.mx/asiweb/siaMexicali/calendar/btn_close_small.gif";
+img_Date_UP.src="http://www.programaasibc.com.mx/asiweb/siaMexicali/calendar/calendarSheetDownBtn.gif";
+img_Date_OVER.src="http://www.programaasibc.com.mx/asiweb/siaMexicali/calendar/calendarSheetBtn.gif";
+img_Date_DOWN.src="http://www.programaasibc.com.mx/asiweb/siaMexicali/calendar/calendarSheetDownBtn.gif";
+setActualDate( 02,09,2019);
+</script>
+<html>
+<head>
+<title></title>
+	<!--<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link href="../liberacion/liberacion.css" rel="stylesheet" type="text/css">
+	<link href="" rel="stylesheet" type="text/css">
+<link href="calendar.css" rel="stylesheet" type="text/css">
+<style>
+.pie
+	{ margin:0; bottom:0;font-size:10;font-family:tahoma,verdana,arial;text-align:right}
+</style>
+
+<script language="JavaScript" src="calendarcode.js"></script>
+<script language="JavaScript" type="text/javascript">
+
+
+
+	function imprime_hoja()
+	{
+		document.getElementById('objetos').style.visibility='hidden'; 
+		self.print();
+		setTimeout("muestra()", 7000);
+		window.close();
+	}
+	
+	function muestra()
+	{
+		document.getElementById('objetos').style.visibility='visible';
+	}
+
+function agregar()
+{
+	var hora1=document.getElementById("hora1").value;
+	var hora2=document.getElementById("hora2").value;
+	var fecha=document.getElementById("fecha").value;
+	var fecha_actual="2019-09-02";
+	if(fecha<fecha_actual)
+	{
+		alert("La fecha no puede ser menor que la fecha actual.");
+		return false;
+	}
+	//var cadena="Horario de"+hora1+" a "+hora2+" el dia "+fecha;
+	document.getElementById("fechas").innerHTML+="Horario de "+hora1+" a "+hora2+" el dia "+fecha+"<br>";
+	
+	return cadena;
+}
+
+function aceptar()
+{
+	var solicitud="YU001168";
+	var solixtra="1";
+	var fechas=document.getElementById("fechas").innerHTML;
+	var comentario=document.getElementById("comentario").value;
+	location.href="ImpresionSol.php?tabla=1&fecha_supervision="+fechas+"&solicitud="+solicitud+"&solixtra="+solixtra+"&comentario="+comentario;
+}
+
+function acep()
+{
+	var solicitud="YU001168";
+	var solixtra="1";
+
+	var status_index=document.getElementById("status").selectedIndex;
+	var seccion=document.getElementById("seccion").value;
+	if(status_index==0)
+	{
+		alert("Debe seleccionar su estatus actual");
+		return false;
+	}
+	
+	if(document.getElementById("sindicato").checked==true)
+	{
+		if(seccion=="")
+		{
+			alert("Debe ingresar el numero de seccion.");
+			document.getElementById("seccion").focus();
+			return false;
+		}
+	}
+	
+	if(document.getElementById("departamento").value=="")
+	{
+		alert("Por favor, ingrese el nombre del departamento.")
+		document.getElementById("departamento").focus();
+		return false;
+	}
+	if(document.getElementById("tel_oficina").value=="")
+	{
+		alert("Por favor, ingrese el telefono de oficina.")
+		document.getElementById("tel_oficina").focus();
+		return false;
+	}
+	
+	var status=document.getElementById("status").options[status_index].text;
+	var departamento=document.getElementById("departamento").value;
+	var tel_oficina=document.getElementById("tel_oficina").value;
+	
+	location.href="ImpresionSol.php?tabla2=1&solicitud="+solicitud+"&solixtra="+solixtra+"&status="+status+"&departamento="+departamento+"&tel_oficina="+tel_oficina+"&seccion="+seccion;
+}
+
+function opciones()
+{
+	document.getElementById("seccion").value="";
+	var status_index=document.getElementById("status").selectedIndex;
+	if(status_index==1 || status_index==2)
+	{
+		document.getElementById("sindicato").disabled=false;
+		document.getElementById("sindicato").checked=false;
+	}
+	else
+	{
+		if(status_index==4)
+		{
+			document.getElementById("sindicato").disabled=true;
+			document.getElementById("sindicato").checked=true;
+		}
+		else
+		{
+			document.getElementById("sindicato").disabled=true;
+			document.getElementById("sindicato").checked=false;
+			document.getElementById("seccion").disabled=true;
+		}
+	}
+	
+	if(document.getElementById("sindicato").checked==true)
+		document.getElementById("seccion").disabled=false;
+		else
+		document.getElementById("seccion").disabled=true;
+	
+}
+
+function opcio()
+{
+	document.getElementById("seccion").value="";
+	
+	if(document.getElementById("sindicato").checked==true)
+			document.getElementById("seccion").disabled=false;
+	else
+			document.getElementById("seccion").disabled=true;
+}
+</script>
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<form id="form1" name="form1">
+
+	
+
+	<!--<table width="95%" align="center" border="0">
+		<tr>
+        <td width="60%" align="left" valign="middle">
+      <img src="images/ASI_inv.jpg">
+      </td>
+      -->
+     <!-- <td width="25%" align="left" valign="middle">
+<img src="" border="0">
+		</td> -->
+        
+<!--<td width="40%" align="center">
+  <strong>Fecha impresi&oacute;n</strong>
+  <table width="153" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="48" align="center" bgcolor="#CCCCCC" class="tdTituloInputRegSol" style="border:1px solid #000">Dia</td>
+    <td width="46" align="center" bgcolor="#CCCCCC" class="tdTituloInputRegSol" style="border:1px solid #000">Mes</td>
+    <td width="45" align="center" bgcolor="#CCCCCC" class="tdTituloInputRegSol" style="border:1px solid #000">A&ntilde;o</td>
+  </tr>
+    <tr>
+    <td align="center" style="border:1px solid #000">02</td>
+    <td align="center" style="border:1px solid #000">09</td>
+    <td align="center" style="border:1px solid #000">2019</td>
+  </tr>
+</table>
+</div>
+ -->
+		  <!--</td>
+		</tr>
+         
+<tr>
+ <table  cellspacing="0" width="100%" align="center" border="0" class="red_border">
+  <tr><table width="100%" cellpadding="2" class="white_border" > 
+  <tr>
+	<td width="100%" colspan="2" align="center" class="tdTituloImpresion">&nbsp;</td>
+  </tr></table>
+<tr>
+ <table width=629 align="center">
+  <tr>
+    <td colspan="2" align="center">Para mayor informaci&oacute;n llame a nuestros tel&eacute;fonos con sede en la ciudad con coordinaci&oacute;n correspondiente:</td>
+    </tr>
+  <tr>
+    <td colspan="2" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+   <td width="321" align="center"><img src="images/ASI_inv.jpg" align="right"></td>
+    <td width="296" align="justify"><p><strong>Mexicali, B.C.:</strong> 533-33-33<br>
+        <strong>Tijuana, B.C.:</strong> 686-89-26<br>
+        <strong>La Paz, BCS:</strong> 165-45-15<br>
+        <strong>San Luis R.C., Son: </strong>536-49-59<br>
+        <strong>Ensenada, B.C.: </strong>178-71-19</p></td>
+    </tr>
+  
+</table>
+  -->
+<div align="center"></div>
+<tr><tr><br> 
+</form>
+<div id="popupcalendar" class="text"></div>
+</body>
+<!--//////////// -->
+<!--   </td>
+ </tr>
+ </table> -->
+  <!--///////////// --> 
+</html>
+

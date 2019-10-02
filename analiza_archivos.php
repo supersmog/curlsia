@@ -123,7 +123,7 @@ function analiza_archivo_presupuesto_rf($file)
         $aDataTableHeaderHTML[]=trim($NodeHeader->textContent);
         //echo $aDataTableHeaderHTML;
     }
-    // print_r($aDataTableHeaderHTML);
+     print_r($aDataTableHeaderHTML);
      
      
      $fecha_presupuesto=substr($aDataTableHeaderHTML[12],23,10);
@@ -143,12 +143,13 @@ function analiza_archivo_presupuesto_rf($file)
      $precio_sin_iva=$aDataTableHeaderHTML[51];
      $iva=ltrim($aDataTableHeaderHTML[54]);
      $excedente=$aDataTableHeaderHTML[63];
-     $interes=$aDataTableHeaderHTML[69];
-     $iva_interes=$aDataTableHeaderHTML[72];
-     $monto_financiar2=$aDataTableHeaderHTML[66];
-     $financiado=$aDataTableHeaderHTML[75];
-     $amortizacion=$aDataTableHeaderHTML[78];
-     $num_pagos=substr($aDataTableHeaderHTML[76],0,2);
+     $bonificacion=$aDataTableHeaderHTML[66];
+     $interes=$aDataTableHeaderHTML[72];
+     $iva_interes=$aDataTableHeaderHTML[75];
+     $monto_financiar2=$aDataTableHeaderHTML[69];
+     $financiado=$aDataTableHeaderHTML[78];
+     $amortizacion=$aDataTableHeaderHTML[81];
+     $num_pagos=substr($aDataTableHeaderHTML[79],0,2);
 
 
      $fecha_presupuesto=obtiene_fecha($fecha_presupuesto);
@@ -163,27 +164,7 @@ function analiza_archivo_presupuesto_rf($file)
      $amortizacion=substr($amortizacion,17,6);
 
      
-     //echo $fecha_presupuesto."\n";
-     //echo $nombre_cliente."\n";
-     //echo $rpu."\n";
-     //echo $presupuesto."\n";
-     //echo $telefono."\n";
-     //echo $marca_instalar."\n";
-     //echo $modelo_instalar."\n";
-     //echo $capacidad_instalar."\n";
-     //echo $marca_retirar."\n";
-     //echo $modelo_retirar."\n";
-     //echo $capacidad_retirar."\n";
-     //echo $solicitud."\n";
-     //echo substr($precio_sin_iva,1,9)."\n";
-     //echo substr($iva,17,8)."\n";
-     //echo substr($monto_financiar,1,10)."\n";
-     //echo substr($excedente,16,7)."\n";
-     //echo substr($interes,17,8)."\n";
-     //echo substr($iva_interes,16,7)."\n"; //23
-     //echo substr($financiado,17,9)."\n";  //26
-     //echo substr($amortizacion,17,6)."\n"; //23
-     //echo $num_pagos."\n";
+
 
      $sp="RF";
      $activo=1;
@@ -225,7 +206,7 @@ function analiza_archivo_presupuesto_rf_lib($file)
         $aDataTableHeaderHTML[]=trim($NodeHeader->textContent);
         //echo $aDataTableHeaderHTML;
     }
-     print_r($aDataTableHeaderHTML);
+     //print_r($aDataTableHeaderHTML);
      
      
      $fecha_presupuesto=substr($aDataTableHeaderHTML[5],23,10);
@@ -252,15 +233,15 @@ function analiza_archivo_presupuesto_rf_lib($file)
      $financiado=$aDataTableHeaderHTML[70];
      $amortizacion=$aDataTableHeaderHTML[73];
      $num_pagos=substr($aDataTableHeaderHTML[71],0,2);
-$fecha_presupuesto=obtiene_fecha($fecha_presupuesto);
-$precio_sin_iva=substr($precio_sin_iva,1,9);
-$iva=substr($iva,17,8);
-$monto_financiar=substr($monto_financiar2,16,10);
-$excedente=substr($excedente,16,7);
-$interes=substr($interes,17,8);
-$iva_interes=substr($iva_interes,16,7);
-$financiado=substr($financiado,17,9);
-$amortizacion=substr($amortizacion,17,6);
+    $fecha_presupuesto=obtiene_fecha($fecha_presupuesto);
+    $precio_sin_iva=substr($precio_sin_iva,1,9);
+    $iva=substr($iva,17,8);
+    $monto_financiar=substr($monto_financiar2,16,10);
+    $excedente=substr($excedente,16,7);
+    $interes=substr($interes,17,8);
+    $iva_interes=substr($iva_interes,16,7);
+    $financiado=substr($financiado,17,9);
+    $amortizacion=substr($amortizacion,17,6);
      //echo $fecha_presupuesto."\n";
      //echo $nombre_cliente."\n";
      //echo $rpu."\n";
@@ -302,7 +283,7 @@ $amortizacion=substr($amortizacion,17,6);
         else{
             echo "No se pudo guardar";
         }
-echo $sql;
+//echo $sql;
 
 
 
@@ -326,7 +307,7 @@ function analiza_archivo_presupuesto_aa($file)
         $aDataTableHeaderHTML[]=trim($NodeHeader->textContent);
         //echo $aDataTableHeaderHTML;
     }
-     print_r($aDataTableHeaderHTML);
+     //print_r($aDataTableHeaderHTML);
      
      
      $fecha_presupuesto=substr($aDataTableHeaderHTML[15],6,10);
@@ -395,7 +376,7 @@ function analiza_archivo_presupuesto_aa_lib($file)
         $aDataTableHeaderHTML[]=trim($NodeHeader->textContent);
         //echo $aDataTableHeaderHTML;
     }
-     print_r($aDataTableHeaderHTML);
+     //print_r($aDataTableHeaderHTML);
      
      
      $fecha_presupuesto=substr($aDataTableHeaderHTML[14],6,10);
@@ -467,7 +448,7 @@ function analiza_archivo_presupuesto_aa_lib($file)
         else{
             echo "No se pudo guardar";
         }
-echo $sql;
+//echo $sql;
 }
 function vaciar_colocadas($fecha)
 {
@@ -556,17 +537,21 @@ function actualiza_afectan_presupuesto()
 
 //analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
 //analiza_archivo_colocadas("paginas/colocadas_octubre.html");
-vaciar_colocadas('2019-03-31');
+vaciar_colocadas('2019-06-30');
 //analiza_archivo_colocadas("paginas/colocadas_noviembre.html");
 //analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
 //analiza_archivo_colocadas("paginas/colocadas_enero.html");  
 //analiza_archivo_colocadas("paginas/colocadas_febrero.html");  
 //analiza_archivo_colocadas("paginas/colocadas_marzo.html");
-analiza_archivo_colocadas("paginas/colocadas_abril.html"); 
-analiza_archivo_colocadas("paginas/colocadas_mayo.html");
-analiza_archivo_colocadas("paginas/colocadas_junio.html");
+//analiza_archivo_colocadas("paginas/colocadas_abril.html");
+
+//analiza_archivo_colocadas("paginas/colocadas_mayo.html"); 
+//analiza_archivo_colocadas("paginas/colocadas_junio.html");
 analiza_archivo_colocadas("paginas/colocadas_julio.html");
+analiza_archivo_colocadas("paginas/colocadas_agosto.html");
+analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
 descarga_presupuestos();
 cargas_presupuestos();
 actualiza_afectan_presupuesto();
+//analiza_archivo_presupuesto_rf("presupuestos/YU001387-1.html");
 ?>
