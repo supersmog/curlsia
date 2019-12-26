@@ -5,7 +5,7 @@ require("descarga_archivos.php");
 
 function descarga_presupuestos()
 {
-    $login="http://www.programaasibc.com.mx/siaMexicali/validausuario.php";
+    $login="http://www.programaasi.mx/siaMexicali/validausuario.php";
     $data_login="usuario=md032ca&clave=md032ca&tipo=1";
     $consulta=new cliente();
     //$sql="select solicitud,subprograma,rpu  from colocadas_sia where id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI','LSC')";
@@ -24,13 +24,13 @@ function descarga_presupuestos()
         switch($row['subprograma']){
             case 'RF': 
             {
-                $url="http://www.programaasibc.com.mx/siaMexicali/presup_refri.php?$url_extra";
+                $url="http://www.programaasi.mx/siaMexicali/presup_refri.php?$url_extra";
                 descarga_archivo_sindata($login,$data_login,$url,$archivo);
                 break;
             }
             case 'AA':
             {
-                $url="http://www.programaasibc.com.mx/siaMexicali/presup_equipo.php?$url_extra";
+                $url="http://www.programaasi.mx/siaMexicali/presup_equipo.php?$url_extra";
                 descarga_archivo_sindata($login,$data_login,$url,$archivo);
                 break;
             }
@@ -68,9 +68,10 @@ function analiza_archivo_colocadas($file)
         $aDataTableHeaderHTML[]=trim($NodeHeader->textContent);
        // echo $aDataTableHeaderHTML;
     }
-    print_r($aDataTableHeaderHTML);
+    //print_r($aDataTableHeaderHTML);
     $total_filas=$aDataTableHeaderHTML[10];
-    //echo $total_filas;
+    //$total_filas=288;
+    echo $total_filas;
     $iteracion=($total_filas*10)+20;
     $linea=0;
     for($i=21;$i<=$iteracion;$i=$i+10)
@@ -459,6 +460,15 @@ function vaciar_colocadas($fecha)
     $elimina=$consulta->eliminar($sql);
     echo "Eliminados despues de $fecha";
 }
+function vaciar_colocadas_antiguas($fecha)
+{
+    $consulta=new cliente();
+    //vaciamos la tabla
+    $sql="delete  from colocadas_sia  where fecha_registro<'$fecha'";
+    echo $sql;
+    $elimina=$consulta->eliminar($sql);
+    echo "Eliminados despues de $fecha";
+}
 
 function cargas_presupuestos()
 {
@@ -536,22 +546,27 @@ function actualiza_afectan_presupuesto()
 
 
 //analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
-//analiza_archivo_colocadas("paginas/colocadas_octubre.html");
-vaciar_colocadas('2019-06-30');
+////analiza_archivo_colocadas("paginas/colocadas_octubre.html");
 //analiza_archivo_colocadas("paginas/colocadas_noviembre.html");
 //analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
 //analiza_archivo_colocadas("paginas/colocadas_enero.html");  
 //analiza_archivo_colocadas("paginas/colocadas_febrero.html");  
 //analiza_archivo_colocadas("paginas/colocadas_marzo.html");
 //analiza_archivo_colocadas("paginas/colocadas_abril.html");
-
+//
 //analiza_archivo_colocadas("paginas/colocadas_mayo.html"); 
 //analiza_archivo_colocadas("paginas/colocadas_junio.html");
-analiza_archivo_colocadas("paginas/colocadas_julio.html");
-analiza_archivo_colocadas("paginas/colocadas_agosto.html");
-analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
-descarga_presupuestos();
-cargas_presupuestos();
-actualiza_afectan_presupuesto();
+//analiza_archivo_colocadas("paginas/colocadas_julio.html");
+//analiza_archivo_colocadas("paginas/colocadas_agosto.html");
+//analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
+
+vaciar_colocadas('2019-09-30');
+vaciar_colocadas_antiguas('2019-01-01');
+analiza_archivo_colocadas("paginas/colocadas_octubre.html");
+analiza_archivo_colocadas("paginas/colocadas_noviembre.html");
+analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
+///descarga_presupuestos();
+///cargas_presupuestos();
+///actualiza_afectan_presupuesto();
 //analiza_archivo_presupuesto_rf("presupuestos/YU001387-1.html");
 ?>

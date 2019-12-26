@@ -6,7 +6,7 @@ require("cliente.php");
 function descarga_archivo_sindata($url_login,$data_login,$url_archivo,$nombre_archivo)
 {
     login($url_login,$data_login);
-    grab_page("http://www.programaasibc.com.mx/siaMexicali/index.php");
+    grab_page("http://www.programaasi.mx/siaMexicali/index.php");
     guardar_pagina($url_archivo,$nombre_archivo);
 
 }
@@ -14,14 +14,14 @@ function descarga_archivo_sindata($url_login,$data_login,$url_archivo,$nombre_ar
 function descarga_archivo_condata($url_login,$data_login,$url_archivo,$data_archivo,$nombre_archivo)
 {
     login($url_login,$data_login);
-    grab_page("http://www.programaasibc.com.mx/siaMexicali/index.php");
+    grab_page("http://www.programaasi.mx/siaMexicali/index.php");
     guardar_pagina_data($url_archivo,$nombre_archivo,$data_archivo);
 
 }
 
 function descarga_solicitudes()
 {
-    $login="http://www.programaasibc.com.mx/siaMexicali/validausuario.php";
+    $login="http://www.programaasi.mx/siaMexicali/validausuario.php";
     $data_login="usuario=md032ca&clave=md032ca&tipo=1";
     $consulta=new cliente();
         $sql="select solicitud,subprograma,rpu from  afectan_presupuesto
@@ -35,7 +35,7 @@ function descarga_solicitudes()
         $soli2=substr($row['solicitud'],9,2);
         $url_extra="solicitud=$soli1&solixtra=$soli2";
         $archivo="registros/".$row['solicitud'].".html";
-        $url="http://www.programaasibc.com.mx/siaMexicali/contratos/ImpresionSol.php?tabla=1&fecha_supervision=&$url_extra";
+        $url="http://www.programaasi.mx/siaMexicali/contratos/ImpresionSol.php?tabla=1&fecha_supervision=&$url_extra";
         descarga_archivo_sindata($login,$data_login,$url,$archivo);
   
     
