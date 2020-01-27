@@ -68,8 +68,12 @@ function analiza_archivo_colocadas($file)
         $aDataTableHeaderHTML[]=trim($NodeHeader->textContent);
        // echo $aDataTableHeaderHTML;
     }
-    //print_r($aDataTableHeaderHTML);
-    $total_filas=$aDataTableHeaderHTML[10];
+    //echo count($aDataTableHeaderHTML);
+    $totalfilas2=count($aDataTableHeaderHTML)-10;
+    $total_filas=$aDataTableHeaderHTML[$totalfilas2];
+    //echo $totalfilas3;
+   // print_r($aDataTableHeaderHTML);
+   // $total_filas=$aDataTableHeaderHTML[10];
     //$total_filas=288;
     echo $total_filas;
     $iteracion=($total_filas*10)+20;
@@ -91,7 +95,7 @@ function analiza_archivo_colocadas($file)
         $concatenar=$concatenar."'";
                 //$concatenar=$aDataTableHeaderHTML[$i].",".$aDataTableHeaderHTML[$i+1].",".$aDataTableHeaderHTML[$i+2].",".$aDataTableHeaderHTML[$i+3].",".$aDataTableHeaderHTML[$i+4].",".$aDataTableHeaderHTML[$i+5].",".$aDataTableHeaderHTML[$i+6].",".$aDataTableHeaderHTML[$i+7].",".$aDataTableHeaderHTML[$i+8].",".$aDataTableHeaderHTML[$i+9];
        // echo "$concatenar\n";
-        $sql="insert into colocadas_sia (solicitud, fecha_registro, subprograma, id_estatus, rpu, nombre, colonia, direccion, id_proveedor) values(".$concatenar.")";
+        $sql="insert into colocadas_sia_tmp (solicitud, fecha_registro, subprograma, id_estatus, rpu, nombre, colonia, direccion, id_proveedor) values(".$concatenar.")";
         $resp=$cliente1->insertar($sql);
         if($resp)
         {
@@ -207,7 +211,7 @@ function analiza_archivo_presupuesto_rf_lib($file)
         $aDataTableHeaderHTML[]=trim($NodeHeader->textContent);
         //echo $aDataTableHeaderHTML;
     }
-     //print_r($aDataTableHeaderHTML);
+     print_r($aDataTableHeaderHTML);
      
      
      $fecha_presupuesto=substr($aDataTableHeaderHTML[5],23,10);
@@ -227,13 +231,14 @@ function analiza_archivo_presupuesto_rf_lib($file)
      $solicitud=$aDataTableHeaderHTML[42];
      $precio_sin_iva=$aDataTableHeaderHTML[46];
      $iva=ltrim($aDataTableHeaderHTML[49]);
-     $monto_financiar2=$aDataTableHeaderHTML[61];
+     $bonificacion=$aDataTableHeaderHTML[61];
+     $monto_financiar2=$aDataTableHeaderHTML[64];
      $excedente=$aDataTableHeaderHTML[58];
-     $interes=$aDataTableHeaderHTML[64];
-     $iva_interes=$aDataTableHeaderHTML[67];
-     $financiado=$aDataTableHeaderHTML[70];
-     $amortizacion=$aDataTableHeaderHTML[73];
-     $num_pagos=substr($aDataTableHeaderHTML[71],0,2);
+     $interes=$aDataTableHeaderHTML[67];
+     $iva_interes=$aDataTableHeaderHTML[70];
+     $financiado=$aDataTableHeaderHTML[73];
+     $amortizacion=$aDataTableHeaderHTML[76];
+     $num_pagos=substr($aDataTableHeaderHTML[74],0,2);
     $fecha_presupuesto=obtiene_fecha($fecha_presupuesto);
     $precio_sin_iva=substr($precio_sin_iva,1,9);
     $iva=substr($iva,17,8);
@@ -284,7 +289,7 @@ function analiza_archivo_presupuesto_rf_lib($file)
         else{
             echo "No se pudo guardar";
         }
-//echo $sql;
+echo $sql;
 
 
 
@@ -405,29 +410,6 @@ function analiza_archivo_presupuesto_aa_lib($file)
      $amortizacion=$aDataTableHeaderHTML[91];
      $num_pagos=substr($aDataTableHeaderHTML[89],0,2);
 
-     //echo $fecha_presupuesto."\n";
-     //echo $nombre_cliente."\n";
-     //echo $rpu."\n";
-     //echo $presupuesto."\n";
-     //echo $telefono."\n";
-     //echo $marca_instalar."\n";
-     //echo $modelo_instalar."\n";
-     //echo $capacidad_instalar."\n";
-     //echo $marca_retirar."\n";
-     //echo $modelo_retirar."\n";
-     //echo $capacidad_retirar."\n";
-     //echo $solicitud."\n";
-     //echo $precio_sin_iva."\n";
-     //echo $iva."\n";
-     //echo substr($instalacion,19,7)."\n";
-     //echo $monto_financiar."\n";
-     //echo $excedente."\n";
-     //echo $preciofinal."\n";
-     //echo $interes."\n";
-     //echo $iva_interes."\n"; //23
-     //echo $financiado."\n";  //26
-     //echo $amortizacion."\n"; //23
-     //echo $num_pagos."\n";
      $sp="AA";
      $activo=1;
      $solicitud=substr($presupuesto,0,10);
@@ -541,32 +523,45 @@ function actualiza_afectan_presupuesto()
     $resultado=$solicitudes->modificar($sql);
 
 }
+function actualiza_colocadas_sia()
+{
+    $solicitudes=new cliente();
+    
+    // Inserta los nuevos registros diarios
+    $sql="INSERT INTO colocadas_sia (solicitud, fecha_registro, subprograma, id_estatus, rpu, nombre, colonia, direccion, id_proveedor)
+    SELECT solicitud, fecha_registro, subprograma, id_estatus, rpu, nombre, colonia, direccion, id_proveedor FROM colocadas_sia_tmp WHERE NOT EXISTS 
+    (SELECT 1 FROM colocadas_sia WHERE colocadas_sia.solicitud = colocadas_sia_tmp.solicitud)";
+    $resultado=$solicitudes->modificar($sql);
+
+    //Actualiza los estatus de las solicitudes diarias
+    $sql="UPDATE colocadas_sia SET id_estatus=(SELECT colocadas_sia_tmp.id_estatus
+    from colocadas_sia_tmp where colocadas_sia.solicitud=colocadas_sia_tmp.solicitud)";
+    $resultado=$solicitudes->modificar($sql);
+    
+
+
+}
 
 
 
 
-//analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
-////analiza_archivo_colocadas("paginas/colocadas_octubre.html");
-//analiza_archivo_colocadas("paginas/colocadas_noviembre.html");
-//analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
-//analiza_archivo_colocadas("paginas/colocadas_enero.html");  
-//analiza_archivo_colocadas("paginas/colocadas_febrero.html");  
-//analiza_archivo_colocadas("paginas/colocadas_marzo.html");
-//analiza_archivo_colocadas("paginas/colocadas_abril.html");
-//
-//analiza_archivo_colocadas("paginas/colocadas_mayo.html"); 
-//analiza_archivo_colocadas("paginas/colocadas_junio.html");
-//analiza_archivo_colocadas("paginas/colocadas_julio.html");
-//analiza_archivo_colocadas("paginas/colocadas_agosto.html");
-//analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
 
-vaciar_colocadas('2019-09-30');
-vaciar_colocadas_antiguas('2019-01-01');
+analiza_archivo_colocadas("paginas/colocadas_enero.html");  
+analiza_archivo_colocadas("paginas/colocadas_febrero.html");  
+analiza_archivo_colocadas("paginas/colocadas_marzo.html");
+analiza_archivo_colocadas("paginas/colocadas_abril.html");
+analiza_archivo_colocadas("paginas/colocadas_mayo.html"); 
+analiza_archivo_colocadas("paginas/colocadas_junio.html");
+analiza_archivo_colocadas("paginas/colocadas_julio.html");
+analiza_archivo_colocadas("paginas/colocadas_agosto.html");
+analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
 analiza_archivo_colocadas("paginas/colocadas_octubre.html");
 analiza_archivo_colocadas("paginas/colocadas_noviembre.html");
 analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
-///descarga_presupuestos();
-///cargas_presupuestos();
-///actualiza_afectan_presupuesto();
-//analiza_archivo_presupuesto_rf("presupuestos/YU001387-1.html");
+actualiza_colocadas_sia();
+
+// descarga_presupuestos();
+// cargas_presupuestos();
+// actualiza_afectan_presupuesto();
+//analiza_archivo_presupuesto_rf_lib("presupuestos/ML000303-1.html");
 ?>

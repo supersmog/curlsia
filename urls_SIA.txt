@@ -1,70 +1,70 @@
-http://www.programaasibc.com.mx/siaMexicali/
-http://www.programaasibc.com.mx/siaMexicali/validausuario.php
-http://www.programaasibc.com.mx/siaMexicali/index.php
+http://www.programaasi.mx/siaMexicali/
+http://www.programaasi.mx/siaMexicali/validausuario.php
+http://www.programaasi.mx/siaMexicali/index.php
 
 
 para ingresar el RPU
 
-http://www.programaasibc.com.mx/siaMexicali/registro/index.php
+http://www.programaasi.mx/siaMexicali/registro/index.php
 
 
 valida al cliente
-http://www.programaasibc.com.mx/siaMexicali/registro/validacliente.php
+http://www.programaasi.mx/siaMexicali/registro/validacliente.php
 
 devuelve los datos del cliente
 
 
-http://www.programaasibc.com.mx/siaMexicali/registro/datoscliente.php?RPU=777120204801&upid=1540405113&medio=&buenpag=
+http://www.programaasi.mx/siaMexicali/registro/datoscliente.php?RPU=777120204801&upid=1540405113&medio=&buenpag=
 
 
 detalle buen pagador
 
-http://www.programaasibc.com.mx/siaMexicali/registro/procesaws.php?RPU=776130800431
+http://www.programaasi.mx/siaMexicali/registro/procesaws.php?RPU=776130800431
 
 773070703601
 
 liberaciones simple 
 
 merida
-http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberacion.php?generar=1&zona1=01&fechaInicial=2018-10-23&fechaFinal=2018-10-23
+http://www.programaasi.mx/siaMexicali/liberacion/reportes/liberacion.php?generar=1&zona1=01&fechaInicial=2018-10-23&fechaFinal=2018-10-23
 
 
 campeche
-http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberacion.php?generar=1&zona1=4&fechaInicial=2018-10-23&fechaFinal=2018-10-23
+http://www.programaasi.mx/siaMexicali/liberacion/reportes/liberacion.php?generar=1&zona1=4&fechaInicial=2018-10-23&fechaFinal=2018-10-23
 
 quinatana roo
-http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberacion.php?generar=1&zona1=12&fechaInicial=2018-10-23&fechaFinal=2018-10-23
+http://www.programaasi.mx/siaMexicali/liberacion/reportes/liberacion.php?generar=1&zona1=12&fechaInicial=2018-10-23&fechaFinal=2018-10-23
 
 
 
 liberaciones area tecnica
-http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/libiniciocord.php
-http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberaciones2.php
+http://www.programaasi.mx/siaMexicali/liberacion/reportes/libiniciocord.php
+http://www.programaasi.mx/siaMexicali/liberacion/reportes/liberaciones2.php
 POST  Cual=&idCoordinacion=-1&equipo=-1&idDistribuidor=-1&pdto=3&orderby=1&fechaLib=2018-11-13&model=1&xml=1&fechaInicial=2018-11-01&fechaFinal=2018-11-13&dAtencion=1
 
 
 
 liberaciones contabilidad
-http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/libinicio_Conta1.php
+http://www.programaasi.mx/siaMexicali/liberacion/reportes/libinicio_Conta1.php
 
-http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberaciones_Conta.php
+http://www.programaasi.mx/siaMexicali/liberacion/reportes/liberaciones_Conta.php
 POST  Cual=-1&idCoordinacion=-1&idDistribuidor=-1&pdto=3&orderby=1&fechaInicial=2018-11-01&model=1&xml=0&fechaFinal=2018-11-13
 
 
 confirmacion liberaciones 
 merida
-http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=01&fechaInicial=2018-10-23&fechaFinal=2018-10-23&distribuidor=0&programa=0
+http://www.programaasi.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=01&fechaInicial=2018-10-23&fechaFinal=2018-10-23&distribuidor=0&programa=0
 
 campeche
-http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=04&fechaInicial=2018-10-23&fechaFinal=2018-10-23&distribuidor=0&programa=0
+http://www.programaasi.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=04&fechaInicial=2018-10-23&fechaFinal=2018-10-23&distribuidor=0&programa=0
 
 quintanaroo
-http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=12&fechaInicial=2018-10-23&fechaFinal=2018-10-23&distribuidor=0&programa=0
+http://www.programaasi.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=12&fechaInicial=2018-10-23&fechaFinal=2018-10-23&distribuidor=0&programa=0
 
 
 Reporte de Avales
 merida
-http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/datosAvales.php?buscar=1&coord=01&rpusol=&numcredito=&solsia=&anio=2018&mes=10&rpuaval=&nombre=&appat=&apmat=&programa=4
+http://www.programaasi.mx/siaMexicali/liberacion/reportes/datosAvales.php?buscar=1&coord=01&rpusol=&numcredito=&solsia=&anio=2018&mes=10&rpuaval=&nombre=&appat=&apmat=&programa=4
 
 
 inyeccion SQL
@@ -75,65 +75,71 @@ datosAvales(Excel).php?query=SELECT a.rpu AS rpusol, CONCAT( s.solicitud, '-', s
 
 liberaciones mensuales
 
-http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesExcel.php?mes=10&anio=2018&tipounidad=0&zona=yu
+http://www.programaasi.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesExcel.php?mes=10&anio=2018&tipounidad=0&zona=yu
 
 
 liberaciones descarga PA ¿¿?????
 
-http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=YU  //Yucatan
-http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=QR  //Cancun
-http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=CM  //Campeche
+http://www.programaasi.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=YU  //Yucatan
+http://www.programaasi.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=QR  //Cancun
+http://www.programaasi.mx/siaMexicali/liberacion/reportes/ReporteLiberacionesPrint.php?mes=11&anio=2018&tipounidad=0&zona=CM  //Campeche
 
 
 
 Impresion de contratos
 
-http://www.programaasibc.com.mx/siaMexicali/contratos/confirmacion.php?idSol=YU000015&idPresupReimp=SU105622&tablaReimp=AC#
-http://www.programaasibc.com.mx/siaMexicali/contratos/confirmacion.php?idSol=YU000015&idPresupReimp=SU105622&tablaReimp=AC
+http://www.programaasi.mx/siaMexicali/contratos/confirmacion.php?idSol=YU000015&idPresupReimp=SU105622&tablaReimp=AC#
+http://www.programaasi.mx/siaMexicali/contratos/confirmacion.php?idSol=YU000015&idPresupReimp=SU105622&tablaReimp=AC
 
 Para ver el presupuesto 
 Refrigerador
-http://www.programaasibc.com.mx/siaMexicali/presup_refri.php?ns=YU000127&nsx=1    
+http://www.programaasi.mx/siaMexicali/presup_refri.php?ns=YU000127&nsx=1    
 
 Aire Acondicionado
-http://www.programaasibc.com.mx/siaMexicali/presup_equipo.php?ns=YU000015&nsx=2
+http://www.programaasi.mx/siaMexicali/presup_equipo.php?ns=YU000015&nsx=2
 
 
 +++++++++++++Solicitud++++++++++++
-http://www.programaasibc.com.mx/siaMexicali/contratos/ImpresionSol.php?tabla=1&fecha_supervision=&solicitud=YU000015&solixtra=2&comentario=
+http://www.programaasi.mx/siaMexicali/contratos/ImpresionSol.php?tabla=1&fecha_supervision=&solicitud=YU000015&solixtra=2&comentario=
 
 +++++++++++ChecklistExpediente++++++++++
-http://www.programaasibc.com.mx/siaMexicali/contratos/formatoChecklist.php?solicitud=YU000015&solixtra=2
+http://www.programaasi.mx/siaMexicali/contratos/formatoChecklist.php?solicitud=YU000015&solixtra=2
 
 +++++++++Reporte Supervision AA++++++++++++
-http://www.programaasibc.com.mx/siaMexicali/supervision/reporteAC.php?solicitud=YU000015&solixtra=2
+http://www.programaasi.mx/siaMexicali/supervision/reporteAC.php?solicitud=YU000015&solixtra=2
 
-http://programaasibc.com.mx/siaMexicali/supervision/reporteRefrigeradoresDist.php?solicitud=YU000021&solixtra=2
+http://programaasi.mx/siaMexicali/supervision/reporteLamparasDist.php?solicitud=ML000310&solixtra=3
+
+
+http://programaasi.mx/siaMexicali/supervision/reporteRefrigeradoresDist.php?solicitud=YU000021&solixtra=2
 
 ++++++++++Carta no ahorro+++++++++
-http://www.programaasibc.com.mx/siaMexicali/contratos/formatos/cartanoahorro.php
+http://www.programaasi.mx/siaMexicali/contratos/formatos/cartanoahorro.php
 
 
 ++++++++Contratos+++++++++++++++++++
-thtp://www.programaasibc.com.mx/siaMexicali/contratos/formatos/CONTRATOU.php
+thtp://www.programaasi.mx/siaMexicali/contratos/formatos/CONTRATOU.php
 
 
 cancelacion solicitudes
-http://www.programaasibc.com.mx/siaMexicali/cancelacion/index.php
+http://www.programaasi.mx/siaMexicali/cancelacion/index.php
 
 
 Reporte de reporteAfectadas Merida
-http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=01&fechaInicial=2018-10-01&fechaFinal=2018-11-13&distribuidor=0&programa=0
+http://www.programaasi.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=01&fechaInicial=2018-10-01&fechaFinal=2018-11-13&distribuidor=0&programa=0
 
 
 Campeche
 
-http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=04&fechaInicial=2018-10-01&fechaFinal=2018-11-13&distribuidor=0&programa=0
+http://www.programaasi.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=04&fechaInicial=2018-10-01&fechaFinal=2018-11-13&distribuidor=0&programa=0
 
 Cancun
-http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=12&fechaInicial=2018-10-01&fechaFinal=2018-11-13&distribuidor=0&programa=0
+http://www.programaasi.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=12&fechaInicial=2018-10-01&fechaFinal=2018-11-13&distribuidor=0&programa=0
 
 Boleta CAyD
 
-http://www.programaasibc.com.mx/siaMexicali/acopio/recepcion/boleta.php?registrada=1&solicitud=YU000844&solixtra=1&idsalv=&salva=0
-http://www.programaasibc.com.mx/siaMexicali/acopio/recepcion/boleta_print.php?solicitud=YU000844&solixtra=1&idsalv=&salva=0
+http://www.programaasi.mx/siaMexicali/acopio/recepcion/boleta.php?registrada=1&solicitud=YU000844&solixtra=1&idsalv=&salva=0
+http://www.programaasi.mx/siaMexicali/acopio/recepcion/boleta_print.php?solicitud=YU000844&solixtra=1&idsalv=&salva=0
+
+
+http://programaasi.mx/siaMexicali/integracion/ModificacionIntegracionMexicali.php?solicitud=ML000271&solixtra=1

@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Leer Archivo Excel</title>
-</head>
-<body>
-<h1>Leer Archivo Excel</h1>
+
 <?php
+require_once("funciones_curl.php");
+require("cliente.php");
 require_once 'PHPExcel/Classes/PHPExcel.php';
 $archivo = "paginas/confirma_lib_yucatan.xls";
 $inputFileType = PHPExcel_IOFactory::identify($archivo);
@@ -14,6 +10,7 @@ $objPHPExcel = $objReader->load($archivo);
 $sheet = $objPHPExcel->getSheet(0); 
 $highestRow = $sheet->getHighestRow(); 
 $highestColumn = $sheet->getHighestColumn();
+$liberacion=new cliente();
 for ($row = 4; $row <= $highestRow; $row++){ 
 		echo $row."|";
 		echo $sheet->getCell("A".$row)->getValue()."|";
@@ -34,7 +31,9 @@ for ($row = 4; $row <= $highestRow; $row++){
 		echo $sheet->getCell("P".$row)->getValue()."|";
 		echo $sheet->getCell("Q".$row)->getValue();
 		echo "\n";
+		
 }
+
+
+
 ?>
-</body>
-</html>
