@@ -452,6 +452,13 @@ function vaciar_colocadas_antiguas($fecha)
     echo "Eliminados despues de $fecha";
 }
 
+function vaciar_colocadas_tmp()
+{
+    $solicitudes=new cliente();
+    $sql="TRUNCATE `colocadas_sia_tmp`";
+    $resultado=$solicitudes->eliminar($sql);
+    echo "registros eliminados";
+}
 function cargas_presupuestos()
 {
     $consulta=new cliente();
@@ -526,6 +533,8 @@ function actualiza_afectan_presupuesto()
 function actualiza_colocadas_sia()
 {
     $solicitudes=new cliente();
+
+    
     
     // Inserta los nuevos registros diarios
     $sql="INSERT INTO colocadas_sia (solicitud, fecha_registro, subprograma, id_estatus, rpu, nombre, colonia, direccion, id_proveedor)
@@ -545,7 +554,7 @@ function actualiza_colocadas_sia()
 
 
 
-
+vaciar_colocadas_tmp();
 analiza_archivo_colocadas("paginas/colocadas_enero.html");  
 analiza_archivo_colocadas("paginas/colocadas_febrero.html");  
 analiza_archivo_colocadas("paginas/colocadas_marzo.html");
