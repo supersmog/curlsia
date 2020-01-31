@@ -143,3 +143,13 @@ http://www.programaasi.mx/siaMexicali/acopio/recepcion/boleta_print.php?solicitu
 
 
 http://programaasi.mx/siaMexicali/integracion/ModificacionIntegracionMexicali.php?solicitud=ML000271&solixtra=1
+
+
+reporte sup lavadoras
+http://programaasi.mx/siaMexicali/supervision/reporteLavadorasDist.php?solicitud=ML000375&solixtra=1
+
+presupuesto lavadoras
+http://programaasi.mx/siaMexicali/presup_programas.php?ns=ML000375&nsx=1
+
+presupuesto reporteLamparasDist
+http://programaasi.mx/siaMexicali/presup_programas.php?ns=ML000310&nsx=3
