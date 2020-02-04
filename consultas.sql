@@ -22,6 +22,10 @@ obtiene los nuevos registros diarios
 SELECT * FROM colocadas_sia_tmp WHERE NOT EXISTS 
 (SELECT 1 FROM colocadas_sia WHERE colocadas_sia.solicitud = colocadas_sia_tmp.solicitud)
 
+SELECT * FROM confirma_liberaciones_tmp WHERE NOT EXISTS 
+(SELECT 1 FROM confirma_liberaciones WHERE confirma_liberaciones.solicitud = confirma_liberaciones_tmp.solicitud)
+
+
 inicial para actualizar estatus
 SELECT colocadas_sia_tmp.solicitud, colocadas_sia_tmp.id_estatus,colocadas_sia.id_estatus
     from colocadas_sia_tmp,colocadas_sia where colocadas_sia.solicitud=colocadas_sia_tmp.solicitud
@@ -35,3 +39,7 @@ UPDATE colocadas_sia SET id_estatus=(SELECT colocadas_sia_tmp.id_estatus
 INSERT INTO colocadas_sia (solicitud, fecha_registro, subprograma, id_estatus, rpu, nombre, colonia, direccion, id_proveedor)
 SELECT solicitud, fecha_registro, subprograma, id_estatus, rpu, nombre, colonia, direccion, id_proveedor FROM colocadas_sia_tmp WHERE NOT EXISTS 
 (SELECT 1 FROM colocadas_sia WHERE colocadas_sia.solicitud = colocadas_sia_tmp.solicitud)
+
+INSERT INTO yucatan.confirma_liberaciones(rpu, solicitud, presupuesto,scc,sp,proveedor,financiamiento,bono,fecha_liberacion,usuario,fecha_registro,boleta,acopio,tipo_sup,zona)
+SELECT rpu, solicitud, presupuesto,scc,sp,proveedor,financiamiento,bono,fecha_liberacion,usuario,fecha_registro,boleta,acopio,tipo_sup,zona FROM confirma_liberaciones_tmp WHERE NOT EXISTS 
+(SELECT 1 FROM confirma_liberaciones WHERE confirma_liberaciones.solicitud = confirma_liberaciones_tmp.solicitud)
