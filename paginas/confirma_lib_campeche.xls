@@ -9106,6 +9106,44 @@
                         <td class="alternoImpresion" align="center">00</td>
                         <td class="alternoImpresion" align="center">Afectado</td>
                     </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789931000546</td>
+                        <td class="tdDataImpresion" align="center">CM000718-1</td>
+                        <td class="tdDataImpresion" align="center">RU135454</td>
+                        <td class="tdDataImpresion" align="center">000512250</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">COMERCIALIZADORA SYSTEL </td>
+                        <td class="tdDataImpresion" align="right">$10425.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2020-02-04</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2020-01-03</td>
+                        <td class="tdDataImpresion" align="center">GM-00000454-R</td>
+                        <td class="tdDataImpresion" align="left">Grupo Metaplast</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">789960800276</td>
+                        <td class="alternoImpresion" align="center">CM000782-1</td>
+                        <td class="alternoImpresion" align="center">RU136051</td>
+                        <td class="alternoImpresion" align="center">000512251</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">COMERCIALIZADORA SYSTEL </td>
+                        <td class="alternoImpresion" align="right">$14605.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2020-02-04</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2020-01-20</td>
+                        <td class="alternoImpresion" align="center">GM-00000460-R</td>
+                        <td class="alternoImpresion" align="left">Grupo Metaplast</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
               </table>				
 </body>
 </html>
