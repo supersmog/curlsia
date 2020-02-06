@@ -14293,6 +14293,7 @@
                         <td class="tdDataImpresion" align="center">00</td>
                         <td class="tdDataImpresion" align="center">Afectado</td>
                     </tr>
+<<<<<<< HEAD
                               <tr>
                         <td class="alternoImpresion">781150700134</td>
                         <td class="alternoImpresion" align="center">QR001014-2</td>
@@ -14350,6 +14351,8 @@
                         <td class="alternoImpresion" align="center">00</td>
                         <td class="alternoImpresion" align="center">Afectado</td>
                     </tr>
+=======
+>>>>>>> e32377f2710a7236fdac41cd3d9a770307d0f4be
               </table>				
 </body>
 </html>

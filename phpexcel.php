@@ -144,10 +144,15 @@ function actualiza_confirma_liberaciones_simple($archivo,$zona)
 vaciar_tabla('confirma_liberaciones_tmp');
 actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan.xls","Merida");
 actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_motul.xls","Motul");
+actualiza_confirma_liberaciones("paginas/confirma_lib_campeche.xls","Campeche");
+actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroo.xls","Cancun");
+actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroorv.xls","Riviera");
 vaciar_tabla('liberaciones_simple_tmp');
 actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_yucatan.xls","Merida");
 actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_yucatan_motul.xls","Motul");
-
+actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_campeche.xls","Campeche");
+actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_quintanaroo.xls","Cancun");
+actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_quintanaroorv.xls","Riviera");
 
 
 ?>

@@ -15935,6 +15935,7 @@
                             <td class="tdDataImpresionH" align="center">22.27</td>
                             <td class="tdDataImpresionH" align="center">0</td>
                         </tr>
+<<<<<<< HEAD
                                             <tr>
                             <td class="tdDataImpresionH" align="center">781150700134</td>
                             <td class="tdDataImpresionH" align="center">000512270</td>
@@ -16124,6 +16125,8 @@
                             <td class="tdDataImpresionH" align="center">23.99</td>
                             <td class="tdDataImpresionH" align="center">0</td>
                         </tr>
+=======
+>>>>>>> e32377f2710a7236fdac41cd3d9a770307d0f4be
                                     </table>        
             </td>
         </tr>
