@@ -5496,7 +5496,6 @@
                         <td class="alternoImpresion" align="center">00</td>
                         <td class="alternoImpresion" align="center">Afectado</td>
                     </tr>
-<<<<<<< HEAD
                               <tr>
                         <td class="tdDataImpresion">808970900281</td>
                         <td class="tdDataImpresion" align="center">ML000370-1</td>
@@ -5630,8 +5629,120 @@
                         <td class="tdDataImpresion" align="center">00</td>
                         <td class="tdDataImpresion" align="center">Afectado</td>
                     </tr>
-=======
->>>>>>> e32377f2710a7236fdac41cd3d9a770307d0f4be
+                              <tr>
+                        <td class="alternoImpresion">808750307644</td>
+                        <td class="alternoImpresion" align="center">ML000412-1</td>
+                        <td class="alternoImpresion" align="center">RU136482</td>
+                        <td class="alternoImpresion" align="center">000512482</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">RODEKA DEL SURESTE (MO)</td>
+                        <td class="alternoImpresion" align="right">$15985.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2020-02-07</td>
+                        <td class="alternoImpresion" align="center">MD032MO</td>
+                        <td class="alternoImpresion" align="center">2020-01-28</td>
+                        <td class="alternoImpresion" align="center">SR-00000315-R</td>
+                        <td class="alternoImpresion" align="left">SARE (MO)</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">807041001128</td>
+                        <td class="tdDataImpresion" align="center">ML000354-1</td>
+                        <td class="tdDataImpresion" align="center">RU135389</td>
+                        <td class="tdDataImpresion" align="center">000512483</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">HERMANOS LARA(MO)</td>
+                        <td class="tdDataImpresion" align="right">$16166.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2020-02-07</td>
+                        <td class="tdDataImpresion" align="center">MD032MO</td>
+                        <td class="tdDataImpresion" align="center">2020-01-07</td>
+                        <td class="tdDataImpresion" align="center">SR-00000308-R</td>
+                        <td class="tdDataImpresion" align="left">SARE (MO)</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">804081100863</td>
+                        <td class="alternoImpresion" align="center">ML000391-1</td>
+                        <td class="alternoImpresion" align="center">RU135948</td>
+                        <td class="alternoImpresion" align="center">000512484</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">HERMANOS LARA(MO)</td>
+                        <td class="alternoImpresion" align="right">$15945.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2020-02-07</td>
+                        <td class="alternoImpresion" align="center">MD032MO</td>
+                        <td class="alternoImpresion" align="center">2020-01-20</td>
+                        <td class="alternoImpresion" align="center">SR-00000302-R</td>
+                        <td class="alternoImpresion" align="left">SARE (MO)</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">807750318771</td>
+                        <td class="tdDataImpresion" align="center">ML000272-2</td>
+                        <td class="tdDataImpresion" align="center">RU136146</td>
+                        <td class="tdDataImpresion" align="center">000512485</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">COLD-SHOP (MO)</td>
+                        <td class="tdDataImpresion" align="right">$16213.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2020-02-07</td>
+                        <td class="tdDataImpresion" align="center">MD032MO</td>
+                        <td class="tdDataImpresion" align="center">2020-01-23</td>
+                        <td class="tdDataImpresion" align="center">SR-00000212-R</td>
+                        <td class="tdDataImpresion" align="left">SARE (MO)</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">808840100011</td>
+                        <td class="alternoImpresion" align="center">ML000316-1</td>
+                        <td class="alternoImpresion" align="center">RU134560</td>
+                        <td class="alternoImpresion" align="center">000512492</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">CREDIPLUS(MO)</td>
+                        <td class="alternoImpresion" align="right">$14739.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2020-02-07</td>
+                        <td class="alternoImpresion" align="center">MD045MO</td>
+                        <td class="alternoImpresion" align="center">2019-12-23</td>
+                        <td class="alternoImpresion" align="center">SR-00000263-R</td>
+                        <td class="alternoImpresion" align="left">SARE (MO)</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">807080800127</td>
+                        <td class="tdDataImpresion" align="center">ML000343-1</td>
+                        <td class="tdDataImpresion" align="center">RU134889</td>
+                        <td class="tdDataImpresion" align="center">000512493</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">HERMANOS LARA(MO)</td>
+                        <td class="tdDataImpresion" align="right">$16166.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2020-02-07</td>
+                        <td class="tdDataImpresion" align="center">MD045MO</td>
+                        <td class="tdDataImpresion" align="center">2020-01-03</td>
+                        <td class="tdDataImpresion" align="center">SR-00000291-R</td>
+                        <td class="tdDataImpresion" align="left">SARE (MO)</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
               </table>				
 </body>
 </html>

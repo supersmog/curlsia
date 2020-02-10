@@ -20,27 +20,74 @@ function descarga_presupuestos()
         $soli2=substr($row['solicitud'],9,2);
         $url_extra="ns=$soli1&nsx=$soli2";
         $archivo="presupuestos/".$row['solicitud'].".html";
-       
-        switch($row['subprograma']){
-            case 'RF': 
+      
+        
+        for ($x = 1; $x<=3; $x++){
+            echo "valor $x";
+            switch($x)
             {
-                $url="http://www.programaasi.mx/siaMexicali/presup_refri.php?$url_extra";
-                descarga_archivo_sindata($login,$data_login,$url,$archivo);
-                break;
+                case 1: // Refrigerador
+                    {
+                        $url="http://www.programaasi.mx/siaMexicali/presup_refri.php?$url_extra";
+                        descarga_archivo_sindata($login,$data_login,$url,$archivo);
+                        if(filesize($archivo)>617)
+                        {
+                            echo "Guardado RF";
+                            $x=4;
+        
+                        }
+                    break;
+        
+                    }
+                case 2: //Aire Acondicionado
+                    {
+                        $url="http://www.programaasi.mx/siaMexicali/presup_equipo.php?$url_extra";
+                        descarga_archivo_sindata($login,$data_login,$url,$archivo);
+                        if(filesize($archivo)>649)
+                            {
+                                echo "Guardado AA\n";
+                                $x=4;
+            
+                            }
+                        break;
+        
+                    }
+                case 3: //LED Lavadoras Fotovoltaicos
+                    {
+                        $url="http://www.programaasi.mx/siaMexicali/presup_programas.php?$url_extra";
+                        descarga_archivo_sindata($login,$data_login,$url,$archivo);
+                        if(filesize($archivo)>617)
+                            {
+                                echo "Guardado FT,LD,LV\n";
+                                $x=4;
+            
+                            }
+                        break;
+        
+        
+                    }
+                    
+        
             }
-            case 'AA':
-            {
-                $url="http://www.programaasi.mx/siaMexicali/presup_equipo.php?$url_extra";
-                descarga_archivo_sindata($login,$data_login,$url,$archivo);
-                break;
-            }
+        
 
-        }
+
+    //    //intenta descargar de RF
+    //    $url="http://www.programaasi.mx/siaMexicali/presup_refri.php?$url_extra";
+    //    descarga_archivo_sindata($login,$data_login,$url,$archivo);
+    //    $tamanio=filesize($archivo);
+    //    if($tamanio>617)
+    //    {
+    //        echo "Descarga correcta";
+    //    }
+    //   
+
      
     
     }
 
 
+    }
 }
 function obtiene_fecha($fecha)
 {
@@ -554,22 +601,37 @@ function actualiza_colocadas_sia()
 
 
 
-vaciar_colocadas_tmp();
-analiza_archivo_colocadas("paginas/colocadas_enero.html");  
-analiza_archivo_colocadas("paginas/colocadas_febrero.html");  
-analiza_archivo_colocadas("paginas/colocadas_marzo.html");
-analiza_archivo_colocadas("paginas/colocadas_abril.html");
-analiza_archivo_colocadas("paginas/colocadas_mayo.html"); 
-analiza_archivo_colocadas("paginas/colocadas_junio.html");
-analiza_archivo_colocadas("paginas/colocadas_julio.html");
-analiza_archivo_colocadas("paginas/colocadas_agosto.html");
-analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
-analiza_archivo_colocadas("paginas/colocadas_octubre.html");
-analiza_archivo_colocadas("paginas/colocadas_noviembre.html");
-analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
-actualiza_colocadas_sia();
+// vaciar_colocadas_tmp();
+// analiza_archivo_colocadas("paginas/colocadas_enero.html");  
+// analiza_archivo_colocadas("paginas/colocadas_febrero.html");  
+// analiza_archivo_colocadas("paginas/colocadas_marzo.html");
+// analiza_archivo_colocadas("paginas/colocadas_abril.html");
+// analiza_archivo_colocadas("paginas/colocadas_mayo.html"); 
+// analiza_archivo_colocadas("paginas/colocadas_junio.html");
+// analiza_archivo_colocadas("paginas/colocadas_julio.html");
+// analiza_archivo_colocadas("paginas/colocadas_agosto.html");
+// analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
+// analiza_archivo_colocadas("paginas/colocadas_octubre.html");
+// analiza_archivo_colocadas("paginas/colocadas_noviembre.html");
+// analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
+// actualiza_colocadas_sia();
 
-// descarga_presupuestos();
+
+// $login="http://www.programaasi.mx/siaMexicali/validausuario.php";
+// $data_login="usuario=md032ca&clave=md032ca&tipo=1";
+// $url_extra="ns=YU001524&nsx=1";
+// $archivo="presupuestos/YU001524-1.html";
+
+// //intenta descargar de RF
+// $url="http://www.programaasi.mx/siaMexicali/presup_refri.php?$url_extra";
+// descarga_archivo_sindata($login,$data_login,$url,$archivo);
+// $tamanio=filesize($archivo);
+// if($tamanio>617)
+// {
+//     echo "Descarga correcta y $tamanio";
+// }
+
+ descarga_presupuestos();
 // cargas_presupuestos();
 // actualiza_afectan_presupuesto();
 //analiza_archivo_presupuesto_rf_lib("presupuestos/ML000303-1.html");
