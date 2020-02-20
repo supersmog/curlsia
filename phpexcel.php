@@ -152,7 +152,7 @@ actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_yucatan.xls"
 actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_yucatan_motul.xls","Motul");
 actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_campeche.xls","Campeche");
 actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_quintanaroo.xls","Cancun");
-actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_quintanaroorv.xls","Riviera");
+//actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_quintanaroorv.xls","Riviera");
 
 
 ?>

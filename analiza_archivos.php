@@ -119,7 +119,7 @@ function analiza_archivo_colocadas($file)
     $totalfilas2=count($aDataTableHeaderHTML)-10;
     $total_filas=$aDataTableHeaderHTML[$totalfilas2];
     //echo $totalfilas3;
-   // print_r($aDataTableHeaderHTML);
+   //   
    // $total_filas=$aDataTableHeaderHTML[10];
     //$total_filas=288;
     echo $total_filas;
@@ -601,20 +601,22 @@ function actualiza_colocadas_sia()
 
 
 
-// vaciar_colocadas_tmp();
-// analiza_archivo_colocadas("paginas/colocadas_enero.html");  
-// analiza_archivo_colocadas("paginas/colocadas_febrero.html");  
-// analiza_archivo_colocadas("paginas/colocadas_marzo.html");
-// analiza_archivo_colocadas("paginas/colocadas_abril.html");
-// analiza_archivo_colocadas("paginas/colocadas_mayo.html"); 
-// analiza_archivo_colocadas("paginas/colocadas_junio.html");
-// analiza_archivo_colocadas("paginas/colocadas_julio.html");
-// analiza_archivo_colocadas("paginas/colocadas_agosto.html");
-// analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
-// analiza_archivo_colocadas("paginas/colocadas_octubre.html");
-// analiza_archivo_colocadas("paginas/colocadas_noviembre.html");
-// analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
-// actualiza_colocadas_sia();
+vaciar_colocadas_tmp();
+analiza_archivo_colocadas("paginas/colocadas_enero.html");  
+analiza_archivo_colocadas("paginas/colocadas_febrero.html");  
+analiza_archivo_colocadas("paginas/colocadas_marzo.html");
+analiza_archivo_colocadas("paginas/colocadas_abril.html");
+ analiza_archivo_colocadas("paginas/colocadas_mayo.html"); 
+ analiza_archivo_colocadas("paginas/colocadas_junio.html");
+ analiza_archivo_colocadas("paginas/colocadas_julio.html");
+ analiza_archivo_colocadas("paginas/colocadas_agosto.html");
+ analiza_archivo_colocadas("paginas/colocadas_septiembre.html");
+ analiza_archivo_colocadas("paginas/colocadas_octubre.html");
+ analiza_archivo_colocadas("paginas/colocadas_noviembre.html");
+ analiza_archivo_colocadas("paginas/colocadas_diciembre.html");
+//analiza_archivo_colocadas("paginas/colocadas_enero_20.html");  
+//analiza_archivo_colocadas("paginas/colocadas_febrero_20.html"); 
+actualiza_colocadas_sia();
 
 
 // $login="http://www.programaasi.mx/siaMexicali/validausuario.php";
@@ -631,7 +633,7 @@ function actualiza_colocadas_sia()
 //     echo "Descarga correcta y $tamanio";
 // }
 
- descarga_presupuestos();
+ //descarga_presupuestos();
 // cargas_presupuestos();
 // actualiza_afectan_presupuesto();
 //analiza_archivo_presupuesto_rf_lib("presupuestos/ML000303-1.html");

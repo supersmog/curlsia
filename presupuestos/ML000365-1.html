@@ -171,7 +171,7 @@
 		  if(!x && d.getElementById) x=d.getElementById( n ); return x;
 	}
 	function modificar(){
-		window.open('modifpresup.php?Tipo=3&ns=ML000158&nsx=2&idpresup=RU134964','ModificarPresupuestos','scrollbars=0,directories=0,toolbar=0, menubar=0, status=0, width=550,height=200, top=125,left=250');
+		window.open('modifpresup.php?Tipo=3&ns=ML000365&nsx=1&idpresup=RU135353','ModificarPresupuestos','scrollbars=0,directories=0,toolbar=0, menubar=0, status=0, width=550,height=200, top=125,left=250');
 	}
 
 	function mostrarProyeccion()
@@ -179,14 +179,14 @@
 		
 
 	
-		window.open('proyeccion/ProyeccionPagos.php?ns=ML000158&nsx=2&nombre=&idpresup=RU134964&tasafija=','Proyeccion','scrollbars=1,directories=0,toolbar=0, menubar=0, status=0, width=600,height=700, top=125,left=250');
+		window.open('proyeccion/ProyeccionPagos.php?ns=ML000365&nsx=1&nombre=&idpresup=RU135353&tasafija=','Proyeccion','scrollbars=1,directories=0,toolbar=0, menubar=0, status=0, width=600,height=700, top=125,left=250');
 		            
 	}
 
 /*
 	function mostrarProyeccion()
 	{
-		window.open('contratos/formatos/ProyeccionPagos.php?Tipo=3&ns=ML000158&nsx=2&idpresup=RU134964','ModificarPresupuestos','scrollbars=1,directories=0,toolbar=0, menubar=0, status=0, width=600,height=700, top=125,left=250');
+		window.open('contratos/formatos/ProyeccionPagos.php?Tipo=3&ns=ML000365&nsx=1&idpresup=RU135353','ModificarPresupuestos','scrollbars=1,directories=0,toolbar=0, menubar=0, status=0, width=600,height=700, top=125,left=250');
 		            
 	}*/
 </script>
@@ -211,8 +211,8 @@
 <img src="logos/noimage.gif" border="0">
 		</td>
 		<td width="315" onClick="JavaScript:show2();" title="Boton de Cambio de Presupuesto" style="cursor:hand;" align="center" valign="middle" class="tituloEtiqueta">
-<b>GROSS DEL SURESTE SA DE CV (MO)</b><br>
-<em>C. CONSTELACION OSA MAYOR NUM 3 ENTRE FENIX Y CENTAURO<br>Tel: 9381180796<br><strong>email: jgh@gross.mx<br>MOTUL, Yucatan</em>
+<b>HERMANOS LARA(MO)</b><br>
+<em>C. 51 # 95F X 44 Y 46<br>Tel: 19979751886<br><strong>email: edwinadrianlaragarcia@gmail.com<br>MOTUL, Yucatan</em>
 
 		</td>
 		<td width="25%" onClick="JavaScript:show3();" title="Boton de Proyeccion de Pagos" style="cursor:hand;" valign="middle" align="center"><p><img src="images/ASI_inv.gif" width="157" height="63"></p>
@@ -222,6 +222,48 @@
   </td>
 </tr>
 </table>
+<div id="LayerPrinter" style="position:absolute; width:80px; height:70px; z-index:1; top: 72px; left: 36px;">
+	<table width="50" cellpadding="0" cellspacing="0" border="1" bordercolor="#999999" bgcolor="#FFFFFF">
+	<tr>
+	<td>
+	<table width="50"cellspacing="3" cellpadding="0" border="0" bordercolor="#FFFFFF">
+		<tr>
+			<td align="center" title="Imprimir documento">
+				<img src="contratos/formatos/inc/images/printersmall.gif" border="0" style="cursor:hand;" onClick="JavaScript:printWindow();">			
+			</td>
+			<td title="Ocultar botones de impresi&oacute;n" align="right" valign="top" bordercolor="#999999">
+				<a href="JavaScript:hide();" style="text-decoration:none;">
+				<font color="#999999" size="2" face="Verdana, Arial, Helvetica, sans-serif"><b>X&nbsp;</b></font></a>
+			</td>			
+		</tr>
+		<tr>
+			<td align="center" colspan="3" title="Imprimir documento">
+				<a href="JavaScript:printWindow();" style="text-decoration:none"><font color="#990000" face="Arial, Helvetica, sans-serif">Imprimir</font></a>
+			</td>		
+		</tr>
+	</table>
+	  </td>
+	  </tr>
+	</table>	
+</div>
+<div id="ModifPresup" style="position:absolute; width:166px; height:47px; z-index:1; top: 96px; left: 213px;">
+	<table width="50" cellpadding="0" cellspacing="0" border="1" bordercolor="#999999" bgcolor="#FFFFFF">
+	<tr>
+	<td>
+	<table width="162" height="42" border="0" cellpadding="0"cellspacing="3" bordercolor="#FFFFFF">
+		<tr>
+			<td width="132" height="36" align="center" title="Cambiar Presupuesto"><a href="JavaScript:modificar();" style="text-decoration:none"><font color="#990000" face="Arial, Helvetica, sans-serif">Cambiar Presupuesto</font></a>
+			</td>
+			<td width="21" align="right" valign="top" bordercolor="#999999" title="Ocultar botones de impresi&oacute;n">
+				<a href="JavaScript:hide2();" style="text-decoration:none;">
+				<font color="#999999" size="2" face="Verdana, Arial, Helvetica, sans-serif"><b>X&nbsp;</b></font></a>
+			</td>			
+		</tr>
+		</table>
+	  </td>
+	  </tr>
+	</table>	
+</div>
 <br>
 <table width="630" cellpadding="2" cellspacing="1" border="0">
   <tr>
@@ -230,7 +272,7 @@
     </td>
   </tr>
   <tr>
-  	<td colspan="2" align="right" class="datosCliente"><b>Fecha del presupuesto: 06/01/2020</b></td>
+  	<td colspan="2" align="right" class="datosCliente"><b>Fecha del presupuesto: 12/01/2020</b></td>
   </tr>
   <tr>
     <td colspan="2">
@@ -238,46 +280,30 @@
 		<table width="100%" border="0" class="bordetabla" style="bordetabla" align="center">
         <tr> 
           <td width="135" class="tituloEtiqueta" nowrap><strong>NOMBRE DEL CLIENTE:</strong></td>
-          <td colspan="3" class="datosCliente">POOL MANZANILLA CARLOS ENRIQUE</td>
+          <td colspan="3" class="datosCliente">CANCHE  Y CANUL JUAN BAUTISTA</td>
         </tr>
         <tr> 
           <td width="135" class="tituloEtiqueta"><strong>DOMICILIO:</strong></td>
-          <td colspan="3" class="datosCliente">21 A X 2 Y 2A S/N Col. TIXKOKOB              F</td>
+          <td colspan="3" class="datosCliente">24 X 21 Y 23 S/N Col. MUXUPIP               F</td>
         </tr>
         <tr> 
           <td width="135" class="tituloEtiqueta"><strong>R.P.U./R.P.E.:</strong></td>
-          <td colspan="3" class="datosCliente">808100300335</td>
+          <td colspan="3" class="datosCliente">804880300336</td>
         </tr>
         <tr> 
           <td width="135" class="tituloEtiqueta"><strong>No. DE TELEFONO:</strong></td>
-          <td width="132" class="datosCliente">9911117479</td>
+          <td width="132" class="datosCliente">9911023884</td>
           <td width="143" align="left" class="tituloEtiqueta"><strong>Presupuesto 
             Asociado:</strong></td>
           <td width="164" nowrap class="datosCliente"><font pointsize="8"> 
-ML000158-2-PRU134964            </font></td>
+ML000365-1-PRU135353            </font></td>
         </tr>
       </table>
 	
 	</td>
   </tr>
   <tr>
-    <td colspan="2"><html>
-<head>
-<title>ERROR !!</title>
-</head>
-<body>
-<table width="80%" border="0" align="center" cellspacing="0" cellpad="0">
-  <tr>
-  	<td width="10%"><img src="http://www.programaasi.mx/siaMexicali/images/warningIcon.gif" align="absmiddle"></td>
-	<td class="warningStr"><font face="Arial, Helvetica, sans-serif" size="2" color="#990000"><strong>
-<br>Estatus de la Solicitud y el Presupuesto:<br> Solicitud - [ LSC -  ] <br> Presupuesto - [ LSC - Liberada en SCC ] 	
-	</strong></font><br>
-	<font color="#FFFFFF" style="font-size: 6px;">Error: </font>
-	</td>
-  </tr>
-</table>
-</body>
-</html></td>
+    <td colspan="2"></td>
   </tr>
   <tr>
     <td width="383" valign="top" align="center">
@@ -294,9 +320,9 @@ ML000158-2-PRU134964            </font></td>
       </tr>
 	  <tr>
         <td class="tdData">Acros</td>
-        <td class="tdData">AT096FG</td>
-        <td align="center" class="tdData">9</td>
-        <td align="right" class="tdData">$8,750.00</td>
+        <td class="tdData">AT1330D</td>
+        <td align="center" class="tdData">13</td>
+        <td align="right" class="tdData">$12,199.96</td>
       </tr>
     </table>	<br><table width="300" border="1" cellspacing="0" bordercolor="#000000">
 	  <tr bgcolor="#9DACBF">
@@ -311,13 +337,13 @@ ML000158-2-PRU134964            </font></td>
 	    <td class="tdDataHead">ETIQUETA C. B.</td>
 	    </tr>
 	  <tr>
-	    <td class="tdData">MABE</td>
-	    <td align="center" class="tdData">8</td>
-	    <td class="tdData">SIN MODELO</td>
-	    <td align="center" class="tdData">9</td>
+	    <td class="tdData">SAMSUNG</td>
+	    <td align="center" class="tdData">12</td>
+	    <td class="tdData">ML000365-1</td>
+	    <td align="center" class="tdData">12</td>
 	    <td align="right" class="tdData">$
 	      0.00</td>
-	    <td align="center" class="tdData">ML000158-2</td>
+	    <td align="center" class="tdData">ML000365-1</td>
 	    </tr>
     </table>   <br> <table width="74%" cellpadding="3" cellspacing="0" border="1" bordercolor="#000000">
       <tr bordercolor="#000000">
@@ -326,26 +352,26 @@ ML000158-2-PRU134964            </font></td>
             <td width="211" class="tituloEtiqueta" valign="middle" align="right"><b>Precio P&uacute;blico 
               (sin IVA):&nbsp;</b></td>
             <td width="30" class="cantidadCosto" valign="middle" align="right">&nbsp;</td>
-            <td width="90" class="cantidadCosto" valign="middle" align="right" nowrap>$ 7,543.10</td>
+            <td width="90" class="cantidadCosto" valign="middle" align="right" nowrap>$ 10,517.20</td>
           </tr>
           <tr>
             <td class="tituloEtiqueta" valign="middle" align="right" nowrap><b>IVA:&nbsp;</b></td>
             <td class="cantidadCosto" valign="middle" align="center" nowrap>( + )</td>
             <td class="cantidadCosto" valign="middle" align="right">$
-              1,206.90</td>
+              1,682.76</td>
             </tr>
           <tr>
             <td class="tituloEtiqueta" valign="middle" align="right"><b>Precio al Cliente:&nbsp;</b></td>
             <td class="cantidadCosto" valign="middle" align="right">&nbsp;</td>
             <td class="cantidadCosto" valign="middle" align="right">$
-              8,750.00</td>
+              12,199.96</td>
             </tr>
                        <tr bgcolor="#C9D1DC">
             <td class="tituloEtiqueta" valign="middle" align="right"><b> (Precio final al 
               Cliente) TOTAL:&nbsp;</b></td>
             <td class="cantidadCosto" valign="middle" align="right">&nbsp;</td>
             <td class="cantidadCosto" valign="middle" align="right">$
-              8,750.00</td>
+              12,199.96</td>
             </tr>
           <tr>
             <td class="tituloEtiqueta" valign="middle" align="right">Excedente:&nbsp;</td>
@@ -365,34 +391,34 @@ ML000158-2-PRU134964            </font></td>
             <td class="tituloEtiqueta" valign="middle" align="right">Monto a Financiar:&nbsp;</td>
             <td class="cantidadCosto" valign="middle" align="right">&nbsp;</td>
             <td class="cantidadCosto" valign="middle" align="right">$
-              8,450.00</td>
+              11,900.00</td>
             </tr>
           <tr>
             <td class="tituloEtiqueta" valign="middle" align="right">Interes:&nbsp;</td>
             <td class="cantidadCosto" valign="middle" align="center">( + )</td>
             <td class="cantidadCosto" valign="middle" align="right">$
-              1,844.66</td>
+              3,486.56</td>
             </tr>
           <tr>
             <td class="tituloEtiqueta" valign="middle" align="right">IVA
               Interes:&nbsp;</td>
             <td class="cantidadCosto" valign="middle" align="center">( + )</td>
             <td class="cantidadCosto" valign="middle" align="right">$
-              295.15</td>
+              557.85</td>
             </tr>
           <tr bgcolor="#C9D1DC">
             <td class="tituloEtiqueta" valign="middle" align="right">TOTAL
               FINANCIADO:&nbsp;</td>
             <td class="cantidadCosto" valign="middle" align="right">&nbsp;</td>
             <td class="cantidadCosto" valign="middle" align="right">$
-              10,589.81</td>
+              15,944.37</td>
             </tr>
           <tr bgcolor="#C9D1DC">
             <td class="tituloEtiqueta" valign="middle" align="right"><font size="3"><b>
-              <center><b>18 PAGOS<br>BIMESTRALES<br>DE:</b></center>              </b></font></td>
+              <center><b>24 PAGOS<br>BIMESTRALES<br>DE:</b></center>              </b></font></td>
             <td class="cantidadCosto" valign="middle" align="right">&nbsp;</td>
             <td class="cantidadCosto" valign="middle" align="right"><font size="3"><strong> $
-              589.00              </strong></font></td>
+              665.00              </strong></font></td>
             </tr>
           </table></td>
         </tr>
@@ -434,206 +460,272 @@ End function
 	<!--<br>-->
   <tr> 
     <td width="13%" align="center" nowrap="nowrap">1</td>
-    <td width="17%" align="center" nowrap="nowrap">8,450.00</td>
-    <td width="17%"  align="center" nowrap="nowrap">470.12</td>
-    <td width="17%" align="center" nowrap="nowrap">102.48</td>
-    <td width="21%" align="center" nowrap="nowrap">16.40</td>
-    <td width="15%" align="center" nowrap="nowrap">589.00</td>
+    <td width="17%" align="center" nowrap="nowrap">11,900.00</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
   </tr>
 
   <!--</table>-->
 	<!--<br>-->
   <tr> 
     <td width="13%" align="center" nowrap="nowrap">2</td>
-    <td width="17%" align="center" nowrap="nowrap">7,979.88</td>
-    <td width="17%"  align="center" nowrap="nowrap">470.12</td>
-    <td width="17%" align="center" nowrap="nowrap">102.48</td>
-    <td width="21%" align="center" nowrap="nowrap">16.40</td>
-    <td width="15%" align="center" nowrap="nowrap">589.00</td>
+    <td width="17%" align="center" nowrap="nowrap">11,403.51</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
   </tr>
 
   <!--</table>-->
 	<!--<br>-->
   <tr> 
     <td width="13%" align="center" nowrap="nowrap">3</td>
-    <td width="17%" align="center" nowrap="nowrap">7,509.76</td>
-    <td width="17%"  align="center" nowrap="nowrap">470.12</td>
-    <td width="17%" align="center" nowrap="nowrap">102.48</td>
-    <td width="21%" align="center" nowrap="nowrap">16.40</td>
-    <td width="15%" align="center" nowrap="nowrap">589.00</td>
+    <td width="17%" align="center" nowrap="nowrap">10,907.02</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
   </tr>
 
   <!--</table>-->
 	<!--<br>-->
   <tr> 
     <td width="13%" align="center" nowrap="nowrap">4</td>
-    <td width="17%" align="center" nowrap="nowrap">7,039.64</td>
-    <td width="17%"  align="center" nowrap="nowrap">470.12</td>
-    <td width="17%" align="center" nowrap="nowrap">102.48</td>
-    <td width="21%" align="center" nowrap="nowrap">16.40</td>
-    <td width="15%" align="center" nowrap="nowrap">589.00</td>
+    <td width="17%" align="center" nowrap="nowrap">10,410.53</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
   </tr>
 
   <!--</table>-->
 	<!--<br>-->
   <tr> 
     <td width="13%" align="center" nowrap="nowrap">5</td>
-    <td width="17%" align="center" nowrap="nowrap">6,569.52</td>
-    <td width="17%"  align="center" nowrap="nowrap">470.12</td>
-    <td width="17%" align="center" nowrap="nowrap">102.48</td>
-    <td width="21%" align="center" nowrap="nowrap">16.40</td>
-    <td width="15%" align="center" nowrap="nowrap">589.00</td>
+    <td width="17%" align="center" nowrap="nowrap">9,914.04</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
   </tr>
 
   <!--</table>-->
 	<!--<br>-->
   <tr> 
     <td width="13%" align="center" nowrap="nowrap">6</td>
-    <td width="17%" align="center" nowrap="nowrap">6,099.40</td>
-    <td width="17%"  align="center" nowrap="nowrap">470.12</td>
-    <td width="17%" align="center" nowrap="nowrap">102.48</td>
-    <td width="21%" align="center" nowrap="nowrap">16.40</td>
-    <td width="15%" align="center" nowrap="nowrap">589.00</td>
+    <td width="17%" align="center" nowrap="nowrap">9,417.55</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
   </tr>
 
   <!--</table>-->
 	<!--<br>-->
   <tr> 
     <td width="13%" align="center" nowrap="nowrap">7</td>
-    <td width="17%" align="center" nowrap="nowrap">5,629.28</td>
-    <td width="17%"  align="center" nowrap="nowrap">470.12</td>
-    <td width="17%" align="center" nowrap="nowrap">102.48</td>
-    <td width="21%" align="center" nowrap="nowrap">16.40</td>
-    <td width="15%" align="center" nowrap="nowrap">589.00</td>
+    <td width="17%" align="center" nowrap="nowrap">8,921.06</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
   </tr>
 
   <!--</table>-->
 	<!--<br>-->
   <tr> 
     <td width="13%" align="center" nowrap="nowrap">8</td>
-    <td width="17%" align="center" nowrap="nowrap">5,159.16</td>
-    <td width="17%"  align="center" nowrap="nowrap">470.12</td>
-    <td width="17%" align="center" nowrap="nowrap">102.48</td>
-    <td width="21%" align="center" nowrap="nowrap">16.40</td>
-    <td width="15%" align="center" nowrap="nowrap">589.00</td>
+    <td width="17%" align="center" nowrap="nowrap">8,424.57</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
   </tr>
 
   <!--</table>-->
 	<!--<br>-->
   <tr> 
     <td width="13%" align="center" nowrap="nowrap">9</td>
-    <td width="17%" align="center" nowrap="nowrap">4,689.04</td>
-    <td width="17%"  align="center" nowrap="nowrap">470.12</td>
-    <td width="17%" align="center" nowrap="nowrap">102.48</td>
-    <td width="21%" align="center" nowrap="nowrap">16.40</td>
-    <td width="15%" align="center" nowrap="nowrap">589.00</td>
+    <td width="17%" align="center" nowrap="nowrap">7,928.08</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
   </tr>
 
   <!--</table>-->
 	<!--<br>-->
   <tr> 
     <td width="13%" align="center" nowrap="nowrap">10</td>
-    <td width="17%" align="center" nowrap="nowrap">4,218.92</td>
-    <td width="17%"  align="center" nowrap="nowrap">470.12</td>
-    <td width="17%" align="center" nowrap="nowrap">102.48</td>
-    <td width="21%" align="center" nowrap="nowrap">16.40</td>
-    <td width="15%" align="center" nowrap="nowrap">589.00</td>
+    <td width="17%" align="center" nowrap="nowrap">7,431.59</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
   </tr>
 
   <!--</table>-->
 	<!--<br>-->
   <tr> 
     <td width="13%" align="center" nowrap="nowrap">11</td>
-    <td width="17%" align="center" nowrap="nowrap">3,748.80</td>
-    <td width="17%"  align="center" nowrap="nowrap">470.12</td>
-    <td width="17%" align="center" nowrap="nowrap">102.48</td>
-    <td width="21%" align="center" nowrap="nowrap">16.40</td>
-    <td width="15%" align="center" nowrap="nowrap">589.00</td>
+    <td width="17%" align="center" nowrap="nowrap">6,935.10</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
   </tr>
 
   <!--</table>-->
 	<!--<br>-->
   <tr> 
     <td width="13%" align="center" nowrap="nowrap">12</td>
-    <td width="17%" align="center" nowrap="nowrap">3,278.68</td>
-    <td width="17%"  align="center" nowrap="nowrap">470.12</td>
-    <td width="17%" align="center" nowrap="nowrap">102.48</td>
-    <td width="21%" align="center" nowrap="nowrap">16.40</td>
-    <td width="15%" align="center" nowrap="nowrap">589.00</td>
+    <td width="17%" align="center" nowrap="nowrap">6,438.61</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
   </tr>
 
   <!--</table>-->
 	<!--<br>-->
   <tr> 
     <td width="13%" align="center" nowrap="nowrap">13</td>
-    <td width="17%" align="center" nowrap="nowrap">2,808.56</td>
-    <td width="17%"  align="center" nowrap="nowrap">470.12</td>
-    <td width="17%" align="center" nowrap="nowrap">102.48</td>
-    <td width="21%" align="center" nowrap="nowrap">16.40</td>
-    <td width="15%" align="center" nowrap="nowrap">589.00</td>
+    <td width="17%" align="center" nowrap="nowrap">5,942.12</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
   </tr>
 
   <!--</table>-->
 	<!--<br>-->
   <tr> 
     <td width="13%" align="center" nowrap="nowrap">14</td>
-    <td width="17%" align="center" nowrap="nowrap">2,338.44</td>
-    <td width="17%"  align="center" nowrap="nowrap">470.12</td>
-    <td width="17%" align="center" nowrap="nowrap">102.48</td>
-    <td width="21%" align="center" nowrap="nowrap">16.40</td>
-    <td width="15%" align="center" nowrap="nowrap">589.00</td>
+    <td width="17%" align="center" nowrap="nowrap">5,445.63</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
   </tr>
 
   <!--</table>-->
 	<!--<br>-->
   <tr> 
     <td width="13%" align="center" nowrap="nowrap">15</td>
-    <td width="17%" align="center" nowrap="nowrap">1,868.32</td>
-    <td width="17%"  align="center" nowrap="nowrap">470.12</td>
-    <td width="17%" align="center" nowrap="nowrap">102.48</td>
-    <td width="21%" align="center" nowrap="nowrap">16.40</td>
-    <td width="15%" align="center" nowrap="nowrap">589.00</td>
+    <td width="17%" align="center" nowrap="nowrap">4,949.14</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
   </tr>
 
   <!--</table>-->
 	<!--<br>-->
   <tr> 
     <td width="13%" align="center" nowrap="nowrap">16</td>
-    <td width="17%" align="center" nowrap="nowrap">1,398.20</td>
-    <td width="17%"  align="center" nowrap="nowrap">470.12</td>
-    <td width="17%" align="center" nowrap="nowrap">102.48</td>
-    <td width="21%" align="center" nowrap="nowrap">16.40</td>
-    <td width="15%" align="center" nowrap="nowrap">589.00</td>
+    <td width="17%" align="center" nowrap="nowrap">4,452.65</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
   </tr>
 
   <!--</table>-->
 	<!--<br>-->
   <tr> 
     <td width="13%" align="center" nowrap="nowrap">17</td>
-    <td width="17%" align="center" nowrap="nowrap">928.08</td>
-    <td width="17%"  align="center" nowrap="nowrap">470.12</td>
-    <td width="17%" align="center" nowrap="nowrap">102.48</td>
-    <td width="21%" align="center" nowrap="nowrap">16.40</td>
-    <td width="15%" align="center" nowrap="nowrap">589.00</td>
+    <td width="17%" align="center" nowrap="nowrap">3,956.16</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
+  </tr>
+
+  <!--</table>-->
+	<!--<br>-->
+  <tr> 
+    <td width="13%" align="center" nowrap="nowrap">18</td>
+    <td width="17%" align="center" nowrap="nowrap">3,459.67</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
+  </tr>
+
+  <!--</table>-->
+	<!--<br>-->
+  <tr> 
+    <td width="13%" align="center" nowrap="nowrap">19</td>
+    <td width="17%" align="center" nowrap="nowrap">2,963.18</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
+  </tr>
+
+  <!--</table>-->
+	<!--<br>-->
+  <tr> 
+    <td width="13%" align="center" nowrap="nowrap">20</td>
+    <td width="17%" align="center" nowrap="nowrap">2,466.69</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
+  </tr>
+
+  <!--</table>-->
+	<!--<br>-->
+  <tr> 
+    <td width="13%" align="center" nowrap="nowrap">21</td>
+    <td width="17%" align="center" nowrap="nowrap">1,970.20</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
+  </tr>
+
+  <!--</table>-->
+	<!--<br>-->
+  <tr> 
+    <td width="13%" align="center" nowrap="nowrap">22</td>
+    <td width="17%" align="center" nowrap="nowrap">1,473.71</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
+  </tr>
+
+  <!--</table>-->
+	<!--<br>-->
+  <tr> 
+    <td width="13%" align="center" nowrap="nowrap">23</td>
+    <td width="17%" align="center" nowrap="nowrap">977.22</td>
+    <td width="17%"  align="center" nowrap="nowrap">496.49</td>
+    <td width="17%" align="center" nowrap="nowrap">145.27</td>
+    <td width="21%" align="center" nowrap="nowrap">23.24</td>
+    <td width="15%" align="center" nowrap="nowrap">665.00</td>
   </tr>
 
       
     <tr> 
-    <td width="13%" align="center" nowrap="nowrap">18</td>
-    <td width="17%" align="center" nowrap="nowrap">457.96</td>
-    <td width="17%"  align="center" nowrap="nowrap">457.96</td>
-    <td width="17%" align="center" nowrap="nowrap">102.50</td>
-    <td width="21%" align="center" nowrap="nowrap">16.35</td>
-    <td width="15%" align="center" nowrap="nowrap">576.81</td>
+    <td width="13%" align="center" nowrap="nowrap">24</td>
+    <td width="17%" align="center" nowrap="nowrap">480.73</td>
+    <td width="17%"  align="center" nowrap="nowrap">480.73</td>
+    <td width="17%" align="center" nowrap="nowrap">145.35</td>
+    <td width="21%" align="center" nowrap="nowrap">23.33</td>
+    <td width="15%" align="center" nowrap="nowrap">649.37</td>
   </tr>
     
       <tr> 
     <td width="13%" nowrap="nowrap" align="center" colspan="2">Total:</td>
     <!--<td width="17%" align"center" nowrap="nowrap"></td>-->
-    <td width="17%" align="center" nowrap="nowrap">$8,450.00</td>
-    <td width="17%" align="center" nowrap="nowrap">$1,844.66	</td>
-    <td width="21%" align="center" nowrap="nowrap">$295.15</td>
-    <td width="15%" align="center" nowrap="nowrap">$10,589.81</td>
+    <td width="17%" align="center" nowrap="nowrap">$11,900.00</td>
+    <td width="17%" align="center" nowrap="nowrap">$3,486.56	</td>
+    <td width="21%" align="center" nowrap="nowrap">$557.85</td>
+    <td width="15%" align="center" nowrap="nowrap">$15,944.37</td>
   </tr>
 </table>
 <!--</body>
@@ -647,9 +739,9 @@ End function
     <br>
       <table width="600">
 			<tr>
-			  <td align="center">POOL MANZANILLA CARLOS ENRIQUE</td>
+			  <td align="center">CANCHE  Y CANUL JUAN BAUTISTA</td>
 			  <td align="center">&nbsp;</td>
-			  <td align="center">Javier Jesus Gonzalez Ruiz</td>
+			  <td align="center">EDWIN ADRIAN LARA GARCIA</td>
 	    </tr>
 			<tr>
 				<td width="50%" align="center">
