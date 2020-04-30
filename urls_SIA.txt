@@ -145,6 +145,13 @@ http://www.programaasi.mx/siaMexicali/acopio/recepcion/boleta_print.php?solicitu
 http://programaasi.mx/siaMexicali/integracion/ModificacionIntegracionMexicali.php?solicitud=ML000271&solixtra=1
 
 
+Agregar solicitud a paquete
+http://10.144.3.129/siaMexicali/expedientes/procesa_paquete.php?solicitudes=YU001796-1
+
+Subir XML
+http://10.144.3.129/siaMexicali/instalacion/leerXML.php?idpresup=RU139450
+
+
 reporte sup lavadoras
 http://programaasi.mx/siaMexicali/supervision/reporteLavadorasDist.php?solicitud=ML000375&solixtra=1
 

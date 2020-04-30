@@ -202,8 +202,6 @@ function analiza_archivo_presupuesto_rf($file)
      $financiado=$aDataTableHeaderHTML[78];
      $amortizacion=$aDataTableHeaderHTML[81];
      $num_pagos=substr($aDataTableHeaderHTML[79],0,2);
-
-
      $fecha_presupuesto=obtiene_fecha($fecha_presupuesto);
      $precio_sin_iva=substr($precio_sin_iva,1,9);
      $iva=substr($iva,17,8);
@@ -211,7 +209,6 @@ function analiza_archivo_presupuesto_rf($file)
      $excedente=substr($excedente,16,7);
      $interes=substr($interes,17,8);
      $iva_interes=substr($iva_interes,16,7);
-     
      $financiado=substr($financiado,17,9);
      $amortizacion=substr($amortizacion,17,6);
 
@@ -240,6 +237,14 @@ function analiza_archivo_presupuesto_rf($file)
         }
 echo $sql;
 }
+
+/*
+PR=Refrigerador
+PS=Aire Acondicionado
+PL=LED
+PO=Lavadora
+PF=Fotovotaico
+*/ 
 
 function analiza_archivo_presupuesto_rf_lib($file)
 {
