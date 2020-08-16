@@ -139,7 +139,7 @@ http://www.programaasi.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?g
 Boleta CAyD
 
 http://www.programaasi.mx/siaMexicali/acopio/recepcion/boleta.php?registrada=1&solicitud=YU000844&solixtra=1&idsalv=&salva=0
-http://www.programaasi.mx/siaMexicali/acopio/recepcion/boleta_print.php?solicitud=YU000844&solixtra=1&idsalv=&salva=0
+http://10.144.3.129/siaMexicali/acopio/recepcion/boleta_print.php?solicitud=YU000844&solixtra=1&idsalv=&salva=0
 
 
 http://programaasi.mx/siaMexicali/integracion/ModificacionIntegracionMexicali.php?solicitud=ML000271&solixtra=1
@@ -162,3 +162,10 @@ http://programaasi.mx/siaMexicali/presup_programas.php?ns=ML000375&nsx=1
 
 presupuesto reporteLamparasDist
 http://programaasi.mx/siaMexicali/presup_programas.php?ns=ML000310&nsx=3
+
+
+
+RAspberry
+'datadirectory' => '/mnt/dietpi_userdata/nextcloud_data',
+'datadirectory' => '/home/dietpi/USB32/Nextcloud/nextcloud_data',
+
