@@ -1,11 +1,11 @@
 <?php
 
-require("cliente.php");
-//require("descarga_archivos.php");
+//require("cliente.php");
+require("descarga_archivos.php");
 
 function descarga_presupuestos()
 {
-    $login="http://www.programaasi.mx/siaMexicali/validausuario.php";
+    $login="http://10.144.3.129/siaMexicali/validausuario.php";
     $data_login="usuario=md032ca&clave=md032ca&tipo=1";
     $consulta=new cliente();
     //$sql="select solicitud,subprograma,rpu  from colocadas_sia where id_estatus in ('INE','IMP','PIN','PEX','REX','PSU','PLI','LSC')";
@@ -28,7 +28,7 @@ function descarga_presupuestos()
             {
                 case 1: // Refrigerador
                     {
-                        $url="http://www.programaasi.mx/siaMexicali/presup_refri.php?$url_extra";
+                        $url="http://10.144.3.129/siaMexicali/presup_refri.php?$url_extra";
                         descarga_archivo_sindata($login,$data_login,$url,$archivo);
                         if(filesize($archivo)>617)
                         {
@@ -41,7 +41,7 @@ function descarga_presupuestos()
                     }
                 case 2: //Aire Acondicionado
                     {
-                        $url="http://www.programaasi.mx/siaMexicali/presup_equipo.php?$url_extra";
+                        $url="http://10.144.3.129/siaMexicali/presup_equipo.php?$url_extra";
                         descarga_archivo_sindata($login,$data_login,$url,$archivo);
                         if(filesize($archivo)>649)
                             {
@@ -54,7 +54,7 @@ function descarga_presupuestos()
                     }
                 case 3: //LED Lavadoras Fotovoltaicos
                     {
-                        $url="http://www.programaasi.mx/siaMexicali/presup_programas.php?$url_extra";
+                        $url="http://10.144.3.129/siaMexicali/presup_programas.php?$url_extra";
                         descarga_archivo_sindata($login,$data_login,$url,$archivo);
                         if(filesize($archivo)>617)
                             {
@@ -73,7 +73,7 @@ function descarga_presupuestos()
 
 
     //    //intenta descargar de RF
-    //    $url="http://www.programaasi.mx/siaMexicali/presup_refri.php?$url_extra";
+    //    $url="http://10.144.3.129/siaMexicali/presup_refri.php?$url_extra";
     //    descarga_archivo_sindata($login,$data_login,$url,$archivo);
     //    $tamanio=filesize($archivo);
     //    if($tamanio>617)
@@ -624,13 +624,13 @@ analiza_archivo_colocadas("paginas/colocadas_abril.html");
 actualiza_colocadas_sia();
 
 
-// $login="http://www.programaasi.mx/siaMexicali/validausuario.php";
+// $login="http://10.144.3.129/siaMexicali/validausuario.php";
 // $data_login="usuario=md032ca&clave=md032ca&tipo=1";
 // $url_extra="ns=YU001524&nsx=1";
 // $archivo="presupuestos/YU001524-1.html";
 
 // //intenta descargar de RF
-// $url="http://www.programaasi.mx/siaMexicali/presup_refri.php?$url_extra";
+// $url="http://10.144.3.129/siaMexicali/presup_refri.php?$url_extra";
 // descarga_archivo_sindata($login,$data_login,$url,$archivo);
 // $tamanio=filesize($archivo);
 // if($tamanio>617)

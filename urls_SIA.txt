@@ -111,10 +111,10 @@ http://www.programaasi.mx/siaMexicali/supervision/reporteAC.php?solicitud=YU0000
 http://programaasi.mx/siaMexicali/supervision/reporteLamparasDist.php?solicitud=ML000310&solixtra=3
 
 
-http://programaasi.mx/siaMexicali/supervision/reporteRefrigeradoresDist.php?solicitud=YU000021&solixtra=2
+http://10.144.3.129/siaMexicali/supervision/reporteRefrigeradoresDist.php?solicitud=YU000021&solixtra=2
 
 ++++++++++Carta no ahorro+++++++++
-http://www.programaasi.mx/siaMexicali/contratos/formatos/cartanoahorro.php
+http://10.144.3.129/siaMexicali/contratos/formatos/cartanoahorro.php
 
 
 ++++++++Contratos+++++++++++++++++++
@@ -142,7 +142,7 @@ http://www.programaasi.mx/siaMexicali/acopio/recepcion/boleta.php?registrada=1&s
 http://10.144.3.129/siaMexicali/acopio/recepcion/boleta_print.php?solicitud=YU000844&solixtra=1&idsalv=&salva=0
 
 
-http://programaasi.mx/siaMexicali/integracion/ModificacionIntegracionMexicali.php?solicitud=ML000271&solixtra=1
+http://10.144.3.129/siaMexicali/integracion/ModificacionIntegracionMexicali.php?solicitud=ML000271&solixtra=1
 
 
 Agregar solicitud a paquete
@@ -163,9 +163,13 @@ http://programaasi.mx/siaMexicali/presup_programas.php?ns=ML000375&nsx=1
 presupuesto reporteLamparasDist
 http://programaasi.mx/siaMexicali/presup_programas.php?ns=ML000310&nsx=3
 
+subir xml 
+http://10.144.3.129/siaMexicali/instalacion/subirXML.php?idpresup=OU007790
 
 
 RAspberry
 'datadirectory' => '/mnt/dietpi_userdata/nextcloud_data',
 'datadirectory' => '/home/dietpi/USB32/Nextcloud/nextcloud_data',
 
+listados paquetes
+http://10.144.3.129/siaMexicali/expedientes/exp_reporte.php?tabla=1&index_dist=0&dist=0&index_orden=0&orden=folio&index_tend=0&tend=ASC&fecha_inicial=2020-09-21&fecha_final=2020-10-01

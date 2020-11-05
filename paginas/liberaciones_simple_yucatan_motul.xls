@@ -14937,7 +14937,7 @@
                             <td class="tdDataImpresionH" align="center">01</td>
                             <td class="tdDataImpresionH" align="center">20200601</td>
                             <td class="tdDataImpresionH" align="center">20200601</td>
-                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">2020-10-02</td>
                             <td class="tdDataImpresionH" align="center">11780.38</td>
                             <td class="tdDataImpresionH" align="center">9400</td>
                             <td class="tdDataImpresionH" align="center">2052.05</td>
@@ -14988,6 +14988,489 @@
                             <td class="tdDataImpresionH" align="center">509.23</td>
                             <td class="tdDataImpresionH" align="center">148.94</td>
                             <td class="tdDataImpresionH" align="center">23.83</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">804020501067</td>
+                            <td class="tdDataImpresionH" align="center">000530099</td>
+                            <td class="tdDataImpresionH" align="center">ML000548</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU144043</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">02</td>
+                            <td class="tdDataImpresionH" align="center">20201013</td>
+                            <td class="tdDataImpresionH" align="center">20201013</td>
+                            <td class="tdDataImpresionH" align="center">2020-10-20</td>
+                            <td class="tdDataImpresionH" align="center">16211.07</td>
+                            <td class="tdDataImpresionH" align="center">12099</td>
+                            <td class="tdDataImpresionH" align="center">3544.88</td>
+                            <td class="tdDataImpresionH" align="center">567.181</td>
+                            <td class="tdDataImpresionH" align="center">676</td>
+                            <td class="tdDataImpresionH" align="center">504.67</td>
+                            <td class="tdDataImpresionH" align="center">147.7</td>
+                            <td class="tdDataImpresionH" align="center">23.63</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">808180200387</td>
+                            <td class="tdDataImpresionH" align="center">000530196</td>
+                            <td class="tdDataImpresionH" align="center">ML000544</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU145844</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20201013</td>
+                            <td class="tdDataImpresionH" align="center">20201013</td>
+                            <td class="tdDataImpresionH" align="center">2020-10-16</td>
+                            <td class="tdDataImpresionH" align="center">15326.71</td>
+                            <td class="tdDataImpresionH" align="center">11439</td>
+                            <td class="tdDataImpresionH" align="center">3351.5</td>
+                            <td class="tdDataImpresionH" align="center">536.24</td>
+                            <td class="tdDataImpresionH" align="center">639</td>
+                            <td class="tdDataImpresionH" align="center">477.01</td>
+                            <td class="tdDataImpresionH" align="center">139.65</td>
+                            <td class="tdDataImpresionH" align="center">22.34</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">808911000056</td>
+                            <td class="tdDataImpresionH" align="center">000530911</td>
+                            <td class="tdDataImpresionH" align="center">ML000554</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU145952</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">02</td>
+                            <td class="tdDataImpresionH" align="center">20201017</td>
+                            <td class="tdDataImpresionH" align="center">20201017</td>
+                            <td class="tdDataImpresionH" align="center">2020-10-23</td>
+                            <td class="tdDataImpresionH" align="center">15326.71</td>
+                            <td class="tdDataImpresionH" align="center">11439</td>
+                            <td class="tdDataImpresionH" align="center">3351.5</td>
+                            <td class="tdDataImpresionH" align="center">536.24</td>
+                            <td class="tdDataImpresionH" align="center">639</td>
+                            <td class="tdDataImpresionH" align="center">477.01</td>
+                            <td class="tdDataImpresionH" align="center">139.65</td>
+                            <td class="tdDataImpresionH" align="center">22.34</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">804901000052</td>
+                            <td class="tdDataImpresionH" align="center">000530912</td>
+                            <td class="tdDataImpresionH" align="center">ML000547</td>
+                            <td class="tdDataImpresionH" align="center">2</td>
+                            <td class="tdDataImpresionH" align="center">RU144033</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">02</td>
+                            <td class="tdDataImpresionH" align="center">20201017</td>
+                            <td class="tdDataImpresionH" align="center">20201017</td>
+                            <td class="tdDataImpresionH" align="center">2020-10-23</td>
+                            <td class="tdDataImpresionH" align="center">16211.07</td>
+                            <td class="tdDataImpresionH" align="center">12099</td>
+                            <td class="tdDataImpresionH" align="center">3544.88</td>
+                            <td class="tdDataImpresionH" align="center">567.181</td>
+                            <td class="tdDataImpresionH" align="center">676</td>
+                            <td class="tdDataImpresionH" align="center">504.67</td>
+                            <td class="tdDataImpresionH" align="center">147.7</td>
+                            <td class="tdDataImpresionH" align="center">23.63</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">804000256325</td>
+                            <td class="tdDataImpresionH" align="center">000531297</td>
+                            <td class="tdDataImpresionH" align="center">ML000530</td>
+                            <td class="tdDataImpresionH" align="center">2</td>
+                            <td class="tdDataImpresionH" align="center">RU143389</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20201020</td>
+                            <td class="tdDataImpresionH" align="center">20201020</td>
+                            <td class="tdDataImpresionH" align="center">2020-10-23</td>
+                            <td class="tdDataImpresionH" align="center">15944.37</td>
+                            <td class="tdDataImpresionH" align="center">11900</td>
+                            <td class="tdDataImpresionH" align="center">3486.56</td>
+                            <td class="tdDataImpresionH" align="center">557.85</td>
+                            <td class="tdDataImpresionH" align="center">665</td>
+                            <td class="tdDataImpresionH" align="center">496.49</td>
+                            <td class="tdDataImpresionH" align="center">145.27</td>
+                            <td class="tdDataImpresionH" align="center">23.24</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">804180600398</td>
+                            <td class="tdDataImpresionH" align="center">000531298</td>
+                            <td class="tdDataImpresionH" align="center">ML000545</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">OU007513</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20201020</td>
+                            <td class="tdDataImpresionH" align="center">20201020</td>
+                            <td class="tdDataImpresionH" align="center">2020-10-23</td>
+                            <td class="tdDataImpresionH" align="center">10309.08</td>
+                            <td class="tdDataImpresionH" align="center">8226</td>
+                            <td class="tdDataImpresionH" align="center">1795.76</td>
+                            <td class="tdDataImpresionH" align="center">287.322</td>
+                            <td class="tdDataImpresionH" align="center">573</td>
+                            <td class="tdDataImpresionH" align="center">457.28</td>
+                            <td class="tdDataImpresionH" align="center">99.76</td>
+                            <td class="tdDataImpresionH" align="center">15.96</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">804180600398</td>
+                            <td class="tdDataImpresionH" align="center">000531298</td>
+                            <td class="tdDataImpresionH" align="center">ML000545</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">OU007513</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20201020</td>
+                            <td class="tdDataImpresionH" align="center">20201020</td>
+                            <td class="tdDataImpresionH" align="center">2020-10-23</td>
+                            <td class="tdDataImpresionH" align="center">10309.08</td>
+                            <td class="tdDataImpresionH" align="center">8226</td>
+                            <td class="tdDataImpresionH" align="center">1795.76</td>
+                            <td class="tdDataImpresionH" align="center">287.322</td>
+                            <td class="tdDataImpresionH" align="center">573</td>
+                            <td class="tdDataImpresionH" align="center">457.28</td>
+                            <td class="tdDataImpresionH" align="center">99.76</td>
+                            <td class="tdDataImpresionH" align="center">15.96</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">804180600398</td>
+                            <td class="tdDataImpresionH" align="center">000531298</td>
+                            <td class="tdDataImpresionH" align="center">ML000545</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">OU007513</td>
+                            <td class="tdDataImpresionH" align="center">E</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20201020</td>
+                            <td class="tdDataImpresionH" align="center">20201020</td>
+                            <td class="tdDataImpresionH" align="center">2020-10-23</td>
+                            <td class="tdDataImpresionH" align="center">10309.08</td>
+                            <td class="tdDataImpresionH" align="center">8226</td>
+                            <td class="tdDataImpresionH" align="center">1795.76</td>
+                            <td class="tdDataImpresionH" align="center">287.322</td>
+                            <td class="tdDataImpresionH" align="center">573</td>
+                            <td class="tdDataImpresionH" align="center">457.28</td>
+                            <td class="tdDataImpresionH" align="center">99.76</td>
+                            <td class="tdDataImpresionH" align="center">15.96</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">804180600398</td>
+                            <td class="tdDataImpresionH" align="center">000531298</td>
+                            <td class="tdDataImpresionH" align="center">ML000545</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">OU007513</td>
+                            <td class="tdDataImpresionH" align="center">B</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20201020</td>
+                            <td class="tdDataImpresionH" align="center">20201020</td>
+                            <td class="tdDataImpresionH" align="center">2020-10-23</td>
+                            <td class="tdDataImpresionH" align="center">10309.08</td>
+                            <td class="tdDataImpresionH" align="center">8226</td>
+                            <td class="tdDataImpresionH" align="center">1795.76</td>
+                            <td class="tdDataImpresionH" align="center">287.322</td>
+                            <td class="tdDataImpresionH" align="center">573</td>
+                            <td class="tdDataImpresionH" align="center">457.28</td>
+                            <td class="tdDataImpresionH" align="center">99.76</td>
+                            <td class="tdDataImpresionH" align="center">15.96</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">804180600398</td>
+                            <td class="tdDataImpresionH" align="center">000531298</td>
+                            <td class="tdDataImpresionH" align="center">ML000545</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">OU007513</td>
+                            <td class="tdDataImpresionH" align="center">A</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20201020</td>
+                            <td class="tdDataImpresionH" align="center">20201020</td>
+                            <td class="tdDataImpresionH" align="center">2020-10-23</td>
+                            <td class="tdDataImpresionH" align="center">10309.08</td>
+                            <td class="tdDataImpresionH" align="center">8226</td>
+                            <td class="tdDataImpresionH" align="center">1795.76</td>
+                            <td class="tdDataImpresionH" align="center">287.322</td>
+                            <td class="tdDataImpresionH" align="center">573</td>
+                            <td class="tdDataImpresionH" align="center">457.28</td>
+                            <td class="tdDataImpresionH" align="center">99.76</td>
+                            <td class="tdDataImpresionH" align="center">15.96</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">804180600398</td>
+                            <td class="tdDataImpresionH" align="center">000531298</td>
+                            <td class="tdDataImpresionH" align="center">ML000545</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">OU007513</td>
+                            <td class="tdDataImpresionH" align="center">D</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20201020</td>
+                            <td class="tdDataImpresionH" align="center">20201020</td>
+                            <td class="tdDataImpresionH" align="center">2020-10-23</td>
+                            <td class="tdDataImpresionH" align="center">10309.08</td>
+                            <td class="tdDataImpresionH" align="center">8226</td>
+                            <td class="tdDataImpresionH" align="center">1795.76</td>
+                            <td class="tdDataImpresionH" align="center">287.322</td>
+                            <td class="tdDataImpresionH" align="center">573</td>
+                            <td class="tdDataImpresionH" align="center">457.28</td>
+                            <td class="tdDataImpresionH" align="center">99.76</td>
+                            <td class="tdDataImpresionH" align="center">15.96</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">804180600398</td>
+                            <td class="tdDataImpresionH" align="center">000531298</td>
+                            <td class="tdDataImpresionH" align="center">ML000545</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">OU007513</td>
+                            <td class="tdDataImpresionH" align="center">10</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20201020</td>
+                            <td class="tdDataImpresionH" align="center">20201020</td>
+                            <td class="tdDataImpresionH" align="center">2020-10-23</td>
+                            <td class="tdDataImpresionH" align="center">10309.08</td>
+                            <td class="tdDataImpresionH" align="center">8226</td>
+                            <td class="tdDataImpresionH" align="center">1795.76</td>
+                            <td class="tdDataImpresionH" align="center">287.322</td>
+                            <td class="tdDataImpresionH" align="center">573</td>
+                            <td class="tdDataImpresionH" align="center">457.28</td>
+                            <td class="tdDataImpresionH" align="center">99.76</td>
+                            <td class="tdDataImpresionH" align="center">15.96</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">804970500474</td>
+                            <td class="tdDataImpresionH" align="center">000531299</td>
+                            <td class="tdDataImpresionH" align="center">ML000551</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU145004</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">02</td>
+                            <td class="tdDataImpresionH" align="center">20201020</td>
+                            <td class="tdDataImpresionH" align="center">20201020</td>
+                            <td class="tdDataImpresionH" align="center">2020-10-23</td>
+                            <td class="tdDataImpresionH" align="center">16212.46</td>
+                            <td class="tdDataImpresionH" align="center">12100</td>
+                            <td class="tdDataImpresionH" align="center">3545.19</td>
+                            <td class="tdDataImpresionH" align="center">567.23</td>
+                            <td class="tdDataImpresionH" align="center">676</td>
+                            <td class="tdDataImpresionH" align="center">504.64</td>
+                            <td class="tdDataImpresionH" align="center">147.72</td>
+                            <td class="tdDataImpresionH" align="center">23.64</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">804020802369</td>
+                            <td class="tdDataImpresionH" align="center">000532504</td>
+                            <td class="tdDataImpresionH" align="center">ML000557</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU145491</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">02</td>
+                            <td class="tdDataImpresionH" align="center">20201028</td>
+                            <td class="tdDataImpresionH" align="center">20201028</td>
+                            <td class="tdDataImpresionH" align="center">2020-11-03</td>
+                            <td class="tdDataImpresionH" align="center">16211.07</td>
+                            <td class="tdDataImpresionH" align="center">12099</td>
+                            <td class="tdDataImpresionH" align="center">3544.88</td>
+                            <td class="tdDataImpresionH" align="center">567.181</td>
+                            <td class="tdDataImpresionH" align="center">676</td>
+                            <td class="tdDataImpresionH" align="center">504.67</td>
+                            <td class="tdDataImpresionH" align="center">147.7</td>
+                            <td class="tdDataImpresionH" align="center">23.63</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">807170300263</td>
+                            <td class="tdDataImpresionH" align="center">000532505</td>
+                            <td class="tdDataImpresionH" align="center">ML000550</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">OU008596</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20201028</td>
+                            <td class="tdDataImpresionH" align="center">20201028</td>
+                            <td class="tdDataImpresionH" align="center">2020-11-03</td>
+                            <td class="tdDataImpresionH" align="center">14738.55</td>
+                            <td class="tdDataImpresionH" align="center">11000</td>
+                            <td class="tdDataImpresionH" align="center">3222.89</td>
+                            <td class="tdDataImpresionH" align="center">515.662</td>
+                            <td class="tdDataImpresionH" align="center">615</td>
+                            <td class="tdDataImpresionH" align="center">459.22</td>
+                            <td class="tdDataImpresionH" align="center">134.29</td>
+                            <td class="tdDataImpresionH" align="center">21.49</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">807170300263</td>
+                            <td class="tdDataImpresionH" align="center">000532505</td>
+                            <td class="tdDataImpresionH" align="center">ML000550</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">OU008596</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20201028</td>
+                            <td class="tdDataImpresionH" align="center">20201028</td>
+                            <td class="tdDataImpresionH" align="center">2020-11-03</td>
+                            <td class="tdDataImpresionH" align="center">14738.55</td>
+                            <td class="tdDataImpresionH" align="center">11000</td>
+                            <td class="tdDataImpresionH" align="center">3222.89</td>
+                            <td class="tdDataImpresionH" align="center">515.662</td>
+                            <td class="tdDataImpresionH" align="center">615</td>
+                            <td class="tdDataImpresionH" align="center">459.22</td>
+                            <td class="tdDataImpresionH" align="center">134.29</td>
+                            <td class="tdDataImpresionH" align="center">21.49</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">807170300263</td>
+                            <td class="tdDataImpresionH" align="center">000532505</td>
+                            <td class="tdDataImpresionH" align="center">ML000550</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">OU008596</td>
+                            <td class="tdDataImpresionH" align="center">E</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20201028</td>
+                            <td class="tdDataImpresionH" align="center">20201028</td>
+                            <td class="tdDataImpresionH" align="center">2020-11-03</td>
+                            <td class="tdDataImpresionH" align="center">14738.55</td>
+                            <td class="tdDataImpresionH" align="center">11000</td>
+                            <td class="tdDataImpresionH" align="center">3222.89</td>
+                            <td class="tdDataImpresionH" align="center">515.662</td>
+                            <td class="tdDataImpresionH" align="center">615</td>
+                            <td class="tdDataImpresionH" align="center">459.22</td>
+                            <td class="tdDataImpresionH" align="center">134.29</td>
+                            <td class="tdDataImpresionH" align="center">21.49</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">807170300263</td>
+                            <td class="tdDataImpresionH" align="center">000532505</td>
+                            <td class="tdDataImpresionH" align="center">ML000550</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">OU008596</td>
+                            <td class="tdDataImpresionH" align="center">B</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20201028</td>
+                            <td class="tdDataImpresionH" align="center">20201028</td>
+                            <td class="tdDataImpresionH" align="center">2020-11-03</td>
+                            <td class="tdDataImpresionH" align="center">14738.55</td>
+                            <td class="tdDataImpresionH" align="center">11000</td>
+                            <td class="tdDataImpresionH" align="center">3222.89</td>
+                            <td class="tdDataImpresionH" align="center">515.662</td>
+                            <td class="tdDataImpresionH" align="center">615</td>
+                            <td class="tdDataImpresionH" align="center">459.22</td>
+                            <td class="tdDataImpresionH" align="center">134.29</td>
+                            <td class="tdDataImpresionH" align="center">21.49</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">807170300263</td>
+                            <td class="tdDataImpresionH" align="center">000532505</td>
+                            <td class="tdDataImpresionH" align="center">ML000550</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">OU008596</td>
+                            <td class="tdDataImpresionH" align="center">A</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20201028</td>
+                            <td class="tdDataImpresionH" align="center">20201028</td>
+                            <td class="tdDataImpresionH" align="center">2020-11-03</td>
+                            <td class="tdDataImpresionH" align="center">14738.55</td>
+                            <td class="tdDataImpresionH" align="center">11000</td>
+                            <td class="tdDataImpresionH" align="center">3222.89</td>
+                            <td class="tdDataImpresionH" align="center">515.662</td>
+                            <td class="tdDataImpresionH" align="center">615</td>
+                            <td class="tdDataImpresionH" align="center">459.22</td>
+                            <td class="tdDataImpresionH" align="center">134.29</td>
+                            <td class="tdDataImpresionH" align="center">21.49</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">807170300263</td>
+                            <td class="tdDataImpresionH" align="center">000532505</td>
+                            <td class="tdDataImpresionH" align="center">ML000550</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">OU008596</td>
+                            <td class="tdDataImpresionH" align="center">D</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20201028</td>
+                            <td class="tdDataImpresionH" align="center">20201028</td>
+                            <td class="tdDataImpresionH" align="center">2020-11-03</td>
+                            <td class="tdDataImpresionH" align="center">14738.55</td>
+                            <td class="tdDataImpresionH" align="center">11000</td>
+                            <td class="tdDataImpresionH" align="center">3222.89</td>
+                            <td class="tdDataImpresionH" align="center">515.662</td>
+                            <td class="tdDataImpresionH" align="center">615</td>
+                            <td class="tdDataImpresionH" align="center">459.22</td>
+                            <td class="tdDataImpresionH" align="center">134.29</td>
+                            <td class="tdDataImpresionH" align="center">21.49</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">807170300263</td>
+                            <td class="tdDataImpresionH" align="center">000532505</td>
+                            <td class="tdDataImpresionH" align="center">ML000550</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">OU008596</td>
+                            <td class="tdDataImpresionH" align="center">10</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20201028</td>
+                            <td class="tdDataImpresionH" align="center">20201028</td>
+                            <td class="tdDataImpresionH" align="center">2020-11-03</td>
+                            <td class="tdDataImpresionH" align="center">14738.55</td>
+                            <td class="tdDataImpresionH" align="center">11000</td>
+                            <td class="tdDataImpresionH" align="center">3222.89</td>
+                            <td class="tdDataImpresionH" align="center">515.662</td>
+                            <td class="tdDataImpresionH" align="center">615</td>
+                            <td class="tdDataImpresionH" align="center">459.22</td>
+                            <td class="tdDataImpresionH" align="center">134.29</td>
+                            <td class="tdDataImpresionH" align="center">21.49</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">804060200922</td>
+                            <td class="tdDataImpresionH" align="center">000532596</td>
+                            <td class="tdDataImpresionH" align="center">ML000566</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU147153</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">02</td>
+                            <td class="tdDataImpresionH" align="center">20201029</td>
+                            <td class="tdDataImpresionH" align="center">20201029</td>
+                            <td class="tdDataImpresionH" align="center">2020-11-03</td>
+                            <td class="tdDataImpresionH" align="center">16211.07</td>
+                            <td class="tdDataImpresionH" align="center">12099</td>
+                            <td class="tdDataImpresionH" align="center">3544.88</td>
+                            <td class="tdDataImpresionH" align="center">567.181</td>
+                            <td class="tdDataImpresionH" align="center">676</td>
+                            <td class="tdDataImpresionH" align="center">504.67</td>
+                            <td class="tdDataImpresionH" align="center">147.7</td>
+                            <td class="tdDataImpresionH" align="center">23.63</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">808160300571</td>
+                            <td class="tdDataImpresionH" align="center">000532597</td>
+                            <td class="tdDataImpresionH" align="center">ML000576</td>
+                            <td class="tdDataImpresionH" align="center">1</td>
+                            <td class="tdDataImpresionH" align="center">RU147602</td>
+                            <td class="tdDataImpresionH" align="center">5</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">20201029</td>
+                            <td class="tdDataImpresionH" align="center">20201029</td>
+                            <td class="tdDataImpresionH" align="center">2020-11-03</td>
+                            <td class="tdDataImpresionH" align="center">15326.71</td>
+                            <td class="tdDataImpresionH" align="center">11439</td>
+                            <td class="tdDataImpresionH" align="center">3351.5</td>
+                            <td class="tdDataImpresionH" align="center">536.24</td>
+                            <td class="tdDataImpresionH" align="center">639</td>
+                            <td class="tdDataImpresionH" align="center">477.01</td>
+                            <td class="tdDataImpresionH" align="center">139.65</td>
+                            <td class="tdDataImpresionH" align="center">22.34</td>
                             <td class="tdDataImpresionH" align="center">0</td>
                         </tr>
                                     </table>        
