@@ -1,0 +1,884 @@
+<html>
+<head>
+<title>Reporte Afectadas</title>
+</head>
+<body>
+<br><br>
+    <table width="90%" cellpadding="2" cellspacing="0" border="1" class="listaReporte" align="center">
+			<tr>
+				<th class="tdTituloImpresion" style="text-align:center">Usuario</th>
+				<th class="tdTituloImpresion" style="text-align:center">Solicitud</th>
+                <th class="tdTituloImpresion" style="text-align:center">Presupuesto</th>
+                <th class="tdTituloImpresion" style="text-align:center">Sol. P.A.</th>
+                <th class="tdTituloImpresion" style="text-align:center">Producto</th>
+                <th class="tdTituloImpresion" style="text-align:center">Distribuidor</th>
+                <th class="tdTituloImpresion" style="text-align:center">Financiamiento</th>
+                <th class="tdTituloImpresion" style="text-align:center">Salvamento</th>
+                <th class="tdTituloImpresion" style="text-align:center">Liberaci&oacute;n</th>
+                <th class="tdTituloImpresion" style="text-align:center"># Emp.</th>
+                <th class="tdTituloImpresion" style="text-align:center">Registro</th>
+                <th class="tdTituloImpresion" style="text-align:center"># Boleta</th>
+                <th class="tdTituloImpresion" style="text-align:center">C. Acopio</th>
+                <th class="tdTituloImpresion" style="text-align:center">Tipo Sup.</th>
+                <th class="tdTituloImpresion" style="text-align:center">ConsultaSICOM</th>
+                <th class="tdTituloImpresion" style="text-align:center">AfectaSICOM</th>
+                <th class="tdTituloImpresion" style="text-align:center">Observaci&oacute;n</th>
+            </tr>
+		                    <tr>
+                        <td class="tdDataImpresion">781070101591</td>
+                        <td class="tdDataImpresion" align="center">QR001429-1</td>
+                        <td class="tdDataImpresion" align="center">RU153066</td>
+                        <td class="tdDataImpresion" align="center">000540769</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">ECO MAYA </td>
+                        <td class="tdDataImpresion" align="right">$16145.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-08</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2020-12-31</td>
+                        <td class="tdDataImpresion" align="center">TH-00000966-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">781110802180</td>
+                        <td class="alternoImpresion" align="center">QR001436-1</td>
+                        <td class="alternoImpresion" align="center">RU153270</td>
+                        <td class="alternoImpresion" align="center">000540784</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">PRO HOME</td>
+                        <td class="alternoImpresion" align="right">$16212.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-08</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-07</td>
+                        <td class="alternoImpresion" align="center">TH-00000970-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">783150802495</td>
+                        <td class="tdDataImpresion" align="center">QR001428-1</td>
+                        <td class="tdDataImpresion" align="center">RU153050</td>
+                        <td class="tdDataImpresion" align="center">000540785</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">FERROTLAPALERIA CHAC-MOO (QR)</td>
+                        <td class="tdDataImpresion" align="right">$16212.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-08</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2020-12-31</td>
+                        <td class="tdDataImpresion" align="center">TH-00000965-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">782161016045</td>
+                        <td class="alternoImpresion" align="center">QR001434-1</td>
+                        <td class="alternoImpresion" align="center">OU014493</td>
+                        <td class="alternoImpresion" align="center">000540786</td>
+                        <td class="alternoImpresion" align="center">LV</td>
+                        <td class="alternoImpresion" align="center">PRO HOME</td>
+                        <td class="alternoImpresion" align="right">$15793.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-08</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-05</td>
+                        <td class="alternoImpresion" align="center">TH-00000010-L</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">781040401808</td>
+                        <td class="tdDataImpresion" align="center">QR001427-1</td>
+                        <td class="tdDataImpresion" align="center">RU153040</td>
+                        <td class="tdDataImpresion" align="center">000540787</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">PRO HOME</td>
+                        <td class="tdDataImpresion" align="right">$16212.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-08</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2020-12-31</td>
+                        <td class="tdDataImpresion" align="center">TH-00000967-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">783160706168</td>
+                        <td class="alternoImpresion" align="center">QR001432-1</td>
+                        <td class="alternoImpresion" align="center">OU014440</td>
+                        <td class="alternoImpresion" align="center">000540788</td>
+                        <td class="alternoImpresion" align="center">LV</td>
+                        <td class="alternoImpresion" align="center">PRO HOME</td>
+                        <td class="alternoImpresion" align="right">$18089.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-08</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-04</td>
+                        <td class="alternoImpresion" align="center">TH-00000009-L</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">782920304301</td>
+                        <td class="tdDataImpresion" align="center">QR001425-1</td>
+                        <td class="tdDataImpresion" align="center">RU152904</td>
+                        <td class="tdDataImpresion" align="center">000540789</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">FERROTLAPALERIA CHAC-MOO (QR)</td>
+                        <td class="tdDataImpresion" align="right">$16212.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-08</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2020-12-28</td>
+                        <td class="tdDataImpresion" align="center">TH-00000964-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">782130305839</td>
+                        <td class="alternoImpresion" align="center">QR001433-1</td>
+                        <td class="alternoImpresion" align="center">RU153103</td>
+                        <td class="alternoImpresion" align="center">000540933</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">PRO HOME</td>
+                        <td class="alternoImpresion" align="right">$16212.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-12</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-04</td>
+                        <td class="alternoImpresion" align="center">TH-00000968-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">783160310078</td>
+                        <td class="tdDataImpresion" align="center">QR001421-1</td>
+                        <td class="tdDataImpresion" align="center">RU152685</td>
+                        <td class="tdDataImpresion" align="center">000540934</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">EVM SOLUCIONES</td>
+                        <td class="tdDataImpresion" align="right">$16213.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-12</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2020-12-21</td>
+                        <td class="tdDataImpresion" align="center">TH-00000963-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">782160306538</td>
+                        <td class="alternoImpresion" align="center">QR001430-2</td>
+                        <td class="alternoImpresion" align="center">OU014862</td>
+                        <td class="alternoImpresion" align="center">000541212</td>
+                        <td class="alternoImpresion" align="center">LV</td>
+                        <td class="alternoImpresion" align="center">PRO HOME</td>
+                        <td class="alternoImpresion" align="right">$18089.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-15</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-07</td>
+                        <td class="alternoImpresion" align="center">TH-00000011-L</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">782161209901</td>
+                        <td class="tdDataImpresion" align="center">QR001440-1</td>
+                        <td class="tdDataImpresion" align="center">RU153464</td>
+                        <td class="tdDataImpresion" align="center">000541213</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">PRO HOME</td>
+                        <td class="tdDataImpresion" align="right">$16212.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-15</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2021-01-10</td>
+                        <td class="tdDataImpresion" align="center">TH-00000972-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">780091203176</td>
+                        <td class="alternoImpresion" align="center">QR001431-1</td>
+                        <td class="alternoImpresion" align="center">RU153099</td>
+                        <td class="alternoImpresion" align="center">000541331</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">PRO HOME</td>
+                        <td class="alternoImpresion" align="right">$14154.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-15</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-04</td>
+                        <td class="alternoImpresion" align="center">TH-00000969-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">782060900351</td>
+                        <td class="tdDataImpresion" align="center">QR001438-1</td>
+                        <td class="tdDataImpresion" align="center">RU153374</td>
+                        <td class="tdDataImpresion" align="center">000541332</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">FERROTLAPALERIA CHAC-MOO (QR)</td>
+                        <td class="tdDataImpresion" align="right">$16614.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-15</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2021-01-08</td>
+                        <td class="tdDataImpresion" align="center">0</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">782060900351</td>
+                        <td class="alternoImpresion" align="center">QR001438-2</td>
+                        <td class="alternoImpresion" align="center">LU009871</td>
+                        <td class="alternoImpresion" align="center">000541333</td>
+                        <td class="alternoImpresion" align="center">LD</td>
+                        <td class="alternoImpresion" align="center">FERROTLAPALERIA CHAC-MOO (QR)</td>
+                        <td class="alternoImpresion" align="right">$262.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-15</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-08</td>
+                        <td class="alternoImpresion" align="center"></td>
+                        <td class="alternoImpresion" align="left"></td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">782920401897</td>
+                        <td class="tdDataImpresion" align="center">QR001444-1</td>
+                        <td class="tdDataImpresion" align="center">RU153527</td>
+                        <td class="tdDataImpresion" align="center">000541334</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">FERROTLAPALERIA CHAC-MOO (QR)</td>
+                        <td class="tdDataImpresion" align="right">$14154.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-15</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2021-01-12</td>
+                        <td class="tdDataImpresion" align="center">TH-00000974-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">782120305903</td>
+                        <td class="alternoImpresion" align="center">QR001033-2</td>
+                        <td class="alternoImpresion" align="center">RU153506</td>
+                        <td class="alternoImpresion" align="center">000541336</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">ECO MAYA </td>
+                        <td class="alternoImpresion" align="right">$15414.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-15</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-11</td>
+                        <td class="alternoImpresion" align="center">0</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">782120305903</td>
+                        <td class="tdDataImpresion" align="center">QR001033-3</td>
+                        <td class="tdDataImpresion" align="center">LU009940</td>
+                        <td class="tdDataImpresion" align="center">000541337</td>
+                        <td class="tdDataImpresion" align="center">LD</td>
+                        <td class="tdDataImpresion" align="center">ECO MAYA </td>
+                        <td class="tdDataImpresion" align="right">$96.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-15</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2021-01-11</td>
+                        <td class="tdDataImpresion" align="center"></td>
+                        <td class="tdDataImpresion" align="left"></td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">783120502519</td>
+                        <td class="alternoImpresion" align="center">QR001441-1</td>
+                        <td class="alternoImpresion" align="center">RU153489</td>
+                        <td class="alternoImpresion" align="center">000541338</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">ECO MAYA </td>
+                        <td class="alternoImpresion" align="right">$15163.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-15</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-11</td>
+                        <td class="alternoImpresion" align="center">TH-00000973-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">782140700299</td>
+                        <td class="tdDataImpresion" align="center">QR001437-1</td>
+                        <td class="tdDataImpresion" align="center">RU153517</td>
+                        <td class="tdDataImpresion" align="center">000541397</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">PRO HOME</td>
+                        <td class="tdDataImpresion" align="right">$16212.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-15</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2021-01-07</td>
+                        <td class="tdDataImpresion" align="center">TH-00000976-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">782070603304</td>
+                        <td class="alternoImpresion" align="center">QR001447-1</td>
+                        <td class="alternoImpresion" align="center">OU014962</td>
+                        <td class="alternoImpresion" align="center">000541398</td>
+                        <td class="alternoImpresion" align="center">LV</td>
+                        <td class="alternoImpresion" align="center">PRO HOME</td>
+                        <td class="alternoImpresion" align="right">$15793.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-15</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-13</td>
+                        <td class="alternoImpresion" align="center">TH-00000013-L</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">780990206037</td>
+                        <td class="tdDataImpresion" align="center">QR001435-1</td>
+                        <td class="tdDataImpresion" align="center">RU153226</td>
+                        <td class="tdDataImpresion" align="center">000541408</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">FERROTLAPALERIA CHAC-MOO (QR)</td>
+                        <td class="tdDataImpresion" align="right">$16212.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-18</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2021-01-06</td>
+                        <td class="tdDataImpresion" align="center">TH-00000971-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">783141008247</td>
+                        <td class="alternoImpresion" align="center">QR001445-1</td>
+                        <td class="alternoImpresion" align="center">RU153528</td>
+                        <td class="alternoImpresion" align="center">000541490</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">FERROTLAPALERIA CHAC-MOO (QR)</td>
+                        <td class="alternoImpresion" align="right">$11404.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-19</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-12</td>
+                        <td class="alternoImpresion" align="center">TH-00000975-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">783980301197</td>
+                        <td class="tdDataImpresion" align="center">QR001448-1</td>
+                        <td class="tdDataImpresion" align="center">RU153645</td>
+                        <td class="tdDataImpresion" align="center">000541491</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">PRO HOME</td>
+                        <td class="tdDataImpresion" align="right">$16212.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-19</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2021-01-13</td>
+                        <td class="tdDataImpresion" align="center">TH-00000977-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">783160610896</td>
+                        <td class="alternoImpresion" align="center">QR001452-1</td>
+                        <td class="alternoImpresion" align="center">OU015049</td>
+                        <td class="alternoImpresion" align="center">000541503</td>
+                        <td class="alternoImpresion" align="center">LV</td>
+                        <td class="alternoImpresion" align="center">PRO HOME</td>
+                        <td class="alternoImpresion" align="right">$16919.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-19</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-14</td>
+                        <td class="alternoImpresion" align="center">TH-00000014-L</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">782030405909</td>
+                        <td class="tdDataImpresion" align="center">QR001454-1</td>
+                        <td class="tdDataImpresion" align="center">RU153729</td>
+                        <td class="tdDataImpresion" align="center">000541504</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">PRO HOME</td>
+                        <td class="tdDataImpresion" align="right">$16212.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-19</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2021-01-14</td>
+                        <td class="tdDataImpresion" align="center">TH-00000978-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">782061207561</td>
+                        <td class="alternoImpresion" align="center">QR001449-1</td>
+                        <td class="alternoImpresion" align="center">RU153647</td>
+                        <td class="alternoImpresion" align="center">000541957</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">FERROTLAPALERIA CHAC-MOO (QR)</td>
+                        <td class="alternoImpresion" align="right">$15163.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-22</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-14</td>
+                        <td class="alternoImpresion" align="center">TH-00000980-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">782150903759</td>
+                        <td class="tdDataImpresion" align="center">QR001451-1</td>
+                        <td class="tdDataImpresion" align="center">RU153897</td>
+                        <td class="tdDataImpresion" align="center">000541958</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">ECO MAYA </td>
+                        <td class="tdDataImpresion" align="right">$15163.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-22</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2021-01-14</td>
+                        <td class="tdDataImpresion" align="center">TH-00000981-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">782111005077</td>
+                        <td class="alternoImpresion" align="center">QR001450-2</td>
+                        <td class="alternoImpresion" align="center">RU154143</td>
+                        <td class="alternoImpresion" align="center">000541997</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">ECO MAYA </td>
+                        <td class="alternoImpresion" align="right">$15163.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-22</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-20</td>
+                        <td class="alternoImpresion" align="center">TH-00000985-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">783120710405</td>
+                        <td class="tdDataImpresion" align="center">QR001457-1</td>
+                        <td class="tdDataImpresion" align="center">RU154019</td>
+                        <td class="tdDataImpresion" align="center">000541998</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">PRO HOME</td>
+                        <td class="tdDataImpresion" align="right">$16212.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-22</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2021-01-19</td>
+                        <td class="tdDataImpresion" align="center">TH-00000983-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">783160601668</td>
+                        <td class="alternoImpresion" align="center">QR001458-1</td>
+                        <td class="alternoImpresion" align="center">RU154160</td>
+                        <td class="alternoImpresion" align="center">000542000</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">PRO HOME</td>
+                        <td class="alternoImpresion" align="right">$16212.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-22</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-19</td>
+                        <td class="alternoImpresion" align="center">TH-00000984-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">782160106334</td>
+                        <td class="tdDataImpresion" align="center">QR001459-1</td>
+                        <td class="tdDataImpresion" align="center">RU154052</td>
+                        <td class="tdDataImpresion" align="center">000542002</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">PRO HOME</td>
+                        <td class="tdDataImpresion" align="right">$16212.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-22</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2021-01-19</td>
+                        <td class="tdDataImpresion" align="center">TH-00000982-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">783130402211</td>
+                        <td class="alternoImpresion" align="center">QR001460-1</td>
+                        <td class="alternoImpresion" align="center">OU015415</td>
+                        <td class="alternoImpresion" align="center">000542005</td>
+                        <td class="alternoImpresion" align="center">LV</td>
+                        <td class="alternoImpresion" align="center">PRO HOME</td>
+                        <td class="alternoImpresion" align="right">$14709.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-22</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-19</td>
+                        <td class="alternoImpresion" align="center">TH-00000015-L</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">781010101184</td>
+                        <td class="tdDataImpresion" align="center">QR001446-1</td>
+                        <td class="tdDataImpresion" align="center">RU153555</td>
+                        <td class="tdDataImpresion" align="center">000542209</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">FERROTLAPALERIA CHAC-MOO (QR)</td>
+                        <td class="tdDataImpresion" align="right">$15163.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-26</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2021-01-13</td>
+                        <td class="tdDataImpresion" align="center">TH-00000979-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">782160410335</td>
+                        <td class="alternoImpresion" align="center">QR001462-1</td>
+                        <td class="alternoImpresion" align="center">OU015595</td>
+                        <td class="alternoImpresion" align="center">000542230</td>
+                        <td class="alternoImpresion" align="center">LV</td>
+                        <td class="alternoImpresion" align="center">PRO HOME</td>
+                        <td class="alternoImpresion" align="right">$18089.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-26</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-22</td>
+                        <td class="alternoImpresion" align="center">TH-00000017-L</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">782981000470</td>
+                        <td class="tdDataImpresion" align="center">QR001464-1</td>
+                        <td class="tdDataImpresion" align="center">OU015596</td>
+                        <td class="tdDataImpresion" align="center">000542231</td>
+                        <td class="tdDataImpresion" align="center">LV</td>
+                        <td class="tdDataImpresion" align="center">PRO HOME</td>
+                        <td class="tdDataImpresion" align="right">$18089.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-26</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2021-01-24</td>
+                        <td class="tdDataImpresion" align="center">TH-00000018-L</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">783950405567</td>
+                        <td class="alternoImpresion" align="center">QR001465-1</td>
+                        <td class="alternoImpresion" align="center">RU154359</td>
+                        <td class="alternoImpresion" align="center">000542232</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">PRO HOME</td>
+                        <td class="alternoImpresion" align="right">$16212.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-26</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-24</td>
+                        <td class="alternoImpresion" align="center">TH-00000986-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">783100709672</td>
+                        <td class="tdDataImpresion" align="center">QR001455-2</td>
+                        <td class="tdDataImpresion" align="center">OU015424</td>
+                        <td class="tdDataImpresion" align="center">000542331</td>
+                        <td class="tdDataImpresion" align="center">LV</td>
+                        <td class="tdDataImpresion" align="center">EVM SOLUCIONES</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-27</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2021-01-21</td>
+                        <td class="tdDataImpresion" align="center">TH-00000016-L</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">782100100663</td>
+                        <td class="alternoImpresion" align="center">QR001443-1</td>
+                        <td class="alternoImpresion" align="center">OU014848</td>
+                        <td class="alternoImpresion" align="center">000542431</td>
+                        <td class="alternoImpresion" align="center">LV</td>
+                        <td class="alternoImpresion" align="center">EVM SOLUCIONES</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-28</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-11</td>
+                        <td class="alternoImpresion" align="center">TH-00000012-L</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">782080202855</td>
+                        <td class="tdDataImpresion" align="center">QR001467-1</td>
+                        <td class="tdDataImpresion" align="center">RU154405</td>
+                        <td class="tdDataImpresion" align="center">000542432</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">EVM SOLUCIONES</td>
+                        <td class="tdDataImpresion" align="right">$16213.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-28</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2021-01-25</td>
+                        <td class="tdDataImpresion" align="center">TH-00000990-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">782060800977</td>
+                        <td class="alternoImpresion" align="center">QR001273-3</td>
+                        <td class="alternoImpresion" align="center">SU130251</td>
+                        <td class="alternoImpresion" align="center">000542704</td>
+                        <td class="alternoImpresion" align="center">AC</td>
+                        <td class="alternoImpresion" align="center">ECO MAYA </td>
+                        <td class="alternoImpresion" align="right">$15228.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-29</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-16</td>
+                        <td class="alternoImpresion" align="center">TH-00000037-A</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">782000855942</td>
+                        <td class="tdDataImpresion" align="center">QR001466-1</td>
+                        <td class="tdDataImpresion" align="center">SU130337</td>
+                        <td class="tdDataImpresion" align="center">000542705</td>
+                        <td class="tdDataImpresion" align="center">AC</td>
+                        <td class="tdDataImpresion" align="center">ECO MAYA </td>
+                        <td class="tdDataImpresion" align="right">$15228.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-29</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2021-01-25</td>
+                        <td class="tdDataImpresion" align="center">TH-00000038-A</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">783140601823</td>
+                        <td class="alternoImpresion" align="center">QR001468-1</td>
+                        <td class="alternoImpresion" align="center">RU154481</td>
+                        <td class="alternoImpresion" align="center">000542706</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">ECO MAYA </td>
+                        <td class="alternoImpresion" align="right">$16212.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-29</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-26</td>
+                        <td class="alternoImpresion" align="center">TH-00000989-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">783010101195</td>
+                        <td class="tdDataImpresion" align="center">QR001470-1</td>
+                        <td class="tdDataImpresion" align="center">RU154563</td>
+                        <td class="tdDataImpresion" align="center">000542707</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">ECO MAYA </td>
+                        <td class="tdDataImpresion" align="right">$15163.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-29</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2021-01-27</td>
+                        <td class="tdDataImpresion" align="center">TH-00000992-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">782171005564</td>
+                        <td class="alternoImpresion" align="center">QR001471-1</td>
+                        <td class="alternoImpresion" align="center">RU154565</td>
+                        <td class="alternoImpresion" align="center">000542708</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">ECO MAYA </td>
+                        <td class="alternoImpresion" align="right">$15163.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-29</td>
+                        <td class="alternoImpresion" align="center">CC022QR</td>
+                        <td class="alternoImpresion" align="center">2021-01-27</td>
+                        <td class="alternoImpresion" align="center">TH-00000993-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">783180700140</td>
+                        <td class="tdDataImpresion" align="center">QR001474-1</td>
+                        <td class="tdDataImpresion" align="center">RU154633</td>
+                        <td class="tdDataImpresion" align="center">000542709</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">EVM SOLUCIONES</td>
+                        <td class="tdDataImpresion" align="right">$16213.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-29</td>
+                        <td class="tdDataImpresion" align="center">CC022QR</td>
+                        <td class="tdDataImpresion" align="center">2021-01-28</td>
+                        <td class="tdDataImpresion" align="center">TH-00000994-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+              </table>				
+</body>
+</html>

@@ -1,0 +1,447 @@
+<html>
+<head>
+<title>Reporte Afectadas</title>
+</head>
+<body>
+<br><br>
+    <table width="90%" cellpadding="2" cellspacing="0" border="1" class="listaReporte" align="center">
+			<tr>
+				<th class="tdTituloImpresion" style="text-align:center">Usuario</th>
+				<th class="tdTituloImpresion" style="text-align:center">Solicitud</th>
+                <th class="tdTituloImpresion" style="text-align:center">Presupuesto</th>
+                <th class="tdTituloImpresion" style="text-align:center">Sol. P.A.</th>
+                <th class="tdTituloImpresion" style="text-align:center">Producto</th>
+                <th class="tdTituloImpresion" style="text-align:center">Distribuidor</th>
+                <th class="tdTituloImpresion" style="text-align:center">Financiamiento</th>
+                <th class="tdTituloImpresion" style="text-align:center">Salvamento</th>
+                <th class="tdTituloImpresion" style="text-align:center">Liberaci&oacute;n</th>
+                <th class="tdTituloImpresion" style="text-align:center"># Emp.</th>
+                <th class="tdTituloImpresion" style="text-align:center">Registro</th>
+                <th class="tdTituloImpresion" style="text-align:center"># Boleta</th>
+                <th class="tdTituloImpresion" style="text-align:center">C. Acopio</th>
+                <th class="tdTituloImpresion" style="text-align:center">Tipo Sup.</th>
+                <th class="tdTituloImpresion" style="text-align:center">ConsultaSICOM</th>
+                <th class="tdTituloImpresion" style="text-align:center">AfectaSICOM</th>
+                <th class="tdTituloImpresion" style="text-align:center">Observaci&oacute;n</th>
+            </tr>
+		                    <tr>
+                        <td class="tdDataImpresion">810161109004</td>
+                        <td class="tdDataImpresion" align="center">RM000090-1</td>
+                        <td class="tdDataImpresion" align="center">RU152495</td>
+                        <td class="tdDataImpresion" align="center">000540781</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">FERROTLAPALERIA CHAC-MOO (RM)</td>
+                        <td class="tdDataImpresion" align="right">$15163.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-08</td>
+                        <td class="tdDataImpresion" align="center">CC022RM</td>
+                        <td class="tdDataImpresion" align="center">2020-12-18</td>
+                        <td class="tdDataImpresion" align="center">TH-00000047-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">810170504471</td>
+                        <td class="alternoImpresion" align="center">RM000092-1</td>
+                        <td class="alternoImpresion" align="center">RU153014</td>
+                        <td class="alternoImpresion" align="center">000540782</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">FERROTLAPALERIA CHAC-MOO (RM)</td>
+                        <td class="alternoImpresion" align="right">$13667.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-08</td>
+                        <td class="alternoImpresion" align="center">CC022RM</td>
+                        <td class="alternoImpresion" align="center">2020-12-30</td>
+                        <td class="alternoImpresion" align="center">TH-00000051-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">810050105654</td>
+                        <td class="tdDataImpresion" align="center">RM000094-1</td>
+                        <td class="tdDataImpresion" align="center">RU153029</td>
+                        <td class="tdDataImpresion" align="center">000540783</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">FERROTLAPALERIA CHAC-MOO (RM)</td>
+                        <td class="tdDataImpresion" align="right">$13667.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-08</td>
+                        <td class="tdDataImpresion" align="center">CC022RM</td>
+                        <td class="tdDataImpresion" align="center">2020-12-30</td>
+                        <td class="tdDataImpresion" align="center">TH-00000050-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">810180900162</td>
+                        <td class="alternoImpresion" align="center">RM000097-1</td>
+                        <td class="alternoImpresion" align="center">RU153313</td>
+                        <td class="alternoImpresion" align="center">000541399</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">EVM SOLUCIONES (Riviera Maya)</td>
+                        <td class="alternoImpresion" align="right">$16213.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-15</td>
+                        <td class="alternoImpresion" align="center">CC022RM</td>
+                        <td class="alternoImpresion" align="center">2021-01-07</td>
+                        <td class="alternoImpresion" align="center">TH-00000055-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">810150606367</td>
+                        <td class="tdDataImpresion" align="center">RM000095-1</td>
+                        <td class="tdDataImpresion" align="center">RU153127</td>
+                        <td class="tdDataImpresion" align="center">000541499</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">FERROTLAPALERIA CHAC-MOO (RM)</td>
+                        <td class="tdDataImpresion" align="right">$14154.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-19</td>
+                        <td class="tdDataImpresion" align="center">CC022RM</td>
+                        <td class="tdDataImpresion" align="center">2021-01-05</td>
+                        <td class="tdDataImpresion" align="center">TH-00000054-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">810141115849</td>
+                        <td class="alternoImpresion" align="center">RM000096-1</td>
+                        <td class="alternoImpresion" align="center">RU153293</td>
+                        <td class="alternoImpresion" align="center">000541500</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">FERROTLAPALERIA CHAC-MOO (RM)</td>
+                        <td class="alternoImpresion" align="right">$16614.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-19</td>
+                        <td class="alternoImpresion" align="center">CC022RM</td>
+                        <td class="alternoImpresion" align="center">2021-01-07</td>
+                        <td class="alternoImpresion" align="center">0</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">810141115849</td>
+                        <td class="tdDataImpresion" align="center">RM000096-2</td>
+                        <td class="tdDataImpresion" align="center">LU009833</td>
+                        <td class="tdDataImpresion" align="center">000541501</td>
+                        <td class="tdDataImpresion" align="center">LD</td>
+                        <td class="tdDataImpresion" align="center">FERROTLAPALERIA CHAC-MOO (RM)</td>
+                        <td class="tdDataImpresion" align="right">$284.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-19</td>
+                        <td class="tdDataImpresion" align="center">CC022RM</td>
+                        <td class="tdDataImpresion" align="center">2021-01-07</td>
+                        <td class="tdDataImpresion" align="center"></td>
+                        <td class="tdDataImpresion" align="left"></td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">810140105564</td>
+                        <td class="alternoImpresion" align="center">RM000099-1</td>
+                        <td class="alternoImpresion" align="center">RU153387</td>
+                        <td class="alternoImpresion" align="center">000541502</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">FERROTLAPALERIA CHAC-MOO (RM)</td>
+                        <td class="alternoImpresion" align="right">$14154.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-19</td>
+                        <td class="alternoImpresion" align="center">CC022RM</td>
+                        <td class="alternoImpresion" align="center">2021-01-08</td>
+                        <td class="alternoImpresion" align="center">TH-00000053-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">810090905319</td>
+                        <td class="tdDataImpresion" align="center">RM000100-1</td>
+                        <td class="tdDataImpresion" align="center">RU153390</td>
+                        <td class="tdDataImpresion" align="center">000542039</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">FERROTLAPALERIA CHAC-MOO (RM)</td>
+                        <td class="tdDataImpresion" align="right">$16212.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-22</td>
+                        <td class="tdDataImpresion" align="center">CC022RM</td>
+                        <td class="tdDataImpresion" align="center">2021-01-08</td>
+                        <td class="tdDataImpresion" align="center">TH-00000052-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">810131100584</td>
+                        <td class="alternoImpresion" align="center">RM000101-1</td>
+                        <td class="alternoImpresion" align="center">RU153554</td>
+                        <td class="alternoImpresion" align="center">000542040</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">FERROTLAPALERIA CHAC-MOO (RM)</td>
+                        <td class="alternoImpresion" align="right">$16212.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-22</td>
+                        <td class="alternoImpresion" align="center">CC022RM</td>
+                        <td class="alternoImpresion" align="center">2021-01-12</td>
+                        <td class="alternoImpresion" align="center">TH-00000056-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">810041007569</td>
+                        <td class="tdDataImpresion" align="center">RM000102-1</td>
+                        <td class="tdDataImpresion" align="center">RU153751</td>
+                        <td class="tdDataImpresion" align="center">000542201</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">FERROTLAPALERIA CHAC-MOO (RM)</td>
+                        <td class="tdDataImpresion" align="right">$16212.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-26</td>
+                        <td class="tdDataImpresion" align="center">CC022RM</td>
+                        <td class="tdDataImpresion" align="center">2021-01-15</td>
+                        <td class="tdDataImpresion" align="center">TH-00000057-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">810150602981</td>
+                        <td class="alternoImpresion" align="center">RM000103-1</td>
+                        <td class="alternoImpresion" align="center">RU153754</td>
+                        <td class="alternoImpresion" align="center">000542202</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">FERROTLAPALERIA CHAC-MOO (RM)</td>
+                        <td class="alternoImpresion" align="right">$16212.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-26</td>
+                        <td class="alternoImpresion" align="center">CC022RM</td>
+                        <td class="alternoImpresion" align="center">2021-01-15</td>
+                        <td class="alternoImpresion" align="center">TH-00000059-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">810041100909</td>
+                        <td class="tdDataImpresion" align="center">RM000105-1</td>
+                        <td class="tdDataImpresion" align="center">RU153803</td>
+                        <td class="tdDataImpresion" align="center">000542203</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">FERROTLAPALERIA CHAC-MOO (RM)</td>
+                        <td class="tdDataImpresion" align="right">$15163.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-26</td>
+                        <td class="tdDataImpresion" align="center">CC022RM</td>
+                        <td class="tdDataImpresion" align="center">2021-01-15</td>
+                        <td class="tdDataImpresion" align="center">TH-00000058-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">810140510914</td>
+                        <td class="alternoImpresion" align="center">RM000107-1</td>
+                        <td class="alternoImpresion" align="center">RU153974</td>
+                        <td class="alternoImpresion" align="center">000542204</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">FERROTLAPALERIA CHAC-MOO (RM)</td>
+                        <td class="alternoImpresion" align="right">$10645.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-26</td>
+                        <td class="alternoImpresion" align="center">CC022RM</td>
+                        <td class="alternoImpresion" align="center">2021-01-19</td>
+                        <td class="alternoImpresion" align="center">TH-00000061-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">810171004651</td>
+                        <td class="tdDataImpresion" align="center">RM000104-1</td>
+                        <td class="tdDataImpresion" align="center">RU153761</td>
+                        <td class="tdDataImpresion" align="center">000542205</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">FERROTLAPALERIA CHAC-MOO (RM)</td>
+                        <td class="tdDataImpresion" align="right">$16614.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-26</td>
+                        <td class="tdDataImpresion" align="center">CC022RM</td>
+                        <td class="tdDataImpresion" align="center">2021-01-15</td>
+                        <td class="tdDataImpresion" align="center">0</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">810171004651</td>
+                        <td class="alternoImpresion" align="center">RM000104-2</td>
+                        <td class="alternoImpresion" align="center">LU010025</td>
+                        <td class="alternoImpresion" align="center">000542206</td>
+                        <td class="alternoImpresion" align="center">LD</td>
+                        <td class="alternoImpresion" align="center">FERROTLAPALERIA CHAC-MOO (RM)</td>
+                        <td class="alternoImpresion" align="right">$284.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-26</td>
+                        <td class="alternoImpresion" align="center">CC022RM</td>
+                        <td class="alternoImpresion" align="center">2021-01-15</td>
+                        <td class="alternoImpresion" align="center"></td>
+                        <td class="alternoImpresion" align="left"></td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">810130610341</td>
+                        <td class="tdDataImpresion" align="center">RM000106-1</td>
+                        <td class="tdDataImpresion" align="center">RU153812</td>
+                        <td class="tdDataImpresion" align="center">000542207</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">FERROTLAPALERIA CHAC-MOO (RM)</td>
+                        <td class="tdDataImpresion" align="right">$16614.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-26</td>
+                        <td class="tdDataImpresion" align="center">CC022RM</td>
+                        <td class="tdDataImpresion" align="center">2021-01-15</td>
+                        <td class="tdDataImpresion" align="center">0</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">810130610341</td>
+                        <td class="alternoImpresion" align="center">RM000106-2</td>
+                        <td class="alternoImpresion" align="center">LU010051</td>
+                        <td class="alternoImpresion" align="center">000542208</td>
+                        <td class="alternoImpresion" align="center">LD</td>
+                        <td class="alternoImpresion" align="center">FERROTLAPALERIA CHAC-MOO (RM)</td>
+                        <td class="alternoImpresion" align="right">$275.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-26</td>
+                        <td class="alternoImpresion" align="center">CC022RM</td>
+                        <td class="alternoImpresion" align="center">2021-01-16</td>
+                        <td class="alternoImpresion" align="center"></td>
+                        <td class="alternoImpresion" align="left"></td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">810160309263</td>
+                        <td class="tdDataImpresion" align="center">RM000098-1</td>
+                        <td class="tdDataImpresion" align="center">OU014688</td>
+                        <td class="tdDataImpresion" align="center">000542335</td>
+                        <td class="tdDataImpresion" align="center">LV</td>
+                        <td class="tdDataImpresion" align="center">EVM SOLUCIONES (Riviera Maya)</td>
+                        <td class="tdDataImpresion" align="right">$15793.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-27</td>
+                        <td class="tdDataImpresion" align="center">CC022RM</td>
+                        <td class="tdDataImpresion" align="center">2021-01-07</td>
+                        <td class="tdDataImpresion" align="center">0</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">810160309263</td>
+                        <td class="alternoImpresion" align="center">RM000098-2</td>
+                        <td class="alternoImpresion" align="center">LU009863</td>
+                        <td class="alternoImpresion" align="center">000542336</td>
+                        <td class="alternoImpresion" align="center">LD</td>
+                        <td class="alternoImpresion" align="center">EVM SOLUCIONES (Riviera Maya)</td>
+                        <td class="alternoImpresion" align="right">$355.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-27</td>
+                        <td class="alternoImpresion" align="center">CC022RM</td>
+                        <td class="alternoImpresion" align="center">2021-01-07</td>
+                        <td class="alternoImpresion" align="center"></td>
+                        <td class="alternoImpresion" align="left"></td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">810040809459</td>
+                        <td class="tdDataImpresion" align="center">RM000109-1</td>
+                        <td class="tdDataImpresion" align="center">OU015345</td>
+                        <td class="tdDataImpresion" align="center">000542337</td>
+                        <td class="tdDataImpresion" align="center">LV</td>
+                        <td class="tdDataImpresion" align="center">EVM SOLUCIONES (Riviera Maya)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-27</td>
+                        <td class="tdDataImpresion" align="center">CC022RM</td>
+                        <td class="tdDataImpresion" align="center">2021-01-20</td>
+                        <td class="tdDataImpresion" align="center">TH-00000002-L</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">810100510733</td>
+                        <td class="alternoImpresion" align="center">RM000110-1</td>
+                        <td class="alternoImpresion" align="center">RU154230</td>
+                        <td class="alternoImpresion" align="center">000542338</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">EVM SOLUCIONES (Riviera Maya)</td>
+                        <td class="alternoImpresion" align="right">$15165.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-27</td>
+                        <td class="alternoImpresion" align="center">CC022RM</td>
+                        <td class="alternoImpresion" align="center">2021-01-21</td>
+                        <td class="alternoImpresion" align="center">TH-00000060-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+              </table>				
+</body>
+</html>

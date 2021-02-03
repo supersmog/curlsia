@@ -1,0 +1,1131 @@
+<html>
+<head>
+<title>Reporte Afectadas</title>
+</head>
+<body>
+<br><br>
+    <table width="90%" cellpadding="2" cellspacing="0" border="1" class="listaReporte" align="center">
+			<tr>
+				<th class="tdTituloImpresion" style="text-align:center">Usuario</th>
+				<th class="tdTituloImpresion" style="text-align:center">Solicitud</th>
+                <th class="tdTituloImpresion" style="text-align:center">Presupuesto</th>
+                <th class="tdTituloImpresion" style="text-align:center">Sol. P.A.</th>
+                <th class="tdTituloImpresion" style="text-align:center">Producto</th>
+                <th class="tdTituloImpresion" style="text-align:center">Distribuidor</th>
+                <th class="tdTituloImpresion" style="text-align:center">Financiamiento</th>
+                <th class="tdTituloImpresion" style="text-align:center">Salvamento</th>
+                <th class="tdTituloImpresion" style="text-align:center">Liberaci&oacute;n</th>
+                <th class="tdTituloImpresion" style="text-align:center"># Emp.</th>
+                <th class="tdTituloImpresion" style="text-align:center">Registro</th>
+                <th class="tdTituloImpresion" style="text-align:center"># Boleta</th>
+                <th class="tdTituloImpresion" style="text-align:center">C. Acopio</th>
+                <th class="tdTituloImpresion" style="text-align:center">Tipo Sup.</th>
+                <th class="tdTituloImpresion" style="text-align:center">ConsultaSICOM</th>
+                <th class="tdTituloImpresion" style="text-align:center">AfectaSICOM</th>
+                <th class="tdTituloImpresion" style="text-align:center">Observaci&oacute;n</th>
+            </tr>
+		                    <tr>
+                        <td class="tdDataImpresion">789970504195</td>
+                        <td class="tdDataImpresion" align="center">CM001343-1</td>
+                        <td class="tdDataImpresion" align="center">RU151451</td>
+                        <td class="tdDataImpresion" align="center">000540435</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">CREDIPLUS(CM)</td>
+                        <td class="tdDataImpresion" align="right">$16347.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-04</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2020-12-04</td>
+                        <td class="tdDataImpresion" align="center">SR-00001851-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">789110201632</td>
+                        <td class="alternoImpresion" align="center">CM001299-1</td>
+                        <td class="alternoImpresion" align="center">RU151025</td>
+                        <td class="alternoImpresion" align="center">000540497</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="alternoImpresion" align="right">$15275.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-05</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2020-11-27</td>
+                        <td class="alternoImpresion" align="center">SR-00001849-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789021003207</td>
+                        <td class="tdDataImpresion" align="center">CM001379-1</td>
+                        <td class="tdDataImpresion" align="center">RU152265</td>
+                        <td class="tdDataImpresion" align="center">000540498</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="tdDataImpresion" align="right">$15275.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-05</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2020-12-15</td>
+                        <td class="tdDataImpresion" align="center">SR-00001973-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">789130104323</td>
+                        <td class="alternoImpresion" align="center">CM001384-1</td>
+                        <td class="alternoImpresion" align="center">RU152499</td>
+                        <td class="alternoImpresion" align="center">000540499</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="alternoImpresion" align="right">$15275.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-05</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2020-12-16</td>
+                        <td class="alternoImpresion" align="center">SR-00001971-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789831201439</td>
+                        <td class="tdDataImpresion" align="center">CM001386-1</td>
+                        <td class="tdDataImpresion" align="center">RU152383</td>
+                        <td class="tdDataImpresion" align="center">000540500</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="tdDataImpresion" align="right">$15275.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-05</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2020-12-16</td>
+                        <td class="tdDataImpresion" align="center">SR-00001974-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">789120106948</td>
+                        <td class="alternoImpresion" align="center">CM001365-2</td>
+                        <td class="alternoImpresion" align="center">LU009216</td>
+                        <td class="alternoImpresion" align="center">000540501</td>
+                        <td class="alternoImpresion" align="center">LD</td>
+                        <td class="alternoImpresion" align="center">CREDIPLUS(CM)</td>
+                        <td class="alternoImpresion" align="right">$201.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-05</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2020-12-11</td>
+                        <td class="alternoImpresion" align="center">~</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789120106948</td>
+                        <td class="tdDataImpresion" align="center">CM001365-1</td>
+                        <td class="tdDataImpresion" align="center">RU151970</td>
+                        <td class="tdDataImpresion" align="center">000540502</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">CREDIPLUS(CM)</td>
+                        <td class="tdDataImpresion" align="right">$16749.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-05</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2020-12-11</td>
+                        <td class="tdDataImpresion" align="center">~</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">789081202314</td>
+                        <td class="alternoImpresion" align="center">CM001368-1</td>
+                        <td class="alternoImpresion" align="center">RU151984</td>
+                        <td class="alternoImpresion" align="center">000540503</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">CREDIPLUS(CM)</td>
+                        <td class="alternoImpresion" align="right">$16347.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-05</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2020-12-11</td>
+                        <td class="alternoImpresion" align="center">SR-00001946-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789100105899</td>
+                        <td class="tdDataImpresion" align="center">CM001377-1</td>
+                        <td class="tdDataImpresion" align="center">RU152223</td>
+                        <td class="tdDataImpresion" align="center">000540543</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="tdDataImpresion" align="right">$20969.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-06</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2020-12-15</td>
+                        <td class="tdDataImpresion" align="center">SR-00001957-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">789010506681</td>
+                        <td class="alternoImpresion" align="center">CM001385-1</td>
+                        <td class="alternoImpresion" align="center">OU013810</td>
+                        <td class="alternoImpresion" align="center">000540544</td>
+                        <td class="alternoImpresion" align="center">LV</td>
+                        <td class="alternoImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="alternoImpresion" align="right">$13788.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-06</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2020-12-16</td>
+                        <td class="alternoImpresion" align="center">SR-00000149-L</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789111006744</td>
+                        <td class="tdDataImpresion" align="center">CM001375-1</td>
+                        <td class="tdDataImpresion" align="center">RU152167</td>
+                        <td class="tdDataImpresion" align="center">000540615</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="tdDataImpresion" align="right">$15275.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-07</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2020-12-14</td>
+                        <td class="tdDataImpresion" align="center">SR-00001956-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">791130100942</td>
+                        <td class="alternoImpresion" align="center">CM001320-3</td>
+                        <td class="alternoImpresion" align="center">LU009040</td>
+                        <td class="alternoImpresion" align="center">000540684</td>
+                        <td class="alternoImpresion" align="center">LD</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="alternoImpresion" align="right">$170.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-08</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2020-12-06</td>
+                        <td class="alternoImpresion" align="center">-</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">791890400261</td>
+                        <td class="tdDataImpresion" align="center">CM001182-2</td>
+                        <td class="tdDataImpresion" align="center">RU152675</td>
+                        <td class="tdDataImpresion" align="center">000540685</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="tdDataImpresion" align="right">$11781.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-08</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2020-12-21</td>
+                        <td class="tdDataImpresion" align="center">SR-00001746-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">791070501616</td>
+                        <td class="alternoImpresion" align="center">CM001312-1</td>
+                        <td class="alternoImpresion" align="center">RU150967</td>
+                        <td class="alternoImpresion" align="center">000540686</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="alternoImpresion" align="right">$16213.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-08</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2020-11-28</td>
+                        <td class="alternoImpresion" align="center">SR-00001815-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">791130100942</td>
+                        <td class="tdDataImpresion" align="center">CM001320-1</td>
+                        <td class="tdDataImpresion" align="center">OU013195</td>
+                        <td class="tdDataImpresion" align="center">000540687</td>
+                        <td class="tdDataImpresion" align="center">LV</td>
+                        <td class="tdDataImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="tdDataImpresion" align="right">$18752.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-08</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2020-11-28</td>
+                        <td class="tdDataImpresion" align="center">-</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">791091000358</td>
+                        <td class="alternoImpresion" align="center">CM001325-1</td>
+                        <td class="alternoImpresion" align="center">OU012812</td>
+                        <td class="alternoImpresion" align="center">000540688</td>
+                        <td class="alternoImpresion" align="center">LV</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="alternoImpresion" align="right">$18350.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-08</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2020-11-28</td>
+                        <td class="alternoImpresion" align="center">SR-00000133-L</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">315181100975</td>
+                        <td class="tdDataImpresion" align="center">CM001394-1</td>
+                        <td class="tdDataImpresion" align="center">RU152799</td>
+                        <td class="tdDataImpresion" align="center">000540828</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="tdDataImpresion" align="right">$18308.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-11</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2020-12-23</td>
+                        <td class="tdDataImpresion" align="center">SR-00001970-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">789110401089</td>
+                        <td class="alternoImpresion" align="center">CM001169-2</td>
+                        <td class="alternoImpresion" align="center">OU014320</td>
+                        <td class="alternoImpresion" align="center">000540829</td>
+                        <td class="alternoImpresion" align="center">LV</td>
+                        <td class="alternoImpresion" align="center">CREDIPLUS(CM)</td>
+                        <td class="alternoImpresion" align="right">$11563.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-11</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2020-12-11</td>
+                        <td class="alternoImpresion" align="center">SR-00000147-L</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789120105976</td>
+                        <td class="tdDataImpresion" align="center">CM001390-1</td>
+                        <td class="tdDataImpresion" align="center">RU152453</td>
+                        <td class="tdDataImpresion" align="center">000540903</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="tdDataImpresion" align="right">$15275.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-12</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2020-12-17</td>
+                        <td class="tdDataImpresion" align="center">SR-00001972-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">791970700584</td>
+                        <td class="alternoImpresion" align="center">CM001380-1</td>
+                        <td class="alternoImpresion" align="center">RU152295</td>
+                        <td class="alternoImpresion" align="center">000541244</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="alternoImpresion" align="right">$11405.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-15</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2020-12-15</td>
+                        <td class="alternoImpresion" align="center">SR-00001937-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">791980500869</td>
+                        <td class="tdDataImpresion" align="center">CM001334-2</td>
+                        <td class="tdDataImpresion" align="center">RU153397</td>
+                        <td class="tdDataImpresion" align="center">000541465</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="tdDataImpresion" align="right">$16213.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-18</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2021-01-08</td>
+                        <td class="tdDataImpresion" align="center">SR-0000-1825-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">791121101642</td>
+                        <td class="alternoImpresion" align="center">CM001254-2</td>
+                        <td class="alternoImpresion" align="center">RU153757</td>
+                        <td class="alternoImpresion" align="center">000541472</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="alternoImpresion" align="right">$16213.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-19</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2021-01-14</td>
+                        <td class="alternoImpresion" align="center">SR-00001870-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789900301262</td>
+                        <td class="tdDataImpresion" align="center">CM001395-1</td>
+                        <td class="tdDataImpresion" align="center">RU153305</td>
+                        <td class="tdDataImpresion" align="center">000542368</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">CREDIPLUS(CM)</td>
+                        <td class="tdDataImpresion" align="right">$16347.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-27</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2021-01-07</td>
+                        <td class="tdDataImpresion" align="center">SR-00001993-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">789801201167</td>
+                        <td class="alternoImpresion" align="center">CM001397-2</td>
+                        <td class="alternoImpresion" align="center">RU153327</td>
+                        <td class="alternoImpresion" align="center">000542370</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">CREDIPLUS(CM)</td>
+                        <td class="alternoImpresion" align="right">$16212.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-27</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2021-01-07</td>
+                        <td class="alternoImpresion" align="center">SR-00001994-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">791080200151</td>
+                        <td class="tdDataImpresion" align="center">CM001431-1</td>
+                        <td class="tdDataImpresion" align="center">RU153904</td>
+                        <td class="tdDataImpresion" align="center">000542375</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="tdDataImpresion" align="right">$16213.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-27</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2021-01-18</td>
+                        <td class="tdDataImpresion" align="center">SR-00002055-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">791960600441</td>
+                        <td class="alternoImpresion" align="center">CM001433-1</td>
+                        <td class="alternoImpresion" align="center">OU015199</td>
+                        <td class="alternoImpresion" align="center">000542377</td>
+                        <td class="alternoImpresion" align="center">LV</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="alternoImpresion" align="right">$18350.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-27</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2021-01-18</td>
+                        <td class="alternoImpresion" align="center">SR-00000180-L</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789050201077</td>
+                        <td class="tdDataImpresion" align="center">CM001237-2</td>
+                        <td class="tdDataImpresion" align="center">OU014605</td>
+                        <td class="tdDataImpresion" align="center">000542380</td>
+                        <td class="tdDataImpresion" align="center">LV</td>
+                        <td class="tdDataImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="tdDataImpresion" align="right">$13788.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-27</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2021-01-07</td>
+                        <td class="tdDataImpresion" align="center">SR-00000126-L</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">789010205487</td>
+                        <td class="alternoImpresion" align="center">CM001393-1</td>
+                        <td class="alternoImpresion" align="center">RU152672</td>
+                        <td class="alternoImpresion" align="center">000542381</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="alternoImpresion" align="right">$15275.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-27</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2020-12-21</td>
+                        <td class="alternoImpresion" align="center">SR-00002027-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789830600291</td>
+                        <td class="tdDataImpresion" align="center">CM001403-1</td>
+                        <td class="tdDataImpresion" align="center">RU153914</td>
+                        <td class="tdDataImpresion" align="center">000542383</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="tdDataImpresion" align="right">$15275.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-27</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2021-01-12</td>
+                        <td class="tdDataImpresion" align="center">SR-00002034-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">791830300225</td>
+                        <td class="alternoImpresion" align="center">CM001441-1</td>
+                        <td class="alternoImpresion" align="center">RU153982</td>
+                        <td class="alternoImpresion" align="center">000542443</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="alternoImpresion" align="right">$16213.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-28</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2021-01-19</td>
+                        <td class="alternoImpresion" align="center">SR-00002050-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789930702016</td>
+                        <td class="tdDataImpresion" align="center">CM001413-1</td>
+                        <td class="tdDataImpresion" align="center">RU153667</td>
+                        <td class="tdDataImpresion" align="center">000542447</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="tdDataImpresion" align="right">$15275.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-28</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2021-01-14</td>
+                        <td class="tdDataImpresion" align="center">SR-00002035-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">789110305594</td>
+                        <td class="alternoImpresion" align="center">CM001420-2</td>
+                        <td class="alternoImpresion" align="center">RU154023</td>
+                        <td class="alternoImpresion" align="center">000542449</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="alternoImpresion" align="right">$15275.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-28</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2021-01-19</td>
+                        <td class="alternoImpresion" align="center">SR-00002033-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789790500591</td>
+                        <td class="tdDataImpresion" align="center">CM001415-2</td>
+                        <td class="tdDataImpresion" align="center">LU010001</td>
+                        <td class="tdDataImpresion" align="center">000542455</td>
+                        <td class="tdDataImpresion" align="center">LD</td>
+                        <td class="tdDataImpresion" align="center">CREDIPLUS(CM)</td>
+                        <td class="tdDataImpresion" align="right">$201.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-28</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2021-01-14</td>
+                        <td class="tdDataImpresion" align="center">-</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">789790500591</td>
+                        <td class="alternoImpresion" align="center">CM001415-1</td>
+                        <td class="alternoImpresion" align="center">RU153703</td>
+                        <td class="alternoImpresion" align="center">000542456</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">CREDIPLUS(CM)</td>
+                        <td class="alternoImpresion" align="right">$16614.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-28</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2021-01-14</td>
+                        <td class="alternoImpresion" align="center">-</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789140300317</td>
+                        <td class="tdDataImpresion" align="center">CM001412-2</td>
+                        <td class="tdDataImpresion" align="center">LU010020</td>
+                        <td class="tdDataImpresion" align="center">000542483</td>
+                        <td class="tdDataImpresion" align="center">LD</td>
+                        <td class="tdDataImpresion" align="center">CREDIPLUS(CM)</td>
+                        <td class="tdDataImpresion" align="right">$201.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-28</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2021-01-15</td>
+                        <td class="tdDataImpresion" align="center">-</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">789140300317</td>
+                        <td class="alternoImpresion" align="center">CM001412-1</td>
+                        <td class="alternoImpresion" align="center">RU153765</td>
+                        <td class="alternoImpresion" align="center">000542489</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">CREDIPLUS(CM)</td>
+                        <td class="alternoImpresion" align="right">$16614.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-28</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2021-01-14</td>
+                        <td class="alternoImpresion" align="center">-</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789081202021</td>
+                        <td class="tdDataImpresion" align="center">CM001399-1</td>
+                        <td class="tdDataImpresion" align="center">RU153342</td>
+                        <td class="tdDataImpresion" align="center">000542491</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="tdDataImpresion" align="right">$15275.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-28</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2021-01-07</td>
+                        <td class="tdDataImpresion" align="center">SR-00002031-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">789071201956</td>
+                        <td class="alternoImpresion" align="center">CM001400-1</td>
+                        <td class="alternoImpresion" align="center">RU153346</td>
+                        <td class="alternoImpresion" align="center">000542492</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="alternoImpresion" align="right">$15275.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-28</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2021-01-07</td>
+                        <td class="alternoImpresion" align="center">SR-00002030-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789111105998</td>
+                        <td class="tdDataImpresion" align="center">CM001402-1</td>
+                        <td class="tdDataImpresion" align="center">RU153417</td>
+                        <td class="tdDataImpresion" align="center">000542493</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="tdDataImpresion" align="right">$15275.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-28</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2021-01-08</td>
+                        <td class="tdDataImpresion" align="center">SR-00002029-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">789090101148</td>
+                        <td class="alternoImpresion" align="center">CM001404-1</td>
+                        <td class="alternoImpresion" align="center">RU153523</td>
+                        <td class="alternoImpresion" align="center">000542494</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="alternoImpresion" align="right">$15275.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-28</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2021-01-12</td>
+                        <td class="alternoImpresion" align="center">SR-00002028-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">791160500406</td>
+                        <td class="tdDataImpresion" align="center">CM001417-1</td>
+                        <td class="tdDataImpresion" align="center">OU015034</td>
+                        <td class="tdDataImpresion" align="center">000542582</td>
+                        <td class="tdDataImpresion" align="center">LV</td>
+                        <td class="tdDataImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="tdDataImpresion" align="right">$18350.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-29</td>
+                        <td class="tdDataImpresion" align="center">MD045CA</td>
+                        <td class="tdDataImpresion" align="center">2021-01-14</td>
+                        <td class="tdDataImpresion" align="center">SR-00000182-L</td>
+                        <td class="tdDataImpresion" align="left">Grupo Metaplast</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">791750328498</td>
+                        <td class="alternoImpresion" align="center">CM001418-1</td>
+                        <td class="alternoImpresion" align="center">OU015036</td>
+                        <td class="alternoImpresion" align="center">000542583</td>
+                        <td class="alternoImpresion" align="center">LV</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="alternoImpresion" align="right">$18350.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-29</td>
+                        <td class="alternoImpresion" align="center">MD045CA</td>
+                        <td class="alternoImpresion" align="center">2021-01-14</td>
+                        <td class="alternoImpresion" align="center">SR-00000179-L</td>
+                        <td class="alternoImpresion" align="left">Grupo Metaplast</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">791130301662</td>
+                        <td class="tdDataImpresion" align="center">CM001437-1</td>
+                        <td class="tdDataImpresion" align="center">RU153950</td>
+                        <td class="tdDataImpresion" align="center">000542584</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="tdDataImpresion" align="right">$11781.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-29</td>
+                        <td class="tdDataImpresion" align="center">MD045CA</td>
+                        <td class="tdDataImpresion" align="center">2021-01-18</td>
+                        <td class="tdDataImpresion" align="center">SR-00002051-R</td>
+                        <td class="tdDataImpresion" align="left">Grupo Metaplast</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">315160600285</td>
+                        <td class="alternoImpresion" align="center">CM001430-3</td>
+                        <td class="alternoImpresion" align="center">LU010154</td>
+                        <td class="alternoImpresion" align="center">000542585</td>
+                        <td class="alternoImpresion" align="center">LD</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="alternoImpresion" align="right">$170.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-29</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2021-01-18</td>
+                        <td class="alternoImpresion" align="center">-</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">315160600285</td>
+                        <td class="tdDataImpresion" align="center">CM001430-1</td>
+                        <td class="tdDataImpresion" align="center">RU153903</td>
+                        <td class="tdDataImpresion" align="center">000542586</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="tdDataImpresion" align="right">$16615.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-29</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2021-01-18</td>
+                        <td class="tdDataImpresion" align="center">-</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">789140304746</td>
+                        <td class="alternoImpresion" align="center">CM001199-2</td>
+                        <td class="alternoImpresion" align="center">OU014599</td>
+                        <td class="alternoImpresion" align="center">000542587</td>
+                        <td class="alternoImpresion" align="center">LV</td>
+                        <td class="alternoImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="alternoImpresion" align="right">$13788.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-29</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2020-12-22</td>
+                        <td class="alternoImpresion" align="center">SR-00000108-L</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789971004048</td>
+                        <td class="tdDataImpresion" align="center">CM001081-3</td>
+                        <td class="tdDataImpresion" align="center">RU153404</td>
+                        <td class="tdDataImpresion" align="center">000542601</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="tdDataImpresion" align="right">$16213.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-29</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2021-01-08</td>
+                        <td class="tdDataImpresion" align="center">SR-00001810-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">791980700914</td>
+                        <td class="alternoImpresion" align="center">CM001444-1</td>
+                        <td class="alternoImpresion" align="center">RU154104</td>
+                        <td class="alternoImpresion" align="center">000542604</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="alternoImpresion" align="right">$21000.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-29</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2021-01-19</td>
+                        <td class="alternoImpresion" align="center">SR-00002048-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789040905891</td>
+                        <td class="tdDataImpresion" align="center">CM001366-2</td>
+                        <td class="tdDataImpresion" align="center">RU154279</td>
+                        <td class="tdDataImpresion" align="center">000542688</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="tdDataImpresion" align="right">$16213.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-29</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2021-01-22</td>
+                        <td class="tdDataImpresion" align="center">SR-00002057-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">791070201001</td>
+                        <td class="alternoImpresion" align="center">CM001405-1</td>
+                        <td class="alternoImpresion" align="center">OU014914</td>
+                        <td class="alternoImpresion" align="center">000542689</td>
+                        <td class="alternoImpresion" align="center">LV</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="alternoImpresion" align="right">$18350.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-29</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2021-01-13</td>
+                        <td class="alternoImpresion" align="center">SR-00000181-L</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">791961000430</td>
+                        <td class="tdDataImpresion" align="center">CM001451-1</td>
+                        <td class="tdDataImpresion" align="center">OU015314</td>
+                        <td class="tdDataImpresion" align="center">000542690</td>
+                        <td class="tdDataImpresion" align="center">LV</td>
+                        <td class="tdDataImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="tdDataImpresion" align="right">$18350.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-29</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2021-01-19</td>
+                        <td class="tdDataImpresion" align="center">SR-00000183-L</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">789040400772</td>
+                        <td class="alternoImpresion" align="center">CM001462-1</td>
+                        <td class="alternoImpresion" align="center">RU154187</td>
+                        <td class="alternoImpresion" align="center">000542691</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="alternoImpresion" align="right">$16213.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-29</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2021-01-21</td>
+                        <td class="alternoImpresion" align="center">SR-00002056-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789840900129</td>
+                        <td class="tdDataImpresion" align="center">CM001443-1</td>
+                        <td class="tdDataImpresion" align="center">OU015348</td>
+                        <td class="tdDataImpresion" align="center">000542710</td>
+                        <td class="tdDataImpresion" align="center">LV</td>
+                        <td class="tdDataImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="tdDataImpresion" align="right">$13788.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-29</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2021-01-19</td>
+                        <td class="tdDataImpresion" align="center">SR-00000166-L</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">791100400330</td>
+                        <td class="alternoImpresion" align="center">CM001442-2</td>
+                        <td class="alternoImpresion" align="center">LU010101</td>
+                        <td class="alternoImpresion" align="center">000542720</td>
+                        <td class="alternoImpresion" align="center">LD</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="alternoImpresion" align="right">$170.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-29</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2021-01-19</td>
+                        <td class="alternoImpresion" align="center">-</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">789060901743</td>
+                        <td class="tdDataImpresion" align="center">CM001450-2</td>
+                        <td class="tdDataImpresion" align="center">LU010127</td>
+                        <td class="tdDataImpresion" align="center">000542721</td>
+                        <td class="tdDataImpresion" align="center">LD</td>
+                        <td class="tdDataImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="tdDataImpresion" align="right">$170.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-29</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2021-01-19</td>
+                        <td class="tdDataImpresion" align="center">-</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">789971102333</td>
+                        <td class="alternoImpresion" align="center">CM001423-2</td>
+                        <td class="alternoImpresion" align="center">OU015295</td>
+                        <td class="alternoImpresion" align="center">000542722</td>
+                        <td class="alternoImpresion" align="center">LV</td>
+                        <td class="alternoImpresion" align="center">GROSS DEL SURESTE CAMPECHE</td>
+                        <td class="alternoImpresion" align="right">$13788.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-29</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2021-01-19</td>
+                        <td class="alternoImpresion" align="center">SR-00000168-L</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">791100400330</td>
+                        <td class="tdDataImpresion" align="center">CM001442-1</td>
+                        <td class="tdDataImpresion" align="center">RU153983</td>
+                        <td class="tdDataImpresion" align="center">000542723</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="tdDataImpresion" align="right">$16615.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-01-29</td>
+                        <td class="tdDataImpresion" align="center">CM024</td>
+                        <td class="tdDataImpresion" align="center">2021-01-19</td>
+                        <td class="tdDataImpresion" align="center">-</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">789060901743</td>
+                        <td class="alternoImpresion" align="center">CM001450-1</td>
+                        <td class="alternoImpresion" align="center">RU154035</td>
+                        <td class="alternoImpresion" align="center">000542724</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA</td>
+                        <td class="alternoImpresion" align="right">$16615.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-01-29</td>
+                        <td class="alternoImpresion" align="center">CM024</td>
+                        <td class="alternoImpresion" align="center">2021-01-19</td>
+                        <td class="alternoImpresion" align="center">-</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+              </table>				
+</body>
+</html>
