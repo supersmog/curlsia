@@ -155,7 +155,7 @@ http://10.144.3.129/siaMexicali/instalacion/leerXML.php?idpresup=RU139450
 
 
 reporte sup lavadoras
-http://programaasi.mx/siaMexicali/supervision/reporteLavadorasDist.php?solicitud=ML000375&solixtra=1
+http://10.144.3.129/siaMexicali/supervision/reporteLavadorasDist.php?solicitud=ML000375&solixtra=1
 
 presupuesto lavadoras
 http://programaasi.mx/siaMexicali/presup_programas.php?ns=ML000375&nsx=1
@@ -166,6 +166,9 @@ http://programaasi.mx/siaMexicali/presup_programas.php?ns=ML000310&nsx=3
 subir xml 
 http://10.144.3.129/siaMexicali/instalacion/subirXML.php?idpresup=OU007790
 
+cambiar telefono
+
+
 
 RAspberry
 'datadirectory' => '/mnt/dietpi_userdata/nextcloud_data',
@@ -173,3 +176,23 @@ RAspberry
 
 listados paquetes
 http://10.144.3.129/siaMexicali/expedientes/exp_reporte.php?tabla=1&index_dist=0&dist=0&index_orden=0&orden=folio&index_tend=0&tend=ASC&fecha_inicial=2020-09-21&fecha_final=2020-10-01
+
+
+reportes presupuestos 
+10.144.3.129/siaMexicali/SolicitudesFinanciados/ReporteFinanciadosExcel.php?fecha_ini=2021-01-01&fecha_fin=2021-01-21&estatus=9&zona=01
+
+
+
+reportesLiberaciones x sp y nombres
+Referer: http://10.144.3.129/siaMexicali/liberacion/reportes/liberaciones2.php
+POST
+// lavadora
+idDistribuidor=-1&idCoordinacion=-1&fechaInicial=2021-01-01&fechaFinal=2021-01-19&pdto=10&equipo=&orderbypropagate=1&model=1&dAtencion=1&promoinv=
+
+
+idDistribuidor=-1&idCoordinacion=-1&fechaInicial=2021-01-01&fechaFinal=2021-01-19&pdto=3&equipo=&orderbypropagate=1&model=1&dAtencion=1&promoinv=
+fechaInicial
+
+
+http://10.144.3.129/siaMexicali/liberacion/reportes/openExcel.php
+

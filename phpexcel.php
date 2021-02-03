@@ -45,7 +45,7 @@ function actualiza_confirma_liberaciones($archivo,$zona)
 		$afecta_sicom=$sheet->getCell("P".$row)->getValue();
 		$observacion=$sheet->getCell("Q".$row)->getValue();
 		$concatenar="('$rpu','$solicitud','$presupuesto','$scc','$sp','$proveedor','$financiamiento','$bono','$fecha_liberacion','$usuario','$fecha_registro','$boleta','$acopio','$tipo_sup','$zona')";
-		$sql="INSERT INTO yucatan.confirma_liberaciones_tmp(rpu, solicitud, presupuesto,scc,sp,proveedor,financiamiento,bono,fecha_liberacion,usuario,fecha_registro,boleta,acopio,tipo_sup,zona)
+		$sql="INSERT INTO Yucatan.confirma_liberaciones_tmp(rpu, solicitud, presupuesto,scc,sp,proveedor,financiamiento,bono,fecha_liberacion,usuario,fecha_registro,boleta,acopio,tipo_sup,zona)
 		VALUE$concatenar";
 		//echo $sql;
 		$resp=$liberacion->insertar($sql);
@@ -61,7 +61,7 @@ function actualiza_confirma_liberaciones($archivo,$zona)
 	}
 		//obtiene los nuevos registros
 	//inserta los nuevos registros en la tabla orignal
-	$sql="INSERT INTO yucatan.confirma_liberaciones(rpu, solicitud, presupuesto,scc,sp,proveedor,financiamiento,bono,fecha_liberacion,usuario,fecha_registro,boleta,acopio,tipo_sup,zona)
+	$sql="INSERT INTO Yucatan.confirma_liberaciones(rpu, solicitud, presupuesto,scc,sp,proveedor,financiamiento,bono,fecha_liberacion,usuario,fecha_registro,boleta,acopio,tipo_sup,zona)
 	SELECT rpu, solicitud, presupuesto,scc,sp,proveedor,financiamiento,bono,fecha_liberacion,usuario,fecha_registro,boleta,acopio,tipo_sup,zona FROM confirma_liberaciones_tmp WHERE NOT EXISTS 
 	(SELECT 1 FROM confirma_liberaciones WHERE confirma_liberaciones.solicitud = confirma_liberaciones_tmp.solicitud)";
 		$resp=$liberacion->insertar($sql);
@@ -111,7 +111,7 @@ function actualiza_confirma_liberaciones_simple($archivo,$zona)
 		$dif_interes=$sheet->getCell("Q".$row)->getValue();
 		$dif_iva=$sheet->getCell("O".$row)->getValue();
 		$concatenar="('$rpu','$solicitud_pa','$solicitud','$presupuesto','$programa','$sufijo_sicom','$fecha_sicom','$fecha_alta_lib','$fecha_pago','$financiado','$capital','$interes','$iva','$dif_total','$dif_capital','$dif_interes','$dif_iva','$zona')";
-		$sql="INSERT INTO yucatan.liberaciones_simple_tmp(rpu,solicitud_pa, solicitud, presupuesto,programa,sufijo_sicom,fecha_sicom,fecha_alta_lib,fecha_pago,financiado,capital,interes,iva,dif_total,dif_capital,dif_interes,dif_iva,zona) VALUES$concatenar";
+		$sql="INSERT INTO Yucatan.liberaciones_simple_tmp(rpu,solicitud_pa, solicitud, presupuesto,programa,sufijo_sicom,fecha_sicom,fecha_alta_lib,fecha_pago,financiado,capital,interes,iva,dif_total,dif_capital,dif_interes,dif_iva,zona) VALUES$concatenar";
 		echo $sql;
 		$resp=$liberacion->insertar($sql);
 		if($resp)
@@ -125,7 +125,7 @@ function actualiza_confirma_liberaciones_simple($archivo,$zona)
 	}
 	//obtiene los nuevos registros
 	//inserta los nuevos registros en la tabla orignal
-	$sql="INSERT INTO yucatan.liberaciones_simple(rpu,solicitud_pa, solicitud, presupuesto,programa,sufijo_sicom,fecha_sicom,fecha_alta_lib,fecha_pago,financiado,capital,interes,iva,dif_total,dif_capital,dif_interes,dif_iva,zona)
+	$sql="INSERT INTO Yucatan.liberaciones_simple(rpu,solicitud_pa, solicitud, presupuesto,programa,sufijo_sicom,fecha_sicom,fecha_alta_lib,fecha_pago,financiado,capital,interes,iva,dif_total,dif_capital,dif_interes,dif_iva,zona)
 	SELECT rpu,solicitud_pa, solicitud, presupuesto,programa,sufijo_sicom,fecha_sicom,fecha_alta_lib,fecha_pago,financiado,capital,interes,iva,dif_total,dif_capital,dif_interes,dif_iva,zona FROM liberaciones_simple_tmp WHERE NOT EXISTS
 	(SELECT 1 FROM liberaciones_simple WHERE liberaciones_simple.solicitud=liberaciones_simple_tmp.solicitud)";
 	$resp=$liberacion->insertar($sql);
@@ -147,12 +147,23 @@ actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_motul.xls","Motul"
 actualiza_confirma_liberaciones("paginas/confirma_lib_campeche.xls","Campeche");
 actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroo.xls","Cancun");
 actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroorv.xls","Riviera");
+actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_2021.xls","Merida");
+actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_motul_2021.xls","Motul");
+actualiza_confirma_liberaciones("paginas/confirma_lib_campeche_2021.xls","Campeche");
+actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroo_2021.xls","Cancun");
+actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroorv_2021.xls","Riviera");
 vaciar_tabla('liberaciones_simple_tmp');
 actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_yucatan.xls","Merida");
 actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_yucatan_motul.xls","Motul");
 actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_campeche.xls","Campeche");
 actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_quintanaroo.xls","Cancun");
-//actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_quintanaroorv.xls","Riviera");
+actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_quintanaroorv.xls","Riviera");
+actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_yucatan_2021.xls","Merida");
+actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_yucatan_motul_2021.xls","Motul");
+actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_campeche_2021.xls","Campeche");
+actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_quintanaroo_2021.xls","Cancun");
+actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_quintanaroorv_2021.xls","Riviera");
+
 
 
 ?>

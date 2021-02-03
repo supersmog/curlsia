@@ -599,6 +599,17 @@ function actualiza_colocadas_sia()
     from colocadas_sia_tmp where colocadas_sia.solicitud=colocadas_sia_tmp.solicitud)";
     $resultado=$solicitudes->modificar($sql);
     
+    
+    //Actualiza coordinacion
+    $sql="update Yucatan.colocadas_sia  set coordinacion='QR' where LEFT (solicitud,2)='QR'";
+    $resultado=$solicitudes->modificar($sql);
+    $sql="update Yucatan.colocadas_sia  set coordinacion='CM' where LEFT (solicitud,2)='CM'";
+    $resultado=$solicitudes->modificar($sql);
+    $sql="update Yucatan.colocadas_sia  set coordinacion='YU' where LEFT (solicitud,2)='YU'";
+    $resultado=$solicitudes->modificar($sql);
+    $sql="update Yucatan.colocadas_sia  set coordinacion='YU' where LEFT (solicitud,2)='ML'";
+    $resultado=$solicitudes->modificar($sql);
+    
 
 
 }
