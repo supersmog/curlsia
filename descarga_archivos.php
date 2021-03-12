@@ -90,17 +90,17 @@ descarga_archivo_sindata($login,$data_login,"http://10.144.3.129/siaMexicali/con
 // 
 ////Yucatan
 ////descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/reporteAfectadas.php?generar=1&zona1=01&fechaInicial=2018-09-01&fechaFinal=2019-01-31&distribuidor=0&programa=0","paginas/confirma_lib_yucatan1.html");
-descarga_archivo_sindata($login,$data_login,"http://10.144.3.129/siaMexicali/liberacion/reportes/reporteAfectadasExcel.php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=01&distribuidor=0&programa=0","paginas/confirma_lib_yucatan.xls");
-descarga_archivo_sindata($login,$data_login,"http://10.144.3.129/siaMexicali/liberacion/reportes/reporteAfectadasExcel.php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=08&distribuidor=0&programa=0","paginas/confirma_lib_yucatan_motul.xls");
+//descarga_archivo_sindata($login,$data_login,"http://10.144.3.129/siaMexicali/liberacion/reportes/reporteAfectadasExcel.php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=01&distribuidor=0&programa=0","paginas/confirma_lib_yucatan.xls");
+//descarga_archivo_sindata($login,$data_login,"http://10.144.3.129/siaMexicali/liberacion/reportes/reporteAfectadasExcel.php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=08&distribuidor=0&programa=0","paginas/confirma_lib_yucatan_motul.xls");
 //
 //
 ////Camp2ch1
-descarga_archivo_sindata($login,$data_login,"http://10.144.3.129/siaMexicali/liberacion/reportes/reporteAfectadasExcel.php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=04&distribuidor=0&programa=0","paginas/confirma_lib_campeche.xls");
+//descarga_archivo_sindata($login,$data_login,"http://10.144.3.129/siaMexicali/liberacion/reportes/reporteAfectadasExcel.php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=04&distribuidor=0&programa=0","paginas/confirma_lib_campeche.xls");
 //
 //
 ////Quintana 2oo1
-descarga_archivo_sindata($login,$data_login,"http://10.144.3.129/siaMexicali/liberacion/reportes/reporteAfectadasExcel.php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=12&distribuidor=0&programa=0","paginas/confirma_lib_quintanaroo.xls");
-descarga_archivo_sindata($login,$data_login,"http://10.144.3.129/siaMexicali/liberacion/reportes/reporteAfectadasExcel.php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=22&distribuidor=0&programa=0","paginas/confirma_lib_quintanaroorv.xls");
+//descarga_archivo_sindata($login,$data_login,"http://10.144.3.129/siaMexicali/liberacion/reportes/reporteAfectadasExcel.php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=12&distribuidor=0&programa=0","paginas/confirma_lib_quintanaroo.xls");
+//descarga_archivo_sindata($login,$data_login,"http://10.144.3.129/siaMexicali/liberacion/reportes/reporteAfectadasExcel.php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=22&distribuidor=0&programa=0","paginas/confirma_lib_quintanaroorv.xls");
 //
 
 
@@ -124,15 +124,15 @@ descarga_archivo_sindata($login,$data_login,"http://10.144.3.129/siaMexicali/lib
 //
 // //Yucatan
 ////descarga_archivo_sindata($login,$data_login,"http://www.programaasibc.com.mx/siaMexicali/liberacion/reportes/liberacion.php?generar=1&zona1=01&fechaInicial=2018-09-01&fechaFinal=2019-01-31","paginas/liberaciones_simple_yucatan.html");
-descarga_archivo_sindata($login,$data_login,"10.144.3.129/siaMexicali/liberacion/reportes/liberacion(Excel).php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=01","paginas/liberaciones_simple_yucatan.xls");
-descarga_archivo_sindata($login,$data_login,"10.144.3.129/siaMexicali/liberacion/reportes/liberacion(Excel).php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=08","paginas/liberaciones_simple_yucatan_motul.xls");
+//descarga_archivo_sindata($login,$data_login,"10.144.3.129/siaMexicali/liberacion/reportes/liberacion(Excel).php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=01","paginas/liberaciones_simple_yucatan.xls");
+//descarga_archivo_sindata($login,$data_login,"10.144.3.129/siaMexicali/liberacion/reportes/liberacion(Excel).php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=08","paginas/liberaciones_simple_yucatan_motul.xls");
 //
 ////Campeche
-descarga_archivo_sindata($login,$data_login,"10.144.3.129/siaMexicali/liberacion/reportes/liberacion(Excel).php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=04","paginas/liberaciones_simple_campeche.xls");
+//descarga_archivo_sindata($login,$data_login,"10.144.3.129/siaMexicali/liberacion/reportes/liberacion(Excel).php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=04","paginas/liberaciones_simple_campeche.xls");
 //
 ////Quintana Roo
-descarga_archivo_sindata($login,$data_login,"10.144.3.129/siaMexicali/liberacion/reportes/liberacion(Excel).php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=12","paginas/liberaciones_simple_quintanaroo.xls");
-descarga_archivo_sindata($login,$data_login,"10.144.3.129/siaMexicali/liberacion/reportes/liberacion(Excel).php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=22","paginas/liberaciones_simple_quintanaroorv.xls");
+//descarga_archivo_sindata($login,$data_login,"10.144.3.129/siaMexicali/liberacion/reportes/liberacion(Excel).php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=12","paginas/liberaciones_simple_quintanaroo.xls");
+//descarga_archivo_sindata($login,$data_login,"10.144.3.129/siaMexicali/liberacion/reportes/liberacion(Excel).php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=22","paginas/liberaciones_simple_quintanaroorv.xls");
 //
 
 

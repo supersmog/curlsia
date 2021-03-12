@@ -94,22 +94,22 @@ function actualiza_confirma_liberaciones_simple($archivo,$zona)
 		$rpu=$sheet->getCell("A".$row)->getValue();
 		$solicitud_pa=$sheet->getCell("B".$row)->getValue();
 		$solicitud_tmp=$sheet->getCell("C".$row)->getValue();
-		$solicitud_ext=$sheet->getCell("D".$row)->getValue();
-		$solicitud=$solicitud_tmp."-".$solicitud_ext;
-		$presupuesto=$sheet->getCell("E".$row)->getValue();
-		$programa=$sheet->getCell("F".$row)->getValue();
-		$sufijo_sicom=$sheet->getCell("G".$row)->getValue();
-		$fecha_sicom=$sheet->getCell("H".$row)->getValue();
-		$fecha_alta_lib=$sheet->getCell("I".$row)->getValue();
-		$fecha_pago=$sheet->getCell("J".$row)->getValue();
-		$financiado=$sheet->getCell("K".$row)->getValue();
-		$capital=$sheet->getCell("L".$row)->getValue();
-		$interes=$sheet->getCell("M".$row)->getValue();
-		$iva=$sheet->getCell("N".$row)->getValue();
-		$dif_total=$sheet->getCell("O".$row)->getValue();
-		$dif_capital=$sheet->getCell("P".$row)->getValue();
-		$dif_interes=$sheet->getCell("Q".$row)->getValue();
-		$dif_iva=$sheet->getCell("O".$row)->getValue();
+		//$solicitud_ext=$sheet->getCell("D".$row)->getValue();
+		$solicitud=$solicitud_tmp;//."-".$solicitud_ext;
+		$presupuesto=$sheet->getCell("D".$row)->getValue();
+		$programa=$sheet->getCell("E".$row)->getValue();
+		$sufijo_sicom=$sheet->getCell("F".$row)->getValue();
+		$fecha_sicom=$sheet->getCell("G".$row)->getValue();
+		$fecha_alta_lib=$sheet->getCell("H".$row)->getValue();
+		$fecha_pago=$sheet->getCell("I".$row)->getValue();
+		$financiado=$sheet->getCell("J".$row)->getValue();
+		$capital=$sheet->getCell("K".$row)->getValue();
+		$interes=$sheet->getCell("L".$row)->getValue();
+		$iva=$sheet->getCell("M".$row)->getValue();
+		$dif_total=$sheet->getCell("N".$row)->getValue();
+		$dif_capital=$sheet->getCell("O".$row)->getValue();
+		$dif_interes=$sheet->getCell("P".$row)->getValue();
+		$dif_iva=$sheet->getCell("Q".$row)->getValue();
 		$concatenar="('$rpu','$solicitud_pa','$solicitud','$presupuesto','$programa','$sufijo_sicom','$fecha_sicom','$fecha_alta_lib','$fecha_pago','$financiado','$capital','$interes','$iva','$dif_total','$dif_capital','$dif_interes','$dif_iva','$zona')";
 		$sql="INSERT INTO Yucatan.liberaciones_simple_tmp(rpu,solicitud_pa, solicitud, presupuesto,programa,sufijo_sicom,fecha_sicom,fecha_alta_lib,fecha_pago,financiado,capital,interes,iva,dif_total,dif_capital,dif_interes,dif_iva,zona) VALUES$concatenar";
 		echo $sql;
@@ -141,18 +141,20 @@ function actualiza_confirma_liberaciones_simple($archivo,$zona)
 }
 
 
-vaciar_tabla('confirma_liberaciones_tmp');
-actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan.xls","Merida");
-actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_motul.xls","Motul");
-actualiza_confirma_liberaciones("paginas/confirma_lib_campeche.xls","Campeche");
-actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroo.xls","Cancun");
-actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroorv.xls","Riviera");
-actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_2021.xls","Merida");
-actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_motul_2021.xls","Motul");
-actualiza_confirma_liberaciones("paginas/confirma_lib_campeche_2021.xls","Campeche");
-actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroo_2021.xls","Cancun");
-actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroorv_2021.xls","Riviera");
+//vaciar_tabla('confirma_liberaciones_tmp');
+//actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan.xls","Merida");
+//actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_motul.xls","Motul");
+//actualiza_confirma_liberaciones("paginas/confirma_lib_campeche.xls","Campeche");
+//actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroo.xls","Cancun");
+//actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroorv.xls","Riviera");
+//actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_2021.xls","Merida");
+//actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_motul_2021.xls","Motul");
+//actualiza_confirma_liberaciones("paginas/confirma_lib_campeche_2021.xls","Campeche");
+//actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroo_2021.xls","Cancun");
+//actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroorv_2021.xls","Riviera");
+
 vaciar_tabla('liberaciones_simple_tmp');
+
 actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_yucatan.xls","Merida");
 actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_yucatan_motul.xls","Motul");
 actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_campeche.xls","Campeche");
