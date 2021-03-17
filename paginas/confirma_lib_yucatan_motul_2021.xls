@@ -518,6 +518,25 @@
                         <td class="alternoImpresion" align="center">00</td>
                         <td class="alternoImpresion" align="center">Afectado</td>
                     </tr>
+                              <tr>
+                        <td class="tdDataImpresion">807061200097</td>
+                        <td class="tdDataImpresion" align="center">ML000675-1</td>
+                        <td class="tdDataImpresion" align="center">OU017759</td>
+                        <td class="tdDataImpresion" align="center">000546867</td>
+                        <td class="tdDataImpresion" align="center">LV</td>
+                        <td class="tdDataImpresion" align="center">COMERCIALIZADORA RAMIREZ (MOT)</td>
+                        <td class="tdDataImpresion" align="right">$14739.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2021-03-12</td>
+                        <td class="tdDataImpresion" align="center">MD032MO</td>
+                        <td class="tdDataImpresion" align="center">2021-03-04</td>
+                        <td class="tdDataImpresion" align="center">SR-00000027-L</td>
+                        <td class="tdDataImpresion" align="left">SARE (MO)</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
               </table>				
 </body>
 </html>

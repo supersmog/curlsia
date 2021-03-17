@@ -142,16 +142,16 @@ function actualiza_confirma_liberaciones_simple($archivo,$zona)
 
 
 //vaciar_tabla('confirma_liberaciones_tmp');
-//actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan.xls","Merida");
-//actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_motul.xls","Motul");
-//actualiza_confirma_liberaciones("paginas/confirma_lib_campeche.xls","Campeche");
-//actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroo.xls","Cancun");
-//actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroorv.xls","Riviera");
-//actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_2021.xls","Merida");
-//actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_motul_2021.xls","Motul");
-//actualiza_confirma_liberaciones("paginas/confirma_lib_campeche_2021.xls","Campeche");
-//actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroo_2021.xls","Cancun");
-//actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroorv_2021.xls","Riviera");
+actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan.xls","Merida");
+actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_motul.xls","Motul");
+actualiza_confirma_liberaciones("paginas/confirma_lib_campeche.xls","Campeche");
+actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroo.xls","Cancun");
+actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroorv.xls","Riviera");
+actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_2021.xls","Merida");
+actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_motul_2021.xls","Motul");
+actualiza_confirma_liberaciones("paginas/confirma_lib_campeche_2021.xls","Campeche");
+actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroo_2021.xls","Cancun");
+actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroorv_2021.xls","Riviera");
 
 vaciar_tabla('liberaciones_simple_tmp');
 

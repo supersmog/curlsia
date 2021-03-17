@@ -63,6 +63,12 @@ $data_login="usuario=md032ca&clave=md032ca&tipo=1";
 //
 ///** Descargar solicitudes colocadas */
 ////
+
+//Descarga presupuestos financiados
+descarga_archivo_sindata($login,$data_login,"http://10.144.3.129/siaMexicali/SolicitudesFinanciados/ReporteFinanciadosExcel.php?fecha_ini=2021-01-01&fecha_fin=2021-03-17&estatus=0&zona=0","paginas/presupuestos.xls");
+
+
+
 descarga_archivo_sindata($login,$data_login,"http://10.144.3.129/siaMexicali/consolusu.php?fi=2019-01-01&ff=2019-01-31&tip=men&en=1","paginas/colocadas_enero.html");
 descarga_archivo_sindata($login,$data_login,"http://10.144.3.129/siaMexicali/consolusu.php?fi=2019-02-01&ff=2019-02-31&tip=men&en=2","paginas/colocadas_febrero.html");
 descarga_archivo_sindata($login,$data_login,"http://10.144.3.129/siaMexicali/consolusu.php?fi=2019-03-01&ff=2019-03-31&tip=men&en=3","paginas/colocadas_marzo.html");
@@ -152,6 +158,8 @@ descarga_archivo_sindata($login,$data_login,"10.144.3.129/siaMexicali/liberacion
 //
 
 
+//Descarga presupuestos financiados
+descarga_archivo_sindata($login,$data_login."http://10.144.3.129/siaMexicali/SolicitudesFinanciados/ReporteFinanciadosExcel.php?fecha_ini=2021-03-01&fecha_fin=2021-03-17&estatus=0&zona=0","paginas/presupuestos.xls");
 
 
   
