@@ -537,6 +537,25 @@
                         <td class="tdDataImpresion" align="center">00</td>
                         <td class="tdDataImpresion" align="center">Afectado</td>
                     </tr>
+                              <tr>
+                        <td class="alternoImpresion">807120100832</td>
+                        <td class="alternoImpresion" align="center">ML000676-1</td>
+                        <td class="alternoImpresion" align="center">RU157247</td>
+                        <td class="alternoImpresion" align="center">000547158</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">MOTOREPUESTOS (MO)</td>
+                        <td class="alternoImpresion" align="right">$16213.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2021-03-17</td>
+                        <td class="alternoImpresion" align="center">MD032MO</td>
+                        <td class="alternoImpresion" align="center">2021-03-11</td>
+                        <td class="alternoImpresion" align="center">SR-00000516-R</td>
+                        <td class="alternoImpresion" align="left">SARE (MO)</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
               </table>				
 </body>
 </html>
