@@ -109,6 +109,7 @@ descarga_archivo_sindata($login,$data_login,"http://10.144.3.129/siaMexicali/con
 //descarga_archivo_sindata($login,$data_login,"http://10.144.3.129/siaMexicali/liberacion/reportes/reporteAfectadasExcel.php?fechaInicial=2018-09-01&fechaFinal=2020-12-31&zona1=22&distribuidor=0&programa=0","paginas/confirma_lib_quintanaroorv.xls");
 //
 
+descarga_archivo_condata($login,$data_login,"http://10.144.3.129/siaMexicali/liberacion/reportes/liberaciones2.php","idDistribuidor=-1&idCoordinacion=-1&fechaInicial=2021-01-01&fechaFinal=2021-01-19&pdto=10&equipo=&orderbypropagate=1&model=1&dAtencion=1&promoinv=","paginas/liberaciones_lv.html");
 
 ////// Confirma Liberaciones 2021
 

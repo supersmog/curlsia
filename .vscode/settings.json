@@ -1,28 +1,29 @@
 {
     
      "sqltools.connections": [
-
-          // example for MySQL
-          {
-              "name": "MySQL YUC",
-              "server": "10.0.0.115",
-              "port": 3306,
-              "database": "yucatan",
-              "username": "root",
-              "password": "soloasi",
-              "dialect": "MySQL"
-          },
-          {
-            "name": "MySQL local",
-            "server": "127.0.0.1",
+        {
+            "name": "MySQL YUC",
+            "server": "10.0.0.115",
             "port": 3306,
             "database": "yucatan",
             "username": "root",
-            "password": "isab0106",
-            "dialect": "MySQL"
+            "password": "soloasi",
+            "dialect": "MySQL",
+            "driver": "MySQL"
         },
-          // example for MSSQL
-
-      ],
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "Local",
+            "database": "Yucatan",
+            "username": "supersmog",
+            "password": "isab0106"
+        }
+    ],
       
   }

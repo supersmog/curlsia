@@ -7776,6 +7776,7 @@
                         <td class="alternoImpresion" align="center">00</td>
                         <td class="alternoImpresion" align="center">Afectado</td>
                     </tr>
+<<<<<<< HEAD
                               <tr>
                         <td class="tdDataImpresion">777921000221</td>
                         <td class="tdDataImpresion" align="center">YU002977-1</td>
@@ -17124,6 +17125,8 @@
                         <td class="alternoImpresion" align="center">00</td>
                         <td class="alternoImpresion" align="center">Afectado</td>
                     </tr>
+=======
+>>>>>>> daf705aba9d1f001ec3de30017043284a9f162be
               </table>				
 </body>
 </html>
