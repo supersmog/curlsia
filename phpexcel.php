@@ -141,7 +141,7 @@ function actualiza_confirma_liberaciones_simple($archivo,$zona)
 }
 
 
-//vaciar_tabla('confirma_liberaciones_tmp');
+vaciar_tabla('confirma_liberaciones_tmp');
 actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan.xls","Merida");
 actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_motul.xls","Motul");
 actualiza_confirma_liberaciones("paginas/confirma_lib_campeche.xls","Campeche");

@@ -1,0 +1,1160 @@
+﻿<link href="" rel="stylesheet" type="text/css">
+
+
+<html><head><title>Untitled Document</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="../liberacion.css" rel="stylesheet" type="text/css">
+<script language="JavaScript">
+var Grid = false;
+
+function printDoc(){
+	if( Grid ){
+		alert(' El formato de presentacion \'INTERACTIVO\' del documento no permite una impresion apropiada en papel.\n Haga click en \'regresar\' y seleccione el formato de presentacion \'FIJO\' ');
+	}else{
+//		hideAllLayers();
+		var visibleLayer = getVisibleLayerName();
+		setDisplay('menuLyr',false);
+		hideAllLayers();
+
+		factory.printing.header = '';
+		factory.printing.footer = '';
+//		alert('Coloque papel tamaño OFICIO en la impresora !!!');
+//		factory.printing.paperSize =  "Legal";
+		factory.printing.portrait = false;
+		factory.printing.leftMargin = 0.8;
+		factory.printing.topMargin = 0.8;
+		factory.printing.rightMargin = 0.8;
+		factory.printing.bottomMargin = 0.8;
+		factory.printing.Print(true);	
+
+		if( visibleLayer != false ){
+			showLayer( visibleLayer );
+		}
+		setDisplay('menuLyr',true);
+//		showLayers();
+	}
+}
+
+function openExcel(){
+	var frmObj = document.forms['backFrm'];
+	frmObj.action = 'openExcel.php';
+	frmObj.submit();
+//	alert(frmObj.action);
+}
+
+function openWord(){
+	var frmObj = document.forms['backFrm'];
+	frmObj.action = 'openWord.php';
+	frmObj.submit();
+
+}
+
+function hideAllLayers(){
+	setDisplay('menuLyr',false);
+	setDisplay('maximizeOptions',false);
+	setDisplay('minimizeOptions',false);
+	setDisplay('closedOptions',false);
+}
+
+function getVisibleLayerName(){
+	if( isVisible('maximizeOptions')  ){
+		return 'maximizeOptions';
+	}else{
+		if( isVisible('minimizeOptions')  ){
+			return 'minimizeOptions';
+		}else{
+			if( isVisible('closedOptions')  ){
+				return 'closedOptions';
+			}else{
+				return false;
+			}		
+		}
+	}
+}
+
+function isVisible( layerName ){
+	var layerObj = getObject(layerName);
+	if( layerObj ){
+		if( layerObj.style.display.toUpperCase().indexOf('NONE') >= 0 ){
+			return false;
+		}else{
+			return true;
+		}
+	}else{
+		alert('NO se localizo el objeto '+layerName+'!!!');
+	}
+}
+
+function submitOrder(){
+	var selectOrder = getObject('orderby');
+	var hiddenFrm = document.forms['orderFrm'];
+	if( selectOrder ){
+		hiddenFrm.elements['orderbypropagate'].value = selectOrder.value;
+		hiddenFrm.elements['orderbypropagate'].name = 'orderby';
+		hiddenFrm.submit();
+	}else{
+		alert('NO se localizo orderby !!!!');
+	}
+}
+
+function doBack(){	
+//window.location = 'libiniciocord.php';
+	document.forms['backFrm'].elements['orderbypropagate'].name = 'orderby';
+	document.forms['backFrm'].action = 'libiniciocord.php';
+	document.forms['backFrm'].submit();
+}
+
+function showLayer( layerName ){
+	setDisplay( 'maximizeOptions', false );
+	setDisplay( 'minimizeOptions', false );
+	setDisplay( 'closedOptions', false );
+	setDisplay( layerName, true );
+}
+
+function setDisplay( layerName, visible ){
+	var layerObj = getObject(layerName);
+	if( layerObj ){
+		if( visible ){
+			layerObj.style.display = 'block';
+		}else{
+			layerObj.style.display = 'none';
+		}
+	}else{
+		alert('NO se localizo el objeto '+layerName+'!!!');
+	}
+}
+</script>
+<script language="JavaScript">
+function getObject(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+</script>
+<style type="text/css">
+<!--
+.tdData {
+	border: 1pt solid #CCCCCC;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<object id="factory" style="display:none"
+  classid="clsid:1663ed61-23eb-11d2-b92f-008048fdd814"
+  codebase="../../includes/smsx.cab#6,5,439,30">
+</object>
+<form name="orderFrm" action="/siaMexicali/liberacion/reportes/liberaciones2.php" method="post">
+<input type="hidden" id=name="idCoordinacion" name="idCoordinacion" value="-1">
+  <input type="hidden" name="idDistribuidor" value="-1">
+  <input type="hidden" name="fechaInicial" value="2021-01-01">
+  <input type="hidden" name="fechaFinal" value="2021-01-19">
+  <input type="hidden" name="pdto" value="10">
+  <input type="hidden" name="equipo" value="">
+  <input type="hidden" name="orderbypropagate" value="">
+  <input type="hidden" name="model" value="1">
+  <input type="hidden" name="dAtencion" value="1">
+</form>
+<form name="backFrm" action="libinicio.php" method="post">
+  <input type="hidden" name="idDistribuidor" value="-1">
+  <input type="hidden" id=name="idCoordinacion" name="idCoordinacion" value="-1">
+  <input type="hidden" name="fechaInicial" value="2021-01-01">
+  <input type="hidden" name="fechaFinal" value="2021-01-19">
+  <input type="hidden" name="pdto" value="10">
+  <input type="hidden" name="equipo" value="">
+  <input type="hidden" name="orderbypropagate" value="">
+  <input type="hidden" name="model" value="1">
+  <input type="hidden" name="dAtencion" value="1">
+  <input type="hidden" name="promoinv" value="">
+</form>
+
+<div id="minimizeOptions" style="position:relative; width:450px; height:20px; z-index:1; display:none; " align="center" class="tdTituloDesc"> 
+   <table width="100%" cellpadding="2" cellspacing="0" border="0">
+	  <tr> 
+		 <td colspan="3" width="80%">&nbsp;<img src="images/infoIcon.gif"></td>
+		 <td align="center" style="cursor:hand;" onClick="showLayer('maximizeOptions');"><img id="showHideBtn" src="images/showBtn.gif" width="15" height="15"></td>
+		 <td align="center" style="cursor:hand;" onClick="showLayer('closedOptions'); "><img src="images/closeBtn.gif" width="15" height="15"></td>
+	  </tr>
+   </table>
+</div>
+<div id="closedOptions" style="position:relative; width:20px; height:20px; z-index:2; display:none; " align="center" onClick="showLayer('maximizeOptions'); "> 
+   <img src="images/infoIcon.gif" style="cursor:hand;"> </div>
+
+<div id="maximizeOptions" style="position:relative; width:450px; height:115px; display:block; z-index:3" align="center" class="tdTituloDesc"> 
+   <table width="100%" cellpadding="2" cellspacing="0" border="0">
+	  <tr> 
+		 <td colspan="2" class="tdData">&nbsp;<img src="images/infoIcon.gif"></td>
+		 <td align="center" class="tdData" style="cursor:hand;" onClick="showLayer('minimizeOptions');"> 
+			<img id="showHideBtn" src="images/hideBtn.gif" width="15" height="15"> 
+		 </td>
+		 <td align="center" class="tdData" style="cursor:hand;" onClick="showLayer('closedOptions'); "> 
+			<img src="images/closeBtn.gif" width="15" height="15"> </td>
+	  </tr>
+	  <tr> 
+		 <td width="40%" align="center" class="tdData"><span class="tinyLabel">Fecha 
+			Inicial</span></td>
+		 <td width="40%" align="center" class="tdData"><span class="tinyLabel">Fecha 
+			Final</span></td>
+		 <td colspan="2" align="center" class="tdData"><span class="tinyLabel">Producto</span></td>
+	  </tr>
+	  <tr> 
+		 <td align="center" class="tdData">
+			Friday 01 - Jan - 2021		 </td>
+		 <td align="center" class="tdData">
+			Tuesday 19 - Jan - 2021		 </td>
+		 <td colspan="2" align="center" class="tdData"> 
+			LV		 </td>
+	  </tr>
+      <tr>
+       <td colspan="4" class="tdData"><span class="tinyLabel">Coordinacion:</span> 
+			TODAS		 </td>
+      </tr>
+      
+      <tr>
+	  
+		 <td colspan="4" class="tdData"><span class="tinyLabel">Distribuidor:</span> 
+			TODOS		 </td>
+	  </tr>
+	  <tr> 
+		 <td colspan="4" align="left" class="tdData"><span class="tinyLabel">Ordernado 
+			por:</span> 
+					 </td>
+	  </tr>
+	  <tr> 
+		 <td colspan="4" align="center" class="tdData"><input type="button" name="regresar" value=" << Regresar  " onClick="doBack();"></td>
+	  </tr>
+	  <tr> 
+		 <td colspan="4" align="left" class="tdData"> <span class="tinyLabel">Ordernar 
+			por:</span> 
+					<select name="orderby">
+			<option value="1">Solicitud </option>
+			<option value="2">Distribuidor </option>
+			<option value="3">Garant&iacute;a </option>			
+			<option value="4">Cr&eacute;dito Otorgado </option>
+			<option value="5">Salvamento </option>
+			<option value="6">Equipo </option>
+			<option value="7">Fecha Solicitud </option>
+			<option value="8">Fecha Autorizaci&oacute;n </option>
+			<option value="9">Fecha Instalaci&oacute;n </option>
+			<option value="10">Tipo(AC) &oacute; Sistema(AT) </option>
+			<option value="11">Toneladas(AC), Superficie(AT) &oacute; Capacidad (RF) </option>
+		</select>
+			<img src="../images/submitBtn.gif" style="cursor:hand;" onClick=" submitOrder(); " align="absmiddle"> 
+		 </td>
+	  </tr>
+   </table>
+</div>
+<div id="menuLyr" style="position:relative; width:400px; height:45px; z-index:4; display:block;" align="right"> 
+   <table width="100%" cellpadding="2" cellspacing="0" border="0">
+   <tr><td colspan="6"><br><br></td></tr>
+	  <tr> 
+		 <td class="tinyLabel" align="right"><a href="JavaScript:printDoc();">	
+			<img src="images/printersmall.gif" style="cursor:hand;" border="0">	
+			</a></td>
+		 <td class="tinyLabel" align="left"><a href="JavaScript:printDoc();" style="text-decoration:none">	
+			Imprimir </a></td>
+		 <td class="tinyLabel" align="right"><a href="JavaScript:openExcel();">	
+			<img src="images/excel.gif" style="cursor:hand;" border="0"> </a></td>
+		 <td class="tinyLabel" align="left"><a href="JavaScript:openExcel();" style="text-decoration:none">	
+			formato<br>
+			de excell </a></td>
+		 <td class="tinyLabel" align="right"><a href="JavaScript:openWord();">	
+			<img src="images/word.gif" style="cursor:hand;" border="0"> </a></td>
+		 <td class="tinyLabel" align="left"><a href="JavaScript:openWord();" style="text-decoration:none">	
+			formato<br>
+			de Word </a></td>
+	  </tr>
+   </table>
+</div>
+<br><br>
+
+
+
+<!--programa 1  -->
+<link href="reporteliberaciones.css" rel="stylesheet" type="text/css">
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+
+	 
+
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+
+	
+
+ 
+ 
+ 
+ <table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+
+	
+
+ 
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+
+	
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+
+	
+
+
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+
+
+  <!--REFRIGERADOR-->
+<br><br><br><br>
+<table width="99%" cellpadding="2" cellspacing="0" border="0" align="center">
+   <tr> 
+	  <td colspan="34" align="center" class="titulo">Reporte de Liberaciones (Lavadoras)</td>
+   </tr>
+   <tr> 
+     <td align="left"  class="labelRp">&nbsp;&nbsp;&nbsp;Fecha Inicial: 
+	   2021-01-01	  </td>
+     <td  align="right" class="labelRp">Fecha Final: 2021-01-19&nbsp;&nbsp;&nbsp;</td>
+   </tr>
+  </table> 
+  
+   <table width="99%" cellpadding="2" cellspacing="0" border="0" align="center">
+   <tr> 
+	  <td colspan="35">&nbsp;</td>
+   </tr>
+   <tr> 
+	  <td rowspan="2" class="tdTituloData">&nbsp;&nbsp;</td>
+	  <td rowspan="2" class="tdTituloData">Solicitud</td>
+	  <td rowspan="2" align="center" class="tdTituloData">Solicitud P.A.</td>
+	   <td rowspan="2" class="tdTituloData">Coordinaci&oacute;n</td>
+	  <td rowspan="2" class="tdTituloData">Proveedor</td>
+	  <td rowspan="2" class="tdTituloData">Nombre</td>
+	  <!--<td align="center" rowspan="2" class="tdTituloData">SCC</td>-->
+	  <td align="center" rowspan="2" class="tdTituloData">RPU</td>
+	  <td align="center" rowspan="2" class="tdTituloData">Tipo de Usuario</td>
+	  <td align="center" rowspan="2" class="tdTituloData">Progr.</td>
+	  <td align="center" rowspan="2" class="tdTituloData">UUID</td>
+	  <td colspan="4" align="center" class="tdTituloData">Importe</td>
+	  <!--<td rowspan="2" class="tdSmallTituloData">Garant&iacute;a </td>-->
+	  <td colspan="3" align="center" class="tdTituloData">Fechas</td>
+	  <td class="tdTituloData">&nbsp;</td>
+	  <td colspan="1" align="center" class="tdTituloData">Equipo</td>
+	  <td rowspan="2" class="tdSmallTituloData">Equipo</td>
+	  <td colspan="2" align="center" class="tdTituloData">Afectaci&oacute;n</td>
+      <td rowspan="2" align="center" class="tdTituloData">Inicio de Facturaci&oacute;n</td>
+   </tr>
+   
+   
+   <tr> 
+	  <td class="tdSmallTituloData">Prestamo</td>
+	  <td class="tdSmallTituloData">Capital</td>
+	  <td class="tdSmallTituloData">Interes</td>
+	  <td class="tdSmallTituloData">IVA</td>
+	  <td class="tdSmallTituloData">Solicitud</td>
+	  <td class="tdSmallTituloData">Instalaci&oacute;n </td>
+	  <td align="center" class="tdSmallTituloData">Liberaci&oacute;n</td>
+	  <td align="center" class="tdSmallTituloData">D&iacute;as (a)</td>
+	  <!--<td  align="center" class="tdSmallTituloData">Cap</td>-->
+      <td align="center" class="tdSmallTituloData">Marca</td>
+      <td align="center" class="tdSmallTituloData">Status</td>
+      <td align="center" class="tdSmallTituloData">Fecha</td>
+   </tr>
+	    
+	
+  <tr> 
+	  <td align="right" class="tdData">1</td>
+	  <td nowrap class="tdData">CM001325-1-POU012812	            </td>
+      <td align="center" nowrap class="tdData">000540688</td>
+	  <td align="left" class="tdData">Campeche</td>
+	  <td nowrap class="tdData">ZAYTEF AHORRO DE ENERGIA S.A DE C.V</td>
+	 <!--<td align="center" nowrap class="tdData">CM001325-1-POU012812</td>--> 
+	  <td align="left" class="tdData">PASTOR  AKE  POOT </td>
+      <td align="center" class="tdData">791091000358</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">LV</td>	
+      <td align="center" class="tdData">D799C980-1930-4C7B-BDC7-13ED4457863A</td>
+
+      <td align="right" class="tdData">18,349.49</td> 
+	  <td align="center" class="tdData">13,695.00</td>
+	  <td align="center" class="tdData">4,012.49</td>
+	  <td align="center" class="tdData">642.00</td>
+
+	  
+
+
+   <td class="tdData" align="center">2020-11-28</td>
+  <td class="tdData" align="center">2020-12-03</td>
+  <td class="tdData" align="center">2021-01-08</td>
+   <td class="tdData" align="center">5</td>
+   <!--<td class="tdData" align="center"></td>-->
+   <td class="tdData" align="center">Mabe</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2021-01-08</td>
+ <td align="center" class="tdData">
+ 20210108</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">2</td>
+	  <td nowrap class="tdData">YU002542-1-POU012827	            </td>
+      <td align="center" nowrap class="tdData">000540604</td>
+	  <td align="left" class="tdData">Yucat&Atilde;&iexcl;n</td>
+	  <td nowrap class="tdData">DISTRIBUIDORA ELECTRONICA DEL SURESTE S.A. DE C.V.</td>
+	 <!--<td align="center" nowrap class="tdData">YU002542-1-POU012827</td>--> 
+	  <td align="left" class="tdData">JOSE EFRAIN  ROSADO  ARAGON</td>
+      <td align="center" class="tdData">771970801843</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">LV</td>	
+      <td align="center" class="tdData">C2CEDBA3-FA20-49B8-9AB9-8AC66DA27845</td>
+
+      <td align="right" class="tdData">10,250.18</td> 
+	  <td align="center" class="tdData">8,179.00</td>
+	  <td align="center" class="tdData">1,785.50</td>
+	  <td align="center" class="tdData">285.68</td>
+
+	  
+
+
+   <td class="tdData" align="center">2020-11-30</td>
+  <td class="tdData" align="center">2020-11-30</td>
+  <td class="tdData" align="center">2021-01-07</td>
+   <td class="tdData" align="center">0</td>
+   <!--<td class="tdData" align="center"></td>-->
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2021-01-07</td>
+ <td align="center" class="tdData">
+ 20210107</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">3</td>
+	  <td nowrap class="tdData">CM001320-1-POU013195	            </td>
+      <td align="center" nowrap class="tdData">000540687</td>
+	  <td align="left" class="tdData">Campeche</td>
+	  <td nowrap class="tdData">ZAYTEF AHORRO DE ENERGIA S.A DE C.V</td>
+	 <!--<td align="center" nowrap class="tdData">CM001320-1-POU013195</td>--> 
+	  <td align="left" class="tdData">ROCIO DEL CARMEN RODRIGUEZ  LOPEZ </td>
+      <td align="center" class="tdData">791130100942</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">LV</td>	
+      <td align="center" class="tdData">E2095F6F-8F91-4BE2-B61E-43A3C0C8FA5B</td>
+
+      <td align="right" class="tdData">18,751.45</td> 
+	  <td align="center" class="tdData">13,995.00</td>
+	  <td align="center" class="tdData">4,100.39</td>
+	  <td align="center" class="tdData">656.06</td>
+
+	  
+
+
+   <td class="tdData" align="center">2020-11-28</td>
+  <td class="tdData" align="center">2020-12-10</td>
+  <td class="tdData" align="center">2021-01-08</td>
+   <td class="tdData" align="center">12</td>
+   <!--<td class="tdData" align="center"></td>-->
+   <td class="tdData" align="center">Mabe</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2021-01-08</td>
+ <td align="center" class="tdData">
+ 20210108</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">4</td>
+	  <td nowrap class="tdData">ML000638-1-POU013221	            </td>
+      <td align="center" nowrap class="tdData">000540618</td>
+	  <td align="left" class="tdData">Motul</td>
+	  <td nowrap class="tdData">RODEKA DEL SURESTE S.A. DE C.V.</td>
+	 <!--<td align="center" nowrap class="tdData">ML000638-1-POU013221</td>--> 
+	  <td align="left" class="tdData">ANGEL ANTONIO PECH HUCHIN</td>
+      <td align="center" class="tdData">808010300417</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">LV</td>	
+      <td align="center" class="tdData">5186720C-95F0-4FFB-8C11-B610A545C831</td>
+
+      <td align="right" class="tdData">13,787.24</td> 
+	  <td align="center" class="tdData">10,290.00</td>
+	  <td align="center" class="tdData">3,014.86</td>
+	  <td align="center" class="tdData">482.38</td>
+
+	  
+
+
+   <td class="tdData" align="center">2020-12-03</td>
+  <td class="tdData" align="center">2020-12-14</td>
+  <td class="tdData" align="center">2021-01-07</td>
+   <td class="tdData" align="center">11</td>
+   <!--<td class="tdData" align="center"></td>-->
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2021-01-07</td>
+ <td align="center" class="tdData">
+ 20210107</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">5</td>
+	  <td nowrap class="tdData">YU002590-1-POU013610	            </td>
+      <td align="center" nowrap class="tdData">000540947</td>
+	  <td align="left" class="tdData">Yucat&Atilde;&iexcl;n</td>
+	  <td nowrap class="tdData">RODEKA DEL SURESTE S.A. DE C.V.</td>
+	 <!--<td align="center" nowrap class="tdData">YU002590-1-POU013610</td>--> 
+	  <td align="left" class="tdData">JULIETA ARACELY RIVERO CASTA?EDA</td>
+      <td align="center" class="tdData">772920601068</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">LV</td>	
+      <td align="center" class="tdData">30FF56DC-5701-4639-9013-EEAF27845C00</td>
+
+      <td align="right" class="tdData">13,787.24</td> 
+	  <td align="center" class="tdData">10,290.00</td>
+	  <td align="center" class="tdData">3,014.86</td>
+	  <td align="center" class="tdData">482.38</td>
+
+	  
+
+
+   <td class="tdData" align="center">2020-12-10</td>
+  <td class="tdData" align="center">2021-01-07</td>
+  <td class="tdData" align="center">2021-01-12</td>
+   <td class="tdData" align="center">28</td>
+   <!--<td class="tdData" align="center"></td>-->
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2021-01-12</td>
+ <td align="center" class="tdData">
+ 20210112</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">6</td>
+	  <td nowrap class="tdData">YU002322-2-POU013627	            </td>
+      <td align="center" nowrap class="tdData">000541263</td>
+	  <td align="left" class="tdData">Yucat&Atilde;&iexcl;n</td>
+	  <td nowrap class="tdData">EVA RUBY OSORNO ARCEO</td>
+	 <!--<td align="center" nowrap class="tdData">YU002322-2-POU013627</td>--> 
+	  <td align="left" class="tdData">PAULA CONCEPCION MAY AVILA</td>
+      <td align="center" class="tdData">776080505289</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">LV</td>	
+      <td align="center" class="tdData">6f9ec5fc-3b68-4a50-a255-ef754dc72fe1</td>
+
+      <td align="right" class="tdData">13,666.65</td> 
+	  <td align="center" class="tdData">10,200.00</td>
+	  <td align="center" class="tdData">2,988.49</td>
+	  <td align="center" class="tdData">478.16</td>
+
+	  
+
+
+   <td class="tdData" align="center">2020-12-13</td>
+  <td class="tdData" align="center">2020-12-14</td>
+  <td class="tdData" align="center">2021-01-15</td>
+   <td class="tdData" align="center">1</td>
+   <!--<td class="tdData" align="center"></td>-->
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2021-01-15</td>
+ <td align="center" class="tdData">
+ 20210115</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">7</td>
+	  <td nowrap class="tdData">CM001385-1-POU013810	            </td>
+      <td align="center" nowrap class="tdData">000540544</td>
+	  <td align="left" class="tdData">Campeche</td>
+	  <td nowrap class="tdData">GROSS DEL SURESTE SA DE CV</td>
+	 <!--<td align="center" nowrap class="tdData">CM001385-1-POU013810</td>--> 
+	  <td align="left" class="tdData">CAMILA QUINTAL   CRESPO</td>
+      <td align="center" class="tdData">789010506681</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">LV</td>	
+      <td align="center" class="tdData">613C24BB-EF0A-4FAC-A48A-BB89A0E97816</td>
+
+      <td align="right" class="tdData">13,787.24</td> 
+	  <td align="center" class="tdData">10,290.00</td>
+	  <td align="center" class="tdData">3,014.86</td>
+	  <td align="center" class="tdData">482.38</td>
+
+	  
+
+
+   <td class="tdData" align="center">2020-12-16</td>
+  <td class="tdData" align="center">2020-12-17</td>
+  <td class="tdData" align="center">2021-01-06</td>
+   <td class="tdData" align="center">1</td>
+   <!--<td class="tdData" align="center"></td>-->
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2021-01-06</td>
+ <td align="center" class="tdData">
+ 20210106</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">8</td>
+	  <td nowrap class="tdData">CM001169-2-POU014320	            </td>
+      <td align="center" nowrap class="tdData">000540829</td>
+	  <td align="left" class="tdData">Campeche</td>
+	  <td nowrap class="tdData">DISTRIBUIDORA ELECTR?NICA DEL SURESTE S.A. DE C.V.</td>
+	 <!--<td align="center" nowrap class="tdData">CM001169-2-POU014320</td>--> 
+	  <td align="left" class="tdData">ROMANA LUNA MAGA?A</td>
+      <td align="center" class="tdData">789110401089</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">LV</td>	
+      <td align="center" class="tdData">68FBE753-77DA-42FF-B456-DD2E5E6103AE</td>
+
+      <td align="right" class="tdData">11,562.32</td> 
+	  <td align="center" class="tdData">9,226.00</td>
+	  <td align="center" class="tdData">2,014.07</td>
+	  <td align="center" class="tdData">322.25</td>
+
+	  
+
+
+   <td class="tdData" align="center">2020-12-11</td>
+  <td class="tdData" align="center">2020-12-31</td>
+  <td class="tdData" align="center">2021-01-11</td>
+   <td class="tdData" align="center">20</td>
+   <!--<td class="tdData" align="center"></td>-->
+   <td class="tdData" align="center">Daewoo</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2021-01-11</td>
+ <td align="center" class="tdData">
+ 20210111</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">9</td>
+	  <td nowrap class="tdData">QR001432-1-POU014440	            </td>
+      <td align="center" nowrap class="tdData">000540788</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">ANA LINDA CASTELLANOS AGUIRRE</td>
+	 <!--<td align="center" nowrap class="tdData">QR001432-1-POU014440</td>--> 
+	  <td align="left" class="tdData">GABRIEL JARIB CHUC BAAS</td>
+      <td align="center" class="tdData">783160706168</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">LV</td>	
+      <td align="center" class="tdData">551F46E8-C434-475E-AD05-9D26C778F037</td>
+
+      <td align="right" class="tdData">18,088.22</td> 
+	  <td align="center" class="tdData">13,500.00</td>
+	  <td align="center" class="tdData">3,955.36</td>
+	  <td align="center" class="tdData">632.86</td>
+
+	  
+
+
+   <td class="tdData" align="center">2021-01-04</td>
+  <td class="tdData" align="center">2021-01-04</td>
+  <td class="tdData" align="center">2021-01-08</td>
+   <td class="tdData" align="center">0</td>
+   <!--<td class="tdData" align="center"></td>-->
+   <td class="tdData" align="center">Mabe</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2021-01-08</td>
+ <td align="center" class="tdData">
+ 20210108</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">10</td>
+	  <td nowrap class="tdData">QR001434-1-POU014493	            </td>
+      <td align="center" nowrap class="tdData">000540786</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">ANA LINDA CASTELLANOS AGUIRRE</td>
+	 <!--<td align="center" nowrap class="tdData">QR001434-1-POU014493</td>--> 
+	  <td align="left" class="tdData">ZENAIDA DE LA LUZ CHABLE  ORTIZ</td>
+      <td align="center" class="tdData">782161016045</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">LV</td>	
+      <td align="center" class="tdData">303903E4-A9C0-4A0D-A760-2696B2E8F162</td>
+
+      <td align="right" class="tdData">15,792.02</td> 
+	  <td align="center" class="tdData">13,500.00</td>
+	  <td align="center" class="tdData">1,975.88</td>
+	  <td align="center" class="tdData">316.14</td>
+
+	  
+
+
+   <td class="tdData" align="center">2021-01-05</td>
+  <td class="tdData" align="center">2021-01-05</td>
+  <td class="tdData" align="center">2021-01-08</td>
+   <td class="tdData" align="center">0</td>
+   <!--<td class="tdData" align="center"></td>-->
+   <td class="tdData" align="center">Mabe</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2021-01-08</td>
+ <td align="center" class="tdData">
+ 20210108</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">11</td>
+	  <td nowrap class="tdData">ML000651-1-POU014604	            </td>
+      <td align="center" nowrap class="tdData">000541296</td>
+	  <td align="left" class="tdData">Motul</td>
+	  <td nowrap class="tdData">RODEKA DEL SURESTE S.A. DE C.V.</td>
+	 <!--<td align="center" nowrap class="tdData">ML000651-1-POU014604</td>--> 
+	  <td align="left" class="tdData">JUSTO ALBERTO  COUOH MANZANO</td>
+      <td align="center" class="tdData">808750304025</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">LV</td>	
+      <td align="center" class="tdData">4A0C2A85-6D83-4842-8DED-2AB624F31084</td>
+
+      <td align="right" class="tdData">15,077.53</td> 
+	  <td align="center" class="tdData">11,253.00</td>
+	  <td align="center" class="tdData">3,297.01</td>
+	  <td align="center" class="tdData">527.52</td>
+
+	  
+
+
+   <td class="tdData" align="center">2020-12-14</td>
+  <td class="tdData" align="center">2021-01-11</td>
+  <td class="tdData" align="center">2021-01-15</td>
+   <td class="tdData" align="center">28</td>
+   <!--<td class="tdData" align="center"></td>-->
+   <td class="tdData" align="center">WINIA</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2021-01-15</td>
+ <td align="center" class="tdData">
+ 20210115</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">12</td>
+	  <td nowrap class="tdData">ML000660-1-POU014608	            </td>
+      <td align="center" nowrap class="tdData">000541297</td>
+	  <td align="left" class="tdData">Motul</td>
+	  <td nowrap class="tdData">RODEKA DEL SURESTE S.A. DE C.V.</td>
+	 <!--<td align="center" nowrap class="tdData">ML000660-1-POU014608</td>--> 
+	  <td align="left" class="tdData">BERTHA TRINIDAD  BALAM  YAM</td>
+      <td align="center" class="tdData">808041000195</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">LV</td>	
+      <td align="center" class="tdData">E4467A9A-9A7A-4A52-B366-9BF1A3AD50A3</td>
+
+      <td align="right" class="tdData">15,077.53</td> 
+	  <td align="center" class="tdData">11,253.00</td>
+	  <td align="center" class="tdData">3,297.01</td>
+	  <td align="center" class="tdData">527.52</td>
+
+	  
+
+
+   <td class="tdData" align="center">2020-12-22</td>
+  <td class="tdData" align="center">2021-01-11</td>
+  <td class="tdData" align="center">2021-01-15</td>
+   <td class="tdData" align="center">20</td>
+   <!--<td class="tdData" align="center"></td>-->
+   <td class="tdData" align="center">WINIA</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2021-01-15</td>
+ <td align="center" class="tdData">
+ 20210115</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">13</td>
+	  <td nowrap class="tdData">YU002700-1-POU014810	            </td>
+      <td align="center" nowrap class="tdData">000541537</td>
+	  <td align="left" class="tdData">Yucat&Atilde;&iexcl;n</td>
+	  <td nowrap class="tdData">JAVIER ROBERTO GARCIA CASELLAS</td>
+	 <!--<td align="center" nowrap class="tdData">YU002700-1-POU014810</td>--> 
+	  <td align="left" class="tdData">HECTOR RODRIGUEZ CHABLE</td>
+      <td align="center" class="tdData">773080603958</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">LV</td>	
+      <td align="center" class="tdData">0BA66046-C082-4AA8-8500-28E232759929</td>
+
+      <td align="right" class="tdData">15,218.22</td> 
+	  <td align="center" class="tdData">11,358.00</td>
+	  <td align="center" class="tdData">3,327.78</td>
+	  <td align="center" class="tdData">532.45</td>
+
+	  
+
+
+   <td class="tdData" align="center">2021-01-11</td>
+  <td class="tdData" align="center">2021-01-11</td>
+  <td class="tdData" align="center">2021-01-19</td>
+   <td class="tdData" align="center">0</td>
+   <!--<td class="tdData" align="center"></td>-->
+   <td class="tdData" align="center">WINIA</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2021-01-19</td>
+ <td align="center" class="tdData">
+ 20210119</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">14</td>
+	  <td nowrap class="tdData">QR001430-2-POU014862	            </td>
+      <td align="center" nowrap class="tdData">000541212</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">ANA LINDA CASTELLANOS AGUIRRE</td>
+	 <!--<td align="center" nowrap class="tdData">QR001430-2-POU014862</td>--> 
+	  <td align="left" class="tdData">ANDRES SALVADOR MARTINEZ ROSAS</td>
+      <td align="center" class="tdData">782160306538</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">LV</td>	
+      <td align="center" class="tdData">067D4FE5-CD32-4438-BC8B-BE0CC8AC1910</td>
+
+      <td align="right" class="tdData">18,088.22</td> 
+	  <td align="center" class="tdData">13,500.00</td>
+	  <td align="center" class="tdData">3,955.36</td>
+	  <td align="center" class="tdData">632.86</td>
+
+	  
+
+
+   <td class="tdData" align="center">2021-01-07</td>
+  <td class="tdData" align="center">2021-01-12</td>
+  <td class="tdData" align="center">2021-01-15</td>
+   <td class="tdData" align="center">5</td>
+   <!--<td class="tdData" align="center"></td>-->
+   <td class="tdData" align="center">Mabe</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2021-01-15</td>
+ <td align="center" class="tdData">
+ 20210115</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">15</td>
+	  <td nowrap class="tdData">QR001447-1-POU014962	            </td>
+      <td align="center" nowrap class="tdData">000541398</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">ANA LINDA CASTELLANOS AGUIRRE</td>
+	 <!--<td align="center" nowrap class="tdData">QR001447-1-POU014962</td>--> 
+	  <td align="left" class="tdData">ETSAUL LEYVA DIAZ</td>
+      <td align="center" class="tdData">782070603304</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">LV</td>	
+      <td align="center" class="tdData">082A9947-035C-4710-92F6-6F4D86975AEE</td>
+
+      <td align="right" class="tdData">15,792.02</td> 
+	  <td align="center" class="tdData">13,500.00</td>
+	  <td align="center" class="tdData">1,975.88</td>
+	  <td align="center" class="tdData">316.14</td>
+
+	  
+
+
+   <td class="tdData" align="center">2021-01-13</td>
+  <td class="tdData" align="center">2021-01-13</td>
+  <td class="tdData" align="center">2021-01-15</td>
+   <td class="tdData" align="center">0</td>
+   <!--<td class="tdData" align="center"></td>-->
+   <td class="tdData" align="center">Mabe</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2021-01-15</td>
+ <td align="center" class="tdData">
+ 20210115</td>
+      
+   
+
+</tr>
+	
+  <tr> 
+	  <td align="right" class="tdData">16</td>
+	  <td nowrap class="tdData">QR001452-1-POU015049	            </td>
+      <td align="center" nowrap class="tdData">000541503</td>
+	  <td align="left" class="tdData">Quintana Roo</td>
+	  <td nowrap class="tdData">ANA LINDA CASTELLANOS AGUIRRE</td>
+	 <!--<td align="center" nowrap class="tdData">QR001452-1-POU015049</td>--> 
+	  <td align="left" class="tdData">JOSE LUIS DIAZ MORALES</td>
+      <td align="center" class="tdData">783160610896</td>
+	  <td align="center" class="tdData">U</td>
+	  <td align="center" class="tdData">LV</td>	
+      <td align="center" class="tdData">52772DA8-F8F4-467F-A150-8E60C0440088</td>
+
+      <td align="right" class="tdData">16,918.62</td> 
+	  <td align="center" class="tdData">13,500.00</td>
+	  <td align="center" class="tdData">2,947.09</td>
+	  <td align="center" class="tdData">471.53</td>
+
+	  
+
+
+   <td class="tdData" align="center">2021-01-14</td>
+  <td class="tdData" align="center">2021-01-15</td>
+  <td class="tdData" align="center">2021-01-19</td>
+   <td class="tdData" align="center">1</td>
+   <!--<td class="tdData" align="center"></td>-->
+   <td class="tdData" align="center">Mabe</td>
+   <td class="tdData" align="center">0</td>
+
+ <td align="center" class="tdData">00</td>
+ <td align="center" class="tdData">
+ 2021-01-19</td>
+ <td align="center" class="tdData">
+ 20210119</td>
+      
+   
+
+</tr>
+
+
+
+</table>
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+<div align="center" class="titulo">ESTADISTICA LAVADORAS</div>
+<table width="99%" cellpadding="2" cellspacing="0" border="0" align="center">
+   <tr> 
+	  <td width="10" class="tdTituloData">&nbsp;</td>
+	  <td width="150" class="tdTituloData">&nbsp;</td>
+	  <td width="72" align="center" class="tdTituloData">Prestamo</td>
+	  <td width="68" align="center" class="tdTituloData">Capital</td>
+	  <td width="60" align="center" class="tdTituloData">Interes</td>
+	  <td width="57" align="center" class="tdTituloData">IVA</td>
+
+	  <td width="54" align="center" class="tdTituloData">Dias Atenci&oacute;n</td>
+	  <td width="66" align="center" class="tdTituloData">Capacidad</td>
+      	  <td width="71" align="center" class="tdTituloData"><span class="labelRp">Mabe</span></td>
+	  	  <td width="71" align="center" class="tdTituloData"><span class="labelRp">Daewoo</span></td>
+	  	  <td width="71" align="center" class="tdTituloData"><span class="labelRp">WINIA</span></td>
+	        
+      
+       <td width="94" align="center" class="tdTituloData">Total de Acciones</td>
+    </tr>
+    <tr> 
+	  <td align="right" class="tdData">1</td>
+	  <td class="tdData">TOTAL USUARIOS</td>
+	  <td align="right" nowrap class="tdData">$ 243,994.19</td>
+	  <td align="right" nowrap class="tdData">$ 187,529.00</td>
+	  <td align="right" nowrap class="tdData">$ 48,676.89</td>
+	  <td align="right" nowrap class="tdData">$ 7,788.30</td>
+
+	  <td align="center" class="tdData">132</td>
+	  <td align="center" class="tdData">315</td>
+	  <!--td align="center" class="tdData">0</td-->
+	  <!--td align="center" class="tdData">0</td-->
+	  	  <td align="center" class="tdData1">7</td>
+	  	  <td align="center" class="tdData1">6</td>
+	  	  <td align="center" class="tdData1">3</td>
+	  	 <td align="center" class="tdData2">16</td> 
+
+   </tr>
+    </table>
+    <br>
+<table width="99%" cellpadding="2" cellspacing="0" border="0" align="center">
+   <tr> 
+	  <td width="10" class="tdTituloData">&nbsp;</td>
+	  <td width="150" class="tdTituloData">&nbsp;</td>
+	  <td width="72" align="center" class="tdTituloData">Prestamo</td>
+	  <td width="68" align="center" class="tdTituloData">Capital</td>
+	  <td width="60" align="center" class="tdTituloData">Interes</td>
+	  <td width="57" align="center" class="tdTituloData">IVA</td>
+
+	  <td width="54" align="center" class="tdTituloData">Dias Atenci&oacute;n</td>
+	  <td width="66" align="center" class="tdTituloData">Capacidad</td>
+	  	  <td width="94" align="center" class="tdTituloData">Total de Acciones</td>
+
+   </tr>
+
+   <tr> 
+	  <td align="right" class="tdData">2</td>
+	  <td class="tdData">TOTAL EMPLEADOS</td>
+	  <td align="right" nowrap class="tdData">$ 0.00</td>
+	  <td align="right" nowrap class="tdData">$ 0.00</td>
+	  <td align="right" nowrap class="tdData">$ 0.00</td>
+	  <td align="right" nowrap class="tdData">$ 0.00</td>
+
+	  <td align="center" class="tdData">0</td>
+	  <td align="center" class="tdData">0</td>
+	  <!--td align="center" class="tdData">0</td-->
+	  <!--td align="center" class="tdData">0</td-->
+	  	  <td align="center" class="tdData2">0</td> 
+	 
+   </tr>
+</table>
+<br>
+
+
+<table width="99%" cellpadding="2" cellspacing="0" border="0" align="center">
+   <tr> 
+	  <td width="10" class="tdTituloData">&nbsp;</td>
+	  <td width="150" class="tdTituloData">&nbsp;</td>
+	  <td width="72" align="center" class="tdTituloData">Prestamo</td>
+	  <td width="68" align="center" class="tdTituloData">Capital</td>
+	  <td width="60" align="center" class="tdTituloData">Interes</td>
+	  <td width="57" align="center" class="tdTituloData">IVA</td>
+
+	  <td width="54" align="center" class="tdTituloData">Dias Atenci&oacute;n</td>
+	  <td width="66" align="center" class="tdTituloData">Capacidad</td>
+	  <!--td width="40" align="center" class="tdTituloData">CFE</td--->
+	  <!--td width="60" align="center" class="tdTituloData">NAFIN</td-->
+	  	  <td width="71" align="center" class="tdTituloData"><span class="labelRp">Mabe</span></td>	  <td width="71" align="center" class="tdTituloData"><span class="labelRp">Daewoo</span></td>	  <td width="71" align="center" class="tdTituloData"><span class="labelRp">WINIA</span></td>	  <td width="94" align="center" class="tdTituloData">Total de Acciones</td>
+
+   </tr>
+   
+   <tr> 
+	  <td align="right" class="tdData">3</td>
+	  <td class="tdData">P R O M E D I O</td>
+	  <td align="right" nowrap class="tdData">$ 15,249.64</td>
+	  <td align="right" nowrap class="tdData">$ 11,720.56</td>
+	  <td align="right" nowrap class="tdData">$ 3,042.31</td>
+	  <td align="right" nowrap class="tdData">$ 486.77</td>
+
+	  <td align="center" class="tdData">-</td>
+	  <td align="center" class="tdData">-</td>
+	  <!--td align="center" class="tdData">-</td-->
+	  <!--td align="center" class="tdData">-</td-->
+	  	  <td align="center" class="tdData1">-</td>
+	  	  <td align="center" class="tdData1">-</td>
+	  	  <td align="center" class="tdData1">-</td>
+	  	  
+<td width="94" align="center" class="tdData2">1</td>
+	 
+   </tr>
+   <tr> 
+	  <td align="right" class="tdData">4</td>
+	  <td nowrap class="tdData">P O R C E N T A J E S</td>
+	  <td align="center" class="tdData">-</td>
+	  <td align="center" class="tdData">-</td>
+	  <td align="center" class="tdData">-</td>
+	  <td align="center" class="tdData">-</td>
+	  <td align="center" class="tdData">-</td>
+	  <td align="center" nowrap class="tdData">-</td>
+	  <!--td align="center" nowrap class="tdData"> 
+		 0.00		 % </td-->
+	  <!--td align="center" nowrap class="tdData">0.00%</td-->
+	  	  <td align="center" nowrap class="tdData1">43.75%</td>
+	  	  <td align="center" nowrap class="tdData1">37.50%</td>
+	  	  <td align="center" nowrap class="tdData1">18.75%</td>
+	  
+	  <td width="94" align="center" nowrap class="tdData2">100.00%</td>
+   </tr>
+</table>
+
+
+	
+
+
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+
+	
+
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+
+	
+
+ 	  
+
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+<table><tr>&nbsp;</tr><tr>&nbsp;</tr><tr>&nbsp;</tr></table>
+
+</body>
+</html>
+
