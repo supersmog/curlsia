@@ -77,8 +77,8 @@ class PHPExcel_Reader_Gnumeric extends PHPExcel_Reader_Abstract implements PHPEx
 
         // Check if gzlib functions are available
         if (!function_exists('gzread')) {
-            throw new PHPExcel_Reader_Exception("gzlib library is not enabled");
-        }
+          throw new PHPExcel_Reader_Exception("gzlib library is not enabled");
+    }
 
         // Read signature data (first 3 bytes)
         $fh = fopen($pFilename, 'r');

@@ -47,11 +47,11 @@ function actualiza_confirma_liberaciones($archivo,$zona)
 		$concatenar="('$rpu','$solicitud','$presupuesto','$scc','$sp','$proveedor','$financiamiento','$bono','$fecha_liberacion','$usuario','$fecha_registro','$boleta','$acopio','$tipo_sup','$zona')";
 		$sql="INSERT INTO Yucatan.confirma_liberaciones_tmp(rpu, solicitud, presupuesto,scc,sp,proveedor,financiamiento,bono,fecha_liberacion,usuario,fecha_registro,boleta,acopio,tipo_sup,zona)
 		VALUE$concatenar";
-		//echo $sql;
+		echo $sql;
 		$resp=$liberacion->insertar($sql);
 		if($resp)
 		{
-			echo "Se guardo correctamente";
+			echo "/ṅ";
 		}
 		else
 		{
@@ -90,7 +90,7 @@ function actualiza_confirma_liberaciones_simple($archivo,$zona)
 	
 	for ($row = 3; $row < ($highestRow-1); $row++){ 
 		$concatenar="";
-		//echo $row."|";
+		echo $row."|";
 		$rpu=$sheet->getCell("A".$row)->getValue();
 		$solicitud_pa=$sheet->getCell("B".$row)->getValue();
 		$solicitud_tmp=$sheet->getCell("C".$row)->getValue();
@@ -140,18 +140,23 @@ function actualiza_confirma_liberaciones_simple($archivo,$zona)
 
 }
 
-
 vaciar_tabla('confirma_liberaciones_tmp');
-actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan.xls","Merida");
-actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_motul.xls","Motul");
-actualiza_confirma_liberaciones("paginas/confirma_lib_campeche.xls","Campeche");
-actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroo.xls","Cancun");
-actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroorv.xls","Riviera");
-actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_2021.xls","Merida");
-actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_motul_2021.xls","Motul");
-actualiza_confirma_liberaciones("paginas/confirma_lib_campeche_2021.xls","Campeche");
+//actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan.xls","Merida");
+//actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_motul.xls","Motul");
+//actualiza_confirma_liberaciones("paginas/confirma_lib_campeche.xls","Campeche");
+//actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroo.xls","Cancun");
+//actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroorv.xls","Riviera");
+//actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_2021.xls","Merida");
+//actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_motul_2021.xls","Motul");
+//actualiza_confirma_liberaciones("paginas/confirma_lib_campeche_2021.xls","Campeche");
 actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroo_2021.xls","Cancun");
 actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroorv_2021.xls","Riviera");
+actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_2022.xls","Merida");
+actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_motul_2022.xls","Motul");
+actualiza_confirma_liberaciones("paginas/confirma_lib_yucatan_tizimin_2022.xls","Tizimin");
+actualiza_confirma_liberaciones("paginas/confirma_lib_campeche_2022.xls","Campeche");
+actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroo_2022.xls","Cancun");
+actualiza_confirma_liberaciones("paginas/confirma_lib_quintanaroorv_2022.xls","Riviera");
 
 vaciar_tabla('liberaciones_simple_tmp');
 
@@ -162,9 +167,16 @@ actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_quintanaroo.
 actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_quintanaroorv.xls","Riviera");
 actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_yucatan_2021.xls","Merida");
 actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_yucatan_motul_2021.xls","Motul");
+actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_yucatan_tizimin_2022.xls","Tizimin");
 actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_campeche_2021.xls","Campeche");
 actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_quintanaroo_2021.xls","Cancun");
 actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_quintanaroorv_2021.xls","Riviera");
+
+actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_yucatan_2022.xls","Merida");
+actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_yucatan_motul_2022.xls","Motul");
+actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_campeche_2022.xls","Campeche");
+actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_quintanaroo_2022.xls","Cancun");
+actualiza_confirma_liberaciones_simple("paginas/liberaciones_simple_quintanaroorv_2022.xls","Riviera");
 
 
 
