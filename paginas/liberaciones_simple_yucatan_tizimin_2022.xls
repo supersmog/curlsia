@@ -1,0 +1,1245 @@
+<html>
+<head>
+    <title>Reporte Liberaciones</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+<form name="forma" method="post">
+	<table width="95%" border="0" cellpadding="0" cellspacing="0" align="center">
+	    <tr>
+    	    <td colspan="2" class="Titulo" align="center" valign="middle"><b>
+            	BANOBRAS S.N.C. COMO FIDUCIARIA EN EL FIDEICOMISO 728 FIPATERM<br>
+                REPORTE LIBERACIONES
+                </b>
+            </td>
+        </tr>
+        <tr><td height="30">&nbsp;</td></tr>
+        <tr>
+            <td align="center" colspan="2">
+                <table width="100%" cellpadding="2" cellspacing="0" border="1">
+                    <tr>
+                        <td class="Titulo" align="center"><b>RPU </b></th>
+                        <td class="Titulo" align="center"><b>Solicitud PA </b></th>
+                        <td class="Titulo" align="center"><b>Solicitud SIA </b></th>
+                        <td class="Titulo" align="center"><b>Presupuesto</b></th>
+                        <td class="Titulo" align="center"><b>Programa </b></th>
+                        <td class="Titulo" align="center"><b>Sufijo SICOM </b></th>
+                        <td class="Titulo" align="center"><b>Fecha Alta SICOM </b></th>
+                        <td class="Titulo" align="center"><b>Fecha Alta PA </b></th>
+                        <td class="Titulo" align="center"><b>Fecha Pago </b></th>
+                        <td class="Titulo" align="center"><b>Total Prestamo </b></th>
+                        <td class="Titulo" align="center"><b>Total Capital </b></th>
+                        <td class="Titulo" align="center"><b>Total Interes </b></th>
+                        <td class="Titulo" align="center"><b>Total IVA </b></th>
+                        <td class="Titulo" align="center"><b>Dif Total </b></th>
+                        <td class="Titulo" align="center"><b>Dif Capital </b></th>
+                        <td class="Titulo" align="center"><b>Dif Interes </b></th>
+                        <td class="Titulo" align="center"><b>Dif IVA </b></th>
+                        <td class="Titulo" align="center"><b>ID Promo </b></th>
+                        <td class="Titulo" align="center"><b>No.Lamparas </b></th>
+                        <td class="Titulo" align="center"><b>Tipo Financiamiento </b></th>
+						<td class="Titulo" align="center"><b>Sustitucion </b></th>
+                    </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800940200501</td>
+                            <td class="tdDataImpresionH" align="center">000560545</td>
+                            <td class="tdDataImpresionH" align="center">TZ000001-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167352</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-04</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-04</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-15</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800970100497</td>
+                            <td class="tdDataImpresionH" align="center">000560546</td>
+                            <td class="tdDataImpresionH" align="center">TZ000007-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167390</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-04</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-04</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-15</td>
+                            <td class="tdDataImpresionH" align="center">25631.67</td>
+                            <td class="tdDataImpresionH" align="center">19130</td>
+                            <td class="tdDataImpresionH" align="center">5604.89</td>
+                            <td class="tdDataImpresionH" align="center">896.782</td>
+                            <td class="tdDataImpresionH" align="center">1068</td>
+                            <td class="tdDataImpresionH" align="center">797.09</td>
+                            <td class="tdDataImpresionH" align="center">233.54</td>
+                            <td class="tdDataImpresionH" align="center">37.37</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800081200455</td>
+                            <td class="tdDataImpresionH" align="center">000560547</td>
+                            <td class="tdDataImpresionH" align="center">TZ000012-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167404</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-04</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-04</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-15</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800090301108</td>
+                            <td class="tdDataImpresionH" align="center">000560717</td>
+                            <td class="tdDataImpresionH" align="center">TZ000005-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167388</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-29</td>
+                            <td class="tdDataImpresionH" align="center">25631.67</td>
+                            <td class="tdDataImpresionH" align="center">19130</td>
+                            <td class="tdDataImpresionH" align="center">5604.89</td>
+                            <td class="tdDataImpresionH" align="center">896.782</td>
+                            <td class="tdDataImpresionH" align="center">1068</td>
+                            <td class="tdDataImpresionH" align="center">797.09</td>
+                            <td class="tdDataImpresionH" align="center">233.54</td>
+                            <td class="tdDataImpresionH" align="center">37.37</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800980700956</td>
+                            <td class="tdDataImpresionH" align="center">000560718</td>
+                            <td class="tdDataImpresionH" align="center">TZ000006-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167389</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-29</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800150302079</td>
+                            <td class="tdDataImpresionH" align="center">000560719</td>
+                            <td class="tdDataImpresionH" align="center">TZ000009-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167398</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-29</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800930800429</td>
+                            <td class="tdDataImpresionH" align="center">000560720</td>
+                            <td class="tdDataImpresionH" align="center">TZ000013-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167408</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-29</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800841100022</td>
+                            <td class="tdDataImpresionH" align="center">000560721</td>
+                            <td class="tdDataImpresionH" align="center">TZ000016-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167434</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-29</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800060201061</td>
+                            <td class="tdDataImpresionH" align="center">000560722</td>
+                            <td class="tdDataImpresionH" align="center">TZ000017-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167435</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-29</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800830900043</td>
+                            <td class="tdDataImpresionH" align="center">000560723</td>
+                            <td class="tdDataImpresionH" align="center">TZ000019-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167454</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-29</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800790800211</td>
+                            <td class="tdDataImpresionH" align="center">000560724</td>
+                            <td class="tdDataImpresionH" align="center">TZ000021-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167464</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-29</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800910100366</td>
+                            <td class="tdDataImpresionH" align="center">000560725</td>
+                            <td class="tdDataImpresionH" align="center">TZ000023-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167496</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-29</td>
+                            <td class="tdDataImpresionH" align="center">25631.67</td>
+                            <td class="tdDataImpresionH" align="center">19130</td>
+                            <td class="tdDataImpresionH" align="center">5604.89</td>
+                            <td class="tdDataImpresionH" align="center">896.782</td>
+                            <td class="tdDataImpresionH" align="center">1068</td>
+                            <td class="tdDataImpresionH" align="center">797.09</td>
+                            <td class="tdDataImpresionH" align="center">233.54</td>
+                            <td class="tdDataImpresionH" align="center">37.37</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800920700647</td>
+                            <td class="tdDataImpresionH" align="center">000560742</td>
+                            <td class="tdDataImpresionH" align="center">TZ000003-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167386</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-29</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800140802332</td>
+                            <td class="tdDataImpresionH" align="center">000560743</td>
+                            <td class="tdDataImpresionH" align="center">TZ000015-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167431</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-25</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-29</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800020302298</td>
+                            <td class="tdDataImpresionH" align="center">000560777</td>
+                            <td class="tdDataImpresionH" align="center">TZ000020-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167457</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800060300972</td>
+                            <td class="tdDataImpresionH" align="center">000560778</td>
+                            <td class="tdDataImpresionH" align="center">TZ000028-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167561</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">25631.67</td>
+                            <td class="tdDataImpresionH" align="center">19130</td>
+                            <td class="tdDataImpresionH" align="center">5604.89</td>
+                            <td class="tdDataImpresionH" align="center">896.782</td>
+                            <td class="tdDataImpresionH" align="center">1068</td>
+                            <td class="tdDataImpresionH" align="center">797.09</td>
+                            <td class="tdDataImpresionH" align="center">233.54</td>
+                            <td class="tdDataImpresionH" align="center">37.37</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800750204160</td>
+                            <td class="tdDataImpresionH" align="center">000560779</td>
+                            <td class="tdDataImpresionH" align="center">TZ000033-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167551</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800970900914</td>
+                            <td class="tdDataImpresionH" align="center">000560780</td>
+                            <td class="tdDataImpresionH" align="center">TZ000034-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167588</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800090501018</td>
+                            <td class="tdDataImpresionH" align="center">000560781</td>
+                            <td class="tdDataImpresionH" align="center">TZ000035-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167590</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800831200517</td>
+                            <td class="tdDataImpresionH" align="center">000560782</td>
+                            <td class="tdDataImpresionH" align="center">TZ000038-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167602</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800050500795</td>
+                            <td class="tdDataImpresionH" align="center">000560783</td>
+                            <td class="tdDataImpresionH" align="center">TZ000018-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167436</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800110800840</td>
+                            <td class="tdDataImpresionH" align="center">000560785</td>
+                            <td class="tdDataImpresionH" align="center">TZ000011-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167401</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800061201617</td>
+                            <td class="tdDataImpresionH" align="center">000560786</td>
+                            <td class="tdDataImpresionH" align="center">TZ000027-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167509</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800850300069</td>
+                            <td class="tdDataImpresionH" align="center">000560796</td>
+                            <td class="tdDataImpresionH" align="center">TZ000029-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167536</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">05</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-03-31</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800830500291</td>
+                            <td class="tdDataImpresionH" align="center">000560860</td>
+                            <td class="tdDataImpresionH" align="center">TZ000031-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167537</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800990401329</td>
+                            <td class="tdDataImpresionH" align="center">000560861</td>
+                            <td class="tdDataImpresionH" align="center">TZ000042-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167629</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800820100278</td>
+                            <td class="tdDataImpresionH" align="center">000560862</td>
+                            <td class="tdDataImpresionH" align="center">TZ000043-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167630</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800910500101</td>
+                            <td class="tdDataImpresionH" align="center">000560863</td>
+                            <td class="tdDataImpresionH" align="center">TZ000045-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167645</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800930100206</td>
+                            <td class="tdDataImpresionH" align="center">000560864</td>
+                            <td class="tdDataImpresionH" align="center">TZ000046-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167642</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800930700572</td>
+                            <td class="tdDataImpresionH" align="center">000560865</td>
+                            <td class="tdDataImpresionH" align="center">TZ000048-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167644</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800090600024</td>
+                            <td class="tdDataImpresionH" align="center">000560866</td>
+                            <td class="tdDataImpresionH" align="center">TZ000051-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167665</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">801000857001</td>
+                            <td class="tdDataImpresionH" align="center">000560867</td>
+                            <td class="tdDataImpresionH" align="center">TZ000067-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167738</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800070800302</td>
+                            <td class="tdDataImpresionH" align="center">000560868</td>
+                            <td class="tdDataImpresionH" align="center">TZ000074-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167774</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800190800586</td>
+                            <td class="tdDataImpresionH" align="center">000560869</td>
+                            <td class="tdDataImpresionH" align="center">TZ000076-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167791</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center">17009.64</td>
+                            <td class="tdDataImpresionH" align="center">12695</td>
+                            <td class="tdDataImpresionH" align="center">3719.51</td>
+                            <td class="tdDataImpresionH" align="center">595.122</td>
+                            <td class="tdDataImpresionH" align="center">709</td>
+                            <td class="tdDataImpresionH" align="center">529.22</td>
+                            <td class="tdDataImpresionH" align="center">154.98</td>
+                            <td class="tdDataImpresionH" align="center">24.8</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800191100898</td>
+                            <td class="tdDataImpresionH" align="center">000560871</td>
+                            <td class="tdDataImpresionH" align="center">TZ000069-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167772</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800890400031</td>
+                            <td class="tdDataImpresionH" align="center">000560872</td>
+                            <td class="tdDataImpresionH" align="center">TZ000073-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167770</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800140200804</td>
+                            <td class="tdDataImpresionH" align="center">000560873</td>
+                            <td class="tdDataImpresionH" align="center">TZ000030-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167535</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-08</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800100800795</td>
+                            <td class="tdDataImpresionH" align="center">000560899</td>
+                            <td class="tdDataImpresionH" align="center">TZ000022-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167500</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800890400589</td>
+                            <td class="tdDataImpresionH" align="center">000560900</td>
+                            <td class="tdDataImpresionH" align="center">TZ000041-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167623</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800801200768</td>
+                            <td class="tdDataImpresionH" align="center">000560901</td>
+                            <td class="tdDataImpresionH" align="center">TZ000058-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167710</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800960800059</td>
+                            <td class="tdDataImpresionH" align="center">000560902</td>
+                            <td class="tdDataImpresionH" align="center">TZ000075-1</td>
+                            <td class="tdDataImpresionH" align="center">OU023707</td>
+                            <td class="tdDataImpresionH" align="center">LV</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-12</td>
+                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">20735.80</td>
+                            <td class="tdDataImpresionH" align="center">15476</td>
+                            <td class="tdDataImpresionH" align="center">4534.31</td>
+                            <td class="tdDataImpresionH" align="center">725.49</td>
+                            <td class="tdDataImpresionH" align="center">864</td>
+                            <td class="tdDataImpresionH" align="center">644.84</td>
+                            <td class="tdDataImpresionH" align="center">188.93</td>
+                            <td class="tdDataImpresionH" align="center">30.23</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800040401071</td>
+                            <td class="tdDataImpresionH" align="center">000560913</td>
+                            <td class="tdDataImpresionH" align="center">TZ000061-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167725</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">17009.64</td>
+                            <td class="tdDataImpresionH" align="center">12695</td>
+                            <td class="tdDataImpresionH" align="center">3719.51</td>
+                            <td class="tdDataImpresionH" align="center">595.122</td>
+                            <td class="tdDataImpresionH" align="center">709</td>
+                            <td class="tdDataImpresionH" align="center">529.22</td>
+                            <td class="tdDataImpresionH" align="center">154.98</td>
+                            <td class="tdDataImpresionH" align="center">24.8</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800930200448</td>
+                            <td class="tdDataImpresionH" align="center">000560914</td>
+                            <td class="tdDataImpresionH" align="center">TZ000062-2</td>
+                            <td class="tdDataImpresionH" align="center">RU167730</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800070800485</td>
+                            <td class="tdDataImpresionH" align="center">000560915</td>
+                            <td class="tdDataImpresionH" align="center">TZ000065-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167732</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800120300586</td>
+                            <td class="tdDataImpresionH" align="center">000560916</td>
+                            <td class="tdDataImpresionH" align="center">TZ000068-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167745</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800931200123</td>
+                            <td class="tdDataImpresionH" align="center">000560917</td>
+                            <td class="tdDataImpresionH" align="center">TZ000070-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167768</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800850200552</td>
+                            <td class="tdDataImpresionH" align="center">000560918</td>
+                            <td class="tdDataImpresionH" align="center">TZ000077-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167793</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800981001521</td>
+                            <td class="tdDataImpresionH" align="center">000560919</td>
+                            <td class="tdDataImpresionH" align="center">TZ000004-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167387</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">25631.67</td>
+                            <td class="tdDataImpresionH" align="center">19130</td>
+                            <td class="tdDataImpresionH" align="center">5604.89</td>
+                            <td class="tdDataImpresionH" align="center">896.782</td>
+                            <td class="tdDataImpresionH" align="center">1068</td>
+                            <td class="tdDataImpresionH" align="center">797.09</td>
+                            <td class="tdDataImpresionH" align="center">233.54</td>
+                            <td class="tdDataImpresionH" align="center">37.37</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800051201261</td>
+                            <td class="tdDataImpresionH" align="center">000560920</td>
+                            <td class="tdDataImpresionH" align="center">TZ000057-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167708</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800960400808</td>
+                            <td class="tdDataImpresionH" align="center">000560921</td>
+                            <td class="tdDataImpresionH" align="center">TZ000059-2</td>
+                            <td class="tdDataImpresionH" align="center">RU167714</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">25631.67</td>
+                            <td class="tdDataImpresionH" align="center">19130</td>
+                            <td class="tdDataImpresionH" align="center">5604.89</td>
+                            <td class="tdDataImpresionH" align="center">896.782</td>
+                            <td class="tdDataImpresionH" align="center">1068</td>
+                            <td class="tdDataImpresionH" align="center">797.09</td>
+                            <td class="tdDataImpresionH" align="center">233.54</td>
+                            <td class="tdDataImpresionH" align="center">37.37</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">800040801363</td>
+                            <td class="tdDataImpresionH" align="center">000560922</td>
+                            <td class="tdDataImpresionH" align="center">TZ000060-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167716</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">25631.67</td>
+                            <td class="tdDataImpresionH" align="center">19130</td>
+                            <td class="tdDataImpresionH" align="center">5604.89</td>
+                            <td class="tdDataImpresionH" align="center">896.782</td>
+                            <td class="tdDataImpresionH" align="center">1068</td>
+                            <td class="tdDataImpresionH" align="center">797.09</td>
+                            <td class="tdDataImpresionH" align="center">233.54</td>
+                            <td class="tdDataImpresionH" align="center">37.37</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                            <tr>
+                            <td class="tdDataImpresionH" align="center">801980101668</td>
+                            <td class="tdDataImpresionH" align="center">000560928</td>
+                            <td class="tdDataImpresionH" align="center">TZ000040-1</td>
+                            <td class="tdDataImpresionH" align="center">RU167612</td>
+                            <td class="tdDataImpresionH" align="center">RF</td>
+                            <td class="tdDataImpresionH" align="center">01</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center">2022-04-13</td>
+                            <td class="tdDataImpresionH" align="center"></td>
+                            <td class="tdDataImpresionH" align="center">17686.21</td>
+                            <td class="tdDataImpresionH" align="center">13200</td>
+                            <td class="tdDataImpresionH" align="center">3867.45</td>
+                            <td class="tdDataImpresionH" align="center">618.792</td>
+                            <td class="tdDataImpresionH" align="center">737</td>
+                            <td class="tdDataImpresionH" align="center">550.08</td>
+                            <td class="tdDataImpresionH" align="center">161.14</td>
+                            <td class="tdDataImpresionH" align="center">25.78</td>
+                            <td class="tdDataImpresionH" align="center">0</td>
+                            <td class="tdDataImpresionH" align="center">N/A</td>
+                            <td class="tdDataImpresionH" align="center">TRADICIONAL</td>
+							<td class="tdDataImpresionH" align="center">SI</td>
+                        </tr>
+                                    </table>        
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,1017 @@
+<html>
+<head>
+<title>Reporte Afectadas</title>
+</head>
+<body>
+<br><br>
+    <table width="90%" cellpadding="2" cellspacing="0" border="1" class="listaReporte" align="center">
+			<tr>
+				<th class="tdTituloImpresion" style="text-align:center">Usuario</th>
+				<th class="tdTituloImpresion" style="text-align:center">Solicitud</th>
+                <th class="tdTituloImpresion" style="text-align:center">Presupuesto</th>
+                <th class="tdTituloImpresion" style="text-align:center">Sol. P.A.</th>
+                <th class="tdTituloImpresion" style="text-align:center">Producto</th>
+                <th class="tdTituloImpresion" style="text-align:center">Distribuidor</th>
+                <th class="tdTituloImpresion" style="text-align:center">Financiamiento</th>
+                <th class="tdTituloImpresion" style="text-align:center">Salvamento</th>
+                <th class="tdTituloImpresion" style="text-align:center">Liberaci&oacute;n</th>
+                <th class="tdTituloImpresion" style="text-align:center"># Emp.</th>
+                <th class="tdTituloImpresion" style="text-align:center">Registro</th>
+                <th class="tdTituloImpresion" style="text-align:center"># Boleta</th>
+                <th class="tdTituloImpresion" style="text-align:center">C. Acopio</th>
+                <th class="tdTituloImpresion" style="text-align:center">Tipo Sup.</th>
+                <th class="tdTituloImpresion" style="text-align:center">ConsultaSICOM</th>
+                <th class="tdTituloImpresion" style="text-align:center">AfectaSICOM</th>
+                <th class="tdTituloImpresion" style="text-align:center">Observaci&oacute;n</th>
+            </tr>
+		                    <tr>
+                        <td class="tdDataImpresion">800940200501</td>
+                        <td class="tdDataImpresion" align="center">TZ000001-1</td>
+                        <td class="tdDataImpresion" align="center">RU167352</td>
+                        <td class="tdDataImpresion" align="center">000560545</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-03-04</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-02-10</td>
+                        <td class="tdDataImpresion" align="center">TH-00001645-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800970100497</td>
+                        <td class="alternoImpresion" align="center">TZ000007-1</td>
+                        <td class="alternoImpresion" align="center">RU167390</td>
+                        <td class="alternoImpresion" align="center">000560546</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$25632.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-03-04</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-02-18</td>
+                        <td class="alternoImpresion" align="center">TH-00001654-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800081200455</td>
+                        <td class="tdDataImpresion" align="center">TZ000012-1</td>
+                        <td class="tdDataImpresion" align="center">RU167404</td>
+                        <td class="tdDataImpresion" align="center">000560547</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-03-04</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-02-18</td>
+                        <td class="tdDataImpresion" align="center">TH-00001652-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800090301108</td>
+                        <td class="alternoImpresion" align="center">TZ000005-1</td>
+                        <td class="alternoImpresion" align="center">RU167388</td>
+                        <td class="alternoImpresion" align="center">000560717</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$25632.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-03-25</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-02-18</td>
+                        <td class="alternoImpresion" align="center">TH-00001655-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800980700956</td>
+                        <td class="tdDataImpresion" align="center">TZ000006-1</td>
+                        <td class="tdDataImpresion" align="center">RU167389</td>
+                        <td class="tdDataImpresion" align="center">000560718</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-03-25</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-02-18</td>
+                        <td class="tdDataImpresion" align="center">TH-00001649-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800150302079</td>
+                        <td class="alternoImpresion" align="center">TZ000009-1</td>
+                        <td class="alternoImpresion" align="center">RU167398</td>
+                        <td class="alternoImpresion" align="center">000560719</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-03-25</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-02-18</td>
+                        <td class="alternoImpresion" align="center">TH-00001658-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800930800429</td>
+                        <td class="tdDataImpresion" align="center">TZ000013-1</td>
+                        <td class="tdDataImpresion" align="center">RU167408</td>
+                        <td class="tdDataImpresion" align="center">000560720</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-03-25</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-02-18</td>
+                        <td class="tdDataImpresion" align="center">TH-00001653-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800841100022</td>
+                        <td class="alternoImpresion" align="center">TZ000016-1</td>
+                        <td class="alternoImpresion" align="center">RU167434</td>
+                        <td class="alternoImpresion" align="center">000560721</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-03-25</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-02-22</td>
+                        <td class="alternoImpresion" align="center">TH-00001669-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800060201061</td>
+                        <td class="tdDataImpresion" align="center">TZ000017-1</td>
+                        <td class="tdDataImpresion" align="center">RU167435</td>
+                        <td class="tdDataImpresion" align="center">000560722</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-03-25</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-02-22</td>
+                        <td class="tdDataImpresion" align="center">TH-00001668-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800830900043</td>
+                        <td class="alternoImpresion" align="center">TZ000019-1</td>
+                        <td class="alternoImpresion" align="center">RU167454</td>
+                        <td class="alternoImpresion" align="center">000560723</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-03-25</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-02-23</td>
+                        <td class="alternoImpresion" align="center">TH-00001666-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800790800211</td>
+                        <td class="tdDataImpresion" align="center">TZ000021-1</td>
+                        <td class="tdDataImpresion" align="center">RU167464</td>
+                        <td class="tdDataImpresion" align="center">000560724</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-03-25</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-02-23</td>
+                        <td class="tdDataImpresion" align="center">TH-00001664-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800910100366</td>
+                        <td class="alternoImpresion" align="center">TZ000023-1</td>
+                        <td class="alternoImpresion" align="center">RU167496</td>
+                        <td class="alternoImpresion" align="center">000560725</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$25632.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-03-25</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-02-25</td>
+                        <td class="alternoImpresion" align="center">TH-00001677-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800920700647</td>
+                        <td class="tdDataImpresion" align="center">TZ000003-1</td>
+                        <td class="tdDataImpresion" align="center">RU167386</td>
+                        <td class="tdDataImpresion" align="center">000560742</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-03-25</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-02-18</td>
+                        <td class="tdDataImpresion" align="center">TH-00001657-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800140802332</td>
+                        <td class="alternoImpresion" align="center">TZ000015-1</td>
+                        <td class="alternoImpresion" align="center">RU167431</td>
+                        <td class="alternoImpresion" align="center">000560743</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-03-25</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-02-21</td>
+                        <td class="alternoImpresion" align="center">TH-00001670-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800020302298</td>
+                        <td class="tdDataImpresion" align="center">TZ000020-1</td>
+                        <td class="tdDataImpresion" align="center">RU167457</td>
+                        <td class="tdDataImpresion" align="center">000560777</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-03-31</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-02-23</td>
+                        <td class="tdDataImpresion" align="center">TH-00001665-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800060300972</td>
+                        <td class="alternoImpresion" align="center">TZ000028-1</td>
+                        <td class="alternoImpresion" align="center">RU167561</td>
+                        <td class="alternoImpresion" align="center">000560778</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$25632.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-03-31</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-03-01</td>
+                        <td class="alternoImpresion" align="center">TH-00001690-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800750204160</td>
+                        <td class="tdDataImpresion" align="center">TZ000033-1</td>
+                        <td class="tdDataImpresion" align="center">RU167551</td>
+                        <td class="tdDataImpresion" align="center">000560779</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-03-31</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-03-03</td>
+                        <td class="tdDataImpresion" align="center">TH-00001693-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800970900914</td>
+                        <td class="alternoImpresion" align="center">TZ000034-1</td>
+                        <td class="alternoImpresion" align="center">RU167588</td>
+                        <td class="alternoImpresion" align="center">000560780</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-03-31</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-03-05</td>
+                        <td class="alternoImpresion" align="center">TH-00001694-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800090501018</td>
+                        <td class="tdDataImpresion" align="center">TZ000035-1</td>
+                        <td class="tdDataImpresion" align="center">RU167590</td>
+                        <td class="tdDataImpresion" align="center">000560781</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-03-31</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-03-05</td>
+                        <td class="tdDataImpresion" align="center">TH-00001695-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800831200517</td>
+                        <td class="alternoImpresion" align="center">TZ000038-1</td>
+                        <td class="alternoImpresion" align="center">RU167602</td>
+                        <td class="alternoImpresion" align="center">000560782</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-03-31</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-03-06</td>
+                        <td class="alternoImpresion" align="center">TH-00001698-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800050500795</td>
+                        <td class="tdDataImpresion" align="center">TZ000018-1</td>
+                        <td class="tdDataImpresion" align="center">RU167436</td>
+                        <td class="tdDataImpresion" align="center">000560783</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-03-31</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-02-23</td>
+                        <td class="tdDataImpresion" align="center">TH-00001667-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800110800840</td>
+                        <td class="alternoImpresion" align="center">TZ000011-1</td>
+                        <td class="alternoImpresion" align="center">RU167401</td>
+                        <td class="alternoImpresion" align="center">000560785</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-03-31</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-02-18</td>
+                        <td class="alternoImpresion" align="center">TH-00001650-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800061201617</td>
+                        <td class="tdDataImpresion" align="center">TZ000027-1</td>
+                        <td class="tdDataImpresion" align="center">RU167509</td>
+                        <td class="tdDataImpresion" align="center">000560786</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-03-31</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-02-27</td>
+                        <td class="tdDataImpresion" align="center">TH-00001689-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800850300069</td>
+                        <td class="alternoImpresion" align="center">TZ000029-1</td>
+                        <td class="alternoImpresion" align="center">RU167536</td>
+                        <td class="alternoImpresion" align="center">000560796</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-03-31</td>
+                        <td class="alternoImpresion" align="center">MD04507</td>
+                        <td class="alternoImpresion" align="center">2022-03-01</td>
+                        <td class="alternoImpresion" align="center">TH-00001691-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800830500291</td>
+                        <td class="tdDataImpresion" align="center">TZ000031-1</td>
+                        <td class="tdDataImpresion" align="center">RU167537</td>
+                        <td class="tdDataImpresion" align="center">000560860</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-04-08</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-03-02</td>
+                        <td class="tdDataImpresion" align="center">TH-00001692-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800990401329</td>
+                        <td class="alternoImpresion" align="center">TZ000042-1</td>
+                        <td class="alternoImpresion" align="center">RU167629</td>
+                        <td class="alternoImpresion" align="center">000560861</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-04-08</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-03-08</td>
+                        <td class="alternoImpresion" align="center">TH-00001718-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800820100278</td>
+                        <td class="tdDataImpresion" align="center">TZ000043-1</td>
+                        <td class="tdDataImpresion" align="center">RU167630</td>
+                        <td class="tdDataImpresion" align="center">000560862</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-04-08</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-03-08</td>
+                        <td class="tdDataImpresion" align="center">TH-00001717-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800910500101</td>
+                        <td class="alternoImpresion" align="center">TZ000045-1</td>
+                        <td class="alternoImpresion" align="center">RU167645</td>
+                        <td class="alternoImpresion" align="center">000560863</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-04-08</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-03-09</td>
+                        <td class="alternoImpresion" align="center">TH-00001702-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800930100206</td>
+                        <td class="tdDataImpresion" align="center">TZ000046-1</td>
+                        <td class="tdDataImpresion" align="center">RU167642</td>
+                        <td class="tdDataImpresion" align="center">000560864</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-04-08</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-03-09</td>
+                        <td class="tdDataImpresion" align="center">TH-00001703-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800930700572</td>
+                        <td class="alternoImpresion" align="center">TZ000048-1</td>
+                        <td class="alternoImpresion" align="center">RU167644</td>
+                        <td class="alternoImpresion" align="center">000560865</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-04-08</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-03-09</td>
+                        <td class="alternoImpresion" align="center">TH-00001705-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800090600024</td>
+                        <td class="tdDataImpresion" align="center">TZ000051-1</td>
+                        <td class="tdDataImpresion" align="center">RU167665</td>
+                        <td class="tdDataImpresion" align="center">000560866</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-04-08</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-03-10</td>
+                        <td class="tdDataImpresion" align="center">TH-00001715-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">801000857001</td>
+                        <td class="alternoImpresion" align="center">TZ000067-1</td>
+                        <td class="alternoImpresion" align="center">RU167738</td>
+                        <td class="alternoImpresion" align="center">000560867</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-04-08</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-03-18</td>
+                        <td class="alternoImpresion" align="center">SR-00004167-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800070800302</td>
+                        <td class="tdDataImpresion" align="center">TZ000074-1</td>
+                        <td class="tdDataImpresion" align="center">RU167774</td>
+                        <td class="tdDataImpresion" align="center">000560868</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">ZAYTEF AHORRO DE ENERGIA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-04-08</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-03-23</td>
+                        <td class="tdDataImpresion" align="center">SR-00004172-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800190800586</td>
+                        <td class="alternoImpresion" align="center">TZ000076-1</td>
+                        <td class="alternoImpresion" align="center">RU167791</td>
+                        <td class="alternoImpresion" align="center">000560869</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17010.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-04-08</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-03-25</td>
+                        <td class="alternoImpresion" align="center">SR-00004169-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800191100898</td>
+                        <td class="tdDataImpresion" align="center">TZ000069-1</td>
+                        <td class="tdDataImpresion" align="center">RU167772</td>
+                        <td class="tdDataImpresion" align="center">000560871</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">ZAYTEF AHORRO DE ENERGIA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-04-08</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-03-18</td>
+                        <td class="tdDataImpresion" align="center">SR-00004165-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800890400031</td>
+                        <td class="alternoImpresion" align="center">TZ000073-1</td>
+                        <td class="alternoImpresion" align="center">RU167770</td>
+                        <td class="alternoImpresion" align="center">000560872</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-04-08</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-03-23</td>
+                        <td class="alternoImpresion" align="center">SR-00004163-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800140200804</td>
+                        <td class="tdDataImpresion" align="center">TZ000030-1</td>
+                        <td class="tdDataImpresion" align="center">RU167535</td>
+                        <td class="tdDataImpresion" align="center">000560873</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-04-08</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-03-01</td>
+                        <td class="tdDataImpresion" align="center">TH-00001750-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800100800795</td>
+                        <td class="alternoImpresion" align="center">TZ000022-1</td>
+                        <td class="alternoImpresion" align="center">RU167500</td>
+                        <td class="alternoImpresion" align="center">000560899</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-04-12</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-02-25</td>
+                        <td class="alternoImpresion" align="center">TH-00001676-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800890400589</td>
+                        <td class="tdDataImpresion" align="center">TZ000041-1</td>
+                        <td class="tdDataImpresion" align="center">RU167623</td>
+                        <td class="tdDataImpresion" align="center">000560900</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-04-12</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-03-08</td>
+                        <td class="tdDataImpresion" align="center">TH-00001700-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800801200768</td>
+                        <td class="alternoImpresion" align="center">TZ000058-1</td>
+                        <td class="alternoImpresion" align="center">RU167710</td>
+                        <td class="alternoImpresion" align="center">000560901</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-04-12</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-03-15</td>
+                        <td class="alternoImpresion" align="center">TH-00001744-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800960800059</td>
+                        <td class="tdDataImpresion" align="center">TZ000075-1</td>
+                        <td class="tdDataImpresion" align="center">OU023707</td>
+                        <td class="tdDataImpresion" align="center">000560902</td>
+                        <td class="tdDataImpresion" align="center">LV</td>
+                        <td class="tdDataImpresion" align="center">ZAYTEF AHORRO DE ENERGIA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$20736.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-04-12</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-03-24</td>
+                        <td class="tdDataImpresion" align="center">SR-00000711-L</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800040401071</td>
+                        <td class="alternoImpresion" align="center">TZ000061-1</td>
+                        <td class="alternoImpresion" align="center">RU167725</td>
+                        <td class="alternoImpresion" align="center">000560913</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17010.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-04-13</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-03-17</td>
+                        <td class="alternoImpresion" align="center">SR-00004170-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800930200448</td>
+                        <td class="tdDataImpresion" align="center">TZ000062-2</td>
+                        <td class="tdDataImpresion" align="center">RU167730</td>
+                        <td class="tdDataImpresion" align="center">000560914</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">ZAYTEF AHORRO DE ENERGIA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-04-13</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-03-17</td>
+                        <td class="tdDataImpresion" align="center">SR-00004161-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800070800485</td>
+                        <td class="alternoImpresion" align="center">TZ000065-1</td>
+                        <td class="alternoImpresion" align="center">RU167732</td>
+                        <td class="alternoImpresion" align="center">000560915</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-04-13</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-03-17</td>
+                        <td class="alternoImpresion" align="center">SR-00004168-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800120300586</td>
+                        <td class="tdDataImpresion" align="center">TZ000068-1</td>
+                        <td class="tdDataImpresion" align="center">RU167745</td>
+                        <td class="tdDataImpresion" align="center">000560916</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">ZAYTEF AHORRO DE ENERGIA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-04-13</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-03-18</td>
+                        <td class="tdDataImpresion" align="center">SR-00004164-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800931200123</td>
+                        <td class="alternoImpresion" align="center">TZ000070-1</td>
+                        <td class="alternoImpresion" align="center">RU167768</td>
+                        <td class="alternoImpresion" align="center">000560917</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">ZAYTEF AHORRO DE ENERGIA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-04-13</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-03-21</td>
+                        <td class="alternoImpresion" align="center">SR-00004166-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800850200552</td>
+                        <td class="tdDataImpresion" align="center">TZ000077-1</td>
+                        <td class="tdDataImpresion" align="center">RU167793</td>
+                        <td class="tdDataImpresion" align="center">000560918</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">ZAYTEF AHORRO DE ENERGIA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-04-13</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-03-25</td>
+                        <td class="tdDataImpresion" align="center">SR-00004162-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800981001521</td>
+                        <td class="alternoImpresion" align="center">TZ000004-1</td>
+                        <td class="alternoImpresion" align="center">RU167387</td>
+                        <td class="alternoImpresion" align="center">000560919</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$25632.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-04-13</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-02-18</td>
+                        <td class="alternoImpresion" align="center">TH-00001651-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800051201261</td>
+                        <td class="tdDataImpresion" align="center">TZ000057-1</td>
+                        <td class="tdDataImpresion" align="center">RU167708</td>
+                        <td class="tdDataImpresion" align="center">000560920</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$17687.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-04-13</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-03-14</td>
+                        <td class="tdDataImpresion" align="center">TH-00001745-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">800960400808</td>
+                        <td class="alternoImpresion" align="center">TZ000059-2</td>
+                        <td class="alternoImpresion" align="center">RU167714</td>
+                        <td class="alternoImpresion" align="center">000560921</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$25632.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-04-13</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-03-16</td>
+                        <td class="alternoImpresion" align="center">TH-00001747-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">800040801363</td>
+                        <td class="tdDataImpresion" align="center">TZ000060-1</td>
+                        <td class="tdDataImpresion" align="center">RU167716</td>
+                        <td class="tdDataImpresion" align="center">000560922</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="tdDataImpresion" align="right">$25632.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-04-13</td>
+                        <td class="tdDataImpresion" align="center">MD03207</td>
+                        <td class="tdDataImpresion" align="center">2022-03-16</td>
+                        <td class="tdDataImpresion" align="center">TH-00001748-R</td>
+                        <td class="tdDataImpresion" align="left">Thermospuma</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">801980101668</td>
+                        <td class="alternoImpresion" align="center">TZ000040-1</td>
+                        <td class="alternoImpresion" align="center">RU167612</td>
+                        <td class="alternoImpresion" align="center">000560928</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">JOFRISA (TIZ)</td>
+                        <td class="alternoImpresion" align="right">$17687.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-04-13</td>
+                        <td class="alternoImpresion" align="center">MD03207</td>
+                        <td class="alternoImpresion" align="center">2022-03-07</td>
+                        <td class="alternoImpresion" align="center">TH-00001699-R</td>
+                        <td class="alternoImpresion" align="left">Thermospuma</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+              </table>				
+</body>
+</html>
