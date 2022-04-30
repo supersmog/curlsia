@@ -328,6 +328,101 @@
                         <td class="alternoImpresion" align="center">00</td>
                         <td class="alternoImpresion" align="center">Afectado</td>
                     </tr>
+                              <tr>
+                        <td class="tdDataImpresion">808090900177</td>
+                        <td class="tdDataImpresion" align="center">ML000799-1</td>
+                        <td class="tdDataImpresion" align="center">RU167846</td>
+                        <td class="tdDataImpresion" align="center">000560934</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">MOTOREPUESTOS (MO)</td>
+                        <td class="tdDataImpresion" align="right">$19563.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-04-19</td>
+                        <td class="tdDataImpresion" align="center">MD032MO</td>
+                        <td class="tdDataImpresion" align="center">2022-03-31</td>
+                        <td class="tdDataImpresion" align="center">SR-00004198-R</td>
+                        <td class="tdDataImpresion" align="left">SARE (MO)</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">807090300513</td>
+                        <td class="alternoImpresion" align="center">ML000802-1</td>
+                        <td class="alternoImpresion" align="center">RU167893</td>
+                        <td class="alternoImpresion" align="center">000560935</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">MOTOREPUESTOS (MO)</td>
+                        <td class="alternoImpresion" align="right">$19563.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-04-19</td>
+                        <td class="alternoImpresion" align="center">MD032MO</td>
+                        <td class="alternoImpresion" align="center">2022-04-05</td>
+                        <td class="alternoImpresion" align="center">SR-00004229-R</td>
+                        <td class="alternoImpresion" align="left">SARE (MO)</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">804050901230</td>
+                        <td class="tdDataImpresion" align="center">ML000794-1</td>
+                        <td class="tdDataImpresion" align="center">RU167634</td>
+                        <td class="tdDataImpresion" align="center">000560936</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">COMERCIALIZADORA RAMIREZ (MOT)</td>
+                        <td class="tdDataImpresion" align="right">$17821.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-04-19</td>
+                        <td class="tdDataImpresion" align="center">MD032MO</td>
+                        <td class="tdDataImpresion" align="center">2022-03-09</td>
+                        <td class="tdDataImpresion" align="center">SR-00004158-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">807000256138</td>
+                        <td class="alternoImpresion" align="center">ML000801-1</td>
+                        <td class="alternoImpresion" align="center">RU167852</td>
+                        <td class="alternoImpresion" align="center">000560951</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">MOTOREPUESTOS (MO)</td>
+                        <td class="alternoImpresion" align="right">$19563.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-04-20</td>
+                        <td class="alternoImpresion" align="center">MD032MO</td>
+                        <td class="alternoImpresion" align="center">2022-03-31</td>
+                        <td class="alternoImpresion" align="center">SR-00004205-R</td>
+                        <td class="alternoImpresion" align="left">SARE (MO)</td>
+                        <td class="alternoImpresion" align="left">Fisica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">807750316558</td>
+                        <td class="tdDataImpresion" align="center">ML000800-1</td>
+                        <td class="tdDataImpresion" align="center">RU167847</td>
+                        <td class="tdDataImpresion" align="center">000560952</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">MOTOREPUESTOS (MO)</td>
+                        <td class="tdDataImpresion" align="right">$19563.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-04-20</td>
+                        <td class="tdDataImpresion" align="center">MD032MO</td>
+                        <td class="tdDataImpresion" align="center">2022-03-31</td>
+                        <td class="tdDataImpresion" align="center">SR-00004195-R</td>
+                        <td class="tdDataImpresion" align="left">SARE (MO)</td>
+                        <td class="tdDataImpresion" align="center">Fisica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
               </table>				
 </body>
 </html>
