@@ -4,6 +4,10 @@ col
 	{mso-width-source:auto;}
 br
 	{mso-data-placement:same-cell;}
+.style18
+	{mso-number-format:"_-\0022$\0022* \#\,\#\#0\.00_-\;\\-\0022$\0022* \#\,\#\#0\.00_-\;_-\0022$\0022* \0022-\0022??_-\;_-\@_-";
+	mso-style-name:Moneda;
+	mso-style-id:4;}
 .style0
 	{mso-number-format:General;
 	text-align:general;
@@ -71,15 +75,27 @@ td
 	white-space:normal;}
 .xl69
 	{mso-style-parent:style0;
+	mso-number-format:"Short Date";}
+.xl70
+	{mso-style-parent:style0;
 	mso-number-format:"Short Date";
 	text-align:center;
 	border:.5pt solid black;
 	white-space:normal;}
-.xl70
+.xl71
 	{mso-style-parent:style0;
 	text-align:left;}
-.xl71
+.xl72
 	{mso-style-parent:style0;
 	text-align:left;
 	padding-left:9px;
 	mso-char-indent-count:1;}
+.xl73
+	{mso-style-parent:style0;
+	mso-number-format:"\0022$\0022\#\,\#\#0\.00\;\[Red\]\\-\0022$\0022\#\,\#\#0\.00";}
+.xl74
+	{mso-style-parent:style0;
+	mso-number-format:"_-\0022$\0022* \#\,\#\#0\.00_-\;\\-\0022$\0022* \#\,\#\#0\.00_-\;_-\0022$\0022* \0022-\0022??_-\;_-\@_-";}
+.xl75
+	{mso-style-parent:style18;
+	mso-number-format:"_-\0022$\0022* \#\,\#\#0\.00_-\;\\-\0022$\0022* \#\,\#\#0\.00_-\;_-\0022$\0022* \0022-\0022??_-\;_-\@_-";}

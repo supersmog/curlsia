@@ -29,7 +29,7 @@ $data_login="usuario=md032ca&clave=md032ca&tipo=1";
 
 
 //Descarga presupuestos financiados
-descarga_archivo_sindata($login,$data_login,"http://programaasi.mx:8087/siaMexicali_peninsular/SolicitudesFinanciados/ReporteFinanciadosExcel.php?fecha_ini=2022-01-01&fecha_fin=2022-04-30&estatus=0&zona=0","paginas/presupuestos.xls");
+descarga_archivo_sindata($login,$data_login,"http://programaasi.mx:8087/siaMexicali_peninsular/SolicitudesFinanciados/ReporteFinanciadosExcel.php?fecha_ini=2022-03-01&fecha_fin=2022-06-31&estatus=0&zona=0","paginas/presupuestos.xls");
 
 
 
