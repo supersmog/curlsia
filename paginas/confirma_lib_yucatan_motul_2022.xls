@@ -632,6 +632,63 @@
                         <td class="alternoImpresion" align="center">00</td>
                         <td class="alternoImpresion" align="center">Afectado</td>
                     </tr>
+                              <tr>
+                        <td class="tdDataImpresion">808950400304</td>
+                        <td class="tdDataImpresion" align="center">ML000815-1</td>
+                        <td class="tdDataImpresion" align="center">RU168198</td>
+                        <td class="tdDataImpresion" align="center">000561286</td>
+                        <td class="tdDataImpresion" align="center">RF</td>
+                        <td class="tdDataImpresion" align="center">RODEKA DEL SURESTE (MO)</td>
+                        <td class="tdDataImpresion" align="right">$17207.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-06-10</td>
+                        <td class="tdDataImpresion" align="center">MD032MO</td>
+                        <td class="tdDataImpresion" align="center">2022-05-16</td>
+                        <td class="tdDataImpresion" align="center">SR-00004413-R</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="alternoImpresion">808040100391</td>
+                        <td class="alternoImpresion" align="center">ML000817-2</td>
+                        <td class="alternoImpresion" align="center">RU168220</td>
+                        <td class="alternoImpresion" align="center">000561320</td>
+                        <td class="alternoImpresion" align="center">RF</td>
+                        <td class="alternoImpresion" align="center">COMERCIALIZADORA RAMIREZ (MOT)</td>
+                        <td class="alternoImpresion" align="right">$17017.00</td>
+                        <td class="alternoImpresion" align="right">0</td>
+                        <td class="alternoImpresion" align="center">2022-06-17</td>
+                        <td class="alternoImpresion" align="center">MD032MO</td>
+                        <td class="alternoImpresion" align="center">2022-05-24</td>
+                        <td class="alternoImpresion" align="center">SR-00004436-R</td>
+                        <td class="alternoImpresion" align="left">SARE</td>
+                        <td class="alternoImpresion" align="left">Telefonica</td>
+                        <td class="alternoImpresion" align="center">A5</td>
+                        <td class="alternoImpresion" align="center">00</td>
+                        <td class="alternoImpresion" align="center">Afectado</td>
+                    </tr>
+                              <tr>
+                        <td class="tdDataImpresion">804130300741</td>
+                        <td class="tdDataImpresion" align="center">ML000567-2</td>
+                        <td class="tdDataImpresion" align="center">OU023759</td>
+                        <td class="tdDataImpresion" align="center">000561319</td>
+                        <td class="tdDataImpresion" align="center">LV</td>
+                        <td class="tdDataImpresion" align="center">COMERCIALIZADORA RAMIREZ (MOT)</td>
+                        <td class="tdDataImpresion" align="right">$15476.00</td>
+                        <td class="tdDataImpresion" align="right">0</td>
+                        <td class="tdDataImpresion" align="center">2022-06-21</td>
+                        <td class="tdDataImpresion" align="center">MD032MO</td>
+                        <td class="tdDataImpresion" align="center">2022-05-12</td>
+                        <td class="tdDataImpresion" align="center">SR-00000756-L</td>
+                        <td class="tdDataImpresion" align="left">SARE</td>
+                        <td class="tdDataImpresion" align="center">Telefonica</td>
+                        <td class="tdDataImpresion" align="center">A5</td>
+                        <td class="tdDataImpresion" align="center">00</td>
+                        <td class="tdDataImpresion" align="center">Afectado</td>
+                    </tr>
               </table>				
 </body>
 </html>
